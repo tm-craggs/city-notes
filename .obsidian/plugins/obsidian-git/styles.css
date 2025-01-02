@@ -564,8 +564,6 @@
         display: none;
     }
 }
-<<<<<<< HEAD
-=======
 
 .git-unified-diff-view,
 .git-split-diff-view .cm-deletedLine .cm-changedText {
@@ -576,4 +574,3 @@
 .git-split-diff-view .cm-insertedLine .cm-changedText {
     background-color: #22bb2230;
 }
->>>>>>> fd5e548 (vault backup: 2025-01-02 00:41:19)

@@ -1,14 +1,10 @@
 {
   "commitMessage": "vault backup: {{date}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
-  "autoSaveInterval": 5,
+  "autoSaveInterval": 0,
   "autoPushInterval": 0,
   "autoPullInterval": 0,
-<<<<<<< HEAD
   "autoPullOnBoot": false,
-=======
-  "autoPullOnBoot": true,
->>>>>>> fd5e548 (vault backup: 2025-01-02 00:41:19)
   "disablePush": false,
   "pullBeforePush": true,
   "disablePopups": false,
@@ -18,11 +14,7 @@
   "updateSubmodules": false,
   "syncMethod": "merge",
   "customMessageOnAutoBackup": false,
-<<<<<<< HEAD
-  "autoBackupAfterFileChange": true,
-=======
   "autoBackupAfterFileChange": false,
->>>>>>> fd5e548 (vault backup: 2025-01-02 00:41:19)
   "treeStructure": false,
   "refreshSourceControl": true,
   "basePath": "",
@@ -37,10 +29,7 @@
   "showFileMenu": true,
   "authorInHistoryView": "hide",
   "dateInHistoryView": false,
-<<<<<<< HEAD
-=======
   "diffStyle": "split",
->>>>>>> fd5e548 (vault backup: 2025-01-02 00:41:19)
   "lineAuthor": {
     "show": false,
     "followMovement": "inactive",
@@ -62,9 +51,7 @@
     },
     "textColorCss": "var(--text-muted)",
     "ignoreWhitespace": false,
-    "gutterSpacingFallbackLength": 5,
-    "lastShownAuthorDisplay": "initials",
-    "lastShownDateTimeFormatOptions": "date"
+    "gutterSpacingFallbackLength": 5
   },
   "autoCommitMessage": "vault backup: {{date}}"
 }
