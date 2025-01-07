@@ -21,7 +21,14 @@
 - Computers became faster, smaller and cheaper
 
 **Fourth Generation:** Very Large Scale Integration (VLSI) Computers (1980-Present) 
-- VLSI 
+- VLSI chips could have 10,000 components per chip
+- 1981, IBM introduced the Personal Computer
 
 **Modern Computers:**
-- System on Chip (SoC) - All components of the computer are stored on one chip. 
+- System on Chip (SoC) - All components of the computer are stored on one chip.
+- New types of processors and memory, such as Graphics Processing Units (GPUs)
+- Laptops, smartphones, tablets and smart watches. 
+
+Mechanical ➔ Vacuum tube ➔ Transistor ➔ Integrated Circuit ➔ Very Large
+Scale Integration ➔ System on Chip
+
