@@ -9,4 +9,8 @@ Mechinc
 
 **Second Generation:** Transistorised Computers (1955-65)
 - Transistors replaced the vacuum tubes could use electricity to create logic circuits. 
-- 
+- Computers became smaller, faster and consumed less power.
+- Still bulky and expensive
+- Examples: IBM 7094, DEC PDP-1
+
+**Third Generation:** 
