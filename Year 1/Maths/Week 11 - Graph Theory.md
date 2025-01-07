@@ -3,6 +3,3 @@ Exam Info: - 9:15
 - Know the matrices
 
 
-
-
-
