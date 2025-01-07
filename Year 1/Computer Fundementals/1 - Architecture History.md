@@ -34,4 +34,13 @@ Scale Integration ➔ System on Chip
 
 **Semiconductors**
 - The most significant factor that allowed progress was the move to the use of semiconductors
-- Semiconductors are a t
+- They are a type of material that can act as conductors or insulators.
+- They switch between these two states under external control. 
+- These can be used to create transistors that function as switches, this makes the basic logic of a computer. 
+- Silicon is a semiconductor material that can be manufactured and processed efficiently and inexpensively
+- This is why modern electronics are called "silicon chips"
+
+**Moore's Law**
+- Transistor count in Integrated Circuit chips will double roughly every 18-24 months. - Gordon Moore (1965)
+- Moore's law predicts that this trend will continue into the foreseeable future. 
+- Shrinking transistors have powered this trend, however we are reaching the limisr
