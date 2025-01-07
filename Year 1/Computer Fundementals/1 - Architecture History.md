@@ -1,7 +1,7 @@
 
 **Early Devices**
+- Mechanical calculating machines (1942-1)
 
-Mechinc
 
 **First Generation**: Vacuum Tube Computers (1945-53)
 - These computers used valves and vacuum tubes 
@@ -13,4 +13,11 @@ Mechinc
 - Still bulky and expensive
 - Examples: IBM 7094, DEC PDP-1
 
-**Third Generation:** 
+**Third Generation:** Integrated Circuit Computers (1965-80)
+- Transistors became integrated into microchips
+- Computers became faster, smaller and cheaper
+
+**Fourth Generation:** Very Large Scale Integration (VLSI) Computers (1980-Present) 
+
+**Modern Computers:**
+- System on Chip (SoC) - All components of the computer are stored on one chip. 
