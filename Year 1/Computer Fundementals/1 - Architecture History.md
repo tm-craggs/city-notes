@@ -43,4 +43,5 @@ Scale Integration ➔ System on Chip
 **Moore's Law**
 - Transistor count in Integrated Circuit chips will double roughly every 18-24 months. - Gordon Moore (1965)
 - Moore's law predicts that this trend will continue into the foreseeable future. 
-- Shrinking transistors have powered this trend, however we are reaching the limisr
+- Shrinking transistors have powered this trend, however we are reaching the limits of what is physically possible. New ways must be found to improve computing power (quantum computing)
+
