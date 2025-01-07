@@ -32,3 +32,6 @@
 Mechanical ➔ Vacuum tube ➔ Transistor ➔ Integrated Circuit ➔ Very Large
 Scale Integration ➔ System on Chip
 
+**Semiconductors**
+- The most significant factor that allowed progress was the move to the use of semiconductors
+- Semiconductors are a t
