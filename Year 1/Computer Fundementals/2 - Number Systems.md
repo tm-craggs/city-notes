@@ -1,4 +1,4 @@
-# Positional Numb
+**Positional Number Systems**
 - Numbers can be represented in any base
 - Humans are used to base 10
 - We can analyse numbers based on position and powers of 10.
@@ -47,3 +47,16 @@ Follow the formula d x base
 ![[Pasted image 20250108193541.png]]
 
 # Signed and Unsigned values#
+
+**Bits, Bytes and Words**
+- Bit - The most basic unit, a single binary digit
+- Byte - A collection of 8 bits
+- Word - Two or more adjacent bytes that are addressed and handled collectively
+- The word size represents the data size that is handled more efficiently by a particular architecture
+- The number of bits we use to represent a number defines the largest number we can store. 
+- In modern computers, word sizes of 32 or 64 bits are usual. 
+
+**Representing Positive Integers**
+- Least significant bit (LSB) - The "smallest" bit in a word. The bit at position 0
+- Most significant bit (MSB) - The "biggest" bit in a word. The bit at position 1
+- 
