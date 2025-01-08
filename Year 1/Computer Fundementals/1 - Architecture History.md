@@ -72,4 +72,17 @@ Scale Integration ➔ System on Chip
 - Memory Management Unit (MMU) - Interface to main memory
 - Instruction fetcher/decoder - Fetches/decodes instruction given at program counter
 - Arithmetic Logic Unit (ALU) - Performs calculations and operations.
-- Datapath / Control - Controls the flow of info
+- Datapath / Control - Controls the flow of information that allows instruction to be executed.
+
+**Abstraction:**
+- The act of representing essential features without including the background details
+- The abstraction principle is used to allow efficient design and implementation of complex software systems. 
+
+**Key Layers of Abstraction**
+- Systems can be decomposed into laters
+- Abstraction allows layers to hide lower level information from higher levels
+- Higher levels should be useful without being cluttered with unnessesary detail
+- For example: You do not need to know about electron flow or binary calculations while running a word processor. 
+- Sometimes you need to break abstraction to get things right, such as optimising a program, which may require in-depth knowledge about caching architecture. 
+
+![[Pasted image 20250108185653.png]]
