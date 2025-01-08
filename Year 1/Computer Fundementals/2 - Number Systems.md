@@ -1,4 +1,4 @@
-**Positional Number Systems**
+# Positional Numb
 - Numbers can be represented in any base
 - Humans are used to base 10
 - We can analyse numbers based on position and powers of 10.
@@ -36,5 +36,14 @@ Follow the formula d x base
 **Hexadecimal**
 - Long binary numbers are hard to read
 - Hexadecimal is base 16. Each digit can represent 4 bits. 
-- Uses the characters 0123456789ABCDEF
+- Uses the characters 0123456789ABCDEF to represent decimal numbers 0..15 and binary numbers 0000 - 1111
 ![[Pasted image 20250108193248.png]]
+
+**Octal**
+- Octal is a number represented with base 8
+- The octal representation uses the characters 0 1 2 3 4 5 6 7
+- Each Octal character corresponds to three bits in binary
+- Use same method as to convert decimal to octal as binary, but divide by 3
+![[Pasted image 20250108193541.png]]
+
+# Signed and Unsigned values#
