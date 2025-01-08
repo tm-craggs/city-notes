@@ -89,4 +89,7 @@ Signed binary integer numbers may be expressed by
 	- Both +0 and -0 are valid, causes problems for programmers
 	- Arithmetic circuits are complicated by the calculation of a sign
 - To calculate the range of number we can represent with N bits:
-	- -(2^)
+	- -(2^(n-1) - 1) to 2^(n-1) - 1
+
+**Two's Compliment**
+
