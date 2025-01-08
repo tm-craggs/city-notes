@@ -66,3 +66,13 @@ Follow the formula d x base
 **Endianness**
 - To identify the order in which bytes that constitute words are stored in memory
 - When programming at a low level, you must know which your machine supports. 
+
+**Calculating combinations**
+- To work out how many different possible combinations there are of a certain word, raise the number of bits to 2 and minus 1. 
+- For example: Calculate the number of unique permutations of a 3 bit word.
+- Answer: 2^3 - 1
+
+
+# Representing Negative Numbers#
+
+Signed bn
