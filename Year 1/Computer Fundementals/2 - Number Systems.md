@@ -59,4 +59,10 @@ Follow the formula d x base
 **Representing Positive Integers**
 - Least significant bit (LSB) - The "smallest" bit in a word. The bit at position 0
 - Most significant bit (MSB) - The "biggest" bit in a word. The bit at position 1
-- 
+- In a 32 bit word, the MSB would be the digit at position 31, as indexing starts at 0
+
+# Floating Point and Non-Numeric Data#
+
+**Endianness**
+- To identify the order in which bytes that constitute words are stored in memory
+- When programming at a low level, you must know which your machine supports. 
