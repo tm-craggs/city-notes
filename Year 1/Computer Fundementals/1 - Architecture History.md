@@ -45,7 +45,7 @@ Scale Integration ➔ System on Chip
 - Moore's law predicts that this trend will continue into the foreseeable future. 
 - Shrinking transistors have powered this trend, however we are reaching the limits of what is physically possible. New ways must be found to improve computing power (quantum computing)
 
-The von Neumann model:
+**The von Neumann model:**
 - All modern stored-program computers are based on the von Neumann model 
 - Also called stored program digital computer.
 - It consists of 5 main components
