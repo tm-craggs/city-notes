@@ -56,3 +56,9 @@ Scale Integration ➔ System on Chip
 	- Input/Output system
 - There is a single datapath between the CPU and main memory (von Neumann bottleneck)
 
+**Fetch-Decode-Execute Cycle:**
+- The von Neumann model uses the Fetch-Decode-Execute cycle
+- Control Unit fetches next instruction to execute from memory
+- Instruction is decoded
+- Any required data operands are fetched from memory to registers
+- The ALU executes instruction and puts results in registers/memory
