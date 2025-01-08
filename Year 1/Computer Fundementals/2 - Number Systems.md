@@ -23,3 +23,18 @@ Binary:
 ![[Pasted image 20250108192757.png]]
 Follow the formula d x base
 
+**Binary to Decimal Conversion**
+
+1) Divide the given decimal number by 2, note remainder
+2) Divided the obtained quotient by 2, note the remainder again
+3) Repeat until 0 is the quotient
+4) Write the remainders in such a way that the last remainder is written first, followed by the rest in reverse order. 
+5) Result is the binary number of the given decimal
+
+![[Pasted image 20250108193045.png]]
+
+**Hexadecimal**
+- Long binary numbers are hard to read
+- Hexadecimal is base 16. Each digit can represent 4 bits. 
+- Uses the characters 0123456789ABCDEF
+![[Pasted image 20250108193248.png]]
