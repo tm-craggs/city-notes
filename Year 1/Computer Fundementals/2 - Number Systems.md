@@ -75,4 +75,18 @@ Follow the formula d x base
 
 # Representing Negative Numbers#
 
-Signed bn
+Signed binary integer numbers may be expressed by
+- Signed magnitude
+- One's compliment
+- Two's compliment
+
+**Signed-Magnitude Representation:**
+
+- Assign 1 bit to represent the sign (typically the left most bit)
+- Use the rest of the bits to represent magnitude
+- Disadvantages:
+	- Using a special signed bit means we can represent fewer numbers
+	- Both +0 and -0 are valid, causes problems for programmers
+	- Arithmetic circuits are complicated by the calculation of a sign
+- To calculate the range of number we can represent with N bits:
+	- -(2^)
