@@ -62,3 +62,14 @@ Scale Integration ➔ System on Chip
 - Instruction is decoded
 - Any required data operands are fetched from memory to registers
 - The ALU executes instruction and puts results in registers/memory
+
+**Harvard Model**
+- An incremental improvement based on von Neumann
+- It adds processors, and has separate busses for data and instructions. Which reduces the von Neumann bottleneck. 
+
+**Key Processor Components**
+- Registers - Local storage of key data
+- Memory Management Unit (MMU) - Interface to main memory
+- Instruction fetcher/decoder - Fetches/decodes instruction given at program counter
+- Arithmetic Logic Unit (ALU) - Performs calculations and operations.
+- Datapath / Control - Controls the flow of info
