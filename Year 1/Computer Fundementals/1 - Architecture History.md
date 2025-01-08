@@ -79,10 +79,11 @@ Scale Integration ➔ System on Chip
 - The abstraction principle is used to allow efficient design and implementation of complex software systems. 
 
 **Key Layers of Abstraction**
-- Systems can be decomposed into laters
+- Systems can be decomposed into layers
 - Abstraction allows layers to hide lower level information from higher levels
-- Higher levels should be useful without being cluttered with unnessesary detail
+- Higher levels should be useful without being cluttered with unnecessary detail
 - For example: You do not need to know about electron flow or binary calculations while running a word processor. 
 - Sometimes you need to break abstraction to get things right, such as optimising a program, which may require in-depth knowledge about caching architecture. 
 
-![[Pasted image 20250108185653.png]]
+![[Pasted image 20250108185713.png]]
+
