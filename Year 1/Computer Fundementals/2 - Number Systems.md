@@ -154,4 +154,11 @@ Example:
 
 ![[Pasted image 20250113123405.png]]
 
-- S = sign, f = significand 
+- S = sign, f = significand field (mantissa) and E = exponent.  
+- These must be packed into a word of bits. 
+- For example:
+![[Pasted image 20250113123710.png]]
+- The size of the exponent field determines the range of values that can be represented
+- The size of the significand determines the precision of the representation. 
+- Increasing the bits allocated to the exponent increases the range, increasing the bits for the mantissa increases the accuracy. 
+
