@@ -126,4 +126,10 @@ Signed binary integer numbers may be expressed by
 **What is Two's compliment?**
 - Two's compliment is the radix (base) complement of the binary system. 
 - The radix complement of a non-zero number N in base r with d digits is. 
-- r^ 
+- r^d - n
+- MSB is regarded as sign bit, but it will be the minus of that column. For example: an 8 bit two's compliment will look like this:
+- -128 64 32 16 8 4 2 1
+
+To express a value in two's compliment
+- If the number is positive, just convert it to binary. 
+- If number is negative, flip all digits after the first one. 
