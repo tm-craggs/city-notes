@@ -93,4 +93,12 @@ Signed binary integer numbers may be expressed by
 
 **Two's Compliment**
 
+**Binary Addition**
+- Use binary column addition, remember the following rules:
+- 0 + 0 = 0
+- 1 + 0 = 1
+- 0 + 1 = 1
+- 1 + 1 = 0 (carry a 1)
+- 1 + 1 + 1 (carry a 1)
+- If a 1 is carried on the last digit, this is an overflow error. Number is too big to be represented in the given number of bits. 
 
