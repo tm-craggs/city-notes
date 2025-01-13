@@ -118,3 +118,12 @@ Signed binary integer numbers may be expressed by
  ![[Pasted image 20250113115756.png]]
 
 # Compliment Based Representation
+
+- Signed magnitude representation easy to understand, but requires complicated computer implementations
+- Another disadvantage is that there are 2 representations of 0. +0 and -0. 
+- For these reasons, and others, computer systems use **compliment systems** for number representation
+
+**What is Two's compliment?**
+- Two's compliment is the radix (base) complement of the binary system. 
+- The radix complement of a non-zero number N in base r with d digits is. 
+- r^ 
