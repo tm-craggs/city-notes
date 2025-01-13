@@ -113,6 +113,8 @@ Signed binary integer numbers may be expressed by
 - 1 - 0 = 1
 - 1 - 1 = 0
 - 0 - 1 = 1 (with a borrow of 1 from the next highest column)
-- When borrowing occurs, the borrowed 1 is equivalent to 2 in binary
+- When borrowing occurs, the borrowed 1 is equivalent to 2 in binary)
+- Example:
+ ![[Pasted image 20250113115756.png]]
 
-
+# Compliment Based Representation
