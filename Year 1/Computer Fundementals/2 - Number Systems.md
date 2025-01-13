@@ -107,4 +107,6 @@ Signed binary integer numbers may be expressed by
 - Check the sign bits. If the signs are the same, add and keep the sign. If they are different, subtract the smaller value from the larger value and assign the sign of the larger value. 
 - Start with the right most bit and work left. 
 
+**B**
+
 
