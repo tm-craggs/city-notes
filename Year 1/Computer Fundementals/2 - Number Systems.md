@@ -133,3 +133,12 @@ Signed binary integer numbers may be expressed by
 To express a value in two's compliment
 - If the number is positive, just convert it to binary. 
 - If number is negative, flip all digits after the first one. 
+
+**Arithmetic in 2's compliment**
+
+Example:
+- Using two's compliment, find the sum of 23 and -9
+- We can see that there is carry into the sign bit and a carry out. 
+
+![[Pasted image 20250113121718.png]]
+
