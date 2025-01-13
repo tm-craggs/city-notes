@@ -91,7 +91,6 @@ Signed binary integer numbers may be expressed by
 - To calculate the range of number we can represent with N bits:
 	- -(2^(n-1) - 1) to 2^(n-1) - 1
 
-**Two's Compliment**
 
 **Binary Addition**
 - Use binary column addition, remember the following rules:
@@ -101,4 +100,11 @@ Signed binary integer numbers may be expressed by
 - 1 + 1 = 0 (carry a 1)
 - 1 + 1 + 1 (carry a 1)
 - If a 1 is carried on the last digit, this is an overflow error. Number is too big to be represented in the given number of bits. 
+
+**Example:**
+- Using signed magnitude arithmetic, find the sum of 75 and 46.
+- Convert 75 and 46 to binary, and arrange in a column. Separate the sign bits from the magnitude bits.
+- Check the sign bits. If the signs are the same, add and keep the sign. If they are different, subtract the smaller value from the larger value and assign the sign of the larger value. 
+- Start with the right most bit and work left
+
 
