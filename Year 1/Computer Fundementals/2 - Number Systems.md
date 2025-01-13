@@ -146,3 +146,12 @@ Example:
 
 ![[Pasted image 20250113121718.png]]
 
+
+# Floating point numbers
+
+- To store decimal numbers, rational or irrational numbers, computers use a scientific notation called floating point representation. 
+- Numbers written in scientific notation have three components. The sign, mantissa and exponent. 
+
+![[Pasted image 20250113123405.png]]
+
+- S = sign, f = significand 
