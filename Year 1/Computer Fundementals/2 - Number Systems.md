@@ -107,6 +107,12 @@ Signed binary integer numbers may be expressed by
 - Check the sign bits. If the signs are the same, add and keep the sign. If they are different, subtract the smaller value from the larger value and assign the sign of the larger value. 
 - Start with the right most bit and work left. 
 
-**B**
+**Binary Subtraction**
+- Use column method, but with different rules to addition
+- 0 - 0 = 0
+- 1 - 0 = 1
+- 1 - 1 = 0
+- 0 - 1 = 1 (with a borrow of 1 from the next highest column)
+- When borrowing occurs, the borrowed 1 is equivalent to 2 in binary
 
 
