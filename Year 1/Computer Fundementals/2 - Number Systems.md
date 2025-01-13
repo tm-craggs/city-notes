@@ -97,8 +97,8 @@ Signed binary integer numbers may be expressed by
 - 0 + 0 = 0
 - 1 + 0 = 1
 - 0 + 1 = 1
-- 1 + 1 = 0 (carry a 1)
-- 1 + 1 + 1 (carry a 1)
+- 1 + 1 = 10 (write 0, carry a 1)
+- 1 + 1 + 1 = 11 (write 1, carry a 1)
 - If a 1 is carried on the last digit, this is an overflow error. Number is too big to be represented in the given number of bits. 
 
 **Example:**
@@ -135,6 +135,10 @@ To express a value in two's compliment
 - If number is negative, flip all digits after the first one. 
 
 **Arithmetic in 2's compliment**
+
+- Binary addition in two's compliment follows largely the same method as regular binary addition. Two's compliment naturally handles positive and negative numbers.
+- If there is no carry out from the sign bit (MSB), the result is positive.
+- If
 
 Example:
 - Using two's compliment, find the sum of 23 and -9
