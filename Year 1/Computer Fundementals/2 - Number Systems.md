@@ -137,8 +137,8 @@ To express a value in two's compliment
 **Arithmetic in 2's compliment**
 
 - Binary addition in two's compliment follows largely the same method as regular binary addition. Two's compliment naturally handles positive and negative numbers.
-- If there is no carry out from the sign bit (MSB), the result is positive.
-- If
+- If there is no carry out from the sign bit (MSB), the result is positive so write 0. 
+- If there is a carry out from the MSB, the result is negative, so write 1. 
 
 Example:
 - Using two's compliment, find the sum of 23 and -9
