@@ -105,6 +105,6 @@ Signed binary integer numbers may be expressed by
 - Using signed magnitude arithmetic, find the sum of 75 and 46.
 - Convert 75 and 46 to binary, and arrange in a column. Separate the sign bits from the magnitude bits.
 - Check the sign bits. If the signs are the same, add and keep the sign. If they are different, subtract the smaller value from the larger value and assign the sign of the larger value. 
-- Start with the right most bit and work left
+- Start with the right most bit and work left. 
 
 
