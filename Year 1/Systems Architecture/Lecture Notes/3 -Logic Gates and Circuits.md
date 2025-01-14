@@ -34,5 +34,17 @@
 - Boolean functions are implemented in digital computer circuits called gates
 - A gate is an electronic device that produces a result based on two or more input values
 - Gates consist of one to six transistors, but designers think of them as single units
-- Integrate
+- Integrated circuits contain collections of gates for various purposes
+- Transistor: The basic physical component of a computer
+- Gate: The basic logic element
+
+Fundamental Logic Gates
+
+- NOT - Reverses input
+- AND - Both inputs must be true to return true
+- NAND - Anything other than both units being true, returns true
+- OR - One or more inputs must be true to return true
+- NOR - Only returns true if exactly 
+- XOR
+- XNOR
 
