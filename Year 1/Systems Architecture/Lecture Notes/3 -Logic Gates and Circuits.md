@@ -38,7 +38,7 @@
 - Transistor: The basic physical component of a computer
 - Gate: The basic logic element
 
-Fundamental Logic Gates
+**Fundamental Logic Gates**
 
 - NOT - Reverses input
 - AND - Both inputs must be true to return true
@@ -51,6 +51,10 @@ Fundamental Logic Gates
 ![[Pasted image 20250114165012.png]]
 
 
+**Truth tables**
+- Truth tables describe the relationship between inputs and outputs. 
+- For an n input gate, the truth table will have 2^n entries.
+
 **Constructing and AND gate**
 
 - How could an AND gate be built from transistors?
@@ -61,4 +65,11 @@ Fundamental Logic Gates
 ![[Pasted image 20250114165141.png]]
 
  
-**The AND ga**
+**Constructing an OR gate**
+
+- OR gate can built using two switches in parallel
+- The output of an OR gate is true if a single value is true, therefore if the output is false, all inputs are false
+- OR is an additive operator
+- It is written as A 
+
+![[Pasted image 20250114171211.png]]
