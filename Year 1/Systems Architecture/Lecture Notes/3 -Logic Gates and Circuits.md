@@ -30,4 +30,9 @@
 	- Outputs depend on a combination of both the present inputs as well as the previous outputs
 	- Examples: Memory units
 
+**Logic Gates**
+- Boolean functions are implemented in digital computer circuits called gates
+- A gate is an electronic device that produces a result based on two or more input values
+- Gates consist of one to six transistors, but designers think of them as single units
+- Integrate
 
