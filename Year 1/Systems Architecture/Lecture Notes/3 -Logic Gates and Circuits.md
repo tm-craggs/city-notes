@@ -14,3 +14,12 @@
 - The and operator is known as a Boolean product
 - The or operator is the boolean sum
 
+**Boolean Algebra and Digital Computers**
+- Computers contain circuits that implement Boolean functions
+- The simpler that we can make a Boolean function, the smaller the circuit
+- Simpler circuits are cheaper to build, consume less power, and run faster than complex circuits. 
+
+**The Hardware Hierarchy**
+- Silicon -> Transistors -> Logic Gates
+- 
+
