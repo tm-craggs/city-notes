@@ -21,5 +21,13 @@
 
 **The Hardware Hierarchy**
 - Silicon -> Transistors -> Logic Gates
-- 
+- Transistors and logic gates build:
+- Computational Circuits
+	- The output depends on the combination of inputs at that point
+	- Total disregard to the past state of the inputs
+	- Examples: functional units such as adders and subtractors
+- Sequential Circuits
+	- Outputs depend on a combination of both the present inputs as well as the previous outputs
+	- Examples: Memory units
+
 
