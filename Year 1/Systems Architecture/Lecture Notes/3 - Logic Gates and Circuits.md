@@ -55,7 +55,7 @@
 - Truth tables describe the relationship between inputs and outputs. 
 - For an n input gate, the truth table will have 2^n entries.
 
-**Constructing and AND gate**
+**Constructing an AND gate**
 
 - How could an AND gate be built from transistors?
 - Transistors are switches that control the flow of electricity
@@ -70,6 +70,6 @@
 - OR gate can built using two switches in parallel
 - The output of an OR gate is true if a single value is true, therefore if the output is false, all inputs are false
 - OR is an additive operator
-- It is written as A 
+- It is written as A OR B, can also be written as A+B
 
 ![[Pasted image 20250114171211.png]]
