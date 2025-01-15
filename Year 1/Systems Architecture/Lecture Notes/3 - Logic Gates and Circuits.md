@@ -81,5 +81,28 @@ The NOT Gate (Inverter)
 
 Constructing a NOT gate
 - NOT gate can be built using an inverted switch
+- This is a switch that is closed when its input is true, and open when input is false
+
 ![[Pasted image 20250115163716.png]]
+
+The NAND and NOR gates
+- Not logically fundamental (derived from AND, OR and NOT)
+	- NAND - NOT AND
+	- NOR - NOT OR
+- However, they are universal
+- This means we can build any logic function with NAND/NOR
+- They are widely used in real circuits
+
+![[Pasted image 20250115163941.png]] ![[Pasted image 20250115164001.png]]
+
+
+# Combined Circuits
+
+Example 1:
+
+- A binary adder can be made out of logic gates.
+
+![[Pasted image 20250115164125.png]]
+
+Example 2:
 
