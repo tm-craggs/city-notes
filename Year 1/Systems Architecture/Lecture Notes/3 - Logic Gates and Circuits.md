@@ -106,3 +106,16 @@ Example 1:
 
 Example 2:
 
+![[Pasted image 20250115164328.png]]
+
+- This circuit can be represented as a boolean expression
+- P = A.B
+- Q = B.C
+- R = C.A
+- F = P+Q+R
+- Substituting P Q and R: F = A.B + B.C + C.A
+- A truth table can be written by dividing the boolean expression
+
+![[Pasted image 20250115164651.png]]
+
+
