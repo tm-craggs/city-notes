@@ -73,3 +73,13 @@
 - It is written as A OR B, can also be written as A+B
 
 ![[Pasted image 20250114171211.png]]
+
+The NOT Gate (Inverter)
+- NOT gates have only one input
+- It will flip whatever value in entered.
+- NOT A can be written as A' or A with a bar
+
+Constructing a NOT gate
+- NOT gate can be built using an inverted switch
+![[Pasted image 20250115163716.png]]
+
