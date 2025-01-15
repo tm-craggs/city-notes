@@ -98,13 +98,13 @@ The NAND and NOR gates
 
 # Combined Circuits
 
-Example 1:
+**Example 1:**
 
 - A binary adder can be made out of logic gates.
 
 ![[Pasted image 20250115164125.png]]
 
-Example 2:
+**Example 2:**
 
 ![[Pasted image 20250115164328.png]]
 
