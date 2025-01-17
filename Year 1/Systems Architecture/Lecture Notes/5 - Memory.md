@@ -148,4 +148,9 @@ The main types of memory are
 - Set-associative mapping 
 - This module will focus on direct mapping
 
+**Direct Mapped Cache**
 
+![[Pasted image 20250117164040.png]]
+
+- This is the case when each block = 1 word
+- 8 block locations in main memory
