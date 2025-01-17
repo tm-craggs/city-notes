@@ -70,3 +70,9 @@ The main types of memory are
 	- Modern version of EEPROM
 	- Two types, based on NAND gates or NOR gates. 
 
+**Virtual Memory**
+
+- Virtual memory is a section of volatile memory temporarily created on the storage drive.
+- It is created when the computer is running many processes and RAM is running low. 
+- The operating system makes part of the storage drive available to use as RAM. 
+- Virtual memory is much slower than main memory, as processing power is being taken up by moving data around, rather than just executing instructions. 
