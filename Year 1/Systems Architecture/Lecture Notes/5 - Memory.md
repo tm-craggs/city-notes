@@ -80,4 +80,12 @@ The main types of memory are
 # The Memory Hierarchy
 
 - Memory Hierarchy - A way of organising memory in a computer such that it meets speed, capacity and cost requirements. 
-- S
+- Memory hierarchy is needed as we cannot afford, both in money and power, to use as much of the highest performance memory as we would like. 
+- We construct a memory hierarchy by using a variety of devices, such as registers, SRAM, DRAM and disks. 
+
+**The memory hierarchy as a pyramid**
+
+![[Pasted image 20250117154652.png]]
+
+
+
