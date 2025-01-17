@@ -152,5 +152,10 @@ The main types of memory are
 
 ![[Pasted image 20250117164040.png]]
 
-- This is the case when each block = 1 word
-- 8 block locations in main memory
+- In this example:
+	- Block = 1 word
+	- 8 block locations in main memory
+	- Memory block address = 3 bits
+	- Cache with 4 blocks
+	- Cache block access = 2 bits
+	- Lower 2 bits of memory block address
