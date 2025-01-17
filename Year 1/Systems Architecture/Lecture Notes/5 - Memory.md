@@ -26,11 +26,25 @@ The main types of memory are
 - A bit is stored in a capacitor
 - DRAM consists of capacitors that slowly leak their charge over time
 - This means they must be refreshed every few milliseconds to prevent data loss
+- DRAM is used as main memory
 - Advantages:
 	- Low power consumption
 	- Small area
 	- Low costs
+	- Each bit only needs one capacitor 
 
 **Static RAM**
 
 - A bit is stored by 6 transistors working as a D flip-flop
+- It is very fast and used to build cache memory
+- Advantages
+	- Fast access
+	- Does not need to be refreshed
+- Disadvantages
+	- High power consumption
+	- Large area
+	- Each bit needs 6 transistors
+
+**Read only memory**
+
+- Data stored in chips which are non volatile (hold their data after power loss)
