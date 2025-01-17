@@ -170,3 +170,15 @@ The main types of memory are
 - Tag field - Selects the exact block in the group
 - Offset field - Uniquely identifies an address within a specific block. 
 - The sizes of these fields are determined by characteristics of both memory and cache. 
+
+**Cache and Bits**
+
+- Consider a byte-addressable main memory consisting of 4 blocks, a cache with 2 blocks, and each block is 4 bytes.
+- This means block 0 and 2 of main memory map to block 0 of cache. 
+- Block 1 and 3 map to block 1 of cache. 
+- Using the tag block and offset fields we can see how main memory maps to cache. 
+
+**Working out tag, block and offset**
+
+- First, we must determine the address format for mapping. 
+- Each block is 4 
