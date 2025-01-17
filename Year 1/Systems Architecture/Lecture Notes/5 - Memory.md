@@ -126,4 +126,3 @@ The main types of memory are
 - You predict which ones by looking at access patterns
 - The principles of locality of reference observation are used. 
 
-**Steps to Locate and Fetch data from cache**
