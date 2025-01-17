@@ -239,4 +239,26 @@ The main types of memory are
 	- Load data item into cache
 	- Write data, store upper bits as tag, set valid bit. 
 	- Resume processor
-- 
+
+Effective Access Time (EAT)
+
+- The performance of a memory hierarchy is measured by its effective access time
+- EAT is a weighted average that takes into account the hit ratio and relative access times of successive levels of memory
+- The EAT for a two-level memory is given by:
+	- EAT = H x Access c+ (1-H) x Access mm
+	- Where H is the cache hit rate and access c and access mm are the access times for cache and main memory respectively
+
+**Split vs Combined Caches**
+
+- Split caches for data and instructions (Harvard architecture)
+- Higher miss rate due to smaller size
+- Higher bandwidth due to separate data paths
+- Data and instructions can be cached simultaneously
+
+- Combined caches
+- Lower miss rate due to larger size
+- Lower bandwidth due to sharing of datapaths
+- Data and instructions cannot be cached simultaneously
+
+**Cache Write Policies**
+
