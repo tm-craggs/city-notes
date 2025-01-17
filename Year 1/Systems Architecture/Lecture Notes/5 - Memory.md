@@ -76,3 +76,8 @@ The main types of memory are
 - It is created when the computer is running many processes and RAM is running low. 
 - The operating system makes part of the storage drive available to use as RAM. 
 - Virtual memory is much slower than main memory, as processing power is being taken up by moving data around, rather than just executing instructions. 
+
+# The Memory Hierarchy
+
+- Memory Hierarchy - A way of organising memory in a computer such that it meets speed, capacity and cost requirements. 
+- S
