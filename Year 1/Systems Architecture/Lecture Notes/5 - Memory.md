@@ -197,3 +197,20 @@ The main types of memory are
 
 **Direct mapped cache**
 
+- Memory addresses are mapped to unique cache positions
+- Cache location - Block Address modulo of number of cache blocks
+- We can have a situation where two blocks map to the same cache location, this is why there are tag bits. 
+- Valid bit - indicates whether cache value = memory value
+
+**A more realistic cache**
+
+- Cache organisation
+	- Data width - 32 bits
+	- Address width - 32 bits
+	- Cache size - 1024 blocks
+	- Cache index - 10 bits (1024 = 2^10)
+	- Block size - 1 word (4 bytes)
+	- Byte offset - 2 bits
+	- Tag size - 32 - 10, 20 bits
+	- Valid bit
+
