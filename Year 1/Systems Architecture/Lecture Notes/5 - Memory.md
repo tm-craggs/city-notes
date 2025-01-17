@@ -57,8 +57,16 @@ The main types of memory are
 
 **Types of ROM**
 
-- ROM
 - Programmable ROM (PROM)
+	- Lines connected by diode and fuses, blowing the fuses makes them 0 instead of ROM. 
+	- Can be written once, and read many times. But cannot be re-written.
 - Erasable PROM (EPROM)
+	- Can use ultraviolet light to erase the data and re-write
+	- Ultra violet light has a limited number of uses
 - Electronically Erasable Programmable ROM (EEPROM)
+	- Can electronically erase data using the local electric field
+	- Does not need to be removed to be re written. Can change specific portions and bytes without wiping the whole thing. 
 - FLASH
+	- Modern version of EEPROM
+	- Two types, based on NAND gates or NOR gates. 
+
