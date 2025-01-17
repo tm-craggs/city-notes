@@ -24,6 +24,7 @@ The main types of memory are
 **Dynamic RAM**
 
 - A bit is stored in a capacitor
+- If it is charged, it is one. If it is not charge it is 0.
 - DRAM consists of capacitors that slowly leak their charge over time
 - This means they must be refreshed every few milliseconds to prevent data loss
 - DRAM is used as main memory
@@ -48,4 +49,16 @@ The main types of memory are
 **Read only memory**
 
 - Data stored in chips which are non volatile (hold their data after power loss)
-- ROM is used to store permanent data 
+- ROM is used to store permanent data while the system is turned off
+- E.g boot instructions
+- Data stored in these chips are either unchangeable or require special operations to change
+- ROM is programmed as part of a manufacturing process
+- They are often used in embedded systems
+
+**Types of ROM**
+
+- ROM
+- Programmable ROM (PROM)
+- Erasable PROM (EPROM)
+- Electronically Erasable Programmable ROM (EEPROM)
+- FLASH
