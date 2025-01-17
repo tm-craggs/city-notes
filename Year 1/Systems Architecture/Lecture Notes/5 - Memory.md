@@ -97,3 +97,25 @@ The main types of memory are
 - However, increasing the size of cache to increase the hit rate makes the cache slower.
 - Therefore, cache is split into levels. L1 cache is is smallest and quickest, some processors go down to L3, which would be the largest and slowest. 
 - The CPU will check registers first, then L1 cache, L2 cache, and then L3 if applicable before then sending the request to main memory. 
+
+**Communication between levels**
+
+- There are clear protocols on how different levels interact 
+- Within each level, the units of information transfer is called a block. 
+
+**Steps to locate and fetch data**
+
+- To access a particular piece of data, the CPU sends a request to its nearest memory level. 
+- If the data is not in main memory, this is a miss. 
+- The request then goes to secondary memory (the disk)
+- Once the data is located, it is moved into main memory. 
+
+**Hit and miss**
+
+- Hit - Data is locally available and has no penalty to access
+- Miss - Data is on a lower level - penalty from 1-30 clock cycles to access
+- Hit rate - The percentage of time data is found at a given memory level
+- Miss rate - The percentage of time it is not. 
+- Miss rate - 1 - hit rate
+- Hit time - The time required to access data at a given memory level. 
+- Miss penalty - The time required to process a miss, including the time it takes to move a block of memory plus the time is takes to deliver the data to the processor. 
