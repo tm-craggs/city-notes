@@ -262,3 +262,32 @@ Effective Access Time (EAT)
 
 **Cache Write Policies**
 
+Write through
+- Update cache and memory at same time
+- Requires a buffer because the memory cannot accept data as fast as the processor can generate writes
+- Processor must be stalled only if buffer is full
+
+Write back
+- Keep data in cache and write back when being replaced
+- Requires more advanced cache contents replacement unit, increasing cost of a cache miss
+
+**How can we avoid cache misses**
+
+- An entire block is copied after a hit because the principle of locality tells us that once a byte is accessed, it is likely nearby data will be needed soon. 
+- This is called locality of reference
+- There are three basic forms of locality
+	- Temporal Locality - Items tend to be used more than once
+	- Spatial Locality - Items stored together get used together
+	- Sequential Locality - Instructions tend to be accessed sequentially
+
+**Optimal Block Size**
+
+Small block size
+- High miss rate
+- Short block loading time
+- Reduced benefits of spatial locality
+
+Large block size
+- Low miss rate
+- Long block loading time
+- Miss requires multiple words to be loaded
