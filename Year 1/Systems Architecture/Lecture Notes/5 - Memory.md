@@ -89,3 +89,6 @@ The main types of memory are
 
 
 
+**Cache Memory**
+
+- Cache memory is a small piece of SRAM located near the CPU
