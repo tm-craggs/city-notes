@@ -24,4 +24,13 @@ The main types of memory are
 **Dynamic RAM**
 
 - A bit is stored in a capacitor
-- DRAM consists of capacitors that slowly 
+- DRAM consists of capacitors that slowly leak their charge over time
+- This means they must be refreshed every few milliseconds to prevent data loss
+- Advantages:
+	- Low power consumption
+	- Small area
+	- Low costs
+
+**Static RAM**
+
+- A bit is stored by 6 transistors working as a D flip-flop
