@@ -91,4 +91,9 @@ The main types of memory are
 
 **Cache Memory**
 
-- Cache memory is a small piece of SRAM located near the CPU
+- Cache memory is a small piece of SRAM located near the CPU. 
+- Cache memory holds commonly used instructions, so they can be accessed quicker. 
+- Deciding how much cache to use is a trade off. Larger cache increases the hit rate, meaning more different instructions can be held and executed from cache, meaning main memory must be accessed less. 
+- However, increasing the size of cache to increase the hit rate makes the cache slower.
+- Therefore, cache is split into levels. L1 cache is is smallest and quickest, some processors go down to L3, which would be the largest and slowest. 
+- The CPU will check registers first, then L1 cache, L2 cache, and then L3 if applicable before then sending the request to main memory. 
