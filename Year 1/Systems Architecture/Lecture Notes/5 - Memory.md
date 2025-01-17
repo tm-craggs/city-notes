@@ -158,4 +158,15 @@ The main types of memory are
 	- Memory block address = 3 bits
 	- Cache with 4 blocks
 	- Cache block access = 2 bits
-	- Lower 2 bits of memory block address
+	- Lower 2 bits of memory block address is modulo 4 for the cache address
+
+![[Pasted image 20250117164915.png]]
+
+**Partitioning of memory blocks**
+
+- Usually block size - multiple words
+- To perform direct mapping, the binary main memory address in partitioned into feilds
+- Block field - Selects a unique group of blocks of cache
+- Tag field - Selects the exact block in the group
+- Offset field - Uniquely identifies an address within a specific block. 
+- The sizes of these fields are determined by characteristics of both memory and cache. 
