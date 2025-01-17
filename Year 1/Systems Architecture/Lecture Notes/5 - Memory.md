@@ -119,3 +119,10 @@ The main types of memory are
 - Miss rate - 1 - hit rate
 - Hit time - The time required to access data at a given memory level. 
 - Miss penalty - The time required to process a miss, including the time it takes to move a block of memory plus the time is takes to deliver the data to the processor. 
+
+**What information goes in cache?**
+
+- Things that you expect to use often, or soon. 
+- You predict which ones by looking at access patterns
+- The principles of locality of reference observation are used. 
+
