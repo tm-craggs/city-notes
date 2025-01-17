@@ -48,3 +48,4 @@ The main types of memory are
 **Read only memory**
 
 - Data stored in chips which are non volatile (hold their data after power loss)
+- 
