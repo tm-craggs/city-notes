@@ -47,5 +47,21 @@
 - For a number of active processes, the OS determines which process have access to the CPU at a particular time (short-term scheduling)
 - Context Switches - Occur when the process using the CPU is halted and the CPU is switched to another process
 - The state of the process is preserved during a context switch. 
-- Some simple approaches to CPU sceduling are
-	- First c
+- Some simple approaches to CPU scheduling are
+	- First Come First Served - Where jobs are serviced in arrival sequence and run to completion
+	- Shortest job first - Short job in duration gets scheduled first
+	- Round robin - Scheduling where each job is allotted an amount of CPU time and a context switch occurs when this time expires. 
+	- Priority scheduling - Delays a job with lower priority when a higher priority job needs the CPU
+
+**Assemblers**
+
+- Simplest of all programming tools
+- Translates mnemonic instructions to machine code
+- They created an object program file from mnemonic source code
+- They do so in 2 passes of the source code
+- First pass:
+	- The assembler assembles as much of the program as it can
+	- It builds a symbol table that contains memory references for all symbols in the program
+- Second pass:
+	- The assembler completes instructions using the values from the symbol table
+
