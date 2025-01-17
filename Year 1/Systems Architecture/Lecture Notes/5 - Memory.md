@@ -126,3 +126,26 @@ The main types of memory are
 - You predict which ones by looking at access patterns
 - The principles of locality of reference observation are used. 
 
+**Memory Access Times**
+
+- Read from register - 1 clock cycle, 2 ns
+- Read from L1 - 1 to 2 cycles (2-4 ns)
+- Read from L2 - 4 to 5 cycles (8-10 ns)
+- Read from main memory - 8 to 30 cycles (16-60 ns)
+
+**How does the CPU access cache data?**
+
+- First the CPU requests data
+	- The CPU generates a main memory address
+	- If the data is in cache, then we need a way to convert the main memory address into a cache location
+- This is called cache mapping
+
+**Cache mapping methods**
+
+- There are three basic methods used for mapping information fetched from the main memory to the cache memory
+- Direct mapping
+- Associative mapping
+- Set-associative mapping 
+- This module will focus on direct mapping
+
+
