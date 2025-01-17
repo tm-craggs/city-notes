@@ -186,6 +186,14 @@ The main types of memory are
 - The memory address requires 4 bits as there are a total of 16 words. (4 blocks x 4 words each and 16 = 2^4)
 - Tag is 1 bit (physical address bits - (block + offset))
 
-Example
+**Example**
 
 ![[Pasted image 20250117170723.png]]
+
+- Suppose we need to access main memory address 0x0011 using the address format from figure a
+- We partition 0x0011 and get figure b 
+- This, the main memory address 0x0011 maps to cache block 0
+- Figure c shows this mapping, along with the tag that is also stored with the data. 
+
+**Direct mapped cache**
+
