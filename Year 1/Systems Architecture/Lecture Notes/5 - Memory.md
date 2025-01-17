@@ -213,4 +213,11 @@ The main types of memory are
 	- Byte offset - 2 bits
 	- Tag size - 32 - 10, 20 bits
 	- Valid bit
+- Data Access
+	- Find cache index with address bits 11..2
+	- Compare cache tag with address bits 31.12
+	- Check valid bit to ensure data is loaded
+	- Signal a hit to the CPU
+	- Transfer data
 
+# Cache effe
