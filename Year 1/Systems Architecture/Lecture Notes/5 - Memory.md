@@ -181,4 +181,11 @@ The main types of memory are
 **Working out tag, block and offset**
 
 - First, we must determine the address format for mapping. 
-- Each block is 4 
+- Each block is 4 bytes and is byte-addressable, so offset field must contain 2 bits. 
+- There are 2 blocks in cache, so the block field must contain 1 bit. (0 for first, 1 for second)
+- The memory address requires 4 bits as there are a total of 16 words. (4 blocks x 4 words each and 16 = 2^4)
+- Tag is 1 bit (physical address bits - (block + offset))
+
+Example
+
+![[Pasted image 20250117170723.png]]
