@@ -220,4 +220,23 @@ The main types of memory are
 	- Signal a hit to the CPU
 	- Transfer data
 
-# Cache effe
+# Cache efficiency
+
+- Cache memory size - 1024 x 32 bits = 32k bits
+- Tag memory size = 1024 x 20 = 20K
+- Valid bit 1024 x 01 bit = 1K bits
+- Efficiency: 32 / 53 = 60.4%
+
+**Handling Data Cache Misses**
+
+- If the wanted data is not in the cache:
+- Perform a cache miss process
+	- Stall the processor
+	- Freeze contents of registers
+	- Activate memory controller
+	- Separate controller handles memory fetch
+	- Request data item from next lower level of hierarchy
+	- Load data item into cache
+	- Write data, store upper bits as tag, set valid bit. 
+	- Resume processor
+- 
