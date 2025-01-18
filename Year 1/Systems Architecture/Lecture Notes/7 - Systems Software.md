@@ -96,4 +96,12 @@ Starting from easiest for humans to understand
 - Compilers bridge the gap between the high level language and the machine's binary code
 - Most compilers do this in a six-phase process:
 	- Lexical analysis - Exacts tokens (reserved words and variables)
-	- Syntax Analysis (parsing) - C
+	- Syntax Analysis (parsing) - Checks code grammar and statement construction
+	- Semantic Analysis - Checks data types and the validity of operators (e.g. multiplying a string would be a semantic error)
+	- Intermediate Code Generation - Creates assembly level code for optimisation and translation
+	- Optimisation creates more efficient assembly code
+	- Code generation - Creates binary code from optimised assembly code (this may be using the assembler)
+- Through this molecularity, compilers can be written for numerous platforms only by rewriting the last 2 phases. This makes HLLs very machine independent. 
+
+# Virtual Machines
+
