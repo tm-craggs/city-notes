@@ -112,4 +112,9 @@ Starting from easiest for humans to understand
 
 - The Java Virtual Machine (JVM) is a miniature OS
 - It loads programs, links them, starts execution threads, and manages program resources. 
-- At execution time, A JVM must be runn
+- At execution time, A JVM must be running on the host system. 
+- It loads and executes the bytecode class file (the "machine code")
+- Steps in the JVM
+	- Bytecode verifies: The JVM verifies the integrity of the bytecode. 
+	- Class loader: Loads the bytecode of classes in memory and performs a number of runtime checks
+	- The loader invokes the bytecode interpreter for execution
