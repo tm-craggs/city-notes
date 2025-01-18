@@ -105,3 +105,11 @@ Starting from easiest for humans to understand
 
 # Virtual Machines
 
+- A VM is the virtualisation on emulation of a computer system
+- It is managed by the OS kernel of the main system
+
+**Java Virtual Machine**
+
+- The Java Virtual Machine (JVM) is a miniature OS
+- It loads programs, links them, starts execution threads, and manages program resources. 
+- At execution time, A JVM must be runn
