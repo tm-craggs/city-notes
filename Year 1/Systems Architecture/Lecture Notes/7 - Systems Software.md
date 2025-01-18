@@ -84,9 +84,16 @@
 **The hierarchy of Programming Languages**
 Starting from easiest for humans to understand
 
-- 5th generation languages (natural language)
-- 4th generation languages (SQL, LISP)
+- 5th generation languages (natural language or visual tools)
+- 4th generation languages (SQL, Python)
 - 3rd generation languages (Java, C, C++)
 - 2nd generation languages (Assembly Code)
 - 1st generation languages (binary machine code)
 
+**Complilers**
+
+- Compilers are for high level languages what assemblers are for low level languages. 
+- Compilers bridge the gap between the high level language and the machine's binary code
+- Most compilers do this in a six-phase process:
+	- Lexical analysis - Exacts tokens (reserved words and variables)
+	- Syntax Analysis (parsing) - C
