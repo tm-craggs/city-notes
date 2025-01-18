@@ -79,3 +79,14 @@
 6) The PC is loaded with start address
 7) The program runs
 
+# Compilers
+
+**The hierarchy of Programming Languages**
+Starting from easiest for humans to understand
+
+- 5th generation languages (natural language)
+- 4th generation languages (SQL, LISP)
+- 3rd generation languages (Java, C, C++)
+- 2nd generation languages (Assembly Code)
+- 1st generation languages (binary machine code)
+
