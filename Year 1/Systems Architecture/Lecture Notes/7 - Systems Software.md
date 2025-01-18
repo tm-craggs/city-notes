@@ -65,3 +65,8 @@
 - Second pass:
 	- The assembler completes instructions using the values from the symbol table
 
+
+**Assemblers visualised**
+
+- It creates a symbol table storing translations of memory address labels to actual addresses 
+
