@@ -65,8 +65,17 @@
 - Second pass:
 	- The assembler completes instructions using the values from the symbol table
 
+![[Pasted image 20250118195311.png]]
 
-**Assemblers visualised**
+**The Assembler Flow**
 
-- It creates a symbol table storing translations of memory address labels to actual addresses 
+1) Programmer writes text
+2) Creates a .asm file
+3) Calls the assembler to produce a .bin file
+	1) First pass assembles and builds the symbol table
+	2) Second pass resolves the labels to actual addresses
+4) Calls a loader to relocate the program into absolute memory addresses and places it into memory
+5) Control is passed to the program
+6) The PC is loaded with start address
+7) The program runs
 
