@@ -97,5 +97,5 @@ SKIPCOND Instruction
 
 ![[Pasted image 20250120154130.png]]
 
-- Consider
 
+**Extending instruction set**
