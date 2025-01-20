@@ -17,4 +17,20 @@ The main operations of the CPU
 - The Datapath consists of an ALU storage units (registers)
 	- The ALU carries out logical and arithemetic operations as directed by the control unit
 	- Registers hold data that can be readily accessed by the CPU. They can be implemented using D flip-flops. A 32-bit register requires 32 D-flipflops
-- Various CPU components perform 
+- Various CPU components perform sequenced operations according to signals provided but its control unit. The control unit determines which actions to carry out according to the values in a program counter register. 
+
+**Clocks**
+
+- Every computer contains at least one clock that synchronises the activities of its components.
+- A fixed number of clock cycles are required to carry out each data movement or computational operation. 
+- The clock frequency measured in megahertz, or gigahertz, determines the speed with all operations are carried out. 
+- Clock time is the reciprocal of clock frequency. 
+
+
+**Clocks vs CPU Time**
+
+- Clock speed should not be confused with CPU performance
+- The CPU time required to run a program is given by the general performance equation. 
+
+![[Pasted image 20250120150206.png]]
+
