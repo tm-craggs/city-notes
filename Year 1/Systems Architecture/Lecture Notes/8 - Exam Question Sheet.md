@@ -15,5 +15,7 @@ Steps:
 2) Not any letter which = 0, and add to the expression
 
 For the reverse:
-1) Write down the expression
-2) Write down all rows where F = 1 
+1) Write down all expressions given
+2) Write down all the combinations of letters which would mean F = 1. Remember NOT statements. 
+3) Analyse the options
+
