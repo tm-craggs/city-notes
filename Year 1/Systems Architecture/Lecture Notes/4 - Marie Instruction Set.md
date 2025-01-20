@@ -34,3 +34,19 @@ The main operations of the CPU
 
 ![[Pasted image 20250120150206.png]]
 
+CPU throughput can be improved by reducing
+- The number of instructions in a program
+- The number of cycles per instruction
+- The number of nanoseconds per clock cycle
+
+
+MARIE Architecture
+
+- AC: Accumulator - General purpose register holds the data the CPU works with
+- MAR: Memory Address Register - Holds the address of the data being referenced from memory
+- MBR: Memory Buffer Register - Data read from or to be written to memory. 
+- PC: Program Counter - Holds the address of the next instruction to be executed. 
+- IR - Instruction Register - Holds the next instruction to be executed. 
+- InREG - Holds data received from the input device
+- OutREG - Holds the data to be sent to the output device
+
