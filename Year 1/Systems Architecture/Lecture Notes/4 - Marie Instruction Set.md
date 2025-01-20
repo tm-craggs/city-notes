@@ -104,3 +104,4 @@ SKIPCOND Instruction
 - This means that the address of the operand is stated in the instruction
 - It is often useful to use indirect addressing, where the address of the address of the operand is given in the instruction
 
+![[Pasted image 20250120155843.png]]
