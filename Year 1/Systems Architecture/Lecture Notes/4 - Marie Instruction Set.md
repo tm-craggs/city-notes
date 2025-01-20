@@ -50,3 +50,10 @@ MARIE Architecture
 - InREG - Holds data received from the input device
 - OutREG - Holds the data to be sent to the output device
 
+**Busses**
+
+- A bus is a set of wires used to connect multiple subsystems within the computer. At any time, only one component can use the bus. 
+
+**Datapath in MARIE**
+
+- MAR
