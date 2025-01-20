@@ -1,5 +1,5 @@
 Summary of Cache Formula:
 
-- Block Offset (b) = log2(bytes per block)
-- Index (i) = log2(number of cache blocks)
-- Tag (t) = Total address size - (b + i)
+- Block Offset = log2(bytes per block)
+- Index = log2(number of cache blocks)
+- Tag = Total address size - (b + i)
