@@ -86,3 +86,5 @@ Example Micro-operations
 
 ![[Pasted image 20250120153217.png]]
 
+![[Pasted image 20250120153318.png]]
+
