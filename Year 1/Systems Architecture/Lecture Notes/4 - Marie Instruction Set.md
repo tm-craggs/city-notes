@@ -62,4 +62,16 @@ MARIE Architecture
 
 - The instruction set architecture of a computer specifies the instruction that a computer can perform
 - It is the principle interface between the software and hardware. 
-- Some ISAs include hundreds of different instructions, MARIE is only 
+- Some ISAs include hundreds of different instructions, MARIE is only 13. 
+- ISA describes the format of the instructions, giving the operation an opcode and operand
+
+![[Pasted image 20250120152417.png]]
+
+**Instruction processing**
+
+- The fetch decode execute (FDE) cycle is the series of steps that a computer carries out when it runs a program. 
+	1) We fetch an instruction from memory, and place in IR
+	2) Once in IR, it is decoded to determine next steps.
+	3) If an operand is involved, it is retrieved and placed in the MBR
+	4) With everything in place, the instruction is executed. 
+	5) The PC is incremented 
