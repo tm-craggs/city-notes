@@ -56,4 +56,10 @@ MARIE Architecture
 
 **Datapath in MARIE**
 
-- MAR
+- MARIE has a 16 bit datapath which is a network of registers and arithemetic and logic units connect by bus
+
+# Instruction Set Architecture
+
+- The instruction set architecture of a computer specifies the instruction that a computer can perform
+- It is the principle interface between the software and hardware. 
+- Some ISAs include hundreds 
