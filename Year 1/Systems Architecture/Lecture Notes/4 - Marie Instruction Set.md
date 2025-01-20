@@ -75,3 +75,14 @@ MARIE Architecture
 	3) If an operand is involved, it is retrieved and placed in the MBR
 	4) With everything in place, the instruction is executed. 
 	5) The PC is incremented 
+
+**Micro-operations**
+
+- Each ISA level instruction actually consists of a sequence of smaller instructions called micro-operations. 
+- The exact sequence of micro-operations that are carried out by an instruction can be specified using the register transfer language (RTL) or register transfer notation (RTN)
+- In the MARIE RTL, we use the notation M[X] to indicate the actual data value stored in memory location X, and NOT symbol to indicate the transfer of bytes to a register or memory location
+
+Example Micro-operations
+
+![[Pasted image 20250120153217.png]]
+
