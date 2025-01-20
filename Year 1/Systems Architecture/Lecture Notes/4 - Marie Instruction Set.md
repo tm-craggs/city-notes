@@ -62,4 +62,4 @@ MARIE Architecture
 
 - The instruction set architecture of a computer specifies the instruction that a computer can perform
 - It is the principle interface between the software and hardware. 
-- Some ISAs include hundreds 
+- Some ISAs include hundreds of different instructions, MARIE is only 
