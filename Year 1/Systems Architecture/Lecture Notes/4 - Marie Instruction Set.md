@@ -88,3 +88,13 @@ Example Micro-operations
 
 ![[Pasted image 20250120153318.png]]
 
+SKIPCOND Instruction
+
+- SKIPCOND: Skip the next instruction on condition according to the value of the AC
+- Conditional branch, just like if
+- The opcode of the SKIPCOND instruction is used to specify the condition
+- The RTL for this is complex 
+
+![[Pasted image 20250120154130.png]]
+
+
