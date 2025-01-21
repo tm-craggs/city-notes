@@ -105,3 +105,16 @@ SKIPCOND Instruction
 - It is often useful to use indirect addressing, where the address of the address of the operand is given in the instruction
 
 ![[Pasted image 20250120155843.png]]
+
+RISC vs CISC
+
+- Computers become more complex, and their instruction sets reflect this. 
+- There are 2 main philosophies. 
+- CISC (Complex Instruction Set Computers)
+	- Each single instruction executes a number of low-level instructions
+	- Multiple addressing modes
+	- Pre 1990
+- RISC (Reduced Instruction Set Computer)
+	- Each instruction is a single low-level instruction
+	- Few addressing modes
+	- Post 1990
