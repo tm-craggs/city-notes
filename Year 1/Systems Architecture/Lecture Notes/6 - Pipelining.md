@@ -68,3 +68,16 @@ Example instruction:
 - Add $s0, $t0, $t1 -> $s0 = $t0 + $t1
 - Where $x denotes the contents of a register named x
 - Add does not write until the 5th stage of the pipeline
+- Pipelining a new calculation that uses the result of this instruction can cause a data hazard
+- The next process will need to stall until the first instruction is completed
+
+
+Resolving data hazards
+
+Forwarding
+- The use the results before they are written to the registers. 
+- The output of ALU is immediate forwarded to any other instructions that need it in the pipeline
+- Don't wait for WB, run after EX
+- This is a hardware solution and requires extra logic
+
+
