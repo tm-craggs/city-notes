@@ -72,7 +72,7 @@ Example instruction:
 - The next process will need to stall until the first instruction is completed
 
 
-Resolving data hazards
+**Resolving data hazards**
 
 Forwarding
 - The use the results before they are written to the registers. 
@@ -80,4 +80,17 @@ Forwarding
 - Don't wait for WB, run after EX
 - This is a hardware solution and requires extra logic
 
+
+Load use
+- We use bubbles and forwarding
+- Instructions which cannot be executed repeat their pipeline stage until they can advance. 
+
+Compiler Optimisation
+- Re-arrange instructions to avoid data hazards where possible
+- This is a software solution
+
+![[Pasted image 20250122182542.png]]
+
+
+**Resolving Control Hazards**
 
