@@ -96,7 +96,7 @@ Compiler Optimisation
 
 Stall on Branch
 - Wait until branch outcome determined before fetching next instruction
-- 
+
 
 Branch Prediction
 - Uses logic to predict the outcome of the condition
