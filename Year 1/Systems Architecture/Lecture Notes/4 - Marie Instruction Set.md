@@ -128,7 +128,7 @@ RISC
 - More RAM needed to store a program (more code)
 - High level language compiler is more complex and slower
 - Assembly programmers have more work to do
-- Simpler instructions mean that RISC chips have less components, cheaper to produce. 
+- Simpler instructions mean that RISC chips have less components and transistors, cheaper to produce and more power efficient. 
 - More bits allocated to the operand means that more memory locations can be accessed directly
 - Fewer addressing modes needed.
 
