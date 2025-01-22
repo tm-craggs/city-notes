@@ -121,7 +121,7 @@ RISC vs CISC
 
 RISC
 
-- Fewer bits are allocated the operand, which means a smaller instruction set
+- Fewer bits are allocated the opcode, which means a smaller instruction set
 - Each instruction does less (e.g. add may require 2 instructions, LDA and ADD)
 - More instructions needed for a given task
 - A given instruction takes less clock cycles
@@ -130,6 +130,17 @@ RISC
 - Assembly programmers have more work to do
 - Simpler instructions mean that RISC chips have less components, cheaper to produce. 
 - More bits allocated to the operand means that more memory locations can be accessed directly
-- Fewer addressing modes needed
+- Fewer addressing modes needed.
 
 CISC
+
+- More bits are allocated to the opcode, larger instruction set. 
+- Each instruction can achieve more (e.g. add X, Y)
+- Less instructions needed for a given task
+- Each instruction takes more clock cycles
+- Less RAM needed to store a program (less code)
+- High level language compilers is less complex and quicker
+- Easier for assembly programmers
+- More complex chips are more expensive to design and produce
+- Fewer bits allocated to the operand means that fewer memory locations can be accessed directly
+- More addressing modes needed. 
