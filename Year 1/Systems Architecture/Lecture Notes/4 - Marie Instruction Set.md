@@ -106,7 +106,48 @@ SKIPCOND Instruction
 
 ![[Pasted image 20250120155843.png]]
 
+<<<<<<< HEAD
 - Labels can name or identify particular memory addresses. For example:
 
 ![[Pasted image 20250120155954.png]]
+
+=======
+RISC vs CISC
+
+- Computers become more complex, and their instruction sets reflect this. 
+- There are 2 main philosophies. 
+- CISC (Complex Instruction Set Computers)
+	- Each single instruction executes a number of low-level instructions
+	- Multiple addressing modes
+	- Pre 1990
+- RISC (Reduced Instruction Set Computer)
+	- Each instruction is a single low-level instruction
+	- Few addressing modes
+	- Post 1990
+
+RISC
+
+- Fewer bits are allocated the opcode, which means a smaller instruction set
+- Each instruction does less (e.g. add may require 2 instructions, LDA and ADD)
+- More instructions needed for a given task
+- A given instruction takes less clock cycles
+- More RAM needed to store a program (more code)
+- High level language compiler is more complex and slower
+- Assembly programmers have more work to do
+- Simpler instructions mean that RISC chips have less components and transistors, cheaper to produce and more power efficient. 
+- More bits allocated to the operand means that more memory locations can be accessed directly
+- Fewer addressing modes needed.
+
+CISC
+
+- More bits are allocated to the opcode, larger instruction set. 
+- Each instruction can achieve more (e.g. add X, Y)
+- Less instructions needed for a given task
+- Each instruction takes more clock cycles
+- Less RAM needed to store a program (less code)
+- High level language compilers is less complex and quicker
+- Easier for assembly programmers
+- More complex chips are more expensive to design and produce
+- Fewer bits allocated to the operand means that fewer memory locations can be accessed directly
+- More addressing modes needed. 
 

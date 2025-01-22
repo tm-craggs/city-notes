@@ -56,6 +56,49 @@ There are 2 performance metrics
 
 Notation for MIPS pipeline
 
-- Dollar sign represented a register
-- 
+- Five stages, one step per stage
+- IF: Instruction fetched from memory
+- ID: Instruction decode and register read
+- EX: Execute operation or calculate address
+- MEM: Access memory operand
+- WB: Write result back to register
 
+Example instruction:
+
+- Add $s0, $t0, $t1 -> $s0 = $t0 + $t1
+- Where $x denotes the contents of a register named x
+- Add does not write until the 5th stage of the pipeline
+- Pipelining a new calculation that uses the result of this instruction can cause a data hazard
+- The next process will need to stall until the first instruction is completed
+
+
+**Resolving data hazards**
+
+Forwarding
+- The use the results before they are written to the registers. 
+- The output of ALU is immediate forwarded to any other instructions that need it in the pipeline
+- Don't wait for WB, run after EX
+- This is a hardware solution and requires extra logic
+
+
+Load use
+- We use bubbles and forwarding
+- Instructions which cannot be executed repeat their pipeline stage until they can advance. 
+
+Compiler Optimisation
+- Re-arrange instructions to avoid data hazards where possible
+- This is a software solution
+
+![[Pasted image 20250122182542.png]]
+
+
+**Resolving Control Hazards**
+
+Stall on Branch
+- Wait until branch outcome determined before fetching next instruction
+
+
+Branch Prediction
+- Uses logic to predict the outcome of the condition
+- If the prediction is correct, pipeline stays full
+- If the prediction is incorrect, the pipeline will stall as before and new instruction loaded. 
