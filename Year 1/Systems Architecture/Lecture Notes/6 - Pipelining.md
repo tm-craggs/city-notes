@@ -60,7 +60,7 @@ Notation for MIPS pipeline
 - IF: Instruction fetched from memory
 - ID: Instruction decode and register read
 - EX: Execute operation or calculate address
-- MEM: Acess memory operand
+- MEM: Access memory operand
 - WB: Write result back to register
 
 Example instruction:
