@@ -94,3 +94,11 @@ Compiler Optimisation
 
 **Resolving Control Hazards**
 
+Stall on Branch
+- Wait until branch outcome determined before fetching next instruction
+- 
+
+Branch Prediction
+- Uses logic to predict the outcome of the condition
+- If the prediction is correct, pipeline stays full
+- If the prediction is incorrect, the pipeline will stall as before and new instruction loaded. 
