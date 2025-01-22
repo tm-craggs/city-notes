@@ -118,3 +118,18 @@ RISC vs CISC
 	- Each instruction is a single low-level instruction
 	- Few addressing modes
 	- Post 1990
+
+RISC
+
+- Fewer bits are allocated the operand, which means a smaller instruction set
+- Each instruction does less (e.g. add may require 2 instructions, LDA and ADD)
+- More instructions needed for a given task
+- A given instruction takes less clock cycles
+- More RAM needed to store a program (more code)
+- High level language compiler is more complex and slower
+- Assembly programmers have more work to do
+- Simpler instructions mean that RISC chips have less components, cheaper to produce. 
+- More bits allocated to the operand means that more memory locations can be accessed directly
+- Fewer addressing modes needed
+
+CISC
