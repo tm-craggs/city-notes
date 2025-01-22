@@ -56,6 +56,15 @@ There are 2 performance metrics
 
 Notation for MIPS pipeline
 
-- Dollar sign represented a register
-- 
+- Five stages, one step per stage
+- IF: Instruction fetched from memory
+- ID: Instruction decode and register read
+- EX: Execute operation or calculate address
+- MEM: Acess memory operand
+- WB: Write result back to register
 
+Example instruction:
+
+- Add $s0, $t0, $t1 -> $s0 = $t0 + $t1
+- Where $x denotes the contents of a register named x
+- Add does not write until the 5th stage of the pipeline
