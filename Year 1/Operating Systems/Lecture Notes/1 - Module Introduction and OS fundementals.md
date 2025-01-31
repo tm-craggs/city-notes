@@ -53,3 +53,6 @@ Kernel Mode
 - CPU executes in kernel mode for OS
 - Protected areas of memory may be accessed
 - Privileged instructions may be run
+
+# Interrupts 
+
