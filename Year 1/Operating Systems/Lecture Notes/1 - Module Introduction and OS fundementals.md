@@ -13,7 +13,7 @@ Exam (60%)
 
 # Operating Systems
 
-**What is an operating system**
+**What is an operating system**?
 
 - A program or collections of programs that controls the execution of application programs. 
 - An interface between applications and hardware. 
