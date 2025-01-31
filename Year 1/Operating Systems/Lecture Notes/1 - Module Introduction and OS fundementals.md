@@ -9,7 +9,7 @@ Exam (60%)
 - Final exam - 60%
 - Sat during spring exam period
 
-**Note: Rewatch first a**
+**Note: Re-watch first half of lecture and revise number systems**
 
 # Operating Systems
 
@@ -22,4 +22,14 @@ Main objectives of an OS
 - User convenience
 - System efficiency, reliability and security
 - Ability to add new system functions without interfering with services provided by the system. 
+
+What services does an OS provide?
+- Program development
+- Manage program execution
+- Access I/O devices via uniform interface
+- Controlled access to files
+- System access
+- Error detection and response
+- Usage and performance statistics
+
 
