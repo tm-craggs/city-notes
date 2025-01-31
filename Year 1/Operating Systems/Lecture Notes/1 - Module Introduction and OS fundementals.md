@@ -1,4 +1,4 @@
-Assesment
+# Assessment
 
 Coursework (40%)
 - 2 quizzes in lecture worth 8% each + 4% bonus
@@ -8,4 +8,5 @@ Coursework (40%)
 Exam (60%)
 - Final exam - 60%
 - Sat during spring exam period
+
 
