@@ -34,5 +34,22 @@ What services does an OS provide?
 
 
 An OS is a big deal!
-- A CPU can only do one thing at a time, but we want to run lots of programs at the same time, without interfering with each other
-	- 
+- A CPU can only execute one instruction at a time, but we want to run lots of programs at the same time, without interfering with each other
+- We need the CPU to work with multiple different devices (keyboard, disk drive, display, etc.)
+- The CPU can only execute instructions which are in RAM, so we need a way to transfer a program from disk into RAM.
+
+The CPU and OS must work together
+- IF the OS controls the use of a computers resources and the OS is not in explicit control of the CPU, it must relinquish control of the CPU to programs, and must depend on the CPU to retake control when needed. 
+- To assist the OS, the CPU supports two modes of operation. 
+
+Modes of CPU operation
+
+User mode
+- CPU executes in use mode for user programs
+- Certain areas of memory are protected from user access
+- Certain instructions may not be executed. 
+
+Kernel Mode
+- CPU executes in kernel mode for OS
+- Protected areas of memory may be accessed
+- Privileged instructions may be run
