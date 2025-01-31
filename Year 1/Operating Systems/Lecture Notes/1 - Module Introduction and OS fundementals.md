@@ -33,3 +33,6 @@ What services does an OS provide?
 - Usage and performance statistics
 
 
+An OS is a big deal!
+- A CPU can only do one thing at a time, but we want to run lots of programs at the same time, without interfering with each other
+	- 
