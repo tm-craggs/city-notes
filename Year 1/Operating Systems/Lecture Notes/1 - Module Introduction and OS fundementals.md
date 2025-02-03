@@ -56,4 +56,3 @@ Kernel Mode
 
 # Interrupts 
 
-x
