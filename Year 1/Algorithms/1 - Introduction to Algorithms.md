@@ -23,11 +23,16 @@ Assessment Structure
 	- May include pieces of English text
 	- No fixed notation. 
 
-Example:
+Example: This code loops through array a, and adds all the values. 
+
+Algorithm Sum (a|0..n-1)
 
 total <- 0
 i <- 0
 WHILE i < n
 	total <- total + a[i]
-	
-	
+	i <- i + 1
+RETURN total
+
+To write this in Java, you would need to declare data types and have the function inside of a defined class, etc.
+
