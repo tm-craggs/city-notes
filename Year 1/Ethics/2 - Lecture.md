@@ -17,6 +17,12 @@ Other considerations
 Common harms for technology users
 - Dishonesty and untruth - the spread of false information about people, events, relationships, etc (e.g. gaslight, fake news).
 - Harm and Hate - Trolling, cyber-bullying
-- Discrimination - Racism 
+- Discrimination - Racism, misogyny
+- Manipulation - Using false information to sway people opinions
+- Fraud - Phising, social maniupulation
+
+How do engineers respond ethical concerns
+
+Negotiation - Convincing decision-makers to take action by highlighting nehative 
 
 
