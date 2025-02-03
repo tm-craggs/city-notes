@@ -36,7 +36,11 @@ RETURN total
 
 To write this in Java, you would need to declare data types and have the function inside of a defined class, etc.
 
-# Tracing an Iterative Algorithm
+# Types of common problem
 
-- An iterative algorithm is a block of code that repeats until a condition is met. 
-- Keep track 
+- Searching - Find an element in a collection or find a subsequence with certain properties (find a path through a maze)
+- Sorting - Take a collection of things and arrange elements in order. This is very common and is often a component of bigger tasks, such as finding duplicates in a collection. 
+- Text processing - Find occurences of a substring, formatting of text. 
+- Numerical Operations - Arthimetic on large numbers (factorizatio)
+- Computational Geometry
+- Combinatorial problems 
