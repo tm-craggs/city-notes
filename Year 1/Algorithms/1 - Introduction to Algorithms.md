@@ -48,3 +48,17 @@ To write this in Java, you would need to declare data types and have the functio
 - Numerical Operations - Arithmetic on large numbers (factorisation, matrix operations)
 - Computational Geometry - Collision detection, mesh generation (in graphics)
 - Combinatoric problems - Given 
+
+
+# Comparing Algorithms
+
+**Complexity Analysis**
+
+**Correctness**
+- This is essential. We will use methods used to show that algorithms always produce the desired results. 
+
+**Efficency**
+- How much resources do we need? Usually we are concerned with time, but sometimes also space. Is the algorithm fast? Does it make efficient use of memory?
+
+Simplicity
+- This is desirable, but not required. 
