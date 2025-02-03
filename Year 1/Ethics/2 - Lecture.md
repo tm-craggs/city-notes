@@ -4,3 +4,13 @@
 - Advertising - Am I contributing to spam? Am I inaccuratley or unfairly classifying people for afvertising purposes? Am I designing misleading or dishonest interfaces. 
 - Surveilance - Is my work used to spy on workers or civilians? 
 
+
+Other considerations
+
+- Enviromental Impact
+- Causing unemployment
+- Contributing to crypto scams
+- Political manipulation
+- Inaccessible software
+- etc.
+
