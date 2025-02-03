@@ -36,3 +36,6 @@ RETURN total
 
 To write this in Java, you would need to declare data types and have the function inside of a defined class, etc.
 
+# Tracing an Iterative Algorithm
+
+- An iterative algorithm is a block of code that repeats until a condition is met. 
