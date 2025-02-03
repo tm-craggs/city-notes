@@ -24,6 +24,17 @@ Common harms for technology users
 How do engineers respond ethical concerns
 
 Negotiation - Convincing decision-makers to take action by highlighting negative 
-Feet voting - Refusing offers of employment, not applying for certain jobs, collective 
+Feet voting - Refusing offers of employment, not applying for certain jobs, collective bargaining and tech worker boycotts
+Refusal - Reducing one's productivity asking to be assigned to a different project, resigning
+
+
+Resignation
+- Engineers should not have to resign from their jobs, it should be used as a last resort.
+- Engineers resign because they lose faith in their employers and feel powerless to change
+- It is ineffective, a new developer is usually hired who agrees to do the questionable work. 
+- Not everyone can resign, engineers on visas, or people who are financially unstable. 
+- We need new ways of dealing with ethical concerns. 
+
+
 
 
