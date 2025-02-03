@@ -39,3 +39,4 @@ To write this in Java, you would need to declare data types and have the functio
 # Tracing an Iterative Algorithm
 
 - An iterative algorithm is a block of code that repeats until a condition is met. 
+- Keep track 
