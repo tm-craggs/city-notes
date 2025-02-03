@@ -23,6 +23,7 @@ Common harms for technology users
 
 How do engineers respond ethical concerns
 
-Negotiation - Convincing decision-makers to take action by highlighting nehative 
+Negotiation - Convincing decision-makers to take action by highlighting negative 
+Feet voting - Refusing offers of employment, not applying for certain jobs, collective 
 
 
