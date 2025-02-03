@@ -38,9 +38,13 @@ To write this in Java, you would need to declare data types and have the functio
 
 # Types of common problem
 
-- Searching - Find an element in a collection or find a subsequence with certain properties (find a path through a maze)
+- Searching - Find an element in a collection or find a sub-sequence with certain properties (find a path through a maze)
 - Sorting - Take a collection of things and arrange elements in order. This is very common and is often a component of bigger tasks, such as finding duplicates in a collection. 
-- Text processing - Find occurences of a substring, formatting of text. 
-- Numerical Operations - Arthimetic on large numbers (factorizatio)
-- Computational Geometry
-- Combinatorial problems 
+	- Selection Sort
+	- Insertion Sort
+	- Bubble Sort
+	- Merge Sort
+- Text processing - Find occurrences of a substring, formatting of text. 
+- Numerical Operations - Arithmetic on large numbers (factorisation, matrix operations)
+- Computational Geometry - Collision detection, mesh generation (in graphics)
+- Combinatoric problems - Given 
