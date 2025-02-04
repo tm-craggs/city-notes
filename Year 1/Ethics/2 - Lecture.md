@@ -115,3 +115,11 @@ Advantages of the FAPT framework?
 	- British Computer Society (BCS)
 	- Association for Computing Machinery (ACM)
 	- Institute of Electrical and Electronics Engineers (IEEE)
+- To be a member of any of these organisations, you agree to their code of conduct or code of ethics. 
+
+![[Pasted image 20250204123240.png]]
+
+
+- However, **your judgement is still needed!**
+- "These codes are not meant to serve as checklists, of how to be an ethical engineer in any given situation. Can only be achieved through the engineer's skillful, sincere and habitual practise of ethical reflection"
+- Ethical codes are just one tool that help us "develop an eye" for what would be appropriate in various 
