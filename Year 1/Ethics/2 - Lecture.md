@@ -99,3 +99,13 @@ A dating site for cheating - Ashley Madison hack
 - Think short term, long term, local, global and environmental. 
 - Consider historical factors / injustrices that may not be obvious. (racially or gender biased algorithms)
 **Step 3: How can risk be addressed?**
+- Whose expertise is needed to develop the technology (Accountability and fairness)
+- Those most negatively affected by the technology should be involved in its design and making "Nothing about us without us"
+- What alternative soloution address different stakeholder needs and impacts? (Fairness and privacy)
+- Would greater transparency help? (Publishing how an algorithm works)
+
+Advantages of the FAPT framework?
+- Provides structure for ethical speculation?
+- Can be applied to features and or whole products, services or applications. 
+- Can be applied to existing, in-the-making and near-future technologies. 
+- Can be applied to the past, to help us reflect on what went wrong and how harms could be avoided in future. 
