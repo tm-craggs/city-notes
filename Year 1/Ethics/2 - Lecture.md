@@ -127,10 +127,10 @@ Advantages of the FAPT framework?
 
 **7 traits of "super professionals**
 
-1) Strong sense of individual responsibility
-2) Acute awareness of the world around them
-3) Brutal honesty
-4) Resilience under pressure
-5) Heightened sense of fairness
-6) Attention to detail in maintaining perspective
-7) Pragmatism in applying professional standards. 
+1) Strong sense of individual responsibility - Take ownership of your professional commitments and protect rights of your users
+2) Acute awareness of the world around them - Understand the cultural and regulatory context your technology is embedded into
+3) Brutal honesty - Confront lies and inaccuracies, and make decisions informed by facts
+4) Resilience under pressure - Be true to your personal and professional beliefs, particularly when others ask you to violate them
+5) Heightened sense of fairness - Understanding what is fair will help you mediate conflicts and make solid professional decisions. 
+6) Attention to detail in maintaining perspective - Do not forget the overall nature and purpose of the technology being built
+7) Pragmatism in applying professional standards. -  Understand that making technology involves trade-offs. Pick your battles, you cannot solve all the industry problems on your own. Take care of yourself, keep an 
