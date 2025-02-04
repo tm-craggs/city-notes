@@ -140,11 +140,12 @@ Advantages of the FAPT framework?
 
 **Summary**
 
-- Both users and engineers encouter ethical issues when building or interacting with technology
+- Both users and engineers encounter ethical issues when building or interacting with technology
 - The top ethical concerns of software engineers include military use, privacy, advertising and surveillance. 
 - Responses of software engineers to ethical concerns include negotiation, feet voting and refusal. 
 - Adopting "grounded ethics" can help you anticipate and prevent the negative implications and consequences of specific technologies. 
 - Tools for grounded ethics include ethical speculation, the FAPT framework and professional codes of conduct. 
-- Ethical speculation asks hypothetical questions to help us forsee the unintended consequences of technology. 
+- Ethical speculation asks hypothetical questions to help us foresee the unintended consequences of technology. 
 - The FAPT framework provides structure and direction for ethical speculation. 
 - Professional codes of conduct contribute principles to guide our practise. 
+- To survive as ethical software engineers, we must develop: responsibility, awareness, honesty, resilience, fairness, perspective and pragmatism. 
