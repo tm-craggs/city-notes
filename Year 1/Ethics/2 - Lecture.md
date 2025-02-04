@@ -67,3 +67,15 @@ Ethical example:
 A dating site for cheating - Ashley Madison hack
 
 **The FAPT framework**
+
+![[Pasted image 20250204120608.png]]
+
+**Fairness**
+- Our technologies must respect the dignity of individuals, and be consistent with the public interests. (Human rights, democratic values)
+- Our technologies must not discriminate against certain individuals or social groups. 
+- We must mitigate against biases the may influence our technologies outcomes. 
+**Accountability**
+- We must consider who is responsible for computing systems and their outcomes.
+- There must be effective decision-making and oversight mechanisms for any technology. E.g. Who is responsible for the content that users publish on social media. 
+**Privacy**
+- Technologies must respect and 
