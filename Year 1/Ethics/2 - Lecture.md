@@ -93,4 +93,9 @@ A dating site for cheating - Ashley Madison hack
 - Look across different scales (individuals, groups, governments, nations, natural environments, etc.)
 **Step 2: What are the potential impacts?**
 - What are the consequences of the technology for each of the stakeholders you indentified in step 1?
-- How might their privacy, dignity and other rights be comp
+- How might their privacy, dignity and other rights be comprimised?
+- Will they be prevented from accessing material resources?
+- Will their reputation be damaged?
+- Think short term, long term, local, global and environmental. 
+- Consider historical factors / injustrices that may not be obvious. (racially or gender biased algorithms)
+**Step 3: How can risk be addressed?**
