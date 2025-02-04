@@ -37,6 +37,22 @@ Resignation
 
 "Grounded" Ethics
 
-- A grounded perspective addresses 
+- A grounded perspective addresses ethics through real-world experiences and examples
+- By "grounded" we mean understanding the implications of the systems we build, and considering the specific circumstances that surround them. 
+- Grounded ethics implies that a concern for ethics and the societal impact of digital technologies is an integral and unavoidable part of software engineering professional practise. 
+- A grounded ethics requires tools to help us think
 
+Tools for grounded ethics
+
+- Speculative ethics
+- The FAPT (Fairness, accountability, privacy, transparency) framework
+- Professional codes of conduct
+
+
+**Speculative Ethics**
+
+- Speculation - using imagination to anticipate the potential benefits and harms of a technology
+- Speculation helps you forsee the consequences of emerging technologies
+- Speculation can help mitigate the negative outcomes of emerging technologies
+- Conclusion can sometimes be that the technology should not be built at all
 
