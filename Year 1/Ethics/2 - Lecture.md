@@ -78,4 +78,19 @@ A dating site for cheating - Ashley Madison hack
 - We must consider who is responsible for computing systems and their outcomes.
 - There must be effective decision-making and oversight mechanisms for any technology. E.g. Who is responsible for the content that users publish on social media. 
 **Privacy**
-- Technologies must respect and 
+- Technologies must respect and safeguard the privacy of individuals
+- Technologies must comply with privacy law (UK GDPR)
+**Transparency**
+- Actions, processes and data must be open to inspection by publishing information about the technology in a complete, open, understandable, easily accessible and free format. 
+- Transparency supports accountability
+- E.g. Show data that was used to train an AI model.
+
+**Step 1: Who May Be Affected?**
+- Consider who might be affected by the technology (stakeholders)
+- Who might be affected positively?
+- Who might be affected negatively?
+- Look at this across all four dimensions (FAPT)
+- Look across different scales (individuals, groups, governments, nations, natural environments, etc.)
+**Step 2: What are the potential impacts?**
+- What are the consequences of the technology for each of the stakeholders you indentified in step 1?
+- How might their privacy, dignity and other rights be comp
