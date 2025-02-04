@@ -122,4 +122,15 @@ Advantages of the FAPT framework?
 
 - However, **your judgement is still needed!**
 - "These codes are not meant to serve as checklists, of how to be an ethical engineer in any given situation. Can only be achieved through the engineer's skillful, sincere and habitual practise of ethical reflection"
-- Ethical codes are just one tool that help us "develop an eye" for what would be appropriate in various 
+- Ethical codes are just one tool that help us "develop an eye" for what would be appropriate in various circumstances
+- "Professional judgements are still nesseary. Good judgement is acquired through a combination of experience, good habits and conscious attention to ethical concerns"
+
+**7 traits of "super professionals**
+
+1) Strong sense of individual responsibility
+2) Acute awareness of the world around them
+3) Brutal honesty
+4) Resilience under pressure
+5) Heightened sense of fairness
+6) Attention to detail in maintaining perspective
+7) Pragmatism in applying professional standards. 
