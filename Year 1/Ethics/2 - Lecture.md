@@ -56,3 +56,14 @@ Tools for grounded ethics
 - Speculation can help mitigate the negative outcomes of emerging technologies
 - Conclusion can sometimes be that the technology should not be built at all
 
+- Examples speculation:
+	- What could go wrong with this technology?
+	- What is something happened?
+	- Could this technology be used to cause harm?
+	- Why would society agree to use this technology?
+
+Ethical example:
+
+A dating site for cheating - Ashley Madison hack
+
+**The FAPT framework**
