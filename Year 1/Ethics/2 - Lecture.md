@@ -35,6 +35,8 @@ Resignation
 - Not everyone can resign, engineers on visas, or people who are financially unstable. 
 - We need new ways of dealing with ethical concerns. 
 
+"Grounded" Ethics
 
+- A grounded perspective addresses 
 
 
