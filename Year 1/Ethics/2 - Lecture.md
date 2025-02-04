@@ -133,4 +133,18 @@ Advantages of the FAPT framework?
 4) Resilience under pressure - Be true to your personal and professional beliefs, particularly when others ask you to violate them
 5) Heightened sense of fairness - Understanding what is fair will help you mediate conflicts and make solid professional decisions. 
 6) Attention to detail in maintaining perspective - Do not forget the overall nature and purpose of the technology being built
-7) Pragmatism in applying professional standards. -  Understand that making technology involves trade-offs. Pick your battles, you cannot solve all the industry problems on your own. Take care of yourself, keep an 
+7) Pragmatism in applying professional standards. -  Understand that making technology involves trade-offs. Pick your battles, you cannot solve all the industry problems on your own. Take care of yourself, keep an eye on your stress levels and watch for burn out. 
+
+- To survive in software engineering with any dignity and self-respect, you will need several of these 7 traits.
+- They are essential for professionals. 
+
+**Summary**
+
+- Both users and engineers encouter ethical issues when building or interacting with technology
+- The top ethical concerns of software engineers include military use, privacy, advertising and surveillance. 
+- Responses of software engineers to ethical concerns include negotiation, feet voting and refusal. 
+- Adopting "grounded ethics" can help you anticipate and prevent the negative implications and consequences of specific technologies. 
+- Tools for grounded ethics include ethical speculation, the FAPT framework and professional codes of conduct. 
+- Ethical speculation asks hypothetical questions to help us forsee the unintended consequences of technology. 
+- The FAPT framework provides structure and direction for ethical speculation. 
+- Professional codes of conduct contribute principles to guide our practise. 
