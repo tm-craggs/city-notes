@@ -1,1 +1,1 @@
-Definition - Let a, 
+Definition - Let {a, a1, a2 ... an} be non-negative integers and let x be an intefer such that x >= 2 and x > max{a, an}
