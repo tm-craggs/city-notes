@@ -2,4 +2,3 @@ Question 1: Suppose algorithms have been found to take the follow number of step
 
 - 14 steps - O(1) Constant Time
 - 3n<sup>2</sup> + 26 steps - O(n<sup>2</sup>) Quadratic Time
-
