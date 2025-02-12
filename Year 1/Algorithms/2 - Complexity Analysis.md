@@ -20,3 +20,12 @@ Recap: An algorithm is loosely defined as a sequence of computational steps tran
 
 **Tractability and Intractability**
 - A problem is called intractable if there is **no efficient** algorithm that solves it. 
+
+
+
+**Evaluating Algorithms**
+- The most important thing is correctness,
+- There are 2 types of correctness
+	- Total Correctness: For all inputs, the algorithm produces the desired results. 
+	- Partial Correctness: If the algorithm terminates, it produces the desired result. 
+	- Total correctness can be very hard to achieve, so partial correctness may be the best option
