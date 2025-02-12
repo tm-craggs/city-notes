@@ -1,6 +1,8 @@
 
 Assessment Structure
 
+- Final exam format - MCQ (invigilated)
+
 **Algorithms**
 
 - There are many broadly similar definitions of an algorithm
