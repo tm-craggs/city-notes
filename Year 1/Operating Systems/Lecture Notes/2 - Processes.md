@@ -216,4 +216,43 @@ PCB Seciton: Process Control information
 - Links and pointers to other processes
 - Interprocess communication
 - Process privilages
+- Memory management
+- Resources assigned to the process
+
+What happens when the OS assigns the CPU to a different process?
+
+![[Pasted image 20250221203535.png]]
+
+Memory Tables
+
+- Used to keep track of both main and secondary memory
+- Processes are maintained on secondary memory, using virtual memory or another swapping mechanism
+
+File Tables
+
+These tables provide information about
+- Existence of files
+- Location on secondary memory
+- Current status
+
+Process Tables
+
+- Maintained by OS to manage processes
+- Must include references to memory I/O, and file tables
+- These tables myst be accessible by the OS and are subject to memory management. 
+
+
+Creating a process
+
+- Assign a unique process ID
+- Allocate memory for process image
+- initalise the PCB
+- Set appropriate linkages
+- Create or expand other data structures
+
+
+Is the OS a process?
+
+- No, it is completely separate from all processes
+- OS routines run within the address space of each running process
 
