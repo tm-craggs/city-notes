@@ -52,3 +52,10 @@ It can be useful to think of programs as being passive, and processes being acti
 	- The CPU is switched among multiple applications. 
 	- The CPU and I/O devices can be used efficiently, securely, and reliably. 
 
+
+## Process Uses Program Elements
+
+Two essential program elements used by a process are
+- Program Code: Which may be shared with other processes that are executing the same program
+- A set of data associated with that code. 
+
