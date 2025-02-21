@@ -103,4 +103,15 @@ A process can be interpreted for many reasons, such as a timer interrupt or an I
 
 ## Response Time
 
-- The time taken for a process to get 
+- The time taken for a process from entering the queue, to being executed. 
+- However, a new process joining the queue may be ready to run, but blocked by others that are waiting for I/O results. 
+
+## Five-State Process Model
+
+- OS may limit the number of admitted processes
+- Now, new processes are placed in a **ready** state, separate from blocked processes that are waiting the results of I/O requests
+
+![[Pasted image 20250221154024.png]]
+
+![[Pasted image 20250221154324.png]]
+
