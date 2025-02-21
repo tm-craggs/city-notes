@@ -59,3 +59,15 @@ Two essential program elements used by a process are
 - Program Code: Which may be shared with other processes that are executing the same program
 - A set of data associated with that code. 
 
+## Interleaving Processes
+
+Trace
+- The behaviour of an individual process can be viewed as a sequence of instruction that execute for that process. 
+- The CPU can, itself, be viewed as interleaved traces of the various processes.
+
+Dispatcher
+- A small program that switches the CPU from one process to another 
+- More on the dispatcher in [[3 - CPU scheduling]]
+
+![[Pasted image 20250221151107.png]]
+
