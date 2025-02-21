@@ -33,5 +33,14 @@ A process is:
 - An executing set of related machine instructions. 
 - A unit of activity characterised by a single sequential thread of execution, a current state and an associated set of system resources. 
 
-It can be useful to think of programs as being passive, a
+It can be useful to think of programs as being passive, and processes being active.
+
+
+# "Passive" vs "Active"
+
+- Sheet music would be passive, while the music produced by an orchestra playing the sheet music is active. 
+- A cooking recipe is passive, while cooking with the recipe is active. 
+- In essence, the work done by following "passive" instructions is regarded as active.
+
+
 
