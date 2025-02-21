@@ -123,4 +123,5 @@ A process can be interpreted for many reasons, such as a timer interrupt or an I
 - Why isn't having more main memory a good solution for this?
 	- Main memory comes with extra cost. 
 	- In any case, new programs tend to require more and more main memory, so eventually the same problem will arise.
-	- 
+- The OS may limit the number of admitted processes, which may mean smaller queues, but the CPU will still spend a lot of time being idle, when all processes are waiting for I/O
+
