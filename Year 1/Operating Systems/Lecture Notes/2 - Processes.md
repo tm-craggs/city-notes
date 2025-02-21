@@ -184,4 +184,14 @@ What does a process look like to the OS?
 	- Processor state information
 	- Process control information
 
-PCB Section: Process Indentification
+PCB Section: Process Identification
+
+- The process ID is a unique number identifying the process. 
+	- An index into the primary process table. 
+	- Part of a mapping the OS uses to locate process information in control tables. 
+		- Memory tables
+		- I/O and file tables. 
+- When devices communicate, the process ID informs the OS of the desination of a particular communication. 
+- When a process creates another process, process IDs distinguish the parent process from its child processes. 
+
+PCB Seciton: Processor State information
