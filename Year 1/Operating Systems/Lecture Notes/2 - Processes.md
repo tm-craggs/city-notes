@@ -71,3 +71,13 @@ Dispatcher
 
 ![[Pasted image 20250221151107.png]]
 
+
+## Two-State process model
+
+- Simplest model:
+	- Process is created
+	- Process is always either running or not running
+	- Process terminates. 
+
+Created provess are put into the "not running" state by a long-term scheduler
+A 
