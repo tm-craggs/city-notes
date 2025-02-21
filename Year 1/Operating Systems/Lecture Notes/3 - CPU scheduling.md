@@ -27,3 +27,7 @@ Long-term scheduling - The decision to add to the pool of processes to be execut
 Medium-term scheduling - The decision to add to the number of processes that are partially or fully in main memory
 Short-term scheduling - The decision as to which available process will be executed by the processor. 
 I/O scheduling - The decision as to which processes pending I/O request shall be handled by an available I/O device. 
+
+
+![[Pasted image 20250221213229.png]]
+
