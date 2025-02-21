@@ -72,7 +72,7 @@ System-oriented criteria
 - Generally of minor important
 
 
-Priority Queues
+**Priority Queues**
 
 - In Unix systems, priorities range from -20 to 19.
 - The lower the value, the higher the priority. 
@@ -85,3 +85,10 @@ Issues
 - These processes are said to be experience "starvation"
 - Priority can be made to change with age or execution history to prevent this. 
 
+
+## Scheduling Policies
+
+- The scheduler obeys a scheduling policy with two parts
+- **Selection function**
+	- Determines which of the ready processes should run on the CPU. 
+	- May be based on priority 
