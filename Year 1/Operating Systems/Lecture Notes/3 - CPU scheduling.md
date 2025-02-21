@@ -41,3 +41,11 @@ I/O scheduling - The decision as to which processes pending I/O request shall be
 - Controls the degree of "multi-programming"
 	- The more processes are admitted, the smaller the percentage of time for each process to run
 	- Scheduler may limit the number of processes to provide satisfactory service to the current set of processes. 
+
+![[Pasted image 20250221213948.png]]
+
+## Medium-term Scheduler
+
+- Part of the OSes swapping function, moving processes out of main memory to secondary storage or vice-versa. 
+- "Swapping in/out" decisions are based on the need to manage the degree of multiprogramming (i.e. the mix of CPU bound and I/O bound processes)
+- 
