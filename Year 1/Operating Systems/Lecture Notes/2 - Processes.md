@@ -79,5 +79,25 @@ Dispatcher
 	- Process is always either running or not running
 	- Process terminates. 
 
-Created provess are put into the "not running" state by a long-term scheduler
-A 
+Created processes are put into the "not running" state by a long-term scheduler
+A short-term scheduler choose a not running process for the dispatcher to assign to run on the CPU
+A process can be interpreted for many reasons, such as a timer interrupt or an I/O interrupt.
+
+**Reasons for new process creation:**
+- New batch job
+- User logon
+- OS services
+- Spawned by existing process
+
+**Reasons for process termination**
+- Normal completion
+- Time limit
+- Insufficient computer resource available
+- Significant errors
+	- I/O
+	- Division by 0
+	- Arithmetic
+- Parent process request or termination 
+- User termination
+- Privileged instruction
+
