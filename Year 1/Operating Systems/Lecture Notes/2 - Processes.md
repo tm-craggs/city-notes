@@ -156,3 +156,12 @@ Qualities of a process in the suspended state
 
 ![[Pasted image 20250221173129.png]]
 
+What does a process look like to the OS?
+
+- A process is allocated a portion of main memory called the process image, this includes.
+- Sufficent memory to hold the code and program data for the process
+- A call stack, used to keep track of a process's procedure calls, and a parmeter passing between procedures.
+- Memory for a special data structure called the process control block (PCB) that contains the process's attributes. These attributes are used by the OS for process control. 
+- The precise location of the process image (in main memory ) will depend on the memory management scheme used by the OS. 
+- The precise location of a process image will depend on the memory 
+
