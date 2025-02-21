@@ -61,10 +61,27 @@ I/O scheduling - The decision as to which processes pending I/O request shall be
 
 ## Short-term Scheduling Criteria
 
+- Main objective is to allocate processor time in order to optimise certain aspects of system behaviour. 
+
 User oriented criteria
-- Relate to the behavior of the system as perceieved by the indivudal user
+- Relate to the behaviour of the system as perceived by the individual user
 - Important for all systems
 
-System-oritented criteria
-- Focus is on effective and efficient utilisation of the 
+System-oriented criteria
+- Focus is on effective and efficient utilisation of the CPU
+- Generally of minor important
+
+
+Priority Queues
+
+- In Unix systems, priorities range from -20 to 19.
+- The lower the value, the higher the priority. 
+- These can be changed by the user if needed. 
+- There are multiple queues for ready processes. 
+
+Issues
+- This can be a problem for low priority processes
+- There may be a constant stream of higher priority processes that the CPU is assigned to, leaving lower priority processes unserved. 
+- These processes are said to be experience "starvation"
+- Priority can be made to change with age or execution history to prevent this. 
 
