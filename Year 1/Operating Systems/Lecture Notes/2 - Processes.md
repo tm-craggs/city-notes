@@ -163,5 +163,25 @@ What does a process look like to the OS?
 - A call stack, used to keep track of a process's procedure calls, and a parmeter passing between procedures.
 - Memory for a special data structure called the process control block (PCB) that contains the process's attributes. These attributes are used by the OS for process control. 
 - The precise location of the process image (in main memory ) will depend on the memory management scheme used by the OS. 
-- The precise location of a process image will depend on the memory 
+- The precise location of a process image will depend on the memory management scheme used by the OS. 
 
+![[Pasted image 20250221175153.png]]
+
+## The role of the process control block
+
+- The most important data structure in an OS
+	- Contains all of a processes information needed by the OS
+	- PCBs are read and modified by virtually every module in the OS
+	- The collection of all PCBs defines the OS state
+	- Access to PBCs is easy: use process ID
+	- Protecting PCBs from being damaged is more challenging. 
+	- A bug in a single OS routine could damage a PCB 
+	- A design change in the structure or semantics of the PCB could affect a number of modules within the OS. 
+- The OS maintains information about a processes attributes in PCB
+- It resides in protected parts of memory. 
+- Consists of 3 sections. 
+	- Process identification
+	- Processor state information
+	- Process control information
+
+PCB Section: Process Indentification
