@@ -43,4 +43,12 @@ It can be useful to think of programs as being passive, and processes being acti
 - In essence, the work done by following "passive" instructions is regarded as active.
 
 
+## Management of Program Execution: Processes
+
+- Processes were first used by designers of Multics OS in the 60s
+- They are the **most important abstraction** provided by all modern OSes
+- The OS uses processes to ensure
+	- Resource are made available to multiple applications
+	- The CPU is switched among multiple applications. 
+	- The CPU and I/O devices can be used efficiently, securely, and reliably. 
 
