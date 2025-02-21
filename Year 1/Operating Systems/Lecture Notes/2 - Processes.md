@@ -141,4 +141,16 @@ Reasons for entering suspend state
 - Other OS reasons - The OS may suspend a background or utility process or a process that is suspectedly causing a problem. 
 - Interactive user request - A user may wish to suspend execution of a program for purposes such as debugging or in connection with the use of a resource. 
 - Timing - A process may be executed periodicall (system monitoring process) and may be suspended while waiting for the next time interval. 
-- 
+- Parent process request - A parent process may wish to suspend execution of a descendant to examine or modify the suspended process, or to coordinate the activity of various descendants. 
+
+
+Qualities of a process in the suspended state
+
+- A suspended process
+	- Is not immediately available for execution
+	- Is placed in a suspended state by a suspendinf agent
+	- May not be waiting for an event
+	- May not be removed from this state except by the suspending agent. 
+
+## Seven-State process model
+
