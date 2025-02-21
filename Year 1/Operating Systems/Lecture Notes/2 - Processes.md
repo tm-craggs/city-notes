@@ -101,3 +101,6 @@ A process can be interpreted for many reasons, such as a timer interrupt or an I
 - User termination
 - Privileged instruction
 
+## Response Time
+
+- The time taken for a process to get 
