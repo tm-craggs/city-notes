@@ -154,3 +154,5 @@ Qualities of a process in the suspended state
 
 ## Seven-State process model
 
+![[Pasted image 20250221173129.png]]
+
