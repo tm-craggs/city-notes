@@ -138,4 +138,7 @@ Weaknesses
 
 Reasons for entering suspend state
 - Swapping - The OS needs to release sufficent main memory to being in a process that is ready to execute. 
-- The 
+- Other OS reasons - The OS may suspend a background or utility process or a process that is suspectedly causing a problem. 
+- Interactive user request - A user may wish to suspend execution of a program for purposes such as debugging or in connection with the use of a resource. 
+- Timing - A process may be executed periodicall (system monitoring process) and may be suspended while waiting for the next time interval. 
+- 
