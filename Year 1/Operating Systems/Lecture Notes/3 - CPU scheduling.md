@@ -59,3 +59,12 @@ I/O scheduling - The decision as to which processes pending I/O request shall be
 - Makes the fine-grained decisions of which process to execute next.
 - Invoked when an event occurs that could result in the CPU being assigned to another process (interrupts, traps or system calls)
 
+## Short-term Scheduling Criteria
+
+User oriented criteria
+- Relate to the behavior of the system as perceieved by the indivudal user
+- Important for all systems
+
+System-oritented criteria
+- Focus is on effective and efficient utilisation of the 
+
