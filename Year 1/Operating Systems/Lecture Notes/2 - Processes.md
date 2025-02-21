@@ -194,4 +194,14 @@ PCB Section: Process Identification
 - When devices communicate, the process ID informs the OS of the desination of a particular communication. 
 - When a process creates another process, process IDs distinguish the parent process from its child processes. 
 
-PCB Seciton: Processor State information
+PCB Seciton: Process Control information
+
+- Used by the OS to assign the CPU to processes.
+	- Process state
+	- Priority
+	- Scheduling-related information
+	- Identity of any event the process may be waiting. 
+- Links and pointers to other processes
+- Interprocess communication
+- Process privilages
+
