@@ -48,4 +48,14 @@ I/O scheduling - The decision as to which processes pending I/O request shall be
 
 - Part of the OSes swapping function, moving processes out of main memory to secondary storage or vice-versa. 
 - "Swapping in/out" decisions are based on the need to manage the degree of multiprogramming (i.e. the mix of CPU bound and I/O bound processes)
-- 
+	- CPU bound processes would go much faster if the CPU was faster
+	- I/O bound processes would go significantly faster if I/O access was faster
+	- Considers the memory requirements of the swapped-in processes. This information is stored in each processes PCB
+
+## Short-term Scheduler
+
+- Decides which processes are assigned to the CPU by the dispatcher. 
+- Executes most frequently. 
+- Makes the fine-grained decisions of which process to execute next.
+- Invoked when an event occurs that could result in the CPU being assigned to another process (interrupts, traps or system calls)
+
