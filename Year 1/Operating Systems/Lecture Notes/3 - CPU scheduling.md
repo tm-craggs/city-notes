@@ -30,4 +30,14 @@ I/O scheduling - The decision as to which processes pending I/O request shall be
 
 
 ![[Pasted image 20250221213229.png]]
+![[Pasted image 20250221213432.png]]
 
+## CPU Scheduling Queues
+
+![[Pasted image 20250221213656.png]]
+## Long-term Scheduler
+
+- Determines which programs are admitted to the system for processing
+- Controls the degree of "multi-programming"
+	- The more processes are admitted, the smaller the percentage of time for each process to run
+	- Scheduler may limit the number of processes to provide satisfactory service to the current set of processes. 
