@@ -194,6 +194,18 @@ PCB Section: Process Identification
 - When devices communicate, the process ID informs the OS of the desination of a particular communication. 
 - When a process creates another process, process IDs distinguish the parent process from its child processes. 
 
+PCB Section: Processor State Information
+
+The contents of processor registers
+- User-visible registers
+- Control and status registers
+- Stack pointers
+
+Program status word
+- Contains condition codes plus other status information
+- EFLAGS register is an example of a PSW used by any OS running on x86
+- 
+
 PCB Seciton: Process Control information
 
 - Used by the OS to assign the CPU to processes.
