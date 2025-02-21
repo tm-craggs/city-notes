@@ -115,3 +115,12 @@ A process can be interpreted for many reasons, such as a timer interrupt or an I
 
 ![[Pasted image 20250221154324.png]]
 
+
+**How is the limited amount of main memory shared among many interleaved processes?**
+
+- CPUs are very fast, so queues can grow very quickly
+- With limited main memory, this can be a challenge. 
+- Why isn't having more main memory a good solution for this?
+	- Main memory comes with extra cost. 
+	- In any case, new programs tend to require more and more main memory, so eventually the same problem will arise.
+	- 
