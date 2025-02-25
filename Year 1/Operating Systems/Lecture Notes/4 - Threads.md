@@ -20,4 +20,8 @@
 	- A TCB (Thread Control Block) - This contains information nessesary for being assigned to and execution on the CPU. In contrast, the PCB contains this and more. (**Bold = part of the TCB**)
 	- An **execution** state (e.g. running, ready, blocked)
 	- A saved **thread context** when not running (saved values of CPU registers)
-	- Associated variables such as a program counter, stack pointer
+	- Associated variables such as a **program counter, stack pointer** and **frame pointer**
+	- An execution stack
+	- Some per-thread static storage for local variables
+	- Access to the memory resources of its parent processes, shared with all other threads. 
+
