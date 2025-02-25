@@ -57,4 +57,45 @@
 # Thread use in a single-user system
 
 - Foreground and background work, e.g. for a spreadsheet program. 
-	- One thread could manage the display of menus and read use 
+	- One thread could manage the display of menus and read use input, while another executes user commands and updates the spreadsheet.
+- Asynchrounus processing
+	- Among the threads in a word processor, one thread could periodcally autosave work. 
+- Speed of execution
+	- Computing with one batch of data, one thread, while reading the next batch, different thread.
+- Modular program structure
+	- Programs that incolce a variety of activities, sources and destinations of input and output, may be implemented as threads. (video games)
+
+# Thread execution state
+
+- The states of a thread are ready, waiting, and blocked. 
+- Operations associated with thread state-changes include:
+	- spawn (creating a thread)
+	- block (making an I/O request)
+	- unblock (completion of I/O)
+	- finish (completion of execution)
+
+# Scheduling and thread states
+
+- In an OS that supports threads, scheduling and dispatching is done on a thread basis. 
+- Most of the thread's state information is maintained in thread-level data structures. 
+- The state of a process can impact the state of all of its threads.
+	- Suspending a process involves suspending all threads
+	- Termination of a process terminations all threads of the same process. 
+
+# Examples of threads improving throughput
+
+![[Pasted image 20250225185355.png]]
+![[Pasted image 20250225185426.png]]
+
+# Types of threads
+
+**User-Level Thread (ULT)**
+- All thread management is done by the application
+- The kernel is not aware of the existence of the threads.
+
+**Kernel-Level Thread (KLT)**
+- Thread management is done by the kernel. 
+- No thread management code at application level, simply an API to the OS and kernel thread facility. 
+- The kernel maintains context information for the process as a whole, and for the threads thereof; 
+
+**Advantages of ULT**
