@@ -98,4 +98,38 @@
 - No thread management code at application level, simply an API to the OS and kernel thread facility. 
 - The kernel maintains context information for the process as a whole, and for the threads thereof; 
 
+![[Pasted image 20250225190113.png]]
+
+
 **Advantages of ULT**
+- Thread switching does not require kernel mode privilages
+- Scheduling can be application specific
+- ULTs can run on any OS
+
+**Disadvantages of ULT**
+- In a typical OS, many system calls result in blocking and incure overhead
+	- When a ULT makes a system call, all threads within a process become blocked. 
+- In pure ULT, a multithreaded application cannot take advantage of multiproccessing (using multiple CPU cores) for speed improvements
+- Some strategies for overcoming these disadvantages:
+	- "Jacketing" - A method for converting a blocking system call into a non-blocking system call. 
+	- Writing an applications as multiple processes rather than a single process. (Makes programming more complicated and incrases overhead)
+
+**Advantages of KLT**
+- Multiprocessing - The kernel can simultaneously schedule multiple threads from the same process on multiple processors.
+- If one thread in a process is blocked, the kernel can schedule another thread of the same process.
+- Kernel routines themselves can be multithreadded. 
+
+**Disadvantages of KLT**
+- Transfer of control from one thread to another within the same process, requires mode switches. 
+![[Pasted image 20250225190456.png]]
+
+# Combined Approaches
+
+- Thread creation is done completely in the user space, as well as most of the scheduling and synchronization
+- However, multiple ULTs from a single application are mapped into a smaller number of KLTs
+- This allows for multiprocessing
+
+![[Pasted image 20250225190648.png]]
+
+# Thread-Process Relationships
+
