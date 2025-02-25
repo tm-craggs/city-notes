@@ -14,3 +14,10 @@
 - The unit of dispatching/execution is a thread or lightweight process. 
 - The unit of resource ownership and protection is a process or task. 
 - Multithreading - The ability of an OS to support multiple, concurrent paths of execution within a single process. 
+- Thread within a process share resources, and have more opportunity to interfere and interact with each other. 
+- This makes thread synchronisation nessesary and easier than process syncing. 
+- Each thread has:
+	- A TCB (Thread Control Block) - This contains information nessesary for being assigned to and execution on the CPU. In contrast, the PCB contains this and more. (**Bold = part of the TCB**)
+	- An **execution** state (e.g. running, ready, blocked)
+	- A saved **thread context** when not running (saved values of CPU registers)
+	- Associated variables such as a program counter, stack pointer
