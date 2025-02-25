@@ -135,4 +135,10 @@
 
 ![[Pasted image 20250225190734.png]]
 
-# Why
+# Why aren't all programs multithreaded?
+
+**Amdahl's Law**
+
+![[Pasted image 20250225190903.png]]
+
+
