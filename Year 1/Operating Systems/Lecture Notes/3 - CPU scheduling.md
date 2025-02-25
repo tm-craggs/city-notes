@@ -108,4 +108,16 @@ Issues
 - Selection function: The steps involved are, 
 	- As each process becomes ready, it joins the ready queue. 
 	- When the currently running process terminates, the process that has been in the ready queue the longest is selected to run on the CPU 
-- Decision mode: non-preem
+- Decision mode: non-preemptive, so no timer interrupts
+- On it's on, not idea for time sharing-systems
+	- In a mix of long and short processes, it tends to impact short processes more
+	- Tends to benefit CPU bound processes, if there are many more I/O bound processes
+	- Tends to impact I/O bound processes, if there are many more CPU bound processes
+	- Can be very inefficent, leaving resources idle. 
+
+## Round Robin
+
+- Decision mode, so interrupts allowed
+- Preemption based on hardware clock. 
+- Also known as time slicing, each process in given a "slice" of time
+- Selection function - upong preempting a processes that has used up its time slice, the next process will be the one waiting the longest. 
