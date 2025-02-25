@@ -91,4 +91,20 @@ Issues
 - The scheduler obeys a scheduling policy with two parts
 - **Selection function**
 	- Determines which of the ready processes should run on the CPU. 
-	- May be based on priority 
+	- May be based on priority, resource requirements or the execution characteristics of the process.
+	- If based on execution characteristics, this can include:
+		- Time spent waiting so far
+		- Time spent running on the CPU so far
+		- The processes estimated total service time. 
+- **Decision Mode**
+	- Specifies the instant in time at which the selection function is invoked. 
+	- Two-categories
+		- Non-preemptive: running processes will continue unless they block themselves
+		- Preemptive: running provesses may be interrupted and moved to the ready state by the OS
+
+## First Come First-Served
+
+- Also known as first-in-first-out (FIFO) or a strict queuing scheme
+- Selection function: The steps involved are, 
+	- As each process becomes ready, it joins the ready queue. 
+	- When the currently running process terminates, the process that has been in the ready queue the longest is selected to run on the CPU 
