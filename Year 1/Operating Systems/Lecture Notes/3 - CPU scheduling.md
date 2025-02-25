@@ -108,3 +108,4 @@ Issues
 - Selection function: The steps involved are, 
 	- As each process becomes ready, it joins the ready queue. 
 	- When the currently running process terminates, the process that has been in the ready queue the longest is selected to run on the CPU 
+- Decision mode: non-preem
