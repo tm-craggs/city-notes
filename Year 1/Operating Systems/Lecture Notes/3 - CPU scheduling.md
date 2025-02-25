@@ -121,3 +121,16 @@ Issues
 - Preemption based on hardware clock. 
 - Also known as time slicing, each process in given a "slice" of time
 - Selection function - upong preempting a processes that has used up its time slice, the next process will be the one waiting the longest. 
+- A principle design issue is the length of time quantum (slice)to be used. 
+- Very effective for time-sharing or transaction systems
+- However, tends to impact I/O bound processes that spend a lot of time in blocked state.
+
+## Why the length of the time quantum matters
+
+- If a length of a time quantum is much larger than the total service time for most processes, then round robin degenrates to FCFS
+- If the length of time is much smaller than the total service time s for most processes, then round robin tends to impact average throughput and service time, even though response time is relatively high. 
+
+## Shortest process next
+
+- Decision mode: non-preemptive policy
+- 
