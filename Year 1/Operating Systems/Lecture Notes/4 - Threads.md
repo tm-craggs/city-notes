@@ -15,4 +15,18 @@
 
 ## Arrival and Service Times
 
-- Processes A B and C are admitted into the ready queue by the long term scheduler 
+- Processes A B C and D are admitted into the ready queue by the long term scheduler. 
+- Their estimated service times are (how long they need the CPU for) - 3, 6, 4 and 2
+- Service times are another name for CPU burst time
+- Assume:
+	- These processes are all CPU bound, with no I/O requests
+	- These processes will complete their execution sucessfully
+	- No overhead in assigning processes to the CPU or freeing the CPU from processes
+	- There are no other processes
+	- Processes join the ready queue as soon as they are created. 
+- Using an FCFS model, we now illustrate the order in which these processes are assigned to the CPU and how long they execute for, when they are assigned.
+- We compute the response time, average turnaround time, throughput and average wait time resulting from FCFS policy.
+
+FCFS - [[3 - CPU scheduling#First Come First-Served]]
+
+Decision
