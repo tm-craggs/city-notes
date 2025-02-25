@@ -133,3 +133,6 @@
 
 # Thread-Process Relationships
 
+![[Pasted image 20250225190734.png]]
+
+# Why
