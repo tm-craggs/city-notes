@@ -133,4 +133,7 @@ Issues
 ## Shortest process next
 
 - Decision mode: non-preemptive policy
-- 
+- Selection function - the process in the ready queue with the shortest expected processing time is selected next. Use FCFS to break ties. 
+- A short process will jump to the head of the queue, possibiliity of starvation for longer processes
+- A difficulty is knowing or estimating the expected time of processes. 
+- Programmers can give estimates, but if this turns out be be substantially smaller than the actual running time, the OS may abort the job. 
