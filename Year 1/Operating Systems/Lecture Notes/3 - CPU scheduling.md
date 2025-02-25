@@ -137,3 +137,16 @@ Issues
 - A short process will jump to the head of the queue, possibiliity of starvation for longer processes
 - A difficulty is knowing or estimating the expected time of processes. 
 - Programmers can give estimates, but if this turns out be be substantially smaller than the actual running time, the OS may abort the job. 
+
+## Shortest Remaining Time (SRT)
+
+- Decision mode - preemptive version of SPN, can preempt running process
+- Selection Function - When a process terminates, blocks or joins the ready queue, the short term scheduler chooses the process that has the shortest expected remaining processing time. 
+- Use FCFS to break ties
+- Risk of starvation for longer processes
+- Similar to SPN, SRT requires an estimate of the remaining time. 
+- Differs from other policies
+	- Tends to give better throughput from SPN, since shorter jobs never have to wait for longer ones. 
+	- Does no have the bias FCFS does to long processes. 
+	- Tends to give better throughput and better overhead than round robin
+	- Better overhead due to no timer interrupts and scheduler only needs to compare newly arrived processes, other ready processes don't need to be compared. 
