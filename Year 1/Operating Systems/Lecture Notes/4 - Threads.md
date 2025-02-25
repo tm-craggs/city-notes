@@ -27,6 +27,23 @@
 - Using an FCFS model, we now illustrate the order in which these processes are assigned to the CPU and how long they execute for, when they are assigned.
 - We compute the response time, average turnaround time, throughput and average wait time resulting from FCFS policy.
 
+## FCFS - Workings out
+
 FCFS - [[3 - CPU scheduling#First Come First-Served]]
 
-Decision
+**Working out throughput:**
+
+![[Pasted image 20250225174719.png]]
+![[Pasted image 20250225174738.png]]
+
+
+**Working out response time:**
+
+![[Pasted image 20250225174853.png]]
+
+**Working out turnaround time**
+
+![[Pasted image 20250225175000.png]]
+
+## Round Robin - Workings out
+
