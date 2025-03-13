@@ -80,7 +80,21 @@ we have: invariant AND NOT condition
 We classify algorithms according to the order of their cost function
 
 **O(1) - Constant**
+- Algorithm always takes the same amount of time. 
+- Occurs only in rare cases of good fortune (first element)
 
 **O(n) - Linear**
+- Time taken grows in direct proportion to input size. (good)
+- Typically for problems requiring a limited number of passes over the input. (sequential search)
+- Any algorithm that examines all its input must take at least linear time
 
-**O(n<sup>2</sup>)** 
+**O(n<sup>2</sup>) - Quadratic**
+- The time taken grows in proportion to the square of the input size (ok)
+- This often occurs with algorithms involving two nested loops. (bubble sort)
+
+**O(n<sup>3</sup>) - Cubic**
+- The time taken grows in proportion of the cube of the input size (bad)
+- This often occurs in algorithms with three nested loops
+
+**O(n<sup>k</sup>) - Polynomial**
+- This is the limit of what is usuall
