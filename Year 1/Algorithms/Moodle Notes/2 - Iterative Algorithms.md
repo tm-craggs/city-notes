@@ -25,5 +25,18 @@ However, separating the two simplifies the problem. Partial correctness is easie
 
 For example, take a simple algorithm to find the largest item in an array. 
 
-````Ps
+
+``` Pseudocode
+max = a[0]
+i = 1
+
+// Invariant: i <= i <= n and max is largest of a[0] ... a [i-1]
+WHILE i < n
+	IF a[i] > max
+		max = a[i]
+	i = i + 1
+	
+RETURN max
 ```
+
+The loop invariant is not executed, it is a comment. 
