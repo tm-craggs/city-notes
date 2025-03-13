@@ -77,6 +77,31 @@ we have: invariant AND NOT condition
 
 # Nested loops
 
+- Consider the problem of testing if all the elements of an array are different, we'll need to go through all the elements. For each element we'll need to go through the others and check they're different to this one. This will require 2 loops, one inside of the other. 
+- We place an invariant on each loop. 
+
+
+```
+
+i = 1
+diff = true
+
+// invariant: 0 ≤ i ≤ n and diff ≡ a[0] ... a[i-1] all different
+WHILE i < n
+	j = 0
+	// invariant:0 ≤ i ≤ n and diff ≡ a[0] ... a[i-1] all different AND a[i] different from a[0] ... a[j-1]
+	WHILE j < i
+		IF a[j] = a[i]
+			diff = false
+		j = j + 1
+	i = i + 1
+RETURN DIFF
+
+```
+
+
+
+
 # Analysing Algorithms
 
 
