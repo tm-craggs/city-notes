@@ -23,7 +23,7 @@ However, separating the two simplifies the problem. Partial correctness is easie
 
 **Loop invariant** - A property that holds before and after each execution of the loop. Example: Each time the execution reaches the WHILE line. 
 
-For example, take a simple algorithm to find the largest item in an array. 
+For example, take a simple algorithm to find the largest item in an array. It is useful to identify a key property of the loop. In this case, a property that holds for each row of the table at right, we add it to our description of the algorithm. 
 
 
 ``` Pseudocode
@@ -40,3 +40,5 @@ RETURN max
 ```
 
 The loop invariant is not executed, it is a comment. 
+
+In more detail, stating a loop invariant means we have to establish that property before the loop starts. 
