@@ -75,26 +75,36 @@ we have: invariant AND NOT condition
 
 ```
 
+# Nested loops
+
+# Analysing Algorithms
+
+
+
 # Complexity Classes
 
 We classify algorithms according to the order of their cost function
 
-**O(1) - Constant**
+**O(1) - Constant Time**
 - Algorithm always takes the same amount of time. 
 - Occurs only in rare cases of good fortune (first element)
 
-**O(n) - Linear**
+**O(n) - Linear Time**
 - Time taken grows in direct proportion to input size. (good)
 - Typically for problems requiring a limited number of passes over the input. (sequential search)
 - Any algorithm that examines all its input must take at least linear time
 
-**O(n<sup>2</sup>) - Quadratic**
+**O(n<sup>2</sup>) - Quadratic Time**
 - The time taken grows in proportion to the square of the input size (ok)
 - This often occurs with algorithms involving two nested loops. (bubble sort)
 
-**O(n<sup>3</sup>) - Cubic**
+**O(n<sup>3</sup>) - Cubic Time**
 - The time taken grows in proportion of the cube of the input size (bad)
 - This often occurs in algorithms with three nested loops
 
-**O(n<sup>k</sup>) - Polynomial**
-- This is the limit of what is usuall
+**O(n<sup>k</sup>) - Polynomial Time**
+- This is the limit of what is usually considered feasible. 
+- Although it can be very expensive for larger k. 
+- Some algorithms and problems are even worse. 
+
+There are more categories such as Logarithmic time. 
