@@ -75,6 +75,12 @@ we have: invariant AND NOT condition
 
 ```
 
+- This variable i in this algorithm is a **loop control variable**
+- **Loop Control Variable**
+	- Initialised before the loop starts
+	- Used in the test whether to continue looping
+	- Modified in the body of the loop
+
 # Nested loops
 
 - Consider the problem of testing if all the elements of an array are different, we'll need to go through all the elements. For each element we'll need to go through the others and check they're different to this one. This will require 2 loops, one inside of the other. 
@@ -100,11 +106,25 @@ RETURN DIFF
 ```
 
 
+This algorithm has 2 loop control variables, keeping these separate makes it easier to work out when the loops will terminate
 
+Good practise for clear code:
+- Do not modify a loop control variable in an inner loop. 
+- Modify the loop control variable in as few places as possible. 
+- Many languages support this special case directly, e.g. in languages of the C family (including C++, Java and C#), this is written `for (i = A; i < B; i++) ...`
 
 # Analysing Algorithms
 
+- We want to measure the number of steps taken by the algorithm, usually in the worst case. 
+- We need to consider:
+	- How to measure the size of the input to the algorithm. 
+	- What a fundamental step for the algorithm is
+	- What input gives the most number of steps (worst case)
+- Then we want to compare the rates of growth of different functions.
 
+**Input size**
+- The input size is usually straightforward to decide upon, simply by working out what aspect of the input is used in the algorithm. 
+- 
 
 # Complexity Classes
 
