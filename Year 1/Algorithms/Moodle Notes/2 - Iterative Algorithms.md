@@ -140,6 +140,10 @@ Good practise for clear code:
 - In the below graph, we can see n<sup>2</sup> eventually overtakes c<sup>*</sup>n for any constant c. We say that n<sup>2</sup> **dominates** c<sup>*</sup>n. Similarly, n<sup>3</sup> **dominates** c<sup>*</sup>n<sup>2</sup> and so on.
 
 ![[Pasted image 20250313153749.png]]
+
+**Order-of-growth notation**
+- We take a simplified view of a cost function, restricting our attention to the term that grows fastest for large inputs, and ignoring constant factors. 
+- Thus, we might say the worst-case-complexity 
 # Complexity Classes
 
 We classify algorithms according to the order of their cost function
