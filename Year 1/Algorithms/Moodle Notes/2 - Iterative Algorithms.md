@@ -41,4 +41,46 @@ RETURN max
 
 The loop invariant is not executed, it is a comment. 
 
-In more detail, stating a loop invariant means we have to establish that property before the loop starts. 
+In more detail, stating a loop invariant means we have to establish that property before the loop starts and at the end of the body, but it also gives us properties that hold and the start of the loop body and the end of the loop. 
+
+
+```Pseudocode
+max = a[0]
+i = 1
+
+// Establish invariant: i <= i <= n and max is largest of a[0] ... a [i-1]
+WHILE i < n
+	// we have: 1 <= n < n and max is largest of a[0] ... a[i-1]
+	IF a[i] > max
+		max = a[i]
+	i = i + 1
+	// establish: 1 < i <= n and max is largest of a[0] ... a[i-1]
+
+we have: 1 < i <= n and max is largest of a[0] ... a[i-1]
+
+RETURN max
+```
+
+In general:
+
+```
+establish: invariant
+
+WHILE condition:
+	we have: invariant AND condition
+	loop body
+	establish: invariant
+
+we have: invariant AND NOT condition
+
+```
+
+# Complexity Classes
+
+We classify algorithms according to the order of their cost function
+
+**O(1) - Constant**
+
+**O(n) - Linear**
+
+**O(n<sup>2</sup>)** 
