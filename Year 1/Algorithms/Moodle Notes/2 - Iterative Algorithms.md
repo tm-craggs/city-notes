@@ -128,6 +128,18 @@ Good practise for clear code:
 	- The size of a graph might be the number of nodes or edges or both
 	- The size of a logical formula might be the number of variables, or the number of connectives. 
 
+**Counting steps**
+- To work out the number of steps an algorithm may take (given an input size of n)
+	- Identify the fundamental step of the algorithm
+	- Set up a mathematical formula describing the number of times this step occurs, this should depend on (if anything) the size of the input. 
+	- Manipulate this to establish a succinct description of the number of steps. 
+
+**Comparing cost functions**
+- If we have reduced the costs of two algorithms to cost functions f(n) and g(n), we wish to compare these. 
+- Smaller cost is better, but we are most concerend with the costs for large input sizes.
+- In the below graph, we can see n<sup>2</sup> eventually overtakes c<sup>*</sup>n for any constant c. We say that n<sup>2</sup> **dominates** c<sup>*</sup>n. Similarly, n<sup>3</sup> **dominates** c<sup>*</sup>n<sup>2</sup> and so on.
+
+![[Pasted image 20250313153749.png]]
 # Complexity Classes
 
 We classify algorithms according to the order of their cost function
