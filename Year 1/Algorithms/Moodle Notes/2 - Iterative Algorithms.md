@@ -123,8 +123,10 @@ Good practise for clear code:
 - Then we want to compare the rates of growth of different functions.
 
 **Input size**
-- The input size is usually straightforward to decide upon, simply by working out what aspect of the input is used in the algorithm. 
-- 
+- The input size is usually straightforward to decide upon, simply by working out what aspect of the input is used in the algorithm. For example:
+	- An array of n elements has size n (in an algorithm where the fundamental steps involve elements of a list)
+	- The size of a graph might be the number of nodes or edges or both
+	- The size of a logical formula might be the number of variables, or the number of connectives. 
 
 # Complexity Classes
 
