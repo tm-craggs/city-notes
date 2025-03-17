@@ -103,3 +103,24 @@ WHILE i < n
 
 ![[Pasted image 20250317171301.png]]
 
+**Insertion**
+
+- To complete the algorithm, we need to flesh out the step `insert a[i] in place in a[0...i-1]`
+- The idea is to search backwards from position i for the right position. 
+- As we search, we move the elements greater than `a[i]` that we encounter one place to the right. 
+- Then we find the place where `a[i]` belongs, we will have a slot to put in
+
+Here is the pseudocode to do the insertion
+
+```
+tmp = a[i]
+j = i
+WHILE j > 0 AND a[j-1] > tmp
+	a[j] = a[j-1]
+	j--
+a[j] = tmp
+```
+
+At the end of the loop, all the positions `a[j+1..i]` are larger than `tmp`, and either
+- j = 0, so copying `tmp` to `a[0]` leaves `a[0..j-1]` in order, or
+- all the elements `a[0..j-1]` are less than or equal to `tmp`, so copying `tmp` to `a[j]` leaves `a[0..i]` in order.
