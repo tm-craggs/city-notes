@@ -83,7 +83,23 @@ WHILE i < n-1
 - This means that selection sort is not an adaptive sort. 
 - The swap operation can change the order of equal elements, so selection sort is not a stable sort. 
 
-Efficency
-- There are some obvious ineffiencies in selection sort
+Efficiency
+- There are some obvious inefficiencies in selection sort
 	- The swap operations moves a small element down, but it moves a more-or-less random element up. Sometimes it moves a fairly small element up and then back down again. Quicksort (week 7) also uses swaps over long distances, but it always moves a large element up at the same time as it moves a small one down. 
-	- Selection sort has to se
+	- Selection sort has to search through the whole remainder of the array to find the least element. Heapsort speeds this up with a clever organisation of the rest of the array called a heap. (year 2)
+
+# Insertion Sort
+
+- Insertion sort operations by building an ordered sub array on the left, expanding it by inserting each unsorted position into its appropriate place in the ordered sub-array. 
+- Here is a high-level description of this strategy, leaving the detail of how we do the insertion later. 
+- Notice that we start with i = 1, because the sub-array containing of just the first element is trivially ordered. 
+
+```
+i = 1
+WHILE i < n
+	insert a[i] in place in a[0...i-1]
+	i++
+```
+
+![[Pasted image 20250317171301.png]]
+
