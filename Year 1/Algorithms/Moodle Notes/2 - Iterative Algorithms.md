@@ -178,7 +178,29 @@ RETURN i
 	- The worst case occurs when x is not in the array, the algorithm compares it with every item in the array. n steps. 
 	- The best case is when x occurs as as the first element of the array, so only one comparison is needed. 
 	- If the first x occurs at a random position in the array, the algorithm takes between 1 and n steps, with an average of (n+1/2)
-- The worst c
+- The worst case time complexity is O(n), linear time
+- The average case time when the value is present is also O(n)
+
+Analysis of all different
+
+
+```
+i = 1
+diff = true
+WHILE i < n
+	j = 0
+	WHILE j < i
+		IF a[j] = a[i]
+			diff = false
+		j = j + 1
+	i = i + 1
+RETURN diff
+```
+
+- Again, we use the size n of the array as input size. 
+- This algorithm compares each of the n elements with the n-1 other elements, but it only compares each pair once, so it requires n(n-1)/2 comparisons, that is n<sup>2</sup>/2 - n/2
+- This is O(n<sup>2<sup></sup></sup>), quadratic time. 
+- Algorithms that have a single nested loop are usually O(n<sup>2</sup>)
 
 # Complexity Classes
 
