@@ -154,10 +154,8 @@ Good practise for clear code:
 
 Select a random element:
 ```
-
 i = random number between 0 and n-1
 RETURN a[i]
-
 ```
 
 - This algorithm has input size n, the length of the array
@@ -168,14 +166,19 @@ RETURN a[i]
 Analysis of sequential search
 
 ```
-
 i = 0
 WHILE i < n AND a[i] != x
 	i = i + 1
 RETURN i
-
 ```
 
+- For the input size, we use the size of the array n. 
+- The steps counted are the comparisions of the array elements with x. 
+- The number of steps executed by the algorithm varies for inputs of the same length
+	- The worst case occurs when x is not in the array, the algorithm compares it with every item in the array. n steps. 
+	- The best case is when x occurs as as the first element of the array, so only one comparison is needed. 
+	- If the first x occurs at a random position in the array, the algorithm takes between 1 and n steps, with an average of (n+1/2)
+- The worst c
 
 # Complexity Classes
 
