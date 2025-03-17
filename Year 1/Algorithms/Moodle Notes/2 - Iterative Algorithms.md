@@ -143,7 +143,40 @@ Good practise for clear code:
 
 **Order-of-growth notation**
 - We take a simplified view of a cost function, restricting our attention to the term that grows fastest for large inputs, and ignoring constant factors. 
-- Thus, we might say the worst-case-complexity 
+- Thus, we might say the worst-case-complexity of an algorithm is O(n<sup>2</sup>), meaning that for large inputs, its cost function f(n) grows no faster than n<sup>2</sup>
+- For polynomial functions, the complexity class is quite easy to work out. 
+	- 1, 23, and 1000 are all O(1)
+	- 5n + 4 is O(n)
+	- 20n<sup>2</sup> + 56n + 478 is O(n<sup>2</sup>)
+	- And so on 
+
+**Examples:**
+
+Select a random element:
+```
+
+i = random number between 0 and n-1
+RETURN a[i]
+
+```
+
+- This algorithm has input size n, the length of the array
+- The basic step is an array lookup
+- The number of steps taken by this algorithm is always 1
+- Therefore, it is constant time, O(1)
+
+Analysis of sequential search
+
+```
+
+i = 0
+WHILE i < n AND a[i] != x
+	i = i + 1
+RETURN i
+
+```
+
+
 # Complexity Classes
 
 We classify algorithms according to the order of their cost function
