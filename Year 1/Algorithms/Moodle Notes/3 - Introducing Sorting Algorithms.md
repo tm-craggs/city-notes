@@ -76,3 +76,14 @@ WHILE i < n-1
 	i = i + 1
 ```
 
+**Evaluation of selection sort**
+
+- Selection sort uses O(1) extra space, for several temporary variables. 
+- The time complexity can be seen from the structure of the loops, O(n<sup>2</sup>)
+- This means that selection sort is not an adaptive sort. 
+- The swap operation can change the order of equal elements, so selection sort is not a stable sort. 
+
+Efficency
+- There are some obvious ineffiencies in selection sort
+	- The swap operations moves a small element down, but it moves a more-or-less random element up. Sometimes it moves a fairly small element up and then back down again. Quicksort (week 7) also uses swaps over long distances, but it always moves a large element up at the same time as it moves a small one down. 
+	- Selection sort has to se
