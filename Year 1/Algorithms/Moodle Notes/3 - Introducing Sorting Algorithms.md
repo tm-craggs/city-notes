@@ -41,4 +41,38 @@ WHILE i < n-1
 	i = i + 1
 ```
 
-**Finding the smallest elee**
+![[Pasted image 20250317165403.png]]
+
+**Finding the smallest element**
+
+- To complete the algorithm, we need to spell out the line
+- `min = index of the smallest element in a[i...n-1]`
+- This is similar to the maximum exercise from week 1
+
+```
+min = i
+j = i+1
+WHILE j < n
+	IF a[j] < a[min]
+		min = j
+	j = j + 1
+```
+
+- When we reach the end of this loop, j = n, so the invariant tells us that min is the index of the smallest element in the array. 
+- This is the position we want to swap with i. 
+- It can be that min = i, in which case the swap is unnessesary but harmless. 
+- Plugging the two algorithms together makes the full selection sort algorithm
+
+```
+i = 0
+WHILE i < n-1
+	min = i
+	j = i + 1
+	WHILE j < n
+		IF a[j] < a[min]
+			min = j
+		j = j + 1
+	Swap(a, i, min)
+	i = i + 1
+```
+
