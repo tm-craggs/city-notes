@@ -23,4 +23,22 @@ We will need to demonstrate the operations of this algorithms on sample inputs, 
 	- An **adaptive sort** is one that performs better on partially sorted inputs, and takes O(n) time on sorted or almost sorted inputs. 
 	- This can be useful in some applications
 - What happens if there are repeated keys?
-	- A **stable sort** is one that preserves the relative ordering of element
+	- A **stable sort** is one that preserves the relative ordering of elements that compare as equal
+	- For example, is there are 2, 4s in an array, their position will not be swapped. The first 4 will always be before the second 4 in the array. 
+- This is a useful property, for example we can sort people by first name, and then sort by surname. We will get them in surname, first name order.
+- We can make any algorithm stable by including the original position in the sort, but this costs O(n) space and extra time. 
+
+# Selection Sort
+
+- The idea of selection sort is to build up a collection of the smallest elements, in order, at the start of the array. 
+- To add a new element to this collections, fins the smallest in what is left, and swap it with the first element after our position. 
+
+```
+i = 0
+WHILE i < n-1
+	min = index of the smallest element in a[i..n-1]
+	Swap(a, i, min)
+	i = i + 1
+```
+
+**Finding the smallest elee**
