@@ -124,3 +124,32 @@ a[j] = tmp
 At the end of the loop, all the positions `a[j+1..i]` are larger than `tmp`, and either
 - j = 0, so copying `tmp` to `a[0]` leaves `a[0..j-1]` in order, or
 - all the elements `a[0..j-1]` are less than or equal to `tmp`, so copying `tmp` to `a[j]` leaves `a[0..i]` in order.
+
+Plugging this in gives the complete insertion sort algorithm
+
+```
+i = 1
+WHILE i < n
+	tmp = a[i]
+	WHILE j > 0 AND a[j-1] > tmp
+		a[j] = a[j-1]
+		j++
+	a[j] = tmp
+	i++
+```
+
+# Evaluating Insertion Sort
+
+- Insertion sort uses O(1) extra space, for several temporary variables. 
+- Again, we can work out the time complexity by examining the loops. O(n<sup>2</sup>)
+- However, the inner loop of this algorithm has an extra condition, which depends on input data. 
+	- If `a[i]` is at least as big as the preceding elements, the inner loop exits after only one comparison.
+	- The inital array is already ordered, the algorithm does only n-1 comparisons, which is O(n). 
+	- Thus, insertion sort is an adaptive sort. 
+- The same test ensures that we never move `a[i]` past an equal element. Thus, insertion sort is a stable sort. 
+
+# Can we do better?
+
+- One idea for a faster sort is to move things over longer distances by first sorting the even and odd positions separatley using a simple adaptive sort. 
+
+![[Pasted image 20250317173157.png]]
