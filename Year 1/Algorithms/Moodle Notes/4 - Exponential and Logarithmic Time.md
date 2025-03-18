@@ -28,4 +28,23 @@
 
 ##### Subset Sum Algorithm
 
-- The straightforward algorithm for the subset sum problem 
+- The straightforward algorithm for the subset sum problem is similar. 
+- Try each selection and choose the largest one that fits.
+
+![[Pasted image 20250318123348.png]]
+
+- For three items, the number of selections to check is 2x2x2 = 2<sup>3</sup> = 8
+- In general, for n items the number is selections to check is 2<sup>n</sup>
+
+##### Powers of two
+
+- The cost functions of the satisifibility tester and the subset sum algorithm are powers of two, which increase very steeply. 
+- These algorithms do not scale well. 
+
+![[Pasted image 20250318123609.png]]
+
+## Big-O notation revisited
+
+- We have discussed big o for polynomial functions, however for other cost function, a more generalised distinction is needed. 
+- Consider the function 3n<sup>2</sup> + 27n<sup>2</sup> + 10n + 52
+- 
