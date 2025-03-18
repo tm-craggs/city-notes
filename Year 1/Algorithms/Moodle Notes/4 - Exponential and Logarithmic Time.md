@@ -66,4 +66,5 @@
 
 ##### Exponential Growth
 
-- The graph compares the rate of growth of 2<sup>n</sup> with that of n<sup>3</sup> 
+- The graph compares the rate of growth of 2<sup>n</sup> with that of n<sup>3</sup>
+- For small values of n, 2<sup>n</sup> <= 
