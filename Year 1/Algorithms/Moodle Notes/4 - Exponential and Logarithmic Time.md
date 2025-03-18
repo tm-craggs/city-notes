@@ -53,3 +53,17 @@
 
 ![[Pasted image 20250318124745.png]]
 
+##### Formal Definition of big-O notation
+
+- A function f(n) belongs to the complexity class O(g(n)) if there is a size N and a constant c such that 
+	- For all n > N, f(n) <= c g(n)
+- There are two constant, both of which can be as big as we like.
+	- N, which means only the behaviour for large n matters
+	- c, which means that we ignore constant factors. 
+- A consequence of this definition is that if a function is O(n<sup>2</sup>) then it is also O(n<sup>3</sup>), O(n<sup>4</sup>) etc...
+- However, we generally prefer the tightest class. 
+
+
+##### Exponential Growth
+
+- The graph compares the rate of growth of 2<sup>n</sup> with that of n<sup>3</sup> 
