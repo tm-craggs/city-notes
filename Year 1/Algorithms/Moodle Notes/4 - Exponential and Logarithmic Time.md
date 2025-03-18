@@ -47,4 +47,9 @@
 
 - We have discussed big o for polynomial functions, however for other cost function, a more generalised distinction is needed. 
 - Consider the function 3n<sup>2</sup> + 27n<sup>2</sup> + 10n + 52
-- 
+- When we say this is O(n<sup>3</sup>), we mean it grows no faster than n<sup>3</sup> 
+- To compare the rates of growth of these two functions, we can plot their ratio. f(n)/n<sup>3</sup>
+- We can see that for large n, the ratio between the two functions has an upper bound. 
+
+![[Pasted image 20250318124745.png]]
+
