@@ -17,4 +17,15 @@
 	- (p OR q) AND NOT p
 	- NOT p and ((NOT q OR v) -> p)
 	- And so on...
-- One method for determining whether or not a formula 
+- A method for determining whether or not a formula is satisfiable using truth tables:
+	- Generate all rows of the truth table for f
+	- If any row gives true, then f is satisfiable, else f is not satisfiable
+- The input to the algorithm is the formula f, a measure of size is the number of distinct variables.
+	- If there is only one variable, we must test 2 rows
+	- If there are two variables, we must test 2x2 = 4 rows
+	- If there are three variables, we must test 2x2x2 = 8 rows. 
+	- For n variables, 2<sup>n</sup> rows. 
+
+##### Subset Sum Algorithm
+
+- The straightforward algorithm for the subset sum problem 
