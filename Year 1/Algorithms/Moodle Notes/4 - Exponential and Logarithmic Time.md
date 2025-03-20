@@ -69,3 +69,14 @@
 - The graph compares the rate of growth of 2<sup>n</sup> with that of n<sup>3</sup>, by plotting 2<sup>n</sup>/n<sup>3</sup>
 - For small values of n, 2<sup>n</sup> <= n<sup>3</sup>
 - This means that the function 2<sup>n</sup> is not O(n)
+
+
+##### Operations on order functions
+
+- Order notation simplifies calculations
+- One common operations arises when an algorithm does one thing after another. 
+- We want to add the costs of both parts
+- For example:
+	- **Property** - If f<sub>1</sub>(n) and f<sub>2</sub>(n) are both O(g(n)) then f<sub>1</sub>(n) + f<sub>2</sub>(n) is also O(g(n))
+	- **Proof** - Definition shows that there are constants N<sub>1</sub> ,N<sub>2</sub>, <sub>c<sub>1</sub></sub> and c<sub>2</sub> such that
+		- 
