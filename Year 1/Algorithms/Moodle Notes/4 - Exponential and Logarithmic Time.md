@@ -97,6 +97,35 @@
 
 - Binary Search is logarithmic time, O(log n)
 - If the array in arranged in order, we can do much better than linear search. 
-- We compare the middle value (mid) with the key value 
-	- If mid
+- We compare the middle value (mid) with the key value (k)
+	- If mid = k, then we are done
+	- If mid < k, we only need to search mid+1 ... n-1
+	- If mid > k, we only need to search 0 ... mid - 1
+- Repeating this process will halve the searching array each time. 
+- We need two variables, low and high, to track the search area.
+- If the key is not in the array, they will eventually cross. 
 
+
+```
+BinarySearch(a[0..n-1], k)
+
+low = 0
+high = n-1
+
+WHILE low <= high
+	mid = (low + high) / 2
+	
+	IF a[mid] = k
+		RETURN mid
+	ELSE IF a[mid] < k
+		LOW = mid + 1
+	ELSE
+		high = mid - 1
+
+RETURN -1
+```
+
+
+##### Analysis of Binary Search
+
+- The loop has 2 control variables,
