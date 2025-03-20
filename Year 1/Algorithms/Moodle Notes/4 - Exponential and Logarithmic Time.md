@@ -128,4 +128,17 @@ RETURN -1
 
 ##### Analysis of Binary Search
 
-- The loop has 2 control variables,
+- The loop has 2 control variables, low and high. 
+- The fundamental step is examination of an element of the array, which is the same as an iteration of the loop. 
+- On each iteration of the loop, we halve halve high-low+2 until it reaches 1
+
+
+##### Reminder: Logarithms
+
+- The logarithm of a number is the exponent to which another fixed value, the base, must be raised to produce that number. 
+- We shall assume the base is 2. 
+	- For example, log(32), the logarithm of 32 to base 2 is 5, because 32 = 2<sup>5</sup>
+	- More generally, if y = 2<sup>x</sup> then x = log(y)
+- That is, the logarithm graph is the mirror image of the exponential graph about the diagonal
+- Logathimic cimplexity is as good, and exponential complexity is bad
+- O(log n) grows much more slowly than O(n)
