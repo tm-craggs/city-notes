@@ -89,3 +89,14 @@
 
 
 
+## Searching an Array
+
+- We looked at sequential search in week 3, which takes O(n) time. 
+
+##### Binary Search
+
+- Binary Search is logarithmic time, O(log n)
+- If the array in arranged in order, we can do much better than linear search. 
+- We compare the middle value (mid) with the key value 
+	- If mid
+
