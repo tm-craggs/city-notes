@@ -84,4 +84,8 @@
 	- If N is the larger of N<sub>1</sub> and N<sub>2</sub> then
 		-  For all n > N, (f<sub>1</sub>(n) + f<sub>2</sub>(n))/g(n) ≤ c<sub>1</sub> + c<sup>2</sup>
 		- i.e. f<sub>1</sub>(n) + f<sub>2</sub>(n) is also O(g(n))
+	- 4 n3 + 6 n3 is O(n3), because both functions are O(n3).
+	- 3 n20 + 2n is O(2n), because both functions are O(2n). The faster-growing 2n dominates n20
+
+
 
