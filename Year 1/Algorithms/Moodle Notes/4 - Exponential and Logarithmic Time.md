@@ -86,6 +86,9 @@
 		- i.e. f<sub>1</sub>(n) + f<sub>2</sub>(n) is also O(g(n))
 	- 4 n3 + 6 n3 is O(n3), because both functions are O(n3).
 	- 3 n20 + 2n is O(2n), because both functions are O(2n). The faster-growing 2n dominates n20
+- We can use this to work out the complexity of methods from their parts.
+	- If a method performs an operation taking O(n<sup>2</sup>) time, followed by another taking the same time, the whole thing takes O(2<sup>n</sup>) time
+	- If a method performs an operation taking O(n<sup>3</sup>) time, followed by another operation taking O(2<sup>n</sup>) time, the whole thing takes O(2<sup>n</sup>) time. 
 
 
 
@@ -140,5 +143,15 @@ RETURN -1
 	- For example, log(32), the logarithm of 32 to base 2 is 5, because 32 = 2<sup>5</sup>
 	- More generally, if y = 2<sup>x</sup> then x = log(y)
 - That is, the logarithm graph is the mirror image of the exponential graph about the diagonal
-- Logathimic cimplexity is as good, and exponential complexity is bad
+- Logarithmic complexity is as good, and exponential complexity is bad
 - O(log n) grows much more slowly than O(n)
+
+## Complexity Classes
+
+ **O(log n) (Logarithmic Time)**
+ - The amount of time grows logarithmically (good)
+ - This is typical of algorithm that repeatedly cut the size of the problem by some fraction (binary search)
+
+**O(n log n) (Log-linear)**
+- Fast sorting algorithms (week 7)
+- 
