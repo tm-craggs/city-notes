@@ -79,4 +79,9 @@
 - For example:
 	- **Property** - If f<sub>1</sub>(n) and f<sub>2</sub>(n) are both O(g(n)) then f<sub>1</sub>(n) + f<sub>2</sub>(n) is also O(g(n))
 	- **Proof** - Definition shows that there are constants N<sub>1</sub> ,N<sub>2</sub>, <sub>c<sub>1</sub></sub> and c<sub>2</sub> such that
-		- 
+		- For all n > N<sub>1</sub>, f<sub>1</sub>(n)/g(n) <= c<sub>1</sub> and
+		- For all n > N<sub>2</sub>, f<sub>2</sub>(n)/g(n) <= c<sub>2</sub>
+	- If N is the larger of N<sub>1</sub> and N<sub>2</sub> then
+		-  For all n > N, (f<sub>1</sub>(n) + f<sub>2</sub>(n))/g(n) ≤ c<sub>1</sub> + c<sup>2</sup>
+		- i.e. f<sub>1</sub>(n) + f<sub>2</sub>(n) is also O(g(n))
+
