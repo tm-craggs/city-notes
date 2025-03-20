@@ -110,3 +110,31 @@ Power(2,5)
 ##### Analysis
 
 - We shall use exponent k as the parameter, and count multiplication as our basic steps 
+- The recurisve power algorithm takes
+	- O(k) time
+	- O(k) space (the amount of stack required at the deepest point)
+
+## Recursion and iteration
+
+- If the last thing a recursive method does is call itself, this call is called **tail recursion**, and that is equivalent to a loop. 
+- The above definition of Power is not tail recursive, as it does a multiplication after calling itself. 
+- However, we can translate it into a loop. 
+
+IterativePower(x, k)
+```
+pow = 1
+i = 0
+WHILE i < k
+	pow = pow * x
+	i++
+RETURN pow
+```
+
+##### Analysis
+- The iterative power algorithm takes
+	- O(k) time
+	- O(1) space
+- In this case, the iterative algorithm is superior because it avoids using O(k) stack space. 
+- However, recursive algorithms may be preffered over iterative version that use the same order of space but are less clear. 
+
+
