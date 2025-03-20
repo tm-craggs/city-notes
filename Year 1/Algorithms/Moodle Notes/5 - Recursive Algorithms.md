@@ -63,3 +63,50 @@ public static int g (int v){
 - They are held on the stack, which grows and shrinks during the execution of the program. 
 - When a method is called, a new activation record is added to the stack. 
 - When the method returns, its activation record is discarded, so the stack will shrink. 
+
+![[Pasted image 20250320161422.png]]
+
+- The shown stack is expanding downwards. 
+- Note: Objects created with `new` are stored in a different area, the heap. 
+
+## Recursion
+
+- Recursive algorithms use the general strategy of solving large problems by reducing them to smaller ones, and then using the same method on those.
+
+##### Example: Counting Powers
+
+- We want to compute the function x<sup>k</sup> = x * ... * x. Where k x's are multiplied together. 
+- A simple method relies on these two equations
+	- x<sup>0</sup> = 1
+	- x<sup>k</sup> = x * x<sup>k - 1</sup>, if k > 0
+- We can translate this into a simple recursive algorithm
+
+Power(x, k)
+```
+IF k <= 0
+	RETURN 1
+ELSE 
+	y = Power(x, k-1)
+	RETURN x * y
+```
+
+Here is a trace of Power(2, 5)
+
+```
+Power(2,5)
+	call Power(2,4)
+		call Power (2, 3)
+			call Power(2, 2)
+				call Power (2, 1)
+					call Power(2, 0)
+						return 1
+					return 2*1 = 2
+				return 2*2 = 4
+			return 2*4 = 8
+		return 2*8 = 15
+	return 2*16 = 32
+```
+
+##### Analysis
+
+- We shall use exponent k as the parameter, and count multiplication as our basic steps 
