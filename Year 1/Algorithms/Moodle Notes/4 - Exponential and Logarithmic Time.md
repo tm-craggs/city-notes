@@ -66,5 +66,6 @@
 
 ##### Exponential Growth
 
-- The graph compares the rate of growth of 2<sup>n</sup> with that of n<sup>3</sup>
-- For small values of n, 2<sup>n</sup> <= 
+- The graph compares the rate of growth of 2<sup>n</sup> with that of n<sup>3</sup>, by plotting 2<sup>n</sup>/n<sup>3</sup>
+- For small values of n, 2<sup>n</sup> <= n<sup>3</sup>
+- This means that the function 2<sup>n</sup> is not O(n)
