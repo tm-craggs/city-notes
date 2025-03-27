@@ -4,4 +4,4 @@
 - In these situations, there may be a need for:
 	- **Mutual exclusion** - Where the processes/threads are made to access the resource one at a time. 
 	- Enforcing a **precedence** - The processes/threads must execute parts of their code in a certain order. 
-- **Resource starvation** - 
+- **Resource starvation** - A process waits an unaccptably long time to gain access to a shared resource, due 
