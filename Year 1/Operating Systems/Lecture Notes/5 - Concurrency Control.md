@@ -11,3 +11,8 @@
 
 ![[Pasted image 20250327195854.png]]
 
+## Mutual Exclusion: Software Approaches
+
+- In 1965, Edsger Dijkstra reported an algorithm for mutual exclusion of two processes. Designed by Theodorus Dekker
+- By developing Dekker's algorithm in stages, we can illustrate a number of the bugs encountered in developing concurrent programs. 
+- In 1981, Gary Peterson found an alternative method similar to Dekkers. 
