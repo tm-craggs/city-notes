@@ -4,4 +4,10 @@
 - In these situations, there may be a need for:
 	- **Mutual exclusion** - Where the processes/threads are made to access the resource one at a time. 
 	- Enforcing a **precedence** - The processes/threads must execute parts of their code in a certain order. 
-- **Resource starvation** - A process waits an unaccptably long time to gain access to a shared resource, due 
+- **Resource starvation** - A process waits an unacceptably long time to gain access to a shared resource, due to other processes having priority. 
+- **Deadlock** - Processes wait indefinitely for each other, unable to proceed with their respective executions. 
+
+## Awareness between processes
+
+![[Pasted image 20250327195854.png]]
+
