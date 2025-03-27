@@ -29,4 +29,20 @@
 # Semaphores
 
 - A semaphore is an integer value used for signalling among processes, together with 3 atomic operations: initialise, decrement, and increment. 
-- These operations are the only way to inspec
+- These operations are the only way to inspect or manipulate semaphores.
+- Semaphores allow two or more processes to cooperate by means of simple signals. 
+- This is done by calling `semSingal()` or `semWait()` methods, related to the increment and decrement semaphore operations. 
+	- Semaphore "s" is initialised to a non-negative integer value. 
+	
+	- When called, the `semWait(s)` operation decrements "s" by 1. 
+	- If s becomes negative, the process execution `semWait` is blocked.
+	- Otherwise the process continues execution. 
+
+	- When called, the `semSingals(s)` operation increments "s" by 1. 
+	- If the resulting values of "s" is less than or equal to zero, then a process block by a `semWait` operation is unblocked. 
+
+
+![[Pasted image 20250327203226.png]]
+
+![[Pasted image 20250327203245.png]]
+
