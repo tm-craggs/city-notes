@@ -46,3 +46,16 @@
 
 ![[Pasted image 20250327203245.png]]
 
+## Producer/Consumer problem
+
+General statement:
+- One or more producers are generating data and placing these in a buffer.
+- A single consumer is taking items out of the buffer one at a time. 
+- Only one producer or consumer may access the buffer at one time. 
+
+The challenge:
+- Ensure that the producer won't try to add data into the buffer if it is full. And, that the consumer won't try and read from an empty buffer. 
+
+The solution:
+- Use an infinite buffer
+- Use a finite circular buffer. 
