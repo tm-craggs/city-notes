@@ -13,6 +13,27 @@
 	- **Solid State** - Slow, but large, cheap and non-volatile
 	- **Main Memory** - Middle ground, decent speed and price, but is volatile 
 
+**Memory Hierarchy**
+- Program must be brought from disk into memory and placed within a process for it to run. 
+- Main memory and registers are only storage CPU can access directly. 
+- Register access in one or less CPU clock
+- Main memory can takes many cycles to access, causing a CPU stall
+- Cache sits between main memory and CPU registers. 
+
+**Principle of locality**
+- The principle of locality states that programs access a relatively small portion of their address space at any instant of time
+- There are 2 types of locality
+	- **Temporal Locality** (locality in time) - If an item is referenced, it will tend to be referenced again soon. 
+	- **Spatial locality** (locality in space) - If an item is referenced, items whose addresses are close by will tend to be referenced soon. Imagine books on the same shelf. 
+
+**Taking advantage of locality** 
+- Store everything somewhere where it is cheap, although slow to access. 
+- Copy recently accessed and nearby items from disk to smaller DRAM memory (main memory)
+- Copy more recently accessed (and nearby) items from DRAM to smaller SRAM memory (Cache memory)
+
+**Memory Manager**
+
+- Efficiently manage all the memory res
 ## Memory Abstraction
 
 ## Address Space
