@@ -33,8 +33,13 @@
 
 **Memory Manager**
 
-- Efficiently manage all the memory res
+- The memory manager must manage all the memory resources, which parts are in use, and allocate and free memory as necessary. 
+- To improve CPU performance and speed, we must keep several processes in memory. 
 ## Memory Abstraction
+
+- To better understand a complex process, we can simplify and remove as many unnecessary details and keep only the most important attributes. 
+- For example: "bits" in memory are actually flip-flop logic gate circuits, but this detail is not crucial, we can simply represent them as 1s or 0s. 
+- 
 
 ## Address Space
 
