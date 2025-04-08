@@ -202,6 +202,28 @@
 	- Produces the largest leftover hole. 
 	- First fit and best fit are better in terms of speed and storage utilisation. 
 
+
+**External Fragmentation**
+
+- Both first-fit and best-fir will suffer from external fragmentation. 
+- As processes are loaded/removed, free memory space is divided into little pieces. 
+- External fragmentation exists when there is enough space to satisfy a request, but the available space is not contiguous. 
+- i.e. Storage is fragmented into a large number of small holes. 
+
+**Internal Fragmentation**
+
+- Example: A partition allocation with a hole of 18,000 bytes. Next process requests 17,998. 
+- A hole of 2 bytes will be useless, and the overhead to keep record of the hole is larger than those 2 bytes.
+- Use fixed size block instead, which may have some unused space.
+- So the process will just be allocated the full 18,000 bytes. It is more simple. 
+
+**Fragmentation**
+
+- External Fragmentation - Total memory space exists to satisfy a request, but it is not contiguous. 
+- Internal Fragmentation - Allocated memory may be slightly larger than requested memory, this size difference is memory internal to a partition, but not being used. 
+- First fit analysis reveals that given n blocks allocated, 0.5 n blocks are lost to fragmentation. 
+- 1/3rd may be unusable, 50% rule. 
+
 ## Paging
 
 ## Page Replacement
