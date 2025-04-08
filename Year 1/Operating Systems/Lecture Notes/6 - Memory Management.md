@@ -223,7 +223,12 @@
 - Internal Fragmentation - Allocated memory may be slightly larger than requested memory, this size difference is memory internal to a partition, but not being used. 
 - First fit analysis reveals that given n blocks allocated, 0.5 n blocks are lost to fragmentation. 
 - 1/3rd may be unusable, 50% rule. 
+- Reduce external fragmentation by **compaction** 
+	- Shuffle memory contents to place all free memory together in one large block. 
+	- Compaction is possible only if relocation is du
 
 ## Paging
+
+
 
 ## Page Replacement
