@@ -229,4 +229,43 @@
 - On distributed systems, files may be shared across a network. 
 - Network File System (NFS) is a common distributed file-sharing method. 
 
+- In a multi-user system
+	- User IDs identify users, allowing permissions and protections to be per-user
+	- Group IDs allow users to be in groups, permitting group access rights. 
+	- Owner of a file / directory
+	- Group of a file / directory
+
+##### File Sharing - Remote Systems
+
+- Uses networking to allow file system access between systems. 
+	- Manually via programs like FTP
+	- Automatically, seamlessly using distributed file systems. 
+	- Semi automatically via the world wide web
+
 # Protection
+
+- Operating system consists of a collect of 'objects': hardware or software
+- Each object has a unique name and can be accessed through a well-defined set of operations. 
+- The protection problem:
+	- Ensure that each object is accessed correctly and only by those processes that are allowed to do so
+
+- File owner/creator should be able to control
+	- What can be done
+	- By whom
+- Types of access
+	- Read
+	- Write
+	- Execute
+	- List and access children in the directories
+	- Delete
+
+##### Access Lists and Groups
+
+- Three modes of access: Read (r), Write (w) and Execute (x)
+
+![[image-2.png|438x148]]
+
+- Three classes of user: Owner (u), group (g) and other (o)
+- There are permission for each of these users in the same order. 
+
+![[image-3.png]]
