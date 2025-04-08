@@ -55,7 +55,22 @@
 
 ##### Open File Locking
 
-- Pr
+- Provided by some OS and file systems
+- Mediates access to a file
+- Can be **mandatory** or **advisory**
+	- Mandatory - Access is denied depending on locks held and requested
+	- Advisory - Processes can find status of locks and decide what to do. 
+
+##### Files Types
+
+- An OS may distinguish between a range of different types. 
+	- Text, binary, sound, video
+	- In such a typed system, copy binary to text would not be permitted. 
+- More common, all files are just a sequence of bytes.
+	- OS and user applications may use file name extensions as hints about data formats. 
+
+![[Pasted image 20250408144916.png]]
+
 
 # Disk and Directory Structure
 
