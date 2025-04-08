@@ -194,11 +194,39 @@
 
 ![[Pasted image 20250408165031.png|341x271]]
 
-- Two different names (ali)
+- Two different names (aliasing)
+- If dict deletes count - Dangling pointer
+- Various more of less complicated soloutions
+	- Unix: Only deleted the file (inode) when last ref (name) is removed
+	- File system must keep track of number of references
+- New directory entry type - Symbolic Link
+	- Another file containing a string which is a path (pointer) to an existing file. 
+	- Resolve the link - Follow pointer to locate the file. 
+	- Deleting the link has no effect on the file or vice versa. 
+
+##### General Graph Directory
+
+![[image.png|403x238]]
+
+- How do we guarantee no cycles?
+	- Allow only links to file not sub-directories. 
+	- Every time a new link is added use a cycle detection algorithm to determine whether it is ok. 
 
 
 # File-System Mounting
 
+- A file system must be mounted before it can be accessed. 
+- Mounting makes the file system available at a mount point within a previously mounted file system
+- Need some special mechanism to create the root file system. 
+- Illustration of mounted and unmounted file systems:
+
+![[image-1.png|465x245]]
+
 # File Sharing
+
+- Sharing of files on multi-user systems is desirable. 
+- Sharing may be done through a protection scheme. 
+- On distributed systems, files may be shared across a network. 
+- Network File System (NFS) is a common distributed file-sharing method. 
 
 # Protection
