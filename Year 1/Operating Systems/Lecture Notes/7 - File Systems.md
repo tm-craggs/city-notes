@@ -95,8 +95,45 @@
 - This is like a CD, you can skip to any track instantly 
 # Disk and Directory Structure
 
-##### Operations Performed on Directorties
-- Search for a 
+##### Operations Performed on Directories
+- Search for a file
+- Create a file
+- Delete a file
+- List a directory
+- Rename a file
+- Traverse the file system 
+
+##### Disk Structure
+- Disk can be subdivided into partitions
+- Disk or partition can be used raw - without a file system, or formatted with a file system. 
+	- Different partitions may be formatted as different types of file system. 
+	- Linux Supports many: ext4, btrfs etc.
+- Each partition containing a file system will store info relating to that file system in a device directory or a volume table of contents. 
+
+##### RAID
+
+- Disks or partitions can be RAID protected against failure
+- RAID - Redundant Array of Inexpensive (Independent) Disks
+	- Use multiple smaller disks
+	- Parallelism improves performance
+	- Plus extra disks for redundant data storage. 
+- Provides fault tolerant storage system
+	- Especially if failed disks can be "hot swapped"
+
+##### RAID 1
+- RAID 1 mirroring: N + N disks, replicate data. 
+- Write data to both data disk and mirror disk. 
+- On disk failure, read from mirror. 
+
+##### RAID 5: Distributed Parity
+
+- N + 1 disks
+	- Data striped across N disks at block level. 
+	- Redundant disk stores parity for a group of blocks, but parity blocks distributed across disks. 
+
+##### Directory Organisations
+- The direc
+
 
 # File-System Mounting
 
