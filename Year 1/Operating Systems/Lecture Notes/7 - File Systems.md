@@ -69,7 +69,7 @@
 - More common, all files are just a sequence of bytes.
 	- OS and user applications may use file name extensions as hints about data formats. 
 
-![[Pasted image 20250408144916.png]]
+![[Pasted image 20250408144916.png|349x367]]
 
 ##### Access Methods
 
@@ -142,7 +142,7 @@
 ##### Directory Structure
 - A collection of nodes containing information about all files. 
 
-![[Pasted image 20250408163339.png]]
+![[Pasted image 20250408163339.png|457x215]]
 
 ##### Additional File-system Structure
 - Different file systems provide different ways of structuring file access to make life easier for users and applications. 
@@ -157,7 +157,7 @@
 - A single directory for all users. 
 - It has naming and grouping problems
 
-![[Pasted image 20250408163701.png]]
+![[Pasted image 20250408163701.png|514x155]]
 
 ##### Two-Level Directory
 
@@ -166,7 +166,7 @@
 - Efficient searching
 - No grouping capability
 
-![[Pasted image 20250408163811.png]]
+![[Pasted image 20250408163811.png|515x180]]
 
 
 ##### Tree-Structured Directories
@@ -174,7 +174,7 @@
 - Efficient searching
 - Grouping capability
 
-![[Pasted image 20250408163855.png]]
+![[Pasted image 20250408163855.png|488x332]]
 
 - Absolute or relative path names
 	- Unix absolute path starts with /
@@ -187,6 +187,14 @@
 	- mkdir ../veg
 
 ![[Pasted image 20250408164153.png]]
+
+##### Acyclic-Graph Directories 
+
+- Have shared sub-directories and files
+
+![[Pasted image 20250408165031.png|430x341]]
+
+
 
 
 # File-System Mounting
