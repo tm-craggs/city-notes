@@ -74,7 +74,7 @@
 
 **Dynamic Relocation using a relocation register**
 
-![[Pasted image 20250407125929.png]]
+![[Pasted image 20250407125929.png|311x201]]
 
 - When a context switch occurs, the register is updates and the new address is generated. 
 
@@ -87,7 +87,7 @@
 
 **Dynamic relocation using a relocation and limit register**
 
-![[Pasted image 20250407130222.png]]
+![[Pasted image 20250407130222.png|347x184]]
 
 **Logical Address Space**
 
@@ -98,7 +98,7 @@
 
 - CPU must check every memory access generated in user mode to be sure it is between base and limit for that user. 
 
-![[Pasted image 20250407130810.png]]
+![[Pasted image 20250407130810.png|416x188]]
 
 
 
@@ -108,7 +108,7 @@
 - If the physical memory is large enough, things are fine. 
 - If not...
 
-![[Pasted image 20250407131116.png]]
+![[Pasted image 20250407131116.png|406x214]]
 
 **Swapping**
 

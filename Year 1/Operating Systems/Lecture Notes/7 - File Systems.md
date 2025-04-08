@@ -186,15 +186,15 @@
 	- touch pears
 	- mkdir ../veg
 
-![[Pasted image 20250408164153.png]]
+![[Pasted image 20250408164153.png|289x308]]
 
 ##### Acyclic-Graph Directories 
 
 - Have shared sub-directories and files
 
-![[Pasted image 20250408165031.png|430x341]]
+![[Pasted image 20250408165031.png|341x271]]
 
-
+- Two different names (ali)
 
 
 # File-System Mounting
