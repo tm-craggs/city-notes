@@ -291,4 +291,23 @@ Example:
 	- You need `w` access to change the contents
 - The "execute" bit is special for directories
 	- You need `x` access to "traverse" a directory in order to access the files within it
-	- If you have `x` but not `r` you can still use th
+	- If you have `x` but not `r` you can still use the files within if you know their names (ls can't help you)
+
+##### Changing Permissions
+
+- Users can change permissions for a particular file or subdirectory, for example: game
+- The chmod command stands for "change mode" and can be used to change permissions
+- `chmod 761 game` 
+- This command sets the owner to 7 (`rwx`), the group to 6 (`rw_`)and the public to 1 (`__x`)
+- A manager or root user can create and modify the owner and group of a file, and can also add users to the group. 
+- Change/attach group: `chgrp G game`
+- Change owner and group of a file: `chown user1:group2 game`
+
+##### Access Matrix: Mechanism vs Policy
+
+- Access matrix design separates mechanism from policy. 
+- Mechanism
+	- OS provides matrix structure + rules. 
+	- OS ensures that the matrix is only manipulated by authorised agents and strictly 
+- Policy
+	- Users dictate policy by setting entries in the matrix to specify who can access what. 
