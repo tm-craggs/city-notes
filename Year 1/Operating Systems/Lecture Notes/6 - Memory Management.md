@@ -167,6 +167,29 @@
 	- Android terminates apps if low free memory, but first writes its application state to flash for fast restart. 
 - Both support paging. 
 
+**Contiguous Allocation**
+
+- Main memory must support both OS and user processes. 
+- Limited resource, must allocate efficiently. 
+- Contiguous allocation is one early method. 
+- Main memory usually in two partitions
+	- Resident OS, usually held in low memory with interrupt vector
+	- User processes then held in high memory. 
+	- Each process contained in single contiguous section of memory
+
+**Room for growth**
+
+- How much memory should be allocated for a process when it is created or swapped in. 
+- If the processes is fixed, this is easy. 
+- If the process can grow
+	- If the is a hole adjacent, allocate and grow in the hole. 
+	- If there is no memory to grow, suspend and wait, or kill it. 
+- Or allocate some space so that the process can grow. 
+
+**Dynamic Storage-Allocation Problem**
+
+- How to satisfy a request of si
+
 ## Paging
 
 ## Page Replacement
