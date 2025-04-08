@@ -225,10 +225,17 @@
 - 1/3rd may be unusable, 50% rule. 
 - Reduce external fragmentation by **compaction** 
 	- Shuffle memory contents to place all free memory together in one large block. 
-	- Compaction is possible only if relocation is du
+	- Compaction is possible only if relocation is dynamic, and is done at execution time.
+- Now consider that backing store has same fragmentation problems. 
 
 ## Paging
 
+- In a modern system, virtual memory is managed in chunks of contiguous addresses known as pages (virtual memory) or frames (physical memory)
+	- Each page of virtual memory is mapped to a same-sized frame of contiguous physical memory. 
+	- Page sizes typically range between 4kB and 4MB
+	- Standard Linux page size is 4kB
 
-
+- Divide physical memory into fixed-sized blocks called frames.
+- Size is power of 2, between 512 bytes and 16 megabytes
+- 
 ## Page Replacement
