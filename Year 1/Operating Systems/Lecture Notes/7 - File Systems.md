@@ -95,6 +95,9 @@
 - This is like a CD, you can skip to any track instantly 
 # Disk and Directory Structure
 
+##### Operations Performed on Directorties
+- Search for a 
+
 # File-System Mounting
 
 # File Sharing
