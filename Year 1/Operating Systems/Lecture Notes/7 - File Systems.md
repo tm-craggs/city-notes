@@ -71,7 +71,24 @@
 
 ![[Pasted image 20250408144916.png]]
 
+##### Access Methods
 
+**Sequential Access**
+
+- The most simple access method. 
+- Data is accessed in order, one record after another, like reading a cassette tape. 
+- Operations:
+	- Read next - Read the next piece of data
+	- Write next - Write the next piece of data
+	- Reset - Go back to the beginning of the file. 
+
+
+- Direct Access - File is fixed length logical records
+	- Read n
+	- Write n
+	- Position to n
+	- Read next
+	- Write next
 # Disk and Directory Structure
 
 # File-System Mounting
