@@ -132,7 +132,16 @@
 	- Redundant disk stores parity for a group of blocks, but parity blocks distributed across disks. 
 
 ##### Directory Organisations
-- The direc
+- The directory is organised logically to obtain
+	- Efficiency - Locating a file quickly
+	- Naming - Convenient to users
+		- Two users can have same name for different files
+		- The same file can have several different names
+	- Grouping - Logical grouping of files by properties 
+
+##### Directory Structure
+- A collection of nodes containing information about all files. 
+- 
 
 
 # File-System Mounting
