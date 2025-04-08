@@ -268,4 +268,27 @@
 - Three classes of user: Owner (u), group (g) and other (o)
 - There are permission for each of these users in the same order. 
 
-![[image-3.png]]
+![[image-3.png|385x218]]
+
+
+Example:
+- 761, means 7 for the owner, 6 for the group and 1 for the public. 
+- Owner access = 111 -> rwx
+- Group access = 110 -> rw_
+- Public access = 001 -> `__x`
+
+##### A sample UNIX directory listing
+
+![[image-4.png|418x223]]
+
+![[image-5.png|421x186]]
+
+
+##### Directories and the x bit
+
+- Think of a directory as a special file containing a list of file names. 
+	- You need `r` access to list the contents
+	- You need `w` access to change the contents
+- The "execute" bit is special for directories
+	- You need `x` access to "traverse" a directory in order to access the files within it
+	- If you have `x` but not `r` you can still use th
