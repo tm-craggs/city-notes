@@ -141,7 +141,52 @@
 
 ##### Directory Structure
 - A collection of nodes containing information about all files. 
-- 
+
+![[Pasted image 20250408163339.png]]
+
+##### Additional File-system Structure
+- Different file systems provide different ways of structuring file access to make life easier for users and applications. 
+- From simple to sophisticated
+	- Single-level folder structure
+	- Two-level folder structure
+	- Tree-structured
+	- Graph-structured
+
+##### Single-Level Directory
+
+- A single directory for all users. 
+- It has naming and grouping problems
+
+![[Pasted image 20250408163701.png]]
+
+##### Two-Level Directory
+
+- Separate directory for each user
+- Can have the same file name for different users
+- Efficient searching
+- No grouping capability
+
+![[Pasted image 20250408163811.png]]
+
+
+##### Tree-Structured Directories
+
+- Efficient searching
+- Grouping capability
+
+![[Pasted image 20250408163855.png]]
+
+- Absolute or relative path names
+	- Unix absolute path starts with /
+	- Windows absolute path starts with C:, F:
+- Examples:
+	- mkdir /home/troy/fruit
+	- cd /home/troy/fruit
+	- touch apples
+	- touch pears
+	- mkdir ../veg
+
+![[Pasted image 20250408164153.png]]
 
 
 # File-System Mounting
