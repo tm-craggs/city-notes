@@ -188,7 +188,19 @@
 
 **Dynamic Storage-Allocation Problem**
 
-- How to satisfy a request of si
+- How to satisfy a request of size n, from a list of free holes?
+- **First fit** - Allocate the first hole that is big enough. 
+	- Find a hole that is big enough for the process.
+	- Hole is divided into one section for the process and the free space, if any. 
+	- Fast algorithm as it searches as little as possible. 
+- **Best fit** - Allocate the smallest hole that is big enough. 
+	- Must search entire list, unless ordered by size. And use the smallest hole that is adequate. 
+	- Rather than breaking up a big hole that may be needed later.
+	- Best fit is slower than first fit as it needs to search. 
+	- It also produces the smallest leftover hole, which, being tiny, tends to be useless. 
+- **Worst fit** - Allocate the largest hole, must also search the entire list
+	- Produces the largest leftover hole. 
+	- First fit and best fit are better in terms of speed and storage utilisation. 
 
 ## Paging
 
