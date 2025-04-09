@@ -218,3 +218,55 @@
 
 ![[image-18.png|386x198]]
 
+##### Program Threats
+
+- Many variations, many names
+- Trojan Horse
+	- Code segment that misuses its environment. 
+	- Exploits mechanisms for allowing programs written by users to be executed by other users. 
+	- Spyware, pop-up browser windows, covert channels. 
+	- Up to 80% of spam delivered by spyware-infected systems.
+
+- Trap door
+	- Specific user identifier or password that circumvents normal security procedures
+	- Could be included in a compiler 
+	- How to detect them?
+
+- Logic bomb
+	- Program that initiates a security incident under certain circumstances
+
+- Stack and Buffer Overflow
+	- Exploits a bug in a program
+	- Failure to check bounds on inputs, arguments
+	- Write past arguments on the stack into the return address on stack. 
+	- When routine returns from call, returns to hacked address
+		- Pointed to code loaded onto stack that executed malicious code. 
+	- Unauthorised user or privilege escalation. 
+
+- Viruses
+	- Code fragment embedded in legitimate program. 
+	- Self-replicating, designed to infect other computers. 
+	- Very specific to CPU architecture, OS, applications
+	- Usually borne via email or as a macro
+	- Virus dropper inserts virus onto the system, 
+	- Many categories of viruses
+		- File / parasitic
+		- Boot / memory
+		- Macro
+		- Source code
+		- Encrypted
+		- Etc.
+
+- Port scanning
+	- Automated attempt to connect to a range of ports on one or a range of IP addresses
+	- Detection of answering service protocol
+	- Detection of OS and version running on system. 
+	- nmap scans all ports in a given IP range for a response
+	- nessus has a database of protocols and bugs to apply against a system
+	- Frequently launched from zombie system
+		- Decreases trace-ability
+
+- Denial of Service
+	- Overload the targeted computer preventing it from doing any useful work. 
+	- Distributed denial of service (DDoS) come from multiple sites at once.
+	- Consider the start of th
