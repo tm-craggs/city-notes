@@ -136,4 +136,25 @@
 	- User is allowed to pick their own password within certain parameters.
 	- Goal is to eliminate guessable passwords while allowing user to pick something that is memorable. 
 
+##### Proactive Password Checking
+
+- Rule enforcement
+	- Specific rules that passwords must adhere to
+	- But if attackers know the rules they can optimise their attacks by only trying valid passwords
+- Password "naughty list"
+	- Compile a large list of passwords not to use
+	- Drawback: This list must be very large to be effective
+	- Occupies a big chunk of memory
+	- Slow to search (slow login, waste of CPU)
+
+##### Hashed Passwords
+
+- A hash function will convert an input sequence to another sequence
+- It should be a one-way function, one that is impossible to invert
+- The hashed version is stored on the server, so if intercepted does not mean much to the attacker. 
+
+##### Password Implementation
+
+
+
 ## More on threats
