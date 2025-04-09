@@ -105,10 +105,29 @@
 
 ![[image-9.png|457x167]]
 
+**Access Matrix: Mechanism vs Policy**
 
+- Access matrix design separates mechanism from policy. 
+- Mechanism
+	- Operating system provides access matrix + rules
+	- It ensures that the matrix is only manipulated by authorised agents and that rules are strictly enforced.
+- Policy
+	- User dictates policy
+	- Who can access what object and in what mode. 
+- The access matrix scheme provides us with a way to specify a variety of policies. 
+- The mechanism enforces the rules specified by the access matrix, ensuring the semantic properties outlined hold
+- Specifically: the mechanism must ensure that a process executing in domain `Di` can access only those objects specified in row i, and then only as allowed by the access-matrix entities. 
+	- Our choice of policy decides which rights should be included in the `(i,j)th` entry. 
+	- The access matrix mechanism enforces those choices. 
+	- Imagine it like the legislature vs the judiciary 
 
 ## Revocation of Access Rights
 
+- In a dynamic protection system, we may sometimes need to revoke access rights to objects shared by multiple users. 
+- There are various options, including:
+
+- **Immediate vs Delayed**
+	- Does revocatio
 
 ## Access Control Policies
 
