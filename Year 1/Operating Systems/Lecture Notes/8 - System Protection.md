@@ -40,11 +40,33 @@
 **Domain Implementation (MULTICS)**
 
 - Multics (Multiplexed Information and Computing Service) was an early time-sharing OS.
+- Imagine domains as concentric rings, like an archery target. 
+- Ring 0 (centre) has most privileges - typically the kernel. 
+- Outer rings, e.g.  `n - 1` have fewer privileges, typically user applications 
+
 - Let `Di` and `Dj` be any two domain rings
 - If `j < i` -> `Di ⊆ Dj`
 - A process executing in domain `Dj` has more privileges than a processes executing in domain `Di`
+- This means, a processes in domain `Dj` (inner ring) can do everything a process in `Di` can do - and more. 
+- More inner = more privilege 
+
+**Multics Benefits and Limits**
+
+- Ring / hierarchical structure provided more than the basic kernel / user or root / normal user design. 
+- Complex -> more overhead
+- But does not allow strict need-to-know
+	- If an object is accessible in `Dj` but not `Di` then `j < i`
+	- But then every segment accessible in `Di` also accessible in `Dj`
 
 
+**Domain Implementation (UNIX)**
+
+- Domain switch accomplished via passwords.
+	- `su` (superuser) command temporarily switches another user's domain when other domain's password is provided
+- Domain switching via commands
+	- `sudo` (superuser do) command executes specified command in another domain, if original domain has privilege or password given. 
+- Each user-id names a domain determined by all the file permissions
+- UNIX allows to switch 
 ## Access Matrix
 
 ## Revocation of Access Rights
