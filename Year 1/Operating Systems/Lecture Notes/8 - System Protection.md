@@ -144,6 +144,23 @@
 ## Access Control Policies
 
 - An access control policy dictates what types of access are permitted, under what circumstances, and by whom. 
-- ITU-T reccomdation X.800 defines access control as follows:
-	- 
+- ITU-T recommendation X.800 defines access control as follows:
+	- The prevention of unauthorised use of a resource, including the prevention of a use of a resource in an authorised manner. 
 
+- Access control policies are generally grouped into the following categories
+	- Mandatory access control (MAC)
+	- Discretionary access control (DAC)
+	- Role-based access control (RBAC)
+
+**Mandatory Access Control (MAC)**
+
+- MAC controls accessed based on comparing security labels with security clearances for objects or users. 
+- Policy dictates appropriate mapping between clearances and labels. 
+- Example:
+	- Consider a simple set of labels, ordered according to level of privilege. "unclassified", "secret", "top secret"
+	- A process/user with secret clearance will be able to create similarly labelled processes, which will then have access to "unclassified" and "secret" files, but not to top secret files. 
+
+**Discretionary Access Control (DAC)**
+
+- DAC - Scheme in which an entity or object (user) may enable another entity to access to resource.
+- This policy is termed discretionary, beca
