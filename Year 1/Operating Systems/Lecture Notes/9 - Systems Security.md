@@ -197,3 +197,24 @@
 - Intrusion - A malicious, externally-induced fault resulting from an attack that has been successful in exploiting a vulnerability 
 
 ![[image-15.png|451x205]]
+
+##### Hierarchical causal chain
+
+![[image-16.png|455x255]]
+
+##### Vulnerability life-cycle
+
+- A way of conceptualising security threats
+- The time between patch becoming available and patch being installed is a critical time for attackers.
+- This is because the exploit is either disclosed in patch notes, or can be reverse engineered to reveal the exploit that was patched.
+
+![[image-17.png|462x201]]
+
+##### Economics of a vulnerability
+
+- At discovery, an exploit can go 2 ways. 
+- The person who discovered it can either place the exploit on the black market for hackers to buy, or use the exploit yourself for financial gain. 
+- Or, they can put it on the white market where companies pay people to find exploits in their systems. (bug bounties)
+
+![[image-18.png|386x198]]
+
