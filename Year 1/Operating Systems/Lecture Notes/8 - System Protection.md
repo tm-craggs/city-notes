@@ -163,4 +163,26 @@
 **Discretionary Access Control (DAC)**
 
 - DAC - Scheme in which an entity or object (user) may enable another entity to access to resource.
-- This policy is termed discretionary, beca
+- This policy is termed discretionary, because an entity might have access rights that permit the entity, by its own volition, to enable another entity to access some resource.
+- In MAC, it is centrally controlled, an administrator who changes the levels.
+- In DAC, users have the ability to assign/without access rights - to edit cells within the access matrix, for the objects that they own
+
+**Role-based access control (RBAC)**
+
+- Controls access based on the roles that users have within the system, and on rules stating what accesses are allowed to users in given roles. 
+
+![[image-11.png|345x163]]
+
+- RBAC can still use a matrix-based allocation, but now there are 2 matrices. 
+	- Map users and roles
+	- Map access rights and roles
+
+![[image-12.png|354x140]]
+
+**Protection != Security**
+
+- File system protection mechanisms may prevent a processes owned by `watson` from accessing a file owned by `sherlock` 
+- But, what if `watson` can login as `sherlock` (masquerading)
+	- Then `watson` can execute processes owned by `sherlock`
+	- So `watson` can see and modify `sherlock's` data and processes
+- This will be explored more next week. 
