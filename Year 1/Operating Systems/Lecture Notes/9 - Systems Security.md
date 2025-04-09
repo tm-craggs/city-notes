@@ -151,10 +151,31 @@
 
 - A hash function will convert an input sequence to another sequence
 - It should be a one-way function, one that is impossible to invert
+- 2 extra elements are added to the hash, salt and slow.
+- Salt - A random value added to a password before hashing, ensures if 2 users have the same password they have a different hash
+- Slow - Password hashes are intentionally made slow to compute, fast hashes could mean people could try millions per second, slow hashes might take 100 ms per guess. Makes brute force attacks harder
 - The hashed version is stored on the server, so if intercepted does not mean much to the attacker. 
 
 ##### Password Implementation
 
+- UNIX original implementation
+	- 8 ASCII characters
+	- 12 bit salt
+	- Encrypt 25 times (slow)
+	- Translate to an 11 char sequence
 
+- Improved implementations
+	- MD5 -> Blow fish block
+	- Salt 48 -> 128 bits
+	- Password length unlimited
+	- 128 -> 192 hash
 
+##### Alternatives to passwords
+
+- Attempts to auth based on unique physical attributes
+- Based on pattern recognition
+- Is complex, and more expensive to implement than password or token soloutions
+- Physical charateristics used:
+	- Facial characteristics
+	- Finge
 ## More on threats
