@@ -9,7 +9,8 @@
 - To provide this protection, we can use various mechanism to ensure only processes that have authorisation from the OS can operate on files, memory, CPU, networking and other system resources
 - These mechanisms must provide a means for specifying the controls to be imposed, together with a means of enforcement. 
 
-- Protection was originally conceived as an adjunct to multiprogramming  
+- Protection was originally designed for multiprogramming systems to let untrustworthy users safely share resources, like memory. 
+- Over time protection mechanisms have evolved to improve the reliability of systems, especially ones connected to the internet. 
 
 ## Protection through Domains
 
