@@ -98,8 +98,10 @@
 
 - Step 2 - Fill in an empty table with the file names as the columns and the users as the rows. 
 
-- Step 3 - Check what permissions the user has with the below steps
-	- Step 1 - Ch
+- Step 3 - Check what permissions a user has with the below steps
+	- Step 1 - Check if they are the owner of the file, if they are, they will have owner permissions (the first set of 3 permissions)
+	- Step 2 - Check what group the file is in, and check if the user is also in that group. If they are, they will have group permissions (the second set of 3 permissions)
+	- Step 3 - If they are not the owner or in the group, then they will have other permissions. (the final set of 3 permissions)
 
 ![[image-9.png|457x167]]
 
