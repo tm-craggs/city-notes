@@ -194,4 +194,6 @@
 - Error - The part of the system state that may lead to failure
 - Attack - A malicious interaction fault, where an attack tries to violate security properties
 - Vulnerability - A fault created during the development of the system, or during operation, that could be exploited to create an intrusion.
-- Intrusion - A malicious, externally-induced fault resulting from an atta
+- Intrusion - A malicious, externally-induced fault resulting from an attack that has been successful in exploiting a vulnerability 
+
+![[image-15.png|451x205]]
