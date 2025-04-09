@@ -56,9 +56,40 @@
 - Impossible to have absolute security, but make cost high enough to deter attackers to easier targets
 - Security must occur at 4 levels to be effective
 
-**Physical**
-- Data centres, servers, connected 
+- **Physical**
+	- Data centres, servers, connected terminals
+- **Human**
+	- Avoid social engineering, phishing, dumpster diving etc.
+- **Operating System**
+	- Protection mechanisms, debugging
+- **Network**
+	- Intercepted communications, interruption, DOS
+
+- Security is as weak as the weakest link in the chain.
+- Can too much security be a problem? Does it effect availability?
+
 
 ## Authentication, Passwords and Alternatives
+
+##### Authentication
+
+- Defined as: "The process of verifying an identity claimed by or for a system entity"
+- Authentication is a fundamental of computer security and the primary line of defence. 
+- It provides the basis for access control and use accountability. 
+- There are 2 broad steps in the auth process
+
+- **Identification**
+	- Step presenting an identifier to the security
+- **Verification**
+	- Step presenting or generating authentication information that corroborates the binding between the entity and the identifier
+
+![[image-13.png|351x188]]
+
+
+##### Means of Authentication
+
+- Three main aspects under the user's control which can be used to auth a user
+	- The users possession of something (a key or a card)
+	- The users knowledge of something (a )
 
 ## More on threats
