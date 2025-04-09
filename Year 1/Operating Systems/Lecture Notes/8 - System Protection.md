@@ -90,12 +90,20 @@
 
 ![[image-7.png|340x362]]
 
-- You can make a different table, where owners and groups are different. 
+- You can make a table where owners and groups are different. The processes is as follows:
+
+- Step 1 - `cat` out the members of each group, and use `ls -l` to print the file permissions for each file.  
+
+![[image-10.png|669x86]]
+
+- Step 2 - Fill in an empty table with the file names as the columns and the users as the rows. 
+
+- Step 3 - Check what permissions the user has with the below steps
+	- Step 1 - Ch
 
 ![[image-9.png|457x167]]
 
 
-- catting out /etc/groups shows you all the groups 
 
 ## Revocation of Access Rights
 
