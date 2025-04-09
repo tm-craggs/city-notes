@@ -124,10 +124,26 @@
 ## Revocation of Access Rights
 
 - In a dynamic protection system, we may sometimes need to revoke access rights to objects shared by multiple users. 
-- There are various options, including:
+- There are various options to remove the access right of a domain to an object, including:
 
 - **Immediate vs Delayed**
-	- Does revocatio
+	- Does revocation occur immediately, or is it delayed?
+	- If revocations is delayed, can we find out when it will take place?
+
+- **Selective vs General**
+	- When an access right to an object is revoked, does it affect all the users who have an access right to that object, or can we specify a select group of users whose access rights should be revoked?
+
+- **Partial vs Total**
+	- Can a subset of the rights we associated with an object be revoked?
+	- Or must all access right be revoked?
+
+- **Temporary vs Permanent**
+	- Can access be revoked permanently (revoked access right will never again be available)
+	- Should access be revoked and later be obtained again?
 
 ## Access Control Policies
+
+- An access control policy dictates what types of access are permitted, under what circumstances, and by whom. 
+- ITU-T reccomdation X.800 defines access control as follows:
+	- 
 
