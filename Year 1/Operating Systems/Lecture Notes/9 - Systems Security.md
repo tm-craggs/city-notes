@@ -90,6 +90,50 @@
 
 - Three main aspects under the user's control which can be used to auth a user
 	- The users possession of something (a key or a card)
-	- The users knowledge of something (a )
+	- The users knowledge of something (a user ID and password)
+	- An attribute of the user (fingerprint, retina pattern, signature)
+
+##### Password Authentication
+
+- Widely used line of defence against intruders
+- User provides name/ID and password
+- System compares password with the one stored for that ID
+- Once authenticated, the user ID
+	- Determines if the user is authorised to access the system at all
+	- Determines the users privileges if so
+
+##### Password Vulnerabilities
+
+- Offline dictionary attack
+- Specific account attack
+- Popular password attack
+- Workstation hijacking
+- Exploiting user mistakes
+- Exploiting multiple password use
+- Electronic monitoring
+
+
+##### Countermeasures
+
+- Controls to prevent unauth access to password file
+- Intrusion detection methods
+- Rapid re-issuance of compromised passwords
+- Account lockout mechanisms
+- Policies to inhibit users from selecting common passwords
+- Training in and enforcement of password policies
+- Automatic workstation logout
+- Policies against similar passwords on network devices. 
+
+##### Password Selection Techniques
+
+- User education
+	- Users can be told the importance of using hard to guess passwords, provided with guidelines
+- Computer Generated Passwords
+	- Very effective, but users have trouble remembering them
+- Reactive password checking
+	- System periodically runs its own password cracker to find guessable passwords
+- Proactive password checking
+	- User is allowed to pick their own password within certain parameters.
+	- Goal is to eliminate guessable passwords while allowing user to pick something that is memorable. 
 
 ## More on threats
