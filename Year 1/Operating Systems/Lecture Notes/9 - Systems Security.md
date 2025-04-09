@@ -269,4 +269,29 @@
 - Denial of Service
 	- Overload the targeted computer preventing it from doing any useful work. 
 	- Distributed denial of service (DDoS) come from multiple sites at once.
-	- Consider the start of th
+	- Consider the start of the IP-connection handshake
+		- How many started connections can the OS handle?
+	- Consider traffic to a website
+		- How can you tell the difference between being a target and being popular?
+	- Can be accidental (writing bad fork() code)
+	- Or purposeful 
+
+##### Countermeasure
+
+- Involves four courses of action
+
+- Prevention
+	- Secure encryption algorithms
+	- Prevent unauth access to encryption keys
+
+- Detection
+	- Intrusion detection systems
+	- Detection of DOS attacks
+
+- Recovery
+	- Use of backup systems
+	- Multiple points of failure
+
+- Response
+	- Upon detection, being able to halt the attack
+	- Prevent further damage
