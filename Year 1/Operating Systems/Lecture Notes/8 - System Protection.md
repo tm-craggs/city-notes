@@ -66,10 +66,39 @@
 - Domain switching via commands
 	- `sudo` (superuser do) command executes specified command in another domain, if original domain has privilege or password given. 
 - Each user-id names a domain determined by all the file permissions
-- UNIX allows to switch 
+- UNIX allows to switch domains
+- Domain Switch accomplished via file system
+	- Each file has a domain bit (setuid bit)
+	- When file is executed and  setuid = on, then user-id is set to owner of the file being executed.
+	- When execution completes, user-id is reset. 
 ## Access Matrix
 
+- View permissions as a matrix
+- Rows represent domains
+- Columns represent objects
+
+![[image-6.png|398x171]]
+
+- Access (i, j) is the set of operations that a process executing in Domain (i) can invoke on object (j)
+
+**Groups**
+
+- How many groups exist?
+- Many, depending on the settings of the system. 
+- There are several ways to check, but one is to look in /etc/group
+
+
+![[image-7.png|340x362]]
+
+- You can make a different table, where owners and groups are different. 
+
+![[image-9.png|457x167]]
+
+
+- catting out /etc/groups shows you all the groups 
+
 ## Revocation of Access Rights
+
 
 ## Access Control Policies
 
