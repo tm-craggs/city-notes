@@ -96,7 +96,40 @@
 
 - An encryption algorithm must provide this essential property
 - Given a ciphertext  c ∈ C, a computer can compute m such that Ek(m) = c only if it possess k
-	- Thus, a computer holding k can decrypt ciphertexts to the plaintexts used to produce them, but a computer not holding k cannot decrypt ciphertexts.   
+	- Thus, a computer holding k can decrypt ciphertexts to the plaintexts used to produce them, but a computer not holding k cannot decrypt ciphertexts.
+	- Since ciphertexts are generally exposed, (sent on the network), it is important that it be infeasible to derive k from the ciphertexts
+
+![[image-20.png|371x204]]
+
+- **Symmetric Key** - Bob and Alice share the same key, or one can be derived from the other. 
+- Historically, distributing the keys has always been the weakest link in most cryptosystems
+- No matter how strong a cryptosystem as, if an intruder could steal the key, the system was worthless. 
+- Cryptologists always took for granted that the encryption key and decryption key weer the same
+
+##### Public Key Cryptology
+
+![[image-21.png|341x180]]
+
+
+##### Simple Encryption Schemees
+
+- Substitution cipher - substitute one letter for another. Very weak, can be broken with statistical analysis. 
+- Transposition cipher - keep same characters but change the order. 
+
+
+##### Complex Schemes
+
+- Product ciphers - combine permutations, substitutions into several steps. 
+
+![[image-22.png|350x103]]
+
+- DES: Data Encryption Standard
+	- Break text into 64 bit blocks
+	- Process in 19 iterations transpositions and combinations. 
+
+- AES: Advanced Encryption Standard
+	- Based on G
+
 ## Further Topics
 
 
