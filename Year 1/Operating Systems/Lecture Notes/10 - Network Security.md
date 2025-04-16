@@ -26,9 +26,23 @@
 ##### HTTP request and reply
 
 - HTTP request sent into TCP socket
-- IP datagram containing HTTP request 
+- IP datagram containing HTTP request routed to ``www.google.com`` 
+- Web server responses with HTTP reply (containing web page)
+- IP datagram containing HTTP reply routed back to client. 
 
 ## Network Security
+
+- Physical Layer: Using encapsulating transmission lines or using fibre optics
+- Data Link Later: Encrypting packages from point to point
+- Network Layer: IPsec, firewalls
+- Transport Layer: Entire connections being encrypted
+- Intermediate layers: Secure Socket Layer
+
+##### IP Security
+
+- Where to put the security?
+	- Authentication Header (AH) - Provides integrity and anti-replay security but not secrecy
+	- 
 
 ## Encryption
 
