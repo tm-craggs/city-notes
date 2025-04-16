@@ -17,7 +17,16 @@
 
 ##### Layers, Services, Interfaces, Entities, Protocols and Models
 
-- A set of protocols is called a network architecture. The definition of layers form a model. 
+- A set of protocols is called a network architecture. The definition of layers form a model.
+- Rules or agreements between layers are called protocols. 
+- The conceptual network is divided into layers to reduce design complexity. 
+- A layer (n) provides a service to the layer above it (n+1) and an interface defines the services and operations between them. 
+- An active element (either software process of a hardware element) in a layer is called an entity. 
+
+##### HTTP request and reply
+
+- HTTP request sent into TCP socket
+- IP datagram containing HTTP request 
 
 ## Network Security
 
