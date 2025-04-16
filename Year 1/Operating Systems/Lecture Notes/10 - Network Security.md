@@ -75,7 +75,8 @@
 
 ## Encryption
 
-
+- Broadest security tool available. 
+	- Internal to a given computer, source and destination of messages can be known and protected. 
 
 
 ## Further Topics
