@@ -77,6 +77,22 @@
 
 - Broadest security tool available. 
 	- Internal to a given computer, source and destination of messages can be known and protected. 
+		- OS creates, manages, protects process IDs, communication ports
+	- Source and destination of messages on network cannot be trusted without cryptography.
+		- Local network - IP address?
+			- Consider unauthorised host added
+		- WAN / Internet - how to establish authenticity
+			- Not via IP
+
+- Constrains the set of possible receivers of a message. 
+- Encryption algorithm consists of
+	- Set K of keys
+	- Set M of messages
+	- Set C of ciphertexts (encrypted messages)
+	- A function E : K -> (M -> C) that is, for each k ∈ K, Ek is a function for generating ciphertexts from messages
+		- Both E and Ek for any k should be efficiently computable functions. 
+	- A function D : K (C -> M) That is, for each k ∈ K, Dk is a function for generating messages from ciphertexts. 
+		- Both D and Dk for any k should be efficiently computable functions. 
 
 
 ## Further Topics
