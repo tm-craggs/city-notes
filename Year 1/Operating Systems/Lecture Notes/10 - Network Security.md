@@ -165,5 +165,22 @@
 - The advantages are the speed-up that this provides in computation. 
 - But they require more complex process scheduling algorithms, that brings issues about load balancing and data dependencies. 
 
-## Wrap Up
+
+##### Threads and synchronisation
+
+- Related to the issues of parallelism and multiple cores, is the issue of multithreading. 
+- Execution of multiple threads to improve resource sharing and responsiveness.
+- However, they also being issues that programmers need to deal with, related to thread synchronisation and scheduling.
+
+
+##### File systems and storage. 
+
+- Tere are more issues to consider with file systems and storage for delivering relability garuentees to users. We looked at RAID.
+- File systems used for cloud storage and large data-stores may have different requirements compared with traditional file systems. 
+
+##### Security
+
+- We started discussing some of the security issues and only breifly difcussed possible countermeasures. 
+- There are a lot more threats and possible countermeasures
+
 
