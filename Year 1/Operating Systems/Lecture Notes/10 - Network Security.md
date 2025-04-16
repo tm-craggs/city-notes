@@ -94,8 +94,12 @@
 	- A function D : K (C -> M) That is, for each k ∈ K, Dk is a function for generating messages from ciphertexts. 
 		- Both D and Dk for any k should be efficiently computable functions. 
 
-
+- An encryption algorithm must provide this essential property
+- Given a ciphertext  c ∈ C, a computer can compute m such that Ek(m) = c only if it possess k
+	- Thus, a computer holding k can decrypt ciphertexts to the plaintexts used to produce them, but a computer not holding k cannot decrypt ciphertexts.   
 ## Further Topics
+
+
 
 ## Wrap Up
 
