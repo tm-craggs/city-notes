@@ -158,7 +158,11 @@
 
 ## Further Topics
 
+#### Multiple cores and processors
 
+- The module has dealt with the issues of single CPU systems
+- Most modern systems use multiple cores, each core appearing as a separate processor to the OS. 
+- The advantages are the speed-up that this provides in computation. 
 
 ## Wrap Up
 
