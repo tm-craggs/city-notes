@@ -12,7 +12,12 @@
 - Each device (hosts/end systems) needs to connect through some media
 - One physically connected, a route between devices is established through a series of links and packet switches (it is not always fixed)
 - The information is transported through packets, and a series of protocols (HTTP, FTP, SMTP, TCP...) make the transmission possible.
-- Alternatively, the internet is an infrastrcutre that provides services to applications 
+- Alternatively, the internet is an infrastructure that provides services to applications 
+- In the end, all that matter is the exchange of information, but the information is embedded with a lot of other information in a complex way. 
+
+##### Layers, Services, Interfaces, Entities, Protocols and Models
+
+- A set of protocols is called a network architecture. The definition of layers form a model. 
 
 ## Network Security
 
