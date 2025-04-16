@@ -128,7 +128,33 @@
 	- Process in 19 iterations transpositions and combinations. 
 
 - AES: Advanced Encryption Standard
-	- Based on G
+	- Based on Galois Theory
+	- Substitutions, permutations, multiple rounds
+	- 128 bit encryption keys 
+
+- Monoaphabetic substitution cipher
+	- Despite their huge complexity, DES and AES are basically a monoalphabetic substitution ciphers using big characters. 
+	- To make things more difficult, change the way in which data is encrypted by chaining the messages. 
+
+![[image-23.png|425x148]]
+
+
+##### Cryptography Principles
+
+- Sharing keys is the most difficult and vulnerable part of any encryption process. 
+	- One time pads are unbreakable
+- Messages must contain some redundancy
+	- Random sequences should not correspond to a valid message. 
+- Some method is needed to foil replay attacks. 
+	- Each message should be fresh to prevent the replay of old messages. 
+
+##### Cryptanalyst's Perspective
+
+• Ciphertext-only problem: no access to plaintext.
+• Known plaintext problem: some matched plaintext available.
+• Chosen plaintext problem: the Cryptanalyst has the ability to encrypt pieces of plaintext.
+• Codes should be unbreakable against encryption of any amount of plaintext.
+• Kerckhoff’s principle: Algorithms are public, only keys are secret. Security by obscurity never works
 
 ## Further Topics
 
