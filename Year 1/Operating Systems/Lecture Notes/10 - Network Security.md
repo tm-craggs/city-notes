@@ -42,9 +42,41 @@
 
 - Where to put the security?
 	- Authentication Header (AH) - Provides integrity and anti-replay security but not secrecy
-	- 
+	- Encapsulating Security Payload (ESP) - Better option can manage security
+
+##### SSL: Secure Sockets Layer
+
+- Widely adopted security protocol
+- TLS (transport layer security) is another variation
+- Provides:
+	- Confidentiality
+	- Integrity
+	- Authentication
+
+##### SSL Record Protocol
+
+- Record header - content type, version, length
+- MAC - Includes sequence number, MAC ket, 
+- Fragment - Each SSL fragment is 2<sup>14</sup> bytes
+
+![[image-19.png|352x233]]
+
+##### Network Security - Summary
+
+**Basic Techniques**
+- Cryptography (symmetric and public)
+- Message integrity
+- End-point encryption
+
+**Used in many different security scenatios**
+- Secure transport (SSL)
+- IP sec
+- And more... (firewalls, secure mail)
 
 ## Encryption
+
+
+
 
 ## Further Topics
 
