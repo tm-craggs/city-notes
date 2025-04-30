@@ -1,7 +1,7 @@
 Today's questions
 
 - What happens when a program's execution is interrupted
-- How does the OS interleace the execution of multiple programs
+- How does the OS interleave the execution of multiple programs
 - How does the OS ensure new processes are not waiting while the CPU is idle? 
 - How can limited RAM be shared among interleaved processes. 
 - What does a process look like to an OS
