@@ -16,9 +16,10 @@ v) cat poems/jabberwocky will print the contents of the text file.
 
 Paper B
 
-Question 4
-![[image-26.png]]
+![[image-27.png|546x487]]
 
 a) 
 
 b)
+
+c)
