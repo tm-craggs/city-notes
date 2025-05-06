@@ -52,5 +52,5 @@ Step 5: Add the two together for Context Switching Time
 
 b)
 
-A single level directory is a simple file system where the file space contains directories of different names, each directory can contain only files. This is very limiting, as files cannot be given subgroups. A more effective way is a tree structure, where folders can contain files, and other folders. This makes it easier to organise a large number of files, which can have the same name as long as they are located in different folders. 
+A single level directory file system is a simple way of organising files. All files, from all users will be stored in one single directory. This is very limiting, as files can never be given different names across a whole system, and there are no sub-directories. This means files cannot be grouped in any way. A more effective way of organising files is by using a tree structure, where folders can contain files as well as other folders. Files can have the same name as long as they are located in different folders. 
 
