@@ -37,12 +37,17 @@ a)
 Step 1: Work out how many seconds it takes to transfer the process (without latency)
 8.2 MB / 108.4 MB/s = 0.07564 seconds. 
 
-Step 2: Convert this to milliseconds by multiplying by 1000.
+Step 2: Convert transfer to milliseconds by multiplying by 1000.
 0.07564 x 1000 = 75.645
 
-Step 3: Convert the latency time from nanoseconds to milliseconds
-
+Step 3: Convert the latency time from nanoseconds to milliseconds by dividing 1000
+7.3 nanoseconds. 7.3 / 1000 = 0.0073
 
 Step 4: Multiply this time, and the latency time by 2, as the process is swapped in, and then out
 
-75.645 x 2 = 151.29 0.072
+75.645 x 2 = 151.29
+0.0073 x 2 = 0.0146
+
+Step 5: Add the two together for Context Switching Time
+
+151.29 + 0.0146 = 151.30
