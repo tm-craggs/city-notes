@@ -32,4 +32,17 @@ d) The CPU spends a lot of time idle, waiting for instructions to be fetched fro
 
 ![[image-31.png|506x480]]
 
-a) 8.2 MB / 108.4 MB/s = 
+a)
+
+Step 1: Work out how many seconds it takes to transfer the process (without latency)
+8.2 MB / 108.4 MB/s = 0.07564 seconds. 
+
+Step 2: Convert this to milliseconds by multiplying by 1000.
+0.07564 x 1000 = 75.645
+
+Step 3: Convert the latency time from nanoseconds to milliseconds
+
+
+Step 4: Multiply this time, and the latency time by 2, as the process is swapped in, and then out
+
+75.645 x 2 = 151.29 0.072
