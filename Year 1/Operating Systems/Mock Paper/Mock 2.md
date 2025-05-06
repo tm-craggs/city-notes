@@ -28,4 +28,8 @@ b) Memory hierarchy are the different levels of memory pieces of data can be sto
 
 c) The principle of spatial locality is a phenomenon that when an instruction from memory is fetched, nearby instructions are also likely to be executed soon. 
 
-d) The CPU spends a lot of time idle, waiting for instructions to be fetched from RAM. If the CPU were to get these items from cache, this time would be far lower. However, due to the cost of cache memory, it is impossible to have it large enough to store everything. As a compromise, we can benefit from spatial locality. When an instruction is executed, we load nearby instructions into cache as a buffer, as these instructions are naturally likely to be needed soon. 
+d) The CPU spends a lot of time idle, waiting for instructions to be fetched from RAM. If the CPU were to get these items from cache, this time would be far lower. However, due to the cost of cache memory, it is impossible to have it large enough to store everything. As a compromise, we can benefit from spatial locality. When an instruction is executed, nearby instructions are buffered into cache memory just in case, as these instructions are naturally likely to be needed soon. This can help increase the CPUs hit rate, and thus speed, as more instructions it needs can be fetched from higher up in the memory hierarchy. 
+
+![[image-31.png|506x480]]
+
+a) 8.2 MB / 108.4 MB/s = 
