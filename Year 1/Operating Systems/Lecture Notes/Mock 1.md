@@ -1,3 +1,25 @@
+##### Question 1
+![[image-28.png|426x489]]
+
+a) 
+i) 
+Similarities:
+The global variable 
+The global variable flag will be false and int will be 1. 
+
+Differences:
+The two processes images will have different process IDs. 
+
+
+
+
+
+
+
+
+
+
+
 Question 3
 
 ![[image-24.png]]
