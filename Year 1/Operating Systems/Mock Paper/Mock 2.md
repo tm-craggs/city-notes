@@ -54,5 +54,7 @@ b)
 
 A single level directory file system is a simple way of organising files. All files, from all users will be stored in one single directory. This is very limiting, as files can never be given different names across a whole system, and there are no sub-directories. This means files cannot be grouped in any way. A more effective way of organising files is by using a tree structure, where folders can contain files as well as other folders. Files can have the same name as long as they are located in different folders. 
 
-c)
+c) 631, 254, 007
+
+d) A method of virtual memory management. Can bring a page into memory only when needed. If a page is not in memory, it is considered page fault and then the mage is brought from memory to memory. This is known as a lazy swapper - it never swaps a page into memory unless the page is needed. 
 
