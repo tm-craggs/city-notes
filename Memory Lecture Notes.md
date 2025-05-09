@@ -22,4 +22,14 @@ Simple dynamic relocation does not work in reality, as there is no limit to how 
 
 We can add a limit register, which is the maximum for each process. 
 
-The physical address will be checked that it is higher than a base, held in a register. It will then check it is lower than another register holding the base + limit. If either of these are m
+The physical address will be checked that it is higher than a base, held in a register. It will then check it is lower than another register holding the base + limit. If either of these are out of range, throw an addressing error. 
+
+What do we do with larger processes that may not fit?
+
+## Larger Processes, Virtual Memory
+
+- If the physical memory is large enough it is ok, if not, then virtual memory may be needed. 
+- Swapping - may not be enough physical memory, processes can be swapped out of memory to a backing store, and then brought back into memory for continued execution. 
+- The largest part of a swap is disk read and write time. 
+- Versions of swapping are on all major OS
+- Idle processes are mostly stored on the disk. 
