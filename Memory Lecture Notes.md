@@ -33,3 +33,14 @@ What do we do with larger processes that may not fit?
 - The largest part of a swap is disk read and write time. 
 - Versions of swapping are on all major OS
 - Idle processes are mostly stored on the disk. 
+
+To work out the total swapping time, calculate the rate of transfer, times by 2 for in and out. Times latency by 2 for in and out, then add. 
+
+Sometimes processes run as fast as possible, but not always.
+
+Slowdown factor - Calculates the ratio of the slow case over the fast case.
+
+Slowdown = t slow = with swap / t fast = without swap. 
+
+![[image-1.png|456x287]]
+
