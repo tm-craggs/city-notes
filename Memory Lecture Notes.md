@@ -15,3 +15,5 @@ Virtual memory vs Physical Memory.
 Virtual memory does not have a physical location. Swapping them is known as memory mapping. 
 
 Memory Management Unit - A hardware device that at run time, maps virtual to physical addresses there are many methods possible. The user programs deals with logical addresses and never sees the real physical addresses. Logical addresses are bound to physical addresses. 
+
+Logical addresses are what the program sees, and are mapped to physical addresses. This is because if programs were competing for physical addresses, each program would have to know what is free and allocate themselves. Mapping addresses ensures isolation of programs. 
