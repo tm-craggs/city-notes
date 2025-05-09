@@ -12,4 +12,6 @@ As chips has progressed they have had more bits per word.
 
 Virtual memory vs Physical Memory. 
 
-Virtual memory does not have a physical location. Swapping them is known as memory map
+Virtual memory does not have a physical location. Swapping them is known as memory mapping. 
+
+Memory Management Unit - A hardware device that at run time, maps virtual to physical addresses there are many methods possible. The user programs deals with logical addresses and never sees the real physical addresses. Logical addresses are bound to physical addresses. 
