@@ -126,5 +126,19 @@ One page table for each process that is running on the CPU.
 
 Pages do not have to be stored contiguously in physical memory, all that matters is that we are able to translate from the location in logical memory to the location in physical memory. The OS has to track which frames are in use and which ones are not, so that free frames can be allocated. 
 
+The virtual memory address space for a process can be bigger than the total amount of physical memory. This is possible because the memory is dynamic, not all of it is stored on RAM, some is stored on disk. 
+
+Scenario 1: Process never actually uses all of the virtual memory it owns. 
+Scenario 2: Process uses different parts of its virtual memory address space at different times. The OS can "page out" (copy to disk) frames not currently in use and remap new pages to those frames. 
+
+**Demand Paging**
+
+- Bring a page into memory only when it is needed. 
+	- Page is needed -> process tries to access an address in that page. 
+	- Illegal reference (virtual address not allocated to process) -> abort
+	- not-in-memory (page fault) -> bring to memory
+
+- A pager is a lazy swapper, never swaps a page into memory unless the page is used. 
 
 
+Some pages do not correspond to a physical memory address. These are called virtual pages
