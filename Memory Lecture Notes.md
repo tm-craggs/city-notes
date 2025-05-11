@@ -272,5 +272,36 @@ Belady's Anomaly - In not all cases it is better to have more frames. Sometimes 
 - FIFO does not discriminate if a page is useful or not, and the oldest may still be useful. 
 - Use status bits R (read/write), M (modified)
 - R = 0 unused, R = 1, recently used. 
+- All frames are given a second chance before they are removed. 
 - Among unused frames, FIFO applies. 
 - Not very efficient, as there is constant moving of pages to give every page a second chance. 
+
+**Clock Page Replacement Algorithm**
+
+- Arrange the pages in a clock format.
+- When a page fault occurs, the page the hand is pointing to is inspected.
+- The action taken depends upon the R bit. 
+	- 0, evict the page. 
+	- 1, clear R and advance hand. 
+
+**Optimal Algorithm**
+
+- Replace page that will not be used for longest period of time
+- How do you know this? Can't read future.
+- This is used for measuring how well a given algorithm performed. 
+- It is theoretical 
+
+**Least Recently Used Algorithm**
+
+- Use past knowledge rather than future
+- Replace page that has not been used in the most amount of time. 
+- Associate time of last use with each page. 
+- Better than FIFO, worse than optimal (but that is impossible)
+- Generally good, frequently used. 
+- Difficult to implement, have to keep a record of which pages have been used. 
+- Needs special hardware
+
+
+Each process needs minimum number of pages, two major allocation schemes. 
+
+Thrashing - If a process does not have enough pages, the page-fault rate is very high. Trashing means a process is busy swapping pages in and out. 
