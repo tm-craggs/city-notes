@@ -305,3 +305,6 @@ Belady's Anomaly - In not all cases it is better to have more frames. Sometimes 
 Each process needs minimum number of pages, two major allocation schemes. 
 
 Thrashing - If a process does not have enough pages, the page-fault rate is very high. Trashing means a process is busy swapping pages in and out. 
+
+
+Page fault frequency - We establish an acceptable page fault frequency for each process to decide what gets frames. If the rate is too high, the process is given more frames. If it is too low, they get less. 
