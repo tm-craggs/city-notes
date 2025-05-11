@@ -48,4 +48,23 @@ Slowdown = t slow = with swap / t fast = without swap.
 
 Swapping on Mobile Systems typically does not happen. Will ask you to free up processes. 
 
-Co
+Contiguous Allocation. 
+
+Memory is limited and we must allocate efficently. 
+
+If the process is fixed, then easy. However some will need to be allocated for growth.
+If the process can grow, if there is a hole adjacent, allocate and grow in the hole. 
+If there is no memory to grow ,suspend and wait, or kill it. 
+Or allocate some space so that the process can grow. 
+
+How to allocate a process. 
+
+First-fit - Allocate the first hole that is big enough. Fast way of solving it, but not very efficient, can leave big holes. 
+
+Best-fit - Allocate the smallest hole that is big enough. Must search entire list, unless ordered by size, and use the smallest hole that is adequate. This stops breaking up a big hole that may be needed later. It also produces very small holes that are completely useless. 
+
+Worst-git - Allocate the largest hole, also search entire. First-fit and best-fit are better in terms of speed and allocation. 
+
+External Fragmentation - When enough space exists to satisfy a request but the available spaces are not contiguous; storage is fragmented into numerous holes. 
+
+Internal Fragmentation - We can give processes larger allocations wi
