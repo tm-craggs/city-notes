@@ -86,4 +86,14 @@ However, these take time, and are a trade off in itself.
 
 Modern OS - Swapping does not happen that often, not that effective. 
 
-Paging - Instead of allocating large chunks of memory, we divide into smaller chunks of memory. Each page
+Paging - Instead of allocating large chunks of memory, we divide into smaller chunks of memory. Each page of virtual memory is mapped to a same sized frame of contiguous physical memory. Standard Linux page size is 4 kB
+
+Divide physical memory into fixed-sized blocks called frames.
+Size is power of 2, between 512 bytes and 16 mega bytes. 
+
+How many frames can be pointed to with a page of 4 bytes? How much physical memory would that compromise if each frame would be 4 kB. 
+
+
+
+
+
