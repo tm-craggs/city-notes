@@ -45,3 +45,7 @@ Slowdown = t slow = with swap / t fast = without swap.
 ![[image-1.png|456x287]]
 
 - Does swapped out memory need to swap back into same place, depends on swapping method. 
+
+Swapping on Mobile Systems typically does not happen. Will ask you to free up processes. 
+
+Co
