@@ -141,4 +141,38 @@ Scenario 2: Process uses different parts of its virtual memory address space at 
 - A pager is a lazy swapper, never swaps a page into memory unless the page is used. 
 
 
-Some pages do not correspond to a physical memory address. These are called virtual pages
+Some pages do not correspond to a physical memory address. These are called virtual pages. Tag each page table entry with a present (1) absent (0) or invalid (-1) bit.
+
+Initially, is set to 0 on all entries. 
+If an absent page is requested, it creates a page fault. 
+
+
+Structure of a page table entry. 
+
+- Present/absent (valid/invalid) if 1 can be accessed, if - is not avaliable. 
+- Protection: Kind of access permitted (read, write, read/write)
+- Modified, Referenced, keep track of the page usage, when modified is called "dirty"
+- Caching, sometimes it is important to recall from devices I/O and not just a cached value. 
+
+
+Page fault - Occurs if the requested entry in the page tabled is marked 0, or invalid. 
+
+OS will check page number
+
+- If illegal (outside process address space) abort
+- Otherwise (legal but not currently in memory)
+	- Get empty frame
+	- Swap page into frame
+	- Change validation bit from i to v
+	- Restart the instruction that caused the page fault. 
+
+Performance of Demand Paging
+
+- Page-Fault rate 0 < p 1.0
+	- If p = 0 there are no page faults. 
+	- If p = 1, every memory reference causes a page fault. 
+- Effective Access Time (EAT)
+	- The average time taken to service a memory reference. 
+	- If there were never any page faults, this would just be the base hardware memory access time. 
+- When a page fault happens, the following extra time is spent. 
+	- Time taken to execute page-fault trap + time taken to swap pages in and out of the disk + time taken to return from the trap and restart the process wh
