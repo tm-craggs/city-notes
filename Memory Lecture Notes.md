@@ -194,4 +194,8 @@ EAT = a + Ps
 Where:
 **a** = Hardware memory **a**ccess time
 **p** = **P**age fault rate
+**S** = Page fault **s**ervice time
 
+If we have more RAM, p decreases (less swaps)
+Adding processes increases p (more loaded)
+Increasing disk speed decreases S
