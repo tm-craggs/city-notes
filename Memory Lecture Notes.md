@@ -67,4 +67,23 @@ Worst-git - Allocate the largest hole, also search entire. First-fit and best-fi
 
 External Fragmentation - When enough space exists to satisfy a request but the available spaces are not contiguous; storage is fragmented into numerous holes. 
 
-Internal Fragmentation - We can give processes larger allocations wi
+Internal Fragmentation - We can give processes fixed allocations with some unused space. For example, just allocate the enitre hole rather than leaving a useless hole of 2 bytes. Holding the record of the hole is larger than the hole itself. 
+
+Simply:
+
+External Fragmentation - Total memory space exists, but is not contiguous. 
+Internal Fragmentation - Allocated memory may be slightly larger than requested memory, this size difference is memory internal to a partition. 
+
+First fit analysis shows that we lose a third of memory. 0.5 N blocks lost to fragmentation. 
+
+We can do optimisations such as
+
+Compaction - Shuffle memory contents to place all free memory together in one block. Only possible if relocation is dynamic, and done at execution time. 
+
+However, these take time, and are a trade off in itself. 
+
+## Paging:
+
+Modern OS - Swapping does not happen that often, not that effective. 
+
+Paging - Instead of allocating large chunks of memory, we divide into smaller chunks of memory. Each page
