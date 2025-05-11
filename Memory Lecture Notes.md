@@ -262,3 +262,15 @@ Algorithms can be evaluated by running it on a particular string of memory refer
 - In this scenario, when all frames became full. 7 was taken off first, as it was the first in, had been there the longest. 
 - If there is a page in the string that is already in memory, skip it. 
 - This algorithm has no prediction. You may be removing a page that is next to be requested, in which case removing something else would have been a better choice. 
+
+Belady's Anomaly - In not all cases it is better to have more frames. Sometimes having 4 can be worse than 3. But then 5 6 and 7 are better and mostly flat. 
+
+![[image-34.png|353x240]]
+
+**Second Chance Algorithm**
+
+- FIFO does not discriminate if a page is useful or not, and the oldest may still be useful. 
+- Use status bits R (read/write), M (modified)
+- R = 0 unused, R = 1, recently used. 
+- Among unused frames, FIFO applies. 
+- Not very efficient, as there is constant moving of pages to give every page a second chance. 
