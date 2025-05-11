@@ -123,3 +123,8 @@ Page offset - tells you how far down you need to go (reading down a page in a bo
 ![[image-32.png|581x327]]
 
 One page table for each process that is running on the CPU. 
+
+Pages do not have to be stored contiguously in physical memory, all that matters is that we are able to translate from the location in logical memory to the location in physical memory. The OS has to track which frames are in use and which ones are not, so that free frames can be allocated. 
+
+
+
