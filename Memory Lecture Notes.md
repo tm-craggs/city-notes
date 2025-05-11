@@ -175,4 +175,23 @@ Performance of Demand Paging
 	- The average time taken to service a memory reference. 
 	- If there were never any page faults, this would just be the base hardware memory access time. 
 - When a page fault happens, the following extra time is spent. 
-	- Time taken to execute page-fault trap + time taken to swap pages in and out of the disk + time taken to return from the trap and restart the process wh
+	- Time taken to execute page-fault trap + time taken to swap pages in and out of the disk + time taken to return from the trap and restart the process which made the memory reference.
+- This combined extra time is called the page-fault service time.
+
+Example Question:
+
+Base memory access time = 100ns
+Average page-fault service time = 1ms
+
+Suppose one memory reference in every 1000 causes a page-fault. 
+
+Estimate EAT
+What is the slowdown factor?
+
+
+EAT = a + Ps
+
+Where:
+**a** = Hardware memory **a**ccess time
+**p** = **P**age fault rate
+
