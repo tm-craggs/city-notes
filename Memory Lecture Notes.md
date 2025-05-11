@@ -199,3 +199,29 @@ Where:
 If we have more RAM, p decreases (less swaps)
 Adding processes increases p (more loaded)
 Increasing disk speed decreases S
+
+
+Page tables are too large to be implemented in registers so we have to store them in main memory. 
+This adds an extra memory lookup to each memory access.
+To reduce this overhead, MMU uses a page table cache called the Translation Look-Aside Buffer (TLB)
+
+Memory structures for paging can get huge using straight-forward methods. 
+- Consider a 32 bit logical address space on modern computers
+- Page size of 4kB
+- Page table would have 1 million entries.
+- If each entry is 4 bytes, 4 MB of physical address space for page table alone. 
+- That amount of memory used to cost a lot. Don't want to allocated that contiguously in main memory. 
+
+There are 
+- Hierarchical paging
+- Hashed page tables
+- Inverted page tables. 
+
+- Break up the logical address space into multiple page tables.
+- A simple technique is a two-level page table. 
+- Like having chapters and pages. 
+
+## Page replacement
+
+- Suppose we need to bring a page into memory but there is no free frame. 
+- **Page Replacement** - Find some page which is in memory, but not currently 
