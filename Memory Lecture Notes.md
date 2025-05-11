@@ -236,4 +236,29 @@ There are
 - Find a free frame:
 	- If there is a free frame, use it. 
 	- If there is no free frame, use a page replacement algorithm to select a victim frame. 
-	- 
+	- Write the victim frame to disk if dirty, (has been modified)
+- Bring the desired page into the newly freed frame; update the page and frame tables.
+- Continue the process by restarting the instruction that caused the trap. 
+- Note, this is now 2 page transfers for page fault, increasing EAT. 
+
+Frame-allocation algorithm determines:
+- How many frames to give each process. 
+- Which frames to replace
+
+Page-replacement algorithm
+- Want lowest page-fault rate on both first access and re-access
+
+Algorithms can be evaluated by running it on a particular string of memory references, and computing the number of page faults on that string. String is just page numbers that are being requested. Repeated access to the same page does not cause a page fault. Results also depend on the number of available frames. 
+
+
+#### Page replacement Algorithms
+
+**First in First Out**
+
+- The page which was first brought into memory, is the first page to be removed. 
+
+![[image-33.png|158x163]]
+
+- In this scenario, when all frames became full. 7 was taken off first, as it was the first in, had been there the longest. 
+- If there is a page in the string that is already in memory, skip it. 
+- This algorithm has no prediction. You may be removing a page that is next to be requested, in which case removing something else would have been a better choice. 
