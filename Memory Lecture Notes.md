@@ -224,4 +224,16 @@ There are
 ## Page replacement
 
 - Suppose we need to bring a page into memory but there is no free frame. 
-- **Page Replacement** - Find some page which is in memory, but not currently 
+- **Page Replacement** - Find some page which is in memory, but not currently being used, and swap it out. 
+- Page replacement algorithms decide which memory pages to swap out when a page of memory needs to be allocated. 
+- We can speed up the process by using the dirty bit. (tells you if it has been modified)
+- If it has been modified, it has to go back to the disk. If it has not been modified it is exactly the same, so can be discarded. Saves you one transfer. 
+
+
+**Basic Page Replacement**
+
+- Find the location of the desired page on disk. 
+- Find a free frame:
+	- If there is a free frame, use it. 
+	- If there is no free frame, use a page replacement algorithm to select a victim frame. 
+	- 
