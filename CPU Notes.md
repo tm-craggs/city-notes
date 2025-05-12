@@ -26,3 +26,6 @@ All these assume negligible overhead in creating and admitting of processes
 - Decision Mode:
 	- Non-preemptive. A process will run on the CPU until it successfully completes.
 	- Since we have assumed no processes will fail or make I/O requests. 
+
+Throughput = number of executed processes / duration of observing system
+
