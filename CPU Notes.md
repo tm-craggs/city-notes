@@ -31,3 +31,9 @@ Throughput = number of executed processes / duration of observing system
 
 ![[image-2.png|555x274]]
 
+## Round Robin
+
+- Decision Mode: Preemtive, based on hardware clock
+- Selection Function:
+	- When a process assigned, it runs for a fixed amount of time, called a quantum of time or a time slice.
+	- If the process 
