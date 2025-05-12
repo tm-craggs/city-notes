@@ -36,4 +36,13 @@ Throughput = number of executed processes / duration of observing system
 - Decision Mode: Preemptive, based on hardware clock
 - Selection Function:
 	- When a process assigned, it runs for a fixed amount of time, called a quantum of time or a time slice.
-	- If the process 
+	- If the process does not terminate before the time quantum elapses, the process rejoins the ready queue. Otherwise it terminates. 
+	- The next process assigned to the CPU is the one waiting the longest. 
+
+## Shortest Time Remaining
+
+- Decision Mode: Preemptive version of shortest process next. The CPU can be reassigned whenever a new process enters the ready queue. 
+- Selection Function: Under the SRT policy and the assumptions on our 4 processes, the steps are.
+	- When a new process is assigned to the CPU, it runs until it either terminates or a new process joins the ready queue. 
+	- When a process terminates or a new process joins the ready queue, the process assigned to the CPU is the process with the shortest remaining CPU burst time. 
+	- Tie - resort the FCFS
