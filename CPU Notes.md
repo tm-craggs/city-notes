@@ -6,7 +6,7 @@ Response Time - The time between when the process arrives in the ready queue and
 
 Wait Time - Response Time + any additional delays
 
-CPU burst time - Total time the process needs to spend running on the CPU
+CPU burst time (service time) - Total time the process needs to spend running on the CPU
 
 Turnaround Time - Time between when the process arrives in the ready queue and when it finishes executing. 
 
@@ -17,3 +17,11 @@ Throughput - The number of processes that start and complete during the duration
 Wait time - For each process the total time the process spent waiting to be assigned to the CPU. 
 
 All these assume negligible overhead in creating and admitting of processes
+
+## First-Come First-Served
+
+- Selection Function: Under the FCFS policy, the steps are
+	- When a process is assigned to the CPU it runs till it terminates.
+	- When the running process terminates, the process that has been in the queue the longest is assigned.
+- Decision Mode:
+	- Non-preempti
