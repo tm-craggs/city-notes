@@ -24,4 +24,5 @@ All these assume negligible overhead in creating and admitting of processes
 	- When a process is assigned to the CPU it runs till it terminates.
 	- When the running process terminates, the process that has been in the queue the longest is assigned.
 - Decision Mode:
-	- Non-preempti
+	- Non-preemptive. A process will run on the CPU until it successfully completes.
+	- Since we have assumed no processes will fail or make I/O requests. 
