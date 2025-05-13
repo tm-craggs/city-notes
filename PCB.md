@@ -37,3 +37,5 @@ Kernel mode
 - Protected areas of memory may be accessed.
 - Priviliedged instructions may be run
 - Switches to kernel mode when an interrupt occurs, so it can be handled
+
+Control Stack - when a context switch occurs save important data to the control stack, such as the value of the program counter and the contents of registers. 
