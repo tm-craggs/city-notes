@@ -36,4 +36,6 @@ The following are examples of languages over the alphabet Σ = {a,b}
 - `{ε, a, b, aa, ab, ba, bb, aaa, aab, ...}`, the infinite set of all combinations of a's and b's
 - `{ε, ab, aabb, aaabbb, aaaabbbb, ...}`, the infinite set of strings consisting of _n_ a's followed by _n_ b's.
 
-For any formal language, 
+For any formal language, a key task is testing for membership of the set of strings. 
+
+A **recogniser** for a language L over an alphabet Σ is a machine that can be used to decide whether a string over Σ is in L.
