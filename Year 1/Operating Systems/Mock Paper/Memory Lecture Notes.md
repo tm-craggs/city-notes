@@ -4,7 +4,7 @@ Every square of memory is a bit, and holds flip flops. How do we organise and al
 
 Organise is cells/words/bytes, which could be a certain amount of bits in a row. It depends on how many bits the words hold. 
 
-![[image.png|412x220]]
+![[Year 1/Images/image.png|412x220]]
 
 As chips has progressed they have had more bits per word. 
 
@@ -42,7 +42,7 @@ Slowdown factor - Calculates the ratio of the slow case over the fast case.
 
 Slowdown = t slow = with swap / t fast = without swap. 
 
-![[image-1.png|456x287]]
+![[Year 1/Operating Systems/Mock Paper/image-1.png|456x287]]
 
 - Does swapped out memory need to swap back into same place, depends on swapping method. 
 

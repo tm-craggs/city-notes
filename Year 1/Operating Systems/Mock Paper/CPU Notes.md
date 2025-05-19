@@ -29,7 +29,7 @@ All these assume negligible overhead in creating and admitting of processes
 
 Throughput = number of executed processes / duration of observing system
 
-![[image-2.png|555x274]]
+![[Year 1/Operating Systems/Mock Paper/image-2.png|555x274]]
 
 ## Round Robin
 

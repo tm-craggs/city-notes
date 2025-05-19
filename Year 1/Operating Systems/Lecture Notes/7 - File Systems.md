@@ -220,7 +220,7 @@
 - Need some special mechanism to create the root file system. 
 - Illustration of mounted and unmounted file systems:
 
-![[image-1.png|465x245]]
+![[Year 1/Operating Systems/Mock Paper/image-1.png|465x245]]
 
 # File Sharing
 
@@ -263,7 +263,7 @@
 
 - Three modes of access: Read (r), Write (w) and Execute (x)
 
-![[image-2.png|438x148]]
+![[Year 1/Operating Systems/Mock Paper/image-2.png|438x148]]
 
 - Three classes of user: Owner (u), group (g) and other (o)
 - There are permission for each of these users in the same order. 
