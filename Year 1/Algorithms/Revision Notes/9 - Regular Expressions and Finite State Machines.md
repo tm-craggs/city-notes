@@ -23,4 +23,15 @@ We should be familiar with
 
 The symbols of a string are usually written together, without commas.
 
-Although each string is finite, there are infinite many of them. Σ* is an infinite set
+Although each string is finite, there are infinite many of them. Σ* is an infinite set. 
+
+**A language over an alphabet Σ** - A finite or infinite set of strings over the alphabet, that is, a subset of of Σ*. 
+
+The following are examples of languages over the alphabet Σ = {a,b}
+
+- `∅`, the empty set of strings
+- `{ε}`, the set containing only the empty string
+- `{ε, a, b, aa, ab, ba, bb}`, the set of strings of length at most 2
+- `{ε, a, aa, aaa, ...}`, the infinite set of strings consisting of just a's
+- `{ε, a, b, aa, ab, ba, bb, aaa, aab, ...}`, the infinite set of all combinations of a's and b's
+- `{ε, ab, aabb, aaabbb, aaaabbbb, ...}`, the infinite set of strings consisting of _n_ a's followed by _n_ b's.
