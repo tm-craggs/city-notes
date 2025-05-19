@@ -57,9 +57,13 @@ Example:
 
 - Union
 	- The **union** of two languages L<sub>1</sub> and L<sub>2</sub> over the same alphabet, written L<sub>1</sub> ∪ L<sub>2</sub> is a simple union of the two strings.
-	- `{a, ab} ∪ {a, bc}` = `{a, ab, bc`
+	- `{a, ab} ∪ {a, bc}` = `{a, ab, bc}`
 
 - Intersection
-	- The **intersection** of two languages L<sub>1</sub> and L<sub>2</sub> over the same alphabet Σ, written L<sub>1</sub>  ∩ L<sub>2</sub>
+	- The **intersection** of two languages L<sub>1</sub> and L<sub>2</sub> over the same alphabet Σ, written L<sub>1</sub>  ∩ L<sub>2</sub> is just the intersection of the two strings. 
+	- `{a, ab} ∪ {a, bc}` = `{a}`
+
 - Compliment
+	- 
+
 - Concatenation
