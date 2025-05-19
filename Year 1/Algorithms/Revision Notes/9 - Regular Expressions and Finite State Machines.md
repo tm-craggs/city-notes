@@ -64,6 +64,8 @@ Example:
 	- `{a, ab} ∪ {a, bc}` = `{a}`
 
 - Compliment
-	- 
+	- The **complement** of a language L over the alphabet Σ, written L, is Σ* - L.
+	- If Σ = { a }
+		- NOT { ε, a, aa } = { aaa, aaaa, aaaaa, ... }
 
 - Concatenation
