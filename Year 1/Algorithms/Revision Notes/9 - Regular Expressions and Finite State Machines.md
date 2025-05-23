@@ -71,3 +71,5 @@ Example:
 - Concatenation
 	- The **concatenation** of two languages L<sub>2</sub> and L<sub>2</sub> over the same alphabet Σ, written L<sub>2</sub>L<sub>2</sub>, is the set of strings formed by concatenating a string from L<sub>2</sub> with one from L<sub>2</sub>, i.e.
 
+![[image-36.png|547x369]]
+
