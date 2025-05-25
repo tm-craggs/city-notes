@@ -70,5 +70,20 @@ Essentially, the only way to approach these problems is to guess a candidate sol
 	- We can reduce this to the sorting problem, and then just find the middle value. 
 - We can reduce the three colouring problem to the satisfiability problem, by expression the colouring condition as a logical formula. 
 
-- Suppose we reduce the three
+- Suppose we reduce the three colouring problem to the satisfiability problem.
+	- Suppose we have a graph with _n_ nodes.
+	- Introduce 3 boolean variables for each node:
+		- r<sub>i</sub> is true if node _i_ is red.
+		- g<sub>i</sub> is true if node _i_ is green.
+		- b<sub>i</sub>  is true if node _i_ is blue.
+	- For each node, add a formula saying the node has only one colour
+		- ¬(r<sub>i</sub> ∧ r<sub>i</sub>) ∧ ¬(g<sub>i</sub> ∧ g<sub>i</sub>) ∧ ¬(g<sub>i</sub> ∧ g<sub>i</sub>)
+	- For each pair of nodes i and j connected connected by an edge, add a formula that they have different colours. 
+		- ¬(r<sub>i</sub> ∧ r<sub>j</sub>) ∧ ¬(g<sub>i</sub> ∧ g<sub>j</sub>) ∧ ¬(g<sub>i</sub> ∧ g<sub>j</sub>)
+	- Join all these formula together with ∧
+- Then, the resulting formula is satisfiable, only if the graph has three colouring. 
+- The size of the formula is proportional to the size of the graph. 
+- Therefore a polynomial algorithm for the satisfiability problem would give us a polynomial algorithm for the Three Colouring Problem. So we have a polynomial-time reduction. 
+- By reducing the three colouring problem to the satisfiability problem, we have shown that satisfiability is at least as hard as three colouring. 
+- In this case, we can also perform a reduction the other way, implying they are equally hard. 
 
