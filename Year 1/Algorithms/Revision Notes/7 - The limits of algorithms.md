@@ -1,4 +1,5 @@
 - There are problems that can't be solved in a reasonable amount of time
+- There are problem for which nobody knows whether they can be solved in a reasonable amount of time. 
 - There are problems that can't be solved at all. 
 
 
@@ -48,7 +49,11 @@ These algorithms are all decision algorithms (is there a solution?) but can easi
 - They are simple in structure (assignment of variables, selection of items, tour of a graph)
 - However, the number of candidate solutions is enormous. 
 
-**NP** - The class of search problems for which constructing and checking a single possibility can be done in polynomial time. 
+**NP** - Nondetermin
 
 - It is easy to show that each of the above problems is in NP.
-- For example, satisfiability is in NP because to construct a candiate
+- For example, satisfiability is in NP because to construct a candidate solution, we just guess boolean values for each of a the variables, and to check it we evaluate the boolean expression. 
+- Both can be done in time proportional to the size of the expressions, (linear time) which is certainly polynomial. 
+- Now every problem is in BP, but we don't know if the reverse is true. The question is. 
+- P = NP or P ≠ NP
+- There are more problems outside of NP, but we know they are intractable. 
