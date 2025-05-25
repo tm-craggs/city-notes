@@ -106,4 +106,28 @@ Essentially, the only way to approach these problems is to guess a candidate sol
 
 - Most are betting on the latter, but they can't be sure.
 - We know that if P ≠ NP, then there must exist problems in NP that are either in P not NP-complete. 
-- 
+- There are some problems that are expected to be in this area, but no one knows for certain. 
+
+**Integer Factorisation Problem**
+- Given an n-bit whole number, find two smaller numbers that multiply together to give that number.
+
+**Graph Isomorphism Problem**
+- Is there a one-to-one matching of nodes and edges between two given graphs.
+
+These problems are clearly in NP, but no-one has been able to show that they are NP-complete, or to find polynomial-time algorithms for them. They are suspected to belong to the grey area.
+
+**Linear Programming Problem**
+
+- Given a system of linear inequalities, choose x and y to maximise a linear function. 
+- This important problem from logistics has been solved since 1947 using the Simplex Algorithm, which performs well in practice, but it has an exponential worst case. 
+- It was a candidate for the grey area until 1979 when a polynomial-time algorithm was found.
+
+## Application: Public Key Encryption
+
+![[image-40.png|518x192]]
+
+- Alice wishes to send a message to Bob, without Eve, who might intercept the message. 
+- Alice will encrypt the message, but how can Alice and Bob agree on keys without meeting and without Eve getting the keys?
+
+**RSA Encryption**
+
