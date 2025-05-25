@@ -133,7 +133,15 @@ These problems are clearly in NP, but no-one has been able to show that they are
 
 - The RSA method is a solution to this. Named after the three that invented the algorithm. 
 - The method relies on having three numbers, N, d and e such that for any number 0 ≤ _m_ < _N_. 
-- 
+
+
+![[image-41.png]]
+
+This can be recast as the following equivalence. 
+
+![[image-42.png]]
+
+We can use this to encrypt and decrypt messages. 
 
 ## Noncomputability
 
