@@ -97,4 +97,13 @@ Essentially, the only way to approach these problems is to guess a candidate sol
 **NP-Complete** - Any problem that is NP hard and is in NP. 
 
 - Proving something as NP complete is far easier, soon hundreds of problems has been shown to be NP-Complete.
-- The question of if P = NP is still open, but most experts think it does not.  
+- The question of if P = NP is still open, but most experts think it does not. 
+
+
+## In the grey area
+
+![[image-39.png|403x224]]
+
+- Most are betting on the latter, but they can't be sure.
+- We know that if P ≠ NP, then there must exist problems in NP that are either in P not NP-complete. 
+- 
