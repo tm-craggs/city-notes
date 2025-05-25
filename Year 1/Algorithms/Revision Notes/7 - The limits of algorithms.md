@@ -87,3 +87,6 @@ Essentially, the only way to approach these problems is to guess a candidate sol
 - By reducing the three colouring problem to the satisfiability problem, we have shown that satisfiability is at least as hard as three colouring. 
 - In this case, we can also perform a reduction the other way, implying they are equally hard. 
 
+**NP-complete problems**
+
+- If a polynomial algorithm for the Satisfiabili
