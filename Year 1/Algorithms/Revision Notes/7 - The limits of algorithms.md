@@ -131,3 +131,24 @@ These problems are clearly in NP, but no-one has been able to show that they are
 
 **RSA Encryption**
 
+- The RSA method is a solution to this. Named after the three that invented the algorithm. 
+- The method relies on having three numbers, N, d and e such that for any number 0 ≤ _m_ < _N_. 
+
+## Noncomputability
+
+- Some problems are even worse, no algorithm can solve them in any amount of time. 
+
+**The Halting Problem**
+
+- Given as input a program P and input I, determine whether the program will halt if run with that input. 
+
+
+##### Other noncomputable problems
+
+**Decision Problem for First Order Logic**
+
+- Determine whether a predicate logic formula is valid. 
+
+**Program Equivalence Problem**
+
+- Do two terminating programs produce the same results for all inputs?
