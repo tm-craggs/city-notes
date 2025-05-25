@@ -89,4 +89,12 @@ Essentially, the only way to approach these problems is to guess a candidate sol
 
 **NP-complete problems**
 
-- If a polynomial algorithm for the Satisfiabili
+- In 1971, it was proved by Stephen Cook that any problem in NP could be reduce to the Satisfiability Problem in polynomial time. 
+- Thus, if a polynomial algorithm for SAT exists, we can solve any other NP problem in polynomial time. 
+- SAT is among the hardest in NP. 
+
+**NP-Hard** - Any problem in NP that can be reduced to SAT in polynomial time.
+**NP-Complete** - Any problem that is NP hard and is in NP. 
+
+- Proving something as NP complete is far easier, soon hundreds of problems has been shown to be NP-Complete.
+- The question of if P = NP is still open, but most experts think it does not.  
