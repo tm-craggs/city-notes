@@ -49,7 +49,8 @@ These algorithms are all decision algorithms (is there a solution?) but can easi
 - They are simple in structure (assignment of variables, selection of items, tour of a graph)
 - However, the number of candidate solutions is enormous. 
 
-**NP** - Nondetermin
+**NP** - Nondeterministic Polynomial Time. Is the class of problem for which if the answer is yes, there exists a _certificate_ (or candidate solution) that can be verified in polynomial time. **If someone gives you a proposed solution, you can check whether it works in Polynomial Time**
+
 
 - It is easy to show that each of the above problems is in NP.
 - For example, satisfiability is in NP because to construct a candidate solution, we just guess boolean values for each of a the variables, and to check it we evaluate the boolean expression. 
@@ -57,3 +58,17 @@ These algorithms are all decision algorithms (is there a solution?) but can easi
 - Now every problem is in BP, but we don't know if the reverse is true. The question is. 
 - P = NP or P ≠ NP
 - There are more problems outside of NP, but we know they are intractable. 
+
+Essentially, the only way to approach these problems is to guess a candidate solution and then verify if the candidate solution is valid, in polynomial (acceptable) time. 
+
+
+## Reduction of problems
+
+- One strategy to solve a problem is to reduce it to a problem for which we have a good algorithm.
+- We say a problem A can be **reduced** to a problem B if we can write an algorithm for A that calls an algorithm for B.
+- For example, consider the problem of finding the median number in an array of numbers.
+	- We can reduce this to the sorting problem, and then just find the middle value. 
+- We can reduce the three colouring problem to the satisfiability problem, by expression the colouring condition as a logical formula. 
+
+- Suppose we reduce the three
+
