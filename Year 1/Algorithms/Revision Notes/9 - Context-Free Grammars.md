@@ -105,3 +105,16 @@ Because the grammar is context-free, we could expand the braced words in any ord
 ## Programming Languages 
 
 Context-free grammars are commonly used to describe the syntax of a programming languages. For example, here is a simple grammar for Java. 
+
+- ⟨statement⟩ → **;**
+- ⟨statement⟩ → ⟨expression⟩ **;**
+- ⟨statement⟩ → **{** ⟨statement-list⟩ **}**
+- ⟨statement⟩ → **while** **(** ⟨expression⟩ **)** ⟨statement⟩
+- ⟨statement⟩ → **do** ⟨statement⟩ **while** **(** ⟨expression⟩ **)** **;**
+- ...
+- ⟨statement-list⟩ → ε
+- ⟨statement-list⟩ → ⟨statement⟩ ⟨statement-list⟩
+
+## Algorithms
+
+A **recogniser** for a grammar is an algorithm that tells us if an input string 
