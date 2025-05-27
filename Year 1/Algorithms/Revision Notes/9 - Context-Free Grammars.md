@@ -129,4 +129,40 @@ General parsing algorithms parse a string of length n in O(n3) time. In practice
 
 ## Regular Languages and context-free languages
 
-Any regular language can be describe using a context free grammar. 
+Any regular language can be described using a context-free grammar. Indeed we can express Kleene star α* (zero or more α's) as a production in two ways, either
+
+- X → ε | α X
+
+or, equivalently
+
+- X → ε | X α
+
+For example, let's start with the regular expression (a|b)((a|b)(a|b))*. We introduce non-terminals to stand for the various parts of the expression, and build up until we have a grammar for the whole thing:
+
+- Let X stand for (a|b). We can define it with a production
+    - X → a | b
+- Let Y stand for ((a|b)(a|b))*, which we can write more briefly using the previous definition as (XX)*. We can express that as either
+    
+    - Y → ε | X X Y
+    
+    or, equivalently
+    - Y → ε | Y X X
+- Now if S stands for the whole expression, we can define it with
+    - S → X Y
+
+## The Chomsky Hierarchy
+
+- The different types of languages in the hierarchy are described by grammars that allow for different types of productions. 
+
+|Type|Grammars|Productions|Recognizers|
+|---|---|---|---|
+|0|general|α → β|Turing machines|
+|1|context-sensitive|αXβ → αγβ|linear-bounded Turing machines|
+|2|context-free|X → γ|Pushdown machines|
+|3|regular|X → a B  <br>X → ε|Finite state machines|
+
+## Ambiguity
+
+- A context-free grammar is ambiguous if there is more than one parse tree for an input. 
+- We want to avoid these grammars
+- We can usually tighten grammars that are ambiguous 
