@@ -84,3 +84,24 @@ This notation is known as Backus-Naur form. (BNF)
 - The root of the tree is labelled with the start symbol. 
 - The leaves of the tree (at the bottom) are labelled with non-terminals. 
 - The children of each non-terminal correspond to the right hand side of a production of that non-terminal. 
+
+Formally:
+
+A **derivation** tree for a context-free grammar is a tree such that:
+- Each node is labelled with a terminal or non-terminal symbol
+- The root of the tree is labelled with the start symbol
+- A node labelled with a non-terminal symbol A has children labelled left-to-right with the symbols in β, where A → β is a production of the grammar
+- Nodes labelled with terminal symbols have no children (leaves)
+
+
+A string can be **derived** from the grammar if there is a derivation tree for the grammar whose leaves, read left-to-right, comprise the string w. 
+
+The **language** of a context free grammar is the set of strings of terminals that can be derived from the grammar. 
+
+Derivation is sometimes presented as beginning with the start symbol, and repeatedly expanding non-terminals until only terminals are left.
+
+Because the grammar is context-free, we could expand the braced words in any order, and still get the same response.
+
+## Programming Languages 
+
+Context-free grammars are commonly used to describe the syntax of a programming languages. For example, here is a simple grammar for Java. 
