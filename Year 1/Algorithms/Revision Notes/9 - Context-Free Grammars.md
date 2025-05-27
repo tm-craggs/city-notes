@@ -117,4 +117,16 @@ Context-free grammars are commonly used to describe the syntax of a programming 
 
 ## Algorithms
 
-A **recogniser** for a grammar is an algorithm that tells us if an input string 
+A **recogniser** for a grammar is an algorithm that tells us if an input string belongs to the language. 
+
+More often, people want to go the other way. Starting with a string and working out how it can be derived from the start symbol. This process is called parsing. 
+
+A **parser** for a context-free grammar is an algorithm that takes as input a string and either. 
+- Returns a parse tree for the string. 
+- Announces that not parse tree exists. 
+
+General parsing algorithms parse a string of length n in O(n3) time. In practice, one uses special kinds of context-free grammar that have O(n) time parsers,
+
+## Regular Languages and context-free languages
+
+Any regular language can be describe using a context free grammar. 
