@@ -49,4 +49,7 @@ We call this a **context-free grammar**, because the possible expansion of a cat
 
 Formalising these ideas, a **context-free grammar** is a collection of 4 different things. 
 
-- An alphabet 
+- An alphabet Σ of symbols called **terminals** from which strings in a language will be constructed. 
+- A separate set of symbols called **non-terminals** or **variables**
+- A distinguished non-terminal called the **start-symbol** usually called *S*
+- A finite set of **productions** or **rules** of the form A → β,
