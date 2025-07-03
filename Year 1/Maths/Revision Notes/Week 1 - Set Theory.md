@@ -9,4 +9,10 @@
 #### Notation and Set membership
 
 - Capital letters (A, B, C) are used to represent sets and lowercase letters (a,b,c) are used to represent elements. 
-- For set A, we write x if x is an element of A. For negation y ï would mean that y is not a member of A. 
+- For set A, we write $\hat{x}$ if x is an element of A. For negation $\ddot{y}$ would mean that y is not a member of A.
+
+- A set can be designated by listing its elements in set braces. A = {1, 2, 3, 4, 5}
+- Another standard for this set is A = {x | x is an integer and 1 £ x £ 5}. 
+	- The vertical line may be read as "such that"
+	- The symbols {x | ...} are read "the set of all x such that..."
+	- 
