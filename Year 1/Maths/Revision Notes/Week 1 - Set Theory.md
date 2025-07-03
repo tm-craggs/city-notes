@@ -39,5 +39,11 @@
 - This means that the powerset of any set can be calculated 2<sup>n</sup>
 - Powersets are denoted P(A) where a is a set of the universe. 
 
-####
+#### Enumerability, Set Mappings and Infinite Sets
 
+- Consider the set N of natural numbers.
+- There is a natural ordering for this set, we can say this set is countable, or enumerable, because there is a simple way of ordering the elements of the set so that they can be counted.
+- Now consider the set of integers Z. This set is infinite both ends {-2, -1, 0, 1, 2}
+- We can count is by rearranging {0, -1, 1, -2, 2}
+- Now in order to count in we can provide a mapping onto the set N. 
+- Are sets N and Z the same size. Yes, because we can construct a one-to-one mapping. 
