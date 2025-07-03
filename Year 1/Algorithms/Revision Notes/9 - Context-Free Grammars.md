@@ -166,3 +166,27 @@ For example, let's start with the regular expression (a|b)((a|b)(a|b))*. We intr
 - A context-free grammar is ambiguous if there is more than one parse tree for an input. 
 - We want to avoid these grammars
 - We can usually tighten grammars that are ambiguous 
+
+## Decision problems
+
+There exist algorithms to test whether the language represented by a context-free grammar is empty, finite or infinite. However, many other properties of context-free grammars are undecidable. That is, there is no general procedure for any of these problems:
+
+Ambiguity
+
+Is the grammar ambiguous?
+
+Universality
+
+Is the language equal to Σ*?
+
+Equality
+
+Do two grammars describe the same language?
+
+Inclusion
+
+Is the language described by one grammar a subset of the language described by another?
+
+Overlap
+
+Is there a string derivable by both of two grammars?
