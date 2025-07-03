@@ -25,5 +25,19 @@
 #### Cardinality of Sets and Subsets
 
 - For any finite set A, |A| denotes the cardinality, or size, of A. 
-- This is sometimes denoteed n(A)
-- 
+- This is sometimes denoted n(A)
+- If C, D are sets from a universe U. C is a subset of D if every element of C is an element of D. 
+- Additionally, if D contains an element that is not in C (D contains all the elements of C and at least one extra) that is called a **proper subset**
+
+#### The Empty Set and Powersets
+
+- The empty set, or null set, is the unique set containing no elements. 
+- Denoted ∅
+- A powerset means a collection of all possible subsets of a given set. 
+- For each member of the set we have 2 choices, either include it or exclude it. 
+- This means for the set C = {1, 2, 3, 4} there are 2 x 2 x 2 x 2 choices. 
+- This means that the powerset of any set can be calculated 2<sup>n</sup>
+- Powersets are denoted P(A) where a is a set of the universe. 
+
+####
+
