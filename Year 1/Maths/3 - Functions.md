@@ -7,4 +7,8 @@
 
 ##### Examples
 
-- For the function f: A r B, A is called the **domain** of f and B the **co-domain** of f. Then eq
+- If we consider the set of natural numbers, then square of N r N is a function mapping numbers in the familiar way. 
+- Another way of writing functions is f(a) = b, when (a,b) is an ordered pair in the function f. 
+- Thus square(a)=b contains the following ordered pairs: (0,0), (1,1), (2,4), (3,9)...
+- This in more familiar notation is y = x<sup>2</sup>
+- 
