@@ -38,3 +38,5 @@ Two statements are said to be logically equivalent if they always produce the sa
 ![[image-46.png|325x162]]
 
 In this scenario, the last two statements are logically equivalent. 
+
+#### Compound Statements
