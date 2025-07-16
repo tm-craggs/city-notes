@@ -20,5 +20,9 @@
 
 1. Transform a given statement p into the statement Øp, which denotes its negation and is read Not P
 2. Combine two or more statements into a compound statement, using the following logical connectives.
-	1. **Conjunction**: The conjunction of any statement p,q is denoted by p and q.
-	2. **Disjunction**: The expression p or q denotes disjunction 
+	1. **Conjunction**: The conjunction of any statement p,q is denoted by p Ù q.
+	2. **Disjunction**: The expression p Ú q denotes disjunction. 
+	3. **Implication**: We say that "p implies q" and write p ® Q to designate the setentence, which is the implication of q by p. The statement p is sometimes referred to as the hypothesis, and q is called the conclusion. 
+
+		When statements are combined in this manner, there does not have to be any causal relationship between the statements for the implication to be true. Think of it as a vow or a promise. E.g. If I get 95% in this test, I will have a drink to celebrate
+	4. **Biconditional**: The biconditional of two statements p,q, is denoted by p << q, which is read p if and only if q
