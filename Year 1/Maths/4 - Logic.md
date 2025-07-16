@@ -20,4 +20,5 @@
 
 1. Transform a given statement p into the statement Øp, which denotes its negation and is read Not P
 2. Combine two or more statements into a compound statement, using the following logical connectives.
-	1. **Conjunction**: The conjunction of any statement p,q is  
+	1. **Conjunction**: The conjunction of any statement p,q is denoted by p and q.
+	2. **Disjunction**: The expression p or q denotes disjunction 
