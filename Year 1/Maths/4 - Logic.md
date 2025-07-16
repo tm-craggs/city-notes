@@ -26,3 +26,15 @@
 
 		When statements are combined in this manner, there does not have to be any causal relationship between the statements for the implication to be true. Think of it as a vow or a promise. E.g. If I get 95% in this test, I will have a drink to celebrate
 	4. **Biconditional**: The biconditional of two statements p,q, is denoted by p << q, which is read p if and only if q
+
+We can further explore the truth or falsity of statements by constructing truth tables
+
+![[image-44.png|323x138]]
+
+#### Logical Equivalence
+
+Two statements are said to be logically equivalent if they always produce the same truth and falsity for every possible input. For example, if every row of the truth table for each statement is the same. 
+
+![[image-46.png|325x162]]
+
+In this scenario, the last two statements are logically equivalent. 
