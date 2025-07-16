@@ -39,4 +39,5 @@ Two statements are said to be logically equivalent if they always produce the sa
 
 In this scenario, the last two statements are logically equivalent. 
 
+
 #### Compound Statements
