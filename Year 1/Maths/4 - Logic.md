@@ -82,4 +82,6 @@ The law of excluded middle (**tertium non datur**) says that either a propositio
 
 **De Morgan Duality**
 
-- A negat
+A negation of an entire statement can be split but negating each letter and reversing the sign. 
+
+![[image-55.png]]
