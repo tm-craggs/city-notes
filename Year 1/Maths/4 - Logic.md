@@ -76,4 +76,10 @@ The negation of a negation is equivalent to the original proposition
 
 **Excluded Middle**
 
-The law of excluded middle (**tertium non datur**) says that either a proposition is true or its negation is true.
+The law of excluded middle (**tertium non datur**) says that either a proposition is true or its negation is true. In addition, a statement cannot be true and false. 
+
+![[image-54.png]]
+
+**De Morgan Duality**
+
+- A negat
