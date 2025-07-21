@@ -105,4 +105,16 @@ If we denote raining as p, and getting wet by q, it is natural to conclude that 
 
 - The first three columns are obvious, they represent the truth table for a simple implication. 
 - The fourth column represents the truth value for the 2 statements. If it is raining, then I will get wet (p -> q) and It is raining (p)
-- The final column looks at the consequences of taking the two statements to see when q is true. We can see that it is true for all possible combinations, it is a tautology. 
+- The final column looks at the consequences of taking the two statements to see when q is true. We can see that it is true for all possible combinations, it is a tautology. Hence we can say it is a valid argument and that p, logically implies q. 
+
+### Rules of interference
+
+- From logical implication, rules of inference are derived. The first rule of interence is called **modus ponens**
+- This is expressed with the logical implication
+
+![[image-57.png]]
+
+- This rule of inference allows us to make inferences from given facts. For example
+- If I go to Greece for a holiday, then I will get a suntan. I went to Greece for a holiday. 
+- From which we can deduce, that I have got a suntan. 
+
