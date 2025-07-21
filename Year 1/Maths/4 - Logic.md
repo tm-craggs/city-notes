@@ -70,3 +70,10 @@ Conjunction distributes over disjunction, and vice versa
 
 ![[image-53.png]]
 
+**Double Negation** 
+
+The negation of a negation is equivalent to the original proposition
+
+**Excluded Middle**
+
+The law of excluded middle (**tertium non datur**) says that either a proposition is true or its negation is true.
