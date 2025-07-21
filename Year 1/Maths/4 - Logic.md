@@ -117,4 +117,8 @@ If we denote raining as p, and getting wet by q, it is natural to conclude that 
 - This rule of inference allows us to make inferences from given facts. For example
 - If I go to Greece for a holiday, then I will get a suntan. I went to Greece for a holiday. 
 - From which we can deduce, that I have got a suntan. 
+- I have won the lottery. If I win the lottery then I will quit my job. 
+- From this we can deduce that I will quit my job. 
+- However, it does not work backwards.
+- I have quit my job. If I win the lottery, then I will quit my job. Does not mean that 
 
