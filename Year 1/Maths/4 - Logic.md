@@ -35,8 +35,38 @@ We can further explore the truth or falsity of statements by constructing truth 
 
 Two statements are said to be logically equivalent if they always produce the same truth and falsity for every possible input. For example, if every row of the truth table for each statement is the same.
 
-Here, ¬p <</sup>
+Here, ¬p or q is the same as p -> q
 
 ![[image-47.png]]
 
 #### Compound Statements
+
+- A compound statement (proposition) is called a **tautology** if it is **true** for all truth value assignments for its component statements. 
+- If a compound statement is **false** for all such assignments, then it is called a **contradiction** 
+- A proposition is called **satisfiable** is there exists a truth assignment that makes the proposition true.
+- We can use the ideas of tautology and implication to form a valid argument which will also be of use if we are proving maths theories
+
+### Equivalences
+
+**Idempotence**
+
+![[image-49.png]]
+
+**Associativity**
+
+The conjuction and disjunctions of operators are associative, it does not matter in which order they are considered. 
+
+![[image-51.png]]
+
+**Commutativity**
+
+The conjunction and disjunction operators are commutative, the order of the conjuncts can be reversed. 
+
+![[image-52.png]]
+
+**Distributivity**
+
+Conjunction distributes over disjunction, and vice versa 
+
+![[image-53.png]]
+
