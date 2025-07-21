@@ -90,4 +90,19 @@ A negation of an entire statement can be split but negating each letter and reve
 - Consider the implication `p1 and p2 and p3 ... pn) -> q`
 - Here n is a positive integer, and the statement p1 and p2... are called **premises** of the argument. 
 - Statement q is the conclusion of the argument. 
-- One way of demonstrating the validity of the argument is to show that 
+- One way of demonstrating the validity of the argument is to show that the statement is a tautology. 
+
+**Examples**
+
+Consider the following propositions
+
+**If it is raining, I will get wet**
+**It is raining**
+
+If we denote raining as p, and getting wet by q, it is natural to conclude that if the above propositions are true, then I will get wet is also true. 
+
+![[image-56.png]]
+
+- The first three columns are obvious, they represent the truth table for a simple implication. 
+- The fourth column represents the truth value for the 2 statements. If it is raining, then I will get wet (p -> q) and It is raining (p)
+- The final column looks at the consequences of taking the two statements to see when q is true. We can see that it is true for all possible combinations, it is a tautology. 
