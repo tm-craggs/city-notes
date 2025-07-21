@@ -85,3 +85,9 @@ The law of excluded middle (**tertium non datur**) says that either a propositio
 A negation of an entire statement can be split but negating each letter and reversing the sign. 
 
 ![[image-55.png]]
+### Logical Implication
+
+- Consider the implication `p1 and p2 and p3 ... pn) -> q`
+- Here n is a positive integer, and the statement p1 and p2... are called **premises** of the argument. 
+- Statement q is the conclusion of the argument. 
+- One way of demonstrating the validity of the argument is to show that 
