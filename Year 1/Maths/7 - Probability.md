@@ -25,3 +25,5 @@ Example
 - For example, the sample space of tossing a coin is {head, tail}, the probabilities of each element in the sample space must then add up to one. T
 - This set of probabilities over a sample space is called a probability distribution. 
 - A probability distribution for tossing a fair coin would be {0.5, 0.5}
+- If tossing head or tails is no longer equi-probable, then P(H) = p and P(T) = 1-p
+
