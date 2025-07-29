@@ -20,4 +20,8 @@ Example
 
 #### Probability Distributions and Sample Spaces
 
-- The set of all po
+- The set of all possible outcomes of a given experement is called the sample space.
+- If we consider the sample space to be a set, then a specific event is an element from the sample space.
+- For example, the sample space of tossing a coin is {head, tail}, the probabilities of each element in the sample space must then add up to one. T
+- This set of probabilities over a sample space is called a probability distribution. 
+- A probability distribution for tossing a fair coin would be 
