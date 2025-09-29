@@ -206,7 +206,7 @@
 
 ##### General Graph Directory
 
-![[image.png|403x238]]
+![[image 1.png|403x238]]
 
 - How do we guarantee no cycles?
 	- Allow only links to file not sub-directories. 

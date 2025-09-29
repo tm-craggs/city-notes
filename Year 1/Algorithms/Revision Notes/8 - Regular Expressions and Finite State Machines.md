@@ -44,7 +44,7 @@ A **recogniser** for a language L over an alphabet Σ is a machine that can be u
 
 There are several ways to define particular formal languages. The following types were defined by Noam Chomsky. Each type is a restriction of the previous one. 
 
-![[image.png]]
+![[image 1.png]]
 
 
 Computer processing relies on the last two. These languages are simple enough to allow efficient recognisers. That is, algorithms can recognise a string of length n in O(n) time.
