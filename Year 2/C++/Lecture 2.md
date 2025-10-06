@@ -6,4 +6,20 @@ Lecture Content
 - Vectors from the standard template library
 - Introduction to containers.
 
-##
+#### Calculating Statistics from a list of numbers
+
+**Task**: Read in a list of numbers and print their average
+
+```C++
+#include <iostream>
+#include <iomap>
+
+using namespace std;
+
+int main() {
+	// read in data
+	// print results
+	return 0
+}
+
+```
