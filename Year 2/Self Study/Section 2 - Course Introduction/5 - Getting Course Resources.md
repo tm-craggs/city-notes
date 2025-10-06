@@ -1,0 +1,12 @@
+The repository for the course is held on. 
+https://github.com/BretFisher/udemy-docker-mastery.git
+
+[Docker Mastery Slides](https://att-c.udemycdn.com/2020-02-03_17-23-06-d5f5d03a46aae60940a9744989017523/original.zip?response-content-disposition=attachment%3B+filename%3DDocker%2BMastery%2BSlides%2B3.0.zip&Expires=1759791371&Signature=4UFaHNYOAz0eyXr6eB-CsnIX9AP5dsNhA35b3mM9n~ZmU8Ft4ck8ndgfghUOF-z6wnydRqBMVHWgBz9BBjLppXOKDquGUxZPTKh8GxR2lmDctg3IcXzD-xeZaJyptceY0gIm3r8bybk9u3NnVNj7uXlUODik4ud1lEmkXqS3c7b3gGF0JyvMNQTlaJkcTAmA~cPPWu-4pqdkKpBve2GPUR54v8sIMd1S9vI3O-lWf4mvy9Rbs0ELDPL-lWZiUxN1ycXEiAKvFSPOFdn~0kTrOmqkNbq54E3gcCZg0A7QAm7gVtFKXKv6RvUx07pN7td2C2tOp-otTWhWtxP763rCTQ__&Key-Pair-Id=K3MG148K9RIRF4)
+
+[Docker Mastery Commands](https://att-c.udemycdn.com/2020-07-08_18-42-17-662f27224426662f3f3440675f0bc272/original.zip?response-content-disposition=attachment%3B+filename%3DDocker%2BMastery%2BCommands%2B2.0.zip&Expires=1759791258&Signature=2aB3ZKMyN-NuHNw-Z0wIOZW8XaTZMT5UJD7b2YIrkF9X~UYfKjWVvP80ud~Doly9gqUEFkraRKk7moe8MvGBADjXoSd-PfOoTOoQIwiM1RKLwYRegStKBHltIEpQvc2m-c5FxxqHrksEdFwKWwsvnW50BdFWfDlQeEqqIuVzfQxHv~dIHWn8XHHO~QTsK~Ym~W9f9SIAmq2KTG8w-ykv7-Yu6mJjq2k7L5mUswZ7vTTEnSe3XIU4maoQMxaf7a5v4oGdFfNyGpluFsT8a8ymPOM3bGCbaIvhipQcVkKqYnAbdp1~vaxD01~tOCKSjudUSe3RFUHTZu7KfI8dngRUJg__&Key-Pair-Id=K3MG148K9RIRF4)
+
+[Docker Cheatsheet](https://att-c.udemycdn.com/2024-08-27_16-38-51-caff3d6655e071211fe50620bbbe7e38/original.pdf?response-content-disposition=attachment%3B+filename%3Ddocker_cheatsheet.pdf&Expires=1759791380&Signature=7lAyBYn~ACq0G9~LkzO3HtyrIKum4ChMw5UfyP4mqudxCrCvLxwfGkzd7bfTTn9ZE09cyG1Vn5hlp~jNmo~OX7OWQXHg6oZ4GSoCnMAxqyeWgpXd3h2-NGGhF324eS1FoxeJ6SPMnnFriW-ez6CHJaTikck5YpH~p7gkP75zkTrG7iI3T~4qeZUHq4gUqbFQNsf29Fipbaf~~zLUAyhJQBww972fvi5UiUzXZoiYNFst20b8diFjSuJ63xrEKmtTBXqPW0rXCNWhAen4-ItriU8l2AAL2hDWo2urCifBH4PVIu-TnmLYEdKP2kzdNI1tguiHuIFzBDp7v-UbAQTemw__&Key-Pair-Id=K3MG148K9RIRF4)
+
+[Discord Server Link](https://devops.fan/)
+
+[YouTube Channel ]
