@@ -40,4 +40,5 @@ It runs top down through image layers. `FROM python` installs everything Python 
 - It gets its own file system, IP address, process list. 
 - It essentially looks like its own system. 
 - If we run the `docker run` command again, we will get another process. They will run side by side, but will not see each other and will be completely separate. 
-- If you change a file in one container, by 
+- If you change a file in one container, by default, this will not be changed in other containers.
+- They will all be identical in terms of things like file permissions, metadata, etc. 
