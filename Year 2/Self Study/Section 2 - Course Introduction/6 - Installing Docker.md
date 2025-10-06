@@ -13,3 +13,12 @@ Docker desktop includes:
 - `scan`, `sbom` and more
 
 For learning, running local is best.
+
+Most containers run on a Linux kernel, and a tiny file system. DD handles all of that, mac and Windows require a Linux VM. I am using Linux for this course. 
+
+There are 3 major ways to run containers. We will be starting with local. 
+
+- Locally (Docker Desktop, RD)
+- Servers (Docker Engine, K8s)
+- PaaS (Cloud Run, Fargate)
+
