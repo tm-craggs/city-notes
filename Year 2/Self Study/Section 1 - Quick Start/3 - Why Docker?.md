@@ -19,6 +19,10 @@ Why does docker need to exist? We have been packing software for decades with ma
 - Before, we were spinning up loads of different environments and VMs 
 - The "works on my machine" joke referred to the fact that the programmers could never test their apps on every single environment that exists, so things were never going to be 100% perfect on every computer.
 - For example, dependencies may need to be installed in completely different ways on different machines and operating systems. 
-- Containers have vastly improved how we ship software. If you take the metaphor of shipping containers, it does not matter to the shipping company what is inside of the container 
+- Containers have vastly improved how we ship software. If you take the metaphor of shipping containers, it does not matter to the shipping company what is inside of the container. Shipping with docker gives you far more certainty that your software will run as expected on different kinds of machine. 
 
 #### Speed
+
+- The industry has been shifting industry since the dawn of Computing. For example, from mainframes to virtual to cloud. 
+- The next leg of this journey, is **Host to Container**, we can run all these on the same kernel. 
+- This allows people to develop faster, build faster, test faster and deploy faster. 
