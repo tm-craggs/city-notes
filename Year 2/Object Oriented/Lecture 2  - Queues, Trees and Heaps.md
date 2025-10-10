@@ -23,6 +23,7 @@
 	- `extractMax` takes time O(n)
 - You have to check every value to know what is the highest priority, so it is slow at extracting.
 
+
 #### Trees
 
 - Trees are data structures that have a root, nodes, branches, and leaves. 
@@ -36,4 +37,18 @@
 - A binary tree is a tree where each node has at most, 2 children.
 - A perfectly balanced tree is a tree whose least deep leaf is no more than one level apart from the deepest one. 
 
-- Using heaps, a kind of tree, we can distribute the  load for priority queue, achieving O(log n) for `add` and `extract`
+- Using heaps, a kind of tree, we can distribute the  load for priority queue, achieving O(log n) for `add` and `extractMax`
+
+
+#### Heaps
+
+- A heap is a perfectly balanced binary tree such that:
+	- No node is larger than its parent
+	- All items on the lowest level are as far left as possible. 
+
+**Heap Operations**
+
+- Heap is empty if the root is empty. 
+- Heap insertion: add a node to the heap, displacing other nodes as necessary so that the heap, remains a heap. 
+- Heap extraction: Remove the element with the highest value in the heap (the root), moving the other nodes as necessary so that the heap remains a heap. 
+
