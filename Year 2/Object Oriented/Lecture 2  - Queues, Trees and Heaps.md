@@ -15,3 +15,25 @@
 - **Sorting**: Add all of the items into the queue one by one and then extract them in order.
 
 **Analysing the Data Structure**
+
+- The data structure takes O(n) space complexity
+- By using the ordered array structure
+	- `isEmpty` takes time O(??)
+	- `add` takes time O(n)
+	- `extractMax` takes time O(n)
+- You have to check every value to know what is the highest priority, so it is slow at extracting.
+
+#### Trees
+
+- Trees are data structures that have a root, nodes, branches, and leaves. 
+- All nodes, apart from the root, are at the end of a branch. 
+- Branches proceed from nodes. 
+- Nodes without branches are called "leaves"
+- Nodes are described as parents and nodes.
+
+**Types of Tree**
+
+- A binary tree is a tree where each node has at most, 2 children.
+- A perfectly balanced tree is a tree whose least deep leaf is no more than one level apart from the deepest one. 
+
+- Using heaps, a kind of tree, we can distribute the  load for priority queue, achieving O(log n) for `add` and `extract`
