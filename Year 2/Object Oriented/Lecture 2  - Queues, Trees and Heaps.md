@@ -65,8 +65,27 @@
 
 ![[Lecture 2  - Queues, Trees and Heaps 2025-10-10 09.53.54.excalidraw]]
 
-- Final tree
+```python
+# Heap Insertion
+
+pos = count + 1
+
+while pos > 1 and data[parent_of_pos] < elt:
+	data[pos] = data[parent_of_pos]
+	pos = parent_of_pos
+	
+data[pos] = elt
+count = count + 1
+```
+
 
 **Heap Extraction**
 
-- 
+```Python
+# Heap Extraction
+
+max = data[1]
+data[1] = data[count]
+count = count - 1
+move
+```
