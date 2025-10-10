@@ -52,3 +52,18 @@
 - Heap insertion: add a node to the heap, displacing other nodes as necessary so that the heap, remains a heap. 
 - Heap extraction: Remove the element with the highest value in the heap (the root), moving the other nodes as necessary so that the heap remains a heap. 
 
+**Heap insertion**
+
+![[image-59.png|325x211]]
+
+- 12 is inserted at the bottom layer as a leaf
+- Note that this means now that the tree is no longer a heap, as this node is now larger than its parent. 
+- 12 will swap with 9, then check the node above. 
+- 12 will swap with 10, then check the node above. 
+- 12 is now smaller than the node above (16), insertion complete. 
+
+
+
+**Heap Extraction**
+
+- 
