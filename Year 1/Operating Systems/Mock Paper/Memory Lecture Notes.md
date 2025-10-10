@@ -4,7 +4,7 @@ Every square of memory is a bit, and holds flip flops. How do we organise and al
 
 Organise is cells/words/bytes, which could be a certain amount of bits in a row. It depends on how many bits the words hold. 
 
-![[Year 1/Images/image.png|412x220]]
+![[Assets/Images/image.png|412x220]]
 
 As chips has progressed they have had more bits per word. 
 
