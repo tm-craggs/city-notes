@@ -63,6 +63,9 @@
 - 12 is now smaller than the node above (16), insertion complete. 
 
 
+![[Lecture 2  - Queues, Trees and Heaps 2025-10-10 09.53.54.excalidraw]]
+
+- Final tree
 
 **Heap Extraction**
 
