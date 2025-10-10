@@ -40,4 +40,10 @@ But why do we have 2 containers? This is because we used the `docker run` comman
 
 `docker run` **always starts a new container**. Use `docker start` to start an existing stopped one. 
 
-Docker co
+Docker containers also have unique names, we can specify this, but if we do not it will get its own. Docker actually picks its names from randomly selecting an adjective, and a human name from a list of scientists. 
+
+Name is specified through `--name`, we will create a new Nginx container with the name `webhost`. The name acts exactly the same as the ID. You can use the name instead of the ID in any command where you must specify a container, such as `start` or `stop`
+
+To see the logs of a container running in the background, run. `docker container logs webhost`
+
+`docker container top [container]` will show the process running in the container. For example, nginx has a master process and then worker processes, so we will see a few. 
