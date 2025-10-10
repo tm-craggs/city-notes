@@ -39,3 +39,5 @@ Now we have used `run` twice, if we do `docker container ls -a`, this will show 
 But why do we have 2 containers? This is because we used the `docker run` command, as opposed to the `docker start` command. 
 
 `docker run` **always starts a new container**. Use `docker start` to start an existing stopped one. 
+
+Docker co
