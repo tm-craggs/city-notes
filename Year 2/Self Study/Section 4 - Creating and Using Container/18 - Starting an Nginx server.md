@@ -47,3 +47,8 @@ Name is specified through `--name`, we will create a new Nginx container with th
 To see the logs of a container running in the background, run. `docker container logs webhost`
 
 `docker container top [container]` will show the process running in the container. For example, nginx has a master process and then worker processes, so we will see a few. 
+
+Now we are going to clean up, we can run `docker container rm [containers]`
+
+**Note:** We will get an error if we try and remove any containers that are currently running unless we pass the `--force` flag. 
+
