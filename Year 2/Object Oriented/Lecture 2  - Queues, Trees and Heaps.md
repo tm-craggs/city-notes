@@ -84,8 +84,20 @@ count = count + 1
 ```Python
 # Heap Extraction
 
-max = data[1]
-data[1] = data[count]
-count = count - 1
-move
+def extractMax():
+	max = data[1]
+	data[1] = data[count]
+	count = count - 1
+	moveDown(data, 1, count)
+	return max
+	
+	
+def moveDown(data, first, last):
+	while first_left_child_pos <= last:
+	larger = po
+	if data[first] >= data[larger]:
+		break
+	
+	
 ```
+
