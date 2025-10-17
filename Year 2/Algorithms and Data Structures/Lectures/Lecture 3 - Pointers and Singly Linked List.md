@@ -59,6 +59,8 @@ public class Node {
 
 **Pointers to the head and tail**
 
+Adding elements at the tail is faster if we keep a pointer to the last element. We define a new class to hold the tails and pointers.
+
 ```java
 public class SLList {
 
@@ -164,5 +166,25 @@ public int deleteFromTail() {
 }
 ```
 
-**Note:**  We are not deleting these objects, just moving where the list starts/ends. If using a language without garbage collection, remember to delete the class which is now no longer a part of the list. 
+**Note:**  We are not deleting these objects, just moving where the list starts/ends. If using a language without garbage collection, remember to delete the class which is now no longer a part of the list. This could cause a memory leak.
 
+**Traversing a List**
+
+```java
+public void printList(){
+
+	aux = ssl.head;
+	while (aux != null){
+		System.out.println(aux.info);
+		aux = aux.next;
+	}
+}
+```
+
+#### Applications of SSL
+
+- A list requires O(n) space
+- Most operations we have defined use O(1) time. 
+- SSLs can be used to represent the following Abstract Data Types
+	- Stacks
+	- Queues
