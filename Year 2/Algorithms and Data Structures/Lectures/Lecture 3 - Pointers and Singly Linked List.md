@@ -60,7 +60,6 @@ public class Node {
 **Pointers to the head and tail**
 
 ```java
-
 public class SLList {
 
 	private Node head = null;
@@ -72,9 +71,25 @@ public class SLList {
 	
 	}
 	
-	public void addToHead{
-	}
+	public void addToHead(int el){...}
+	public void addToTail(int el){...}
+	public void deleteFromHead(){...}
 
 }
-
 ```
+
+
+###### What Shouldn't happen in Linked Lists?
+
+- Loops
+- Errors with pointers (tail does not correctly point to next)
+- Tail node with non-null pointer to next
+- Non-tail node with null pointer to next
+
+**Operations in Linked Lists**
+
+- Adding an element at head
+- Adding an element at tail
+- Deleting the head element
+- Deleting the tail element
+
