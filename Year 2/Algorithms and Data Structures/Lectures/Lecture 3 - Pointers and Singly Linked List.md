@@ -52,7 +52,29 @@ public class Node {
 #### Adding elements
 
 - You can manipulate the list by changing the address held in `next` for a node. 
-- To create a new 
 
+**Adding at the head**
 
+**Adding at the tail**
 
+**Pointers to the head and tail**
+
+```java
+
+public class SLList {
+
+	private Node head = null;
+	private Node tail = null;
+	
+	public boolean isEmpty(){
+	
+		return head == null
+	
+	}
+	
+	public void addToHead{
+	}
+
+}
+
+```
