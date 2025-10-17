@@ -138,8 +138,31 @@ public void deleteFromHead() {
 }
 ```
 
+Deleting from the tail is very hard, and isn't typically recommended. We have to null the next address of the second to last node, this involves traversing the entire list from the front until you find the node that points to the last element.
+
+It is much less expensive in terms of time complexity to add to the head. If you need to regularly delete from the tail, another data structure may be a better choice. 
+
+```java
+public int deleteFromTail() {
+
+	int el = tail.info;
+	if(head == tail) { // one or no elements
+		head = tail = null;
+	} else {
+		aux = sll.head;
+	}
+	
+	// traverse list until you find next = null, then null the previous node
+	while (aux.next != tail) {
+		aux = aux.next;
+		aux.next = null;
+		sll.tail = aux; // set tail to the 2nd to last node
+	}
+	
+	return el;
+
+}
 ```
 
-```
+**Note:**  We are not deleting these objects, just moving where the list starts/ends. If using a language without garbage collection, remember to delete the class which is now no longer a part of the list. 
 
-**Note:**  We are not deleting this object, just moving where the list starts/ends. If using a language without garbage collection, remember to delete the class which is now no longer a part of the list. 
