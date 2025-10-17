@@ -93,3 +93,53 @@ public class SLList {
 - Deleting the head element
 - Deleting the tail element
 
+**Adding**
+
+```java
+public void addToHead(int el) {
+
+	head = new Node (el, head);
+	if (tail == null){
+		tail = head;
+	}
+
+}
+```
+
+```java
+public void addToTail(int el) {
+
+	if (!isEmpty()){
+		tail.next = new Node(el);
+		tail = tail.next;
+	} else {
+		head = tail = new Node(el);
+	}
+
+}
+```
+
+**Deleting**
+
+```java
+public void deleteFromHead() {
+
+	// this will move the head pointer one forward
+	
+	int el = head.info; 
+	if (head == tail) {  // one or no elements
+		head = tail = null;
+	} else {
+		head = head.next;
+	}
+	
+	return el;
+
+}
+```
+
+```
+
+```
+
+**Note:**  We are not deleting this object, just moving where the list starts/ends. If using a language without garbage collection, remember to delete the class which is now no longer a part of the list. 
