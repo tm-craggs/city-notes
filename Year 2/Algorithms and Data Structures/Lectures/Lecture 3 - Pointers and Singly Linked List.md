@@ -14,3 +14,15 @@
 - This is known as a **pointer**, as it points to a physical location in memory where the class is. 
 - Every reference type can have value null, which refers to no object at all. 
 - Several variables may refer to the same address
+
+Example
+
+```java
+Mobile mobile1 = new Mobile(x, y, z)
+Mobile mobile2 = new Mobile(x, y, z)
+Mobile mobile3 = mobile1
+
+// this if statement will not be true, alyhough they are using the same class, they are pointing to different addresses in memory
+if(mobile1 == mobile3){}
+```
+
