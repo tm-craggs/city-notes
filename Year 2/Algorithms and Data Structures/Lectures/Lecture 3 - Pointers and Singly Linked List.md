@@ -15,14 +15,26 @@
 - Every reference type can have value null, which refers to no object at all. 
 - Several variables may refer to the same address
 
-Example
+#### What are links?
 
-```java
-Mobile mobile1 = new Mobile(x, y, z)
-Mobile mobile2 = new Mobile(x, y, z)
-Mobile mobile3 = mobile1
+- So all object variables in Java are actually pointers
+- A pointer is a **link** to some object (a piece of memory)
+- Links can be thought of as arrows, addresses or references. 
+- They point at an object that is somewhere in the systems memory. 
 
-// this if statement will not be true, alyhough they are using the same class, they are pointing to different addresses in memory
-if(mobile1 == mobile3){}
-```
+#### Pointers are Links
 
+- When you create and assign objects, the system allocates memory and assigns addresses. 
+	- `Foo p;` `p = null`
+	- 
+- Creating a new object in a variables stores a memory address
+	- `Foo p = new Foo();` `p =  E1E42FB
+	`
+- Can have multiple references to same object
+	- `Foo q = p;` `q = E1E42FB`
+
+#### Singly Linked Lists
+
+- Singly linked lists use pointer as links to the next element in the list
+- Linked Lists are made up of **nodes**,
+- Each node contains a **value**, and a **pointer** to the next node. 
