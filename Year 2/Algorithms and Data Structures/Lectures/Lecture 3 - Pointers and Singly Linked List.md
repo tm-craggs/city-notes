@@ -38,3 +38,21 @@
 - Singly linked lists use pointer as links to the next element in the list
 - Linked Lists are made up of **nodes**,
 - Each node contains a **value**, and a **pointer** to the next node. 
+
+```java
+public class Node {
+	public int info   // stores the number at this location in the array
+	public Node next; // stores the memory address of the next node	
+}
+```
+
+- In arrays, you know when you are at the end when you are at the index of the array size.
+- In linked lists, you know you are at the end of the array when there is a null pointer. 
+
+#### Adding elements
+
+- You can manipulate the list by changing the address held in `next` for a node. 
+- To create a new 
+
+
+
