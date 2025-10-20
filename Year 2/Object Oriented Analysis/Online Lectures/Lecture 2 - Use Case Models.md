@@ -285,3 +285,20 @@ The alternative flow may be triggered:
 
 ![[image-103.png|460x167]]
 
+
+###### `<<include>>`
+
+- When use cases share common behaviour, we can factor this out into a separate inclusions use case and `<<include>>` it in base use cases
+- The base use case executes until the point of inclusion
+	- Control passes to the inclusion use case, which executes
+	- When the inclusion use case is finished, control passes back to the base use case
+- Note
+	- Base use cases are not complete without the included use cases
+	- Inclusion use cases may be complete use cases, or they may be a fragment of behaviour for inclusion elsewhere
+
+![[image-104.png|469x268]]
+
+![[image-105.png|468x215]]
+
+
+What if the included use case does not complete successfully?
