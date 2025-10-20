@@ -252,4 +252,36 @@ The alternative flow may be triggered:
 
 ## Part 2 - Advanced Use Case Modelling
 
-UCM 
+- There are relationships we still have to explore
+	- Action generalisation
+	- `<<include>>` and `<<extend>>`
+
+
+###### Actor Generalisation
+
+![[image-100.png|359x301]]
+
+- The Customer and Sales Agent Actors are very similar
+- They both interact with `OrderProducts` `AcceptPayment` `ListProduct`
+- Additionally, the sales agent interacts with `CalculateComission`
+- Our diagram is a mess, we can simplify it
+
+![[image-102.png|354x261]]
+
+- If two actors communicate with the same set of use cases in the same way, we can express this as a generalisation. 
+- The descendant actors inherit the roles and relationships to use cases held by the parent
+- We can substitute a descendent actor anywhere the ancestor actor is expected
+- This is called the **suitability principle**
+-  Only use actor generalisation when it simplifies the model
+- Abstract actors are written in *italics*
+- Abstract actors do not really exist, they just exist the show the commonality between two actors
+
+###### Use Case Generalisation
+
+- We can use generalisation for use cases too 
+- The ancestor use case must be a more general case of one or more descendant use cases
+- Child use cases are more specific forms of their parent
+- They can inherit, add and override features of their parent. 
+
+![[image-103.png|460x167]]
+
