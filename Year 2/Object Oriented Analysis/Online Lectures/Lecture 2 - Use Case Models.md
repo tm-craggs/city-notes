@@ -96,3 +96,14 @@ Start with the list of actors that interact with the system
 - Does the system interact with any external system?
 - Does the system generate any reports? Who triggers report generation?
 
+###### The Use Case Diagram
+
+![[image-84.png|555x308]]
+
+- If we want to make it explicitly clear who is the primary actor, we can use the trigger label
+- However, we can usually infer this from their name
+
+Each use case must be defined by a **Use Case Specification** 
+
+![[image-85.png|522x328]]
+
