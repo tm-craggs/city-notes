@@ -143,3 +143,37 @@ The flow of events lists the steps in a use case. It follows the format
 - The main flow is always the **perfect world** scenario.
 	- Everything goes as expected with no errors. 
 	- Alternatives in the flow can be shown by branching or listing under Alternative Flows. 
+
+###### A typical mistake
+
+- The actor does something that has **no consequences** for the system state. 
+- Consider the following step
+	- X: Receptionist makes a phone call
+		- This is not a valid step in Use Case Specification if the system does not maintain a **record about the call**
+- Consider this fragment:
+	- X: User makes a phone call
+	- X+1: The system records the call
+	- This is a valid fragment
+
+###### Branching
+
+- You can branch within the main flow if your system is not linear
+- Use the keyword **if** to indicate alternatives
+- Use indentation and numbering to indicate the conditional part of the flow
+- Use **else** to indicate what happens if the condition is false.
+
+![[image-89.png|455x135]]
+
+###### Repetition
+
+- There are two types of loop, **for** and **while**. 
+- For is typically used when you know how many times the operation must be repeated. The iteration expression immediately after the for statement indicates the number of repetitions. 
+- While is typically used when the number of times the operation must be repeated is unclear. There will be a clear break condition
+
+![[image-90.png|455x154]]
+
+![[image-91.png|457x120]]
+
+###### Alternative Flows
+
+We may speci
