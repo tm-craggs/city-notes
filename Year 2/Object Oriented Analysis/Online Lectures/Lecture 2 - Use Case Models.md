@@ -207,3 +207,12 @@ Find alternative flows by examining each step in the main flow and looking for
 ![[image-94.png|377x345]]
 
 ![[image-96.png]]
+
+The alternative flow may be triggered:
+- Instead of the main flow, started by an actor
+- After a particular step
+- At any time during the main flow
+
+###### Requirements Tracing
+
+-  Given that we can cap
