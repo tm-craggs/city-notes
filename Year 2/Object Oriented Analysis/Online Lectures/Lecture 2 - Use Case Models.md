@@ -176,4 +176,9 @@ The flow of events lists the steps in a use case. It follows the format
 
 ###### Alternative Flows
 
-We may speci
+We may specify one or more **alternative flows** through the flow of events. 
+- Alternative flows capture **errors anomalies** and **interrupts**
+- Alternative flows typically do not return to the main flow, although they can
+- Potentially many alternative flows! You need to manage this. 
+	- Pick the **most important** alternative flows and document those
+	- If there are groups of similar alternative flows, document one member of the group as an e
