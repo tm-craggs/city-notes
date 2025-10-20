@@ -64,3 +64,35 @@ This is a best effort activity, no method to always identify every actor. Asking
 	- Automatic functions in the system are modelled as triggered by an actor called **Time**
 
 
+###### What are use cases
+
+- Description of the services that a system offers to its uses
+- Use cases are **always** started by an actor
+	- The **primary** actor triggers the use case. 
+	- Every use case must have at least one primary actor
+	- Zero or more secondary actiors interact with the use case in some way
+		- For example, they may not trigger anything but may be notified
+- Use cases are **always** written from the point of view of the actors
+	- A Use Case Specigfication is provided for each use case to descrube the interaction of actors and the system. 
+
+![[image-83.png|426x107]]
+
+
+
+###### Naming Use Cases
+
+- Use cases should describe something that happens
+- They are named using **verbs** or **phrases**
+- Naming standard: `UpperCamelCase`
+
+
+###### Identifying Use Cases
+
+Start with the list of actors that interact with the system
+- What functions will a specific actor want?
+- Does the system store and retrieve information? How are these triggered?
+- What happens when the system changes state? Are any actors notified?
+- Are there are external events that affect the system? What notifies the system about those events?
+- Does the system interact with any external system?
+- Does the system generate any reports? Who triggers report generation?
+
