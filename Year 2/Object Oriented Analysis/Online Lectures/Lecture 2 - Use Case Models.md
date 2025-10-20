@@ -286,7 +286,7 @@ The alternative flow may be triggered:
 ![[image-103.png|460x167]]
 
 
-###### `<<include>>`
+###### Include
 
 - When use cases share common behaviour, we can factor this out into a separate inclusions use case and `<<include>>` it in base use cases
 - The base use case executes until the point of inclusion
@@ -302,3 +302,18 @@ The alternative flow may be triggered:
 
 
 What if the included use case does not complete successfully?
+- Consider using a "session", which allows the passing of data between use cases
+- The system should refer to the session to find out the result from the include/extend use case
+
+![[image-107.png|426x362]]
+
+###### Extend
+
+- `<<extend>>` is a way of adding new behaviour into the base use case by inserting behaviour from one or more extension use case
+- The extension use case inserts behaviour into the base use case, the base does not know about the extensions
+- The base use case specifies one or more extension points in its flow of events
+- The extension use case may contain several insertion **segments**
+- The extend relationship may specify which of the base use case extension points is missing. 
+
+![[image-109.png|476x264]]
+
