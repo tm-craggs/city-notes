@@ -107,3 +107,39 @@ Each use case must be defined by a **Use Case Specification**
 
 ![[image-85.png|522x328]]
 
+###### Preconditions and Postconditions
+
+- Preconditions and Postconditions are constraints which must be satisfied (these are facts)
+- Preconditions constrain the state of the system before the use case can start
+- Postconditions constrain the state of the system after the use case has executed
+- If there are no preconditions or postconditions, write "None" under the heading
+
+![[image-87.png|400x478]]
+
+
+###### Examples of Pre/Post Conditions
+
+**Preconditions**
+
+- The user has a valid user account
+- The user has successfully logged in
+- A connection to the system has been established
+
+**Postconditions**
+
+- A new record with details of the booking is stored in the system database
+- Connection is closed
+
+###### Main Flow
+
+The flow of events lists the steps in a use case. It follows the format 
+`<number> The <something> <some action>`
+
+- It **always** starts with an actor doing something. A good way to start the flow of events is `1) The use case starts when <actor> <function>`
+- The flow of events should be a sequence of short steps that are:
+	- Declarative
+	- Numbered
+	- Time ordered
+- The main flow is always the **perfect world** scenario.
+	- Everything goes as expected with no errors. 
+	- Alternatives in the flow can be shown by branching or listing under Alternative Flows. 
