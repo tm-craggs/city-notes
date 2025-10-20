@@ -215,4 +215,41 @@ The alternative flow may be triggered:
 
 ###### Requirements Tracing
 
--  Given that we can cap
+-  Given that we can capture functional user requirements in a model and in a use case model, we need some way of relating the two. 
+- There is a many-to-many relationship between user requirements and use cases:
+	- One use case covers many individual functional user requirements
+	- One functional user requirement may be realised by many use cases
+- Hopefully we have CASE support for requirements tracing:
+	- With UML tagged values, we can assign numbered requirements to use cases
+	- We can capture case names in out Requirements Database
+- If there is no CASE support, we can create a Requirements Traceability Matrix
+- We can also use Volere Templates, each functional user requirement provides a link to the use-case ID it is related to. 
+
+![[image-98.png]]
+
+###### When to use use case models
+
+- Use cases describe system behaviour from the POV of **one or more** actiors
+- They are the best choice when
+	- The system is dominated by functional requirements
+	- The system has many types of user to which it delivers different functionality
+	- The system has many interfaces
+- The are a poor choice when
+	- The system is dominated by **non-functional** requirements
+	- The system has **few users**
+	- The system has **few interfaces**
+
+###### Tips for Use Case Modelling
+
+- It is critical to define use case boundaries
+- Identify all actors
+- Think about all main tasks for which the system will be used
+- Look for all alternative flows
+- Always be prepared to revise your use case model
+- Distinguish between use cases by frequency of use
+- Only describe actions which incolce interaction between actor and system
+	- The internal processing that the system might undertake is not part of the use case specification. Internal working will be captured later
+
+## Part 2 - Advanced Use Case Modelling
+
+UCM 
