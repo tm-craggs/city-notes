@@ -177,8 +177,33 @@ The flow of events lists the steps in a use case. It follows the format
 ###### Alternative Flows
 
 We may specify one or more **alternative flows** through the flow of events. 
-- Alternative flows capture **errors anomalies** and **interrupts**
+- Alternative flows capture **errors, anomalies** and **interrupts**, anything that is **not common**
 - Alternative flows typically do not return to the main flow, although they can
 - Potentially many alternative flows! You need to manage this. 
 	- Pick the **most important** alternative flows and document those
-	- If there are groups of similar alternative flows, document one member of the group as an e
+	- If there are groups of similar alternative flows, document one member of the group as an **exemplar** and if necessary add notes to explain how the others differ. 
+- Only document enough alternative flows to clarify the requirements
+
+**Look for**
+- Events - Not happening, too frequent, too infrequent, wrong order
+- Actions - Insufficient information, not completing
+- Cognitive exception - Slips, mistakes, lack of knowledge
+- Other human exceptions - Age, disability
+- Machine exceptions - Power failures, breakdowns
+- Human-machine exceptions - Misinterpret interface
+- Machine-machine exceptions - Communication failure, scrambled messages
+
+![[image-92.png|176x243]]
+
+
+###### Documenting Alternative Flows
+
+List the names of the alternative flows at the end of the Use Case
+Find alternative flows by examining each step in the main flow and looking for
+- Anomalies
+- Exceptions
+- Interrupts
+
+![[image-94.png|377x345]]
+
+![[image-96.png]]
