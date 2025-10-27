@@ -1,0 +1,3 @@
+- This is an exercise, I will set up 3 docker containers, running apache, nginx and mysql
+- They should be listening on different ports
+- Use `--env` to pass in an environment variable into mysql.

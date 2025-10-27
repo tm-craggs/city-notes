@@ -1,0 +1,3 @@
+- Docker usually uses a lightweight Linux VM
+- However, there is now support for Windows containers that run the Windows Kernel
+- This course focuses just on Linux, however most of the operation is the same
