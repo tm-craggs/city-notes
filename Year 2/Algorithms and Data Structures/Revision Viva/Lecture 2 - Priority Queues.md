@@ -62,3 +62,19 @@ A **heap** is a perfectly balanced tree such that:
 - Extract the root, and place the last leaf in the root position
 - Re-establish the heap conditions
 
+You can store heaps in arrays. Go left to right for each node.
+- To find the parent node (n-1)/2
+- To find the left child 2n + 1
+- To find the right child 2n + 2
+
+**Heap Insertion Algorithm**
+
+```java
+int pos = count + 1
+while(pos > 1 || data[parent_of_pos] < elt){
+	data[pos] = data[parent_of_pos]
+	pos = parent_of_pos
+}
+data[pos] = elt
+count++
+```
