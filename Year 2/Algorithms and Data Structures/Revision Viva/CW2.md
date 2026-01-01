@@ -4,13 +4,17 @@
 #### Class **Booking**:
 
 **Attributes**
-- `bookingID: int`
-- `startDate: string`
-- `duration: string`
-- `status: string = "active"`
+- `- bookingID: int`
+- `- startDate: string`
+- `- duration: string`
+- `- status: string = "active"`
 
 **Operations**
-
+- `+ retriveID()`
+- `+ retriveStartDate()`
+- `+ retriveDuration()`
+- `+ retriveStatus()`
+- `+ retrive`
 
 #### Class **BookingAPI_Impl**:
 
