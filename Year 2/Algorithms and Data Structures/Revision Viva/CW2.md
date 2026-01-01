@@ -1,8 +1,18 @@
 
-Question 1:
+## Question 1:
 
-Class **Booking**:
-- `bookingID: string`
-- `userID: string`
-- `resourceID: string`
-- 
+#### Class **Booking**:
+
+**Attributes**
+- `bookingID: int`
+- `startDate: string`
+- `duration: string`
+- `status: string = "active"`
+
+**Operations**
+
+
+#### Class **BookingAPI_Impl**:
+
+#### Class **Booking**:
+
