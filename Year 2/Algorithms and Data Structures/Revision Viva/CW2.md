@@ -10,11 +10,14 @@
 - `- status: string = "active"`
 
 **Operations**
-- `+ retriveID()`
+- `+ retriveID(): int`
 - `+ retriveStartDate()`
 - `+ retriveDuration()`
 - `+ retriveStatus()`
-- `+ retrive`
+- `+ retriveResource()`
+- `+ confirm()`
+- `+ cancel()`
+- `archive()`
 
 #### Class **BookingAPI_Impl**:
 
