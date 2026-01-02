@@ -11,7 +11,7 @@
 
 **Operations**
 - `+ retriveID(): int`
-- `+ retriveStartDate()`
+- `+ retriveStartDate(): String`
 - `+ retriveDuration()`
 - `+ retriveStatus()`
 - `+ retriveResource()`
@@ -20,6 +20,8 @@
 - `archive()`
 
 #### Class **BookingAPI_Impl**:
+
+
 
 #### Class **Booking**:
 
