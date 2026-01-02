@@ -10,12 +10,12 @@
 - `- status: string = "active"`
 
 **Operations**
-- `+ retriveID(): int`
-- `+ retriveStartDate(): String`
-- `+ retriveDuration()`
-- `+ retriveStatus()`
-- `+ retriveResource()`
-- `+ confirm()`
+- `+ retriveID() : int`
+- `+ retriveStartDate() : String`
+- `+ retriveDuration() : int`
+- `+ retriveStatus() : String`
+- `+ retriveResource() : Resource`
+- `+ confirm() : `
 - `+ cancel()`
 - `archive()`
 
