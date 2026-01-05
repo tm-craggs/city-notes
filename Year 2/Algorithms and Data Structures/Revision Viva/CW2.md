@@ -17,14 +17,22 @@
 - `+ retriveID() : int`
 - `+ retriveStartDate() : String`
 - `+ retriveDuration() : int`
-- `+ retriveStatus() : String`
+- `+ retriveStatus(String status) : String`
 - `+ retriveResource() : Resource`
 - `+ confirm() : void`
 - `+ cancel() : boolean`
-- `+ archive()`
+- `+ archive() : void`
 
 #### Class **BookingAPI_Impl**:
 
+**Attributes**
+- `activeBookings : BookingCollection [1]`
+
+**Operations**
+- `cancelBooking(bookingID: int): boolean`
+- `validateBooking(`
+
+**Operations**
 
 
 #### Class **Booking**:
