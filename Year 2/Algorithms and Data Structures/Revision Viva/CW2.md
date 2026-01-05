@@ -8,6 +8,10 @@
 - `- startDate: string`
 - `- duration: string`
 - `- status: string = "on-hold"`
+- `- userID: int`
+- `- resourceID: int`
+- `occupantsNum: int`
+- `transactionID: int`
 
 **Operations**
 - `+ retriveID() : int`
@@ -15,8 +19,8 @@
 - `+ retriveDuration() : int`
 - `+ retriveStatus() : String`
 - `+ retriveResource() : Resource`
-- `+ confirm() : `
-- `+ cancel()`
+- `+ confirm() : void`
+- `+ cancel() : boolean`
 - `+ archive()`
 
 #### Class **BookingAPI_Impl**:
