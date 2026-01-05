@@ -35,6 +35,14 @@
 
 **Operations**
 
+
+#### Class **Room**:
+
+**Attributes**:
+- `- occupancyLimit : int [1]`
+- `roomType : String [1]`
+
+
 3)
 The scope is protected, represented by **#**. 
 
