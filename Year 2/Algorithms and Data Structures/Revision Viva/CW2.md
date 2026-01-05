@@ -29,8 +29,9 @@
 - `activeBookings : BookingCollection [1]`
 
 **Operations**
+- `requestBooking(reservationType: String, reservationID: int, )`
 - `cancelBooking(bookingID: int): boolean`
-- `validateBooking(`
+- `validateBooking()`
 
 **Operations**
 
