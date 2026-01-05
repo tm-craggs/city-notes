@@ -35,6 +35,12 @@
 
 **Operations**
 
+3)
+The scope is protected, represented by **#**. 
+
+4)
+The attributes `ID, name, type, string` in `Resource` must be kept private. This is important to maintain encapsulation within the class and avoid unexpected behaviour. 
+
 
 #### Class **Booking**:
 
