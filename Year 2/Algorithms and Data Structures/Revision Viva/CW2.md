@@ -7,7 +7,7 @@
 - `- bookingID: int`
 - `- startDate: string`
 - `- duration: string`
-- `- status: string = "active"`
+- `- status: string = "on-hold"`
 
 **Operations**
 - `+ retriveID() : int`
@@ -17,7 +17,7 @@
 - `+ retriveResource() : Resource`
 - `+ confirm() : `
 - `+ cancel()`
-- `archive()`
+- `+ archive()`
 
 #### Class **BookingAPI_Impl**:
 
