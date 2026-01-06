@@ -52,6 +52,11 @@ The attributes `ID, name, type, string` in `Resource` must be kept private. This
 
 #### Class **Booking**:
 
+
+## Question 3
+
+![[image-110.png]]
+
 ## Question 4
 
 
