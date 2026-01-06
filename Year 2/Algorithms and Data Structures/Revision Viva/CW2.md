@@ -61,3 +61,9 @@ The attributes `ID, name, type, string` in `Resource` must be kept private. This
 
 ![[image-112.png]]
 
+## Question 5
+
+**Test 1: MakeABooking - Main Flow**
+
+**Test 2: MakeABooking: InvalidBookingRequest - Alternative Flow**
+
