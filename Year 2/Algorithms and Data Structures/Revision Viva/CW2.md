@@ -59,3 +59,5 @@ The attributes `ID, name, type, string` in `Resource` must be kept private. This
 
 ## Question 4
 
+![[image-112.png]]
+
