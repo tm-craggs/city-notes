@@ -74,6 +74,9 @@ Navigability: Unidirectional
 Is it a class scope or an instance scope? Instance scope
 
 4)
+Resource is an abstract class. This is because Resource represents a general concept of a Room or Equipment in the CBS. It acts as a base class for other classes that will provide the implementation of manipulating resources. Resource still has a constructor, 
+
+5)
 The attributes `ID, name, type, string` in `Resource` must be kept private. This is important to maintain encapsulation within the class and avoid unexpected behaviour. All operations should remain public, so they can be accessed by other classes such as `BookingAPI_Impl`. Any class attributes that need to be accessed can do so through getter and setter elements.
 
 
