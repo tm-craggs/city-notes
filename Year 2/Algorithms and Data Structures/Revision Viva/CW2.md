@@ -52,10 +52,15 @@ Navigability: Unidirectional
 `BookingAPI_Impl -- BookingAPI`
 
 
-`BookingAPI_Impl -- BookingCollection`
+**`BookingAPI_Impl -- BookingCollection`**
+
+Relationship: Composition
+Multiplicity: 1 to 1
+Navigability: Unidirectional 
 
 
 
+`BookingAPI_Impl `
 
 3)
 Is it a class scope or an instance scope? Instance scope
