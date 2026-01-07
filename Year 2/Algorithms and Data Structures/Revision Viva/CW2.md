@@ -42,9 +42,16 @@
 - `- occupancyLimit : int [1]`
 - `roomType : String [1]`
 
+2)
+
+**`storageAPI -- StorageAPI_Impl`**
+Relationship:
+Multiplicity:
+Navigability 
+
 
 3)
-The scope is protected, represented by **#**. 
+The scope is  protected, represented by **#**. 
 
 4)
 The attributes `ID, name, type, string` in `Resource` must be kept private. This is important to maintain encapsulation within the class and avoid unexpected behaviour. All operations should remain public, so they can be accessed by other classes such as `BookingAPI_Impl`. Any class attributes that need to be accessed can do so through getter and setter elements.
