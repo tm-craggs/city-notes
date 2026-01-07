@@ -46,12 +46,19 @@
 
 **`storageAPI -- StorageAPI_Impl`**
 Relationship:
-Multiplicity:
-Navigability 
+Multiplicity: N/A
+Navigability: Unidirectional
+
+`BookingAPI_Impl -- BookingAPI`
+
+
+`BookingAPI_Impl -- BookingCollection`
+
+
 
 
 3)
-The scope is  protected, represented by **#**. 
+Is it a class scope or an instance scope? Instance scope
 
 4)
 The attributes `ID, name, type, string` in `Resource` must be kept private. This is important to maintain encapsulation within the class and avoid unexpected behaviour. All operations should remain public, so they can be accessed by other classes such as `BookingAPI_Impl`. Any class attributes that need to be accessed can do so through getter and setter elements.
