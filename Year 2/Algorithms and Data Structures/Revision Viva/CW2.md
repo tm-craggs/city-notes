@@ -1,6 +1,7 @@
 
 ## Question 1:
 
+1)
 #### Class **Booking**:
 
 **Attributes**
@@ -59,8 +60,15 @@ Multiplicity: 1 to 1
 Navigability: Unidirectional 
 
 
+`BookingAPI_Impl -- StorageAPI_Impl`
 
-`BookingAPI_Impl `
+`Resource -- Equipment`
+
+`BookingCollection -- Booking`
+
+`Booking -- StorageAPI`
+
+`BookingSqlHelper -- SQLHelper`
 
 3)
 Is it a class scope or an instance scope? Instance scope
