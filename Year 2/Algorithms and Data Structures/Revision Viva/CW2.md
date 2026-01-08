@@ -39,7 +39,22 @@
 
 #### Class **Room**:
 
+`- roomID: int [1]`
+`- roomName: string [1]`
+`- capacity: int [1]`
+`- isAvail: boolean [1] = true`
+`status: string [1] = "avaliable"`
+
+`+ setStatus(status: string): void`
+`+ getStatus(): string`
+`+ getName(): string`
+`+ checkAvail(): boolean`
+`+ getCapacity(): int`
+
 #### Class **Equipment**:
+
+`- rq`
+
 
 #### Class **StorageAPI_Impl**:
 
