@@ -76,43 +76,42 @@
 
 2)
 
-`storageAPI -- StorageAPI_Impl`
+**`storageAPI -- StorageAPI_Impl`**
 Relationship: Implementation
 Multiplicity: N/A
 Navigability: `StorageAPI_Impl` to `StorageAPI`
 
-`BookingAPI_Impl -- BookingAPI`
+**`BookingAPI_Impl -- BookingAPI`**
 Relationship: Implementation
 Multiplicity: N/A
 Navigability: `BookingAPI_Impl` to `BookingAPI`
 
-`BookingAPI_Impl -- BookingCollection`
+**`BookingAPI_Impl -- BookingCollection`**
 Relationship: Composition
 Multiplicity: 1 : 1
 Navigability: `BookingAPI_Impl` to `BookingAPI`
 
-
-`BookingAPI_Impl -- StorageAPI_Impl`
+**`BookingAPI_Impl -- StorageAPI_Impl`**
 Relationship: Aggregation
 Multiplicity: 1 to 1
 Navigability: `BookingAPI_Impl` to `StorageAPI_Impl`
 
-`Resource -- Equipment`
+**`Resource -- Equipment`**
 Relationship: Inheritance
 Multiplicity: N/A
 Navigability: N/A
 
-`BookingCollection -- Booking`
+**`BookingCollection -- Booking`**
 Relationship: Aggregation
 Multiplicity: 1 : 0..*
 Navigability: `BookingCollection` to `Booking`
 
-`Booking -- StorageAPI`
+**`Booking -- StorageAPI`**
 Relationship: Aggregation
 Multiplicity: N/A
 Navigability: `Booking` to `StorageAPI`
 
-`BookingSqlHelper -- SQLHelper`
+**`BookingSqlHelper -- SQLHelper`**
 Relationship: Inheritance
 Navigability: `BookingSqlHelper` to `SQLHelper`
 
