@@ -139,9 +139,9 @@ This is necessary because the return of equipment is triggered by the staff who 
 
 **Test 1: MakeABooking - Main Flow**
 
-![[image-115.png]]
-![[image-116.png|581x455]]
+![[image-120.png]]
+![[image-122.png]]
 
 **Test 2: MakeABooking: InvalidBookingRequest - Alternative Flow**
 
-![[image-117.png]]![[image-119.png]]
+![[image-124.png]]
