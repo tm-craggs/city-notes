@@ -1,7 +1,6 @@
 
 ## Question 1:
 
-1)
 #### Class **Booking**:
 
 **Attributes**
@@ -66,8 +65,8 @@
 `+ setStatus(status : string) : void`
 #### Class **StorageAPI_Impl**:
 
-`- bookingSqlHelper: BookingSqlHelper`
-`- resourceSqlHelper: ResourceSqlHelper`
+`- bookingSqlHelper: BookingSqlHelper [1]`
+`- resourceSqlHelper: ResourceSqlHelper [1]`
 
 `+ saveBooking(booking: Booking): boolean`
 `+ updateBooking(booking: Booking): boolean`
