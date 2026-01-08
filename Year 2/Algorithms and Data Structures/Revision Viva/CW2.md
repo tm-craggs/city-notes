@@ -49,15 +49,17 @@
 
 2)
 
-**`storageAPI -- StorageAPI_Impl`**
-Relationship:
+`storageAPI -- StorageAPI_Impl`
+Relationship: Implementation
 Multiplicity: N/A
 Navigability: Unidirectional
 
 `BookingAPI_Impl -- BookingAPI`
+Relationship: Implementation
+Multiplicity: N/A
+Navigability: Unidirectional
 
-
-**`BookingAPI_Impl -- BookingCollection`**
+`BookingAPI_Impl -- BookingCollection`
 
 Relationship: Composition
 Multiplicity: 1 to 1
@@ -65,10 +67,16 @@ Navigability: Unidirectional
 
 
 `BookingAPI_Impl -- StorageAPI_Impl`
+Relationship: Aggregation
+
 
 `Resource -- Equipment`
+Relationship: Inheritance
+Multiplicity: N/A
+Navigability: N/A
 
 `BookingCollection -- Booking`
+
 
 `Booking -- StorageAPI`
 
