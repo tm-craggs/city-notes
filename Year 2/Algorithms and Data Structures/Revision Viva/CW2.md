@@ -5,37 +5,33 @@
 #### Class **Booking**:
 
 **Attributes**
-- `- bookingID: int`
-- `- startDate: string`
-- `- duration: string`
-- `- status: string = "on-hold"`
-- `- userID: int`
-- `- resourceID: int`
-- `occupantsNum: int`
-- `transactionID: int`
+`- bookingID: int [1]`
+`- startDate: string [1]`
+ `- duration: string [1]`
+ `- status: string = "on-hold"`
+ `- userID: int`
+ `- resourceID: int`
+ `occupantsNum: int`
+ `transactionID: int`
+ `- sqlHelper BookingSqlHelper[1]`
 
 **Operations**
-- `+ retriveID() : int`
-- `+ retriveStartDate() : String`
-- `+ retriveDuration() : int`
-- `+ retriveStatus(String status) : String`
-- `+ retriveResource() : Resource`
-- `+ confirm() : void`
-- `+ cancel() : boolean`
-- `+ archive() : void`
+ `+ retriveID() : int`
+ `+ retriveStartDate() : String`
+ `+ retriveDuration() : int`
+ `+ retriveStatus(String status) : String`
+ `+ retriveResource() : Resource`
+ `+ confirm() : void`
+ `+ cancel() : boolean`
+ `+ archive() : void`
 
 #### Class **BookingAPI_Impl**:
 
-**Attributes**
-- `activeBookings : BookingCollection [1]`
-
-**Operations**
-- `requestBooking(reservationType: String, reservationID: int, )`
-- `cancelBooking(bookingID: int): boolean`
-- `validateBooking()`
-
-**Operations**
-
+ `activeBookings : BookingCollection [1]`
+ 
+ `requestBooking(reservationType: String, reservationID: int, )`
+ `cancelBooking(bookingID: int): boolean`
+ `validateBooking()`
 
 #### Class **Room**:
 
@@ -63,6 +59,7 @@
 **Attributes**:
 - `- occupancyLimit : int [1]`
 - `roomType : String [1]`
+
 
 2)
 
