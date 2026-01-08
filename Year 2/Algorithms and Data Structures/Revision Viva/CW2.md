@@ -66,6 +66,12 @@
 `+ setStatus(status : string) : void`
 #### Class **StorageAPI_Impl**:
 
+`- bookingSqlHelper: BookingSqlHelper`
+`- resourceSqlHelper: ResourceSqlHelper`
+
+`+ saveBooking(booking: Booking): boolean`
+`+ updateBooking(booking: Booking): boolean`
+`+ deleteBooking(bookingID: String): boolean`
 
 
 2)
@@ -135,5 +141,9 @@ This is necessary because the return of equipment is triggered by the staff who 
 
 **Test 1: MakeABooking - Main Flow**
 
+![[image-115.png]]
+![[image-116.png|581x455]]
+
 **Test 2: MakeABooking: InvalidBookingRequest - Alternative Flow**
 
+![[image-117.png]]![[image-119.png]]
