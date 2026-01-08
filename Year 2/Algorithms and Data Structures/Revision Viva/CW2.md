@@ -69,24 +69,23 @@
 `storageAPI -- StorageAPI_Impl`
 Relationship: Implementation
 Multiplicity: N/A
-Navigability: From `StorageAPI_Impl` to `StorageAPI`
+Navigability: `StorageAPI_Impl` to `StorageAPI`
 
 `BookingAPI_Impl -- BookingAPI`
 Relationship: Implementation
 Multiplicity: N/A
-Navigability: From `BookingAPI_Impl` to `BookingAPI`
+Navigability: `BookingAPI_Impl` to `BookingAPI`
 
 `BookingAPI_Impl -- BookingCollection`
-
 Relationship: Composition
 Multiplicity: 1 : 1
-Navigability: From `BookingAPI_Impl` to `BookingAPI`
+Navigability: `BookingAPI_Impl` to `BookingAPI`
 
 
 `BookingAPI_Impl -- StorageAPI_Impl`
 Relationship: Aggregation
 Multiplicity: 1 to 1
-Navigability: Unidirectional
+Navigability: `BookingAPI_Impl` to `StorageAPI_Impl`
 
 `Resource -- Equipment`
 Relationship: Inheritance
@@ -96,16 +95,16 @@ Navigability: N/A
 `BookingCollection -- Booking`
 Relationship: Aggregation
 Multiplicity: 1 : 0..*
-Navigability: N/A
+Navigability: `BookingCollection` to `Booking`
 
 `Booking -- StorageAPI`
 Relationship: Aggregation
 Multiplicity: N/A
-Navigability: Unidirectional
+Navigability: `Booking` to `StorageAPI`
 
 `BookingSqlHelper -- SQLHelper`
 Relationship: Inheritance
-Navigability: N/A
+Navigability: `BookingSqlHelper` to `SQLHelper`
 
 3)
 `sql` has instance scope. This is because each instance of an SQL Helper class must have its own unique query string, therefore `sql` is directly attached to a specific instance of a class. 
@@ -117,8 +116,7 @@ Resource is an abstract class. This is because Resource represents a general con
 The attributes `ID, name, type, string` in `Resource` must be kept private. This is important to maintain encapsulation within the class and avoid unexpected behaviour. All operations should remain public, so they can be accessed by other classes such as `BookingAPI_Impl`. Any class attributes that need to be accessed can do so through getter and setter elements.
 
 6)
-
-#### Class **Booking**:
+This is necessary because the return of equipment is triggered by the staff who need to authorise the equipment return. The booking is active until that point, so this is needed for termination of a booking, therefore it must also release the deposit if applicable. 
 
 
 ## Question 3
