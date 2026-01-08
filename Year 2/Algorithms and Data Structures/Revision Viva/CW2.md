@@ -31,9 +31,10 @@
 `- equipment : EquipmentCollection [1]`
 `- rooms : RoomCollection [1]`
 
- `requestBooking(reservationType: String, reservationID: int, )`
- `cancelBooking(bookingID: int): boolean`
- `validateBooking()`
+ `+ addBooking(startDate: string, duration: int) : void`
+ `+ cancelBooking(bookingID: int): boolean`
+ `+ checkResourceAvail(ID: int)`
+
 
 #### Class **Room**:
 
@@ -55,14 +56,16 @@
 `- equipmentID: int [1]`
 `- equipmentType: string [1]`
 `- depositAmount: int [1]`
-`- status: int [1]
+`- status: int [1] = "avaliable"`
 `- sqlHelper: EquipmentSqlHelper [1]
 
+`+ getID() : int`
+`+ getEquipmentType() : string`
+`+ getDepositAmount() : int`
+`+ getStatus() : string`
+`+ setStatus(status : string) : void`
 #### Class **StorageAPI_Impl**:
 
-**Attributes**:
-- `- occupancyLimit : int [1]`
-- `roomType : String [1]`
 
 
 2)
