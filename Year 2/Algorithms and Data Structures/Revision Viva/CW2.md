@@ -75,7 +75,7 @@ Navigability: Unidirectional
 `BookingSqlHelper -- SQLHelper`
 
 3)
-Is it a class scope or an instance scope? Instance scope
+`sql` has instance scope. This is because each instance of an SQL Helper class must have its own unique query string, therefore `sql` is directly attached to a specific instance of a class. 
 
 4)
 Resource is an abstract class. This is because Resource represents a general concept of a Room or Equipment in the CBS. It acts as a base class for other classes that will provide the implementation of manipulating resources. Resource requires a constructor, as it has attributes that should be initialised such as `ID, name, type`. 
