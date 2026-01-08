@@ -8,11 +8,11 @@
 `- bookingID: int [1]`
 `- startDate: string [1]`
  `- duration: string [1]`
- `- status: string = "on-hold"`
- `- userID: int`
- `- resourceID: int`
- `occupantsNum: int`
- `transactionID: int`
+ `- status: string [1] = "on-hold"`
+ `- userID: int [1]`
+ `- resourceID: int [1]`
+ `- occupantsNum: int [0..1]`
+ `- transactionID: int [0..1]`
  `- sqlHelper BookingSqlHelper[1]`
 
 **Operations**
@@ -27,8 +27,10 @@
 
 #### Class **BookingAPI_Impl**:
 
- `activeBookings : BookingCollection [1]`
- 
+ `- activeBookings : BookingCollection [1]`
+`- equipment : EquipmentCollection [1]`
+`- rooms : RoomCollection [1]`
+
  `requestBooking(reservationType: String, reservationID: int, )`
  `cancelBooking(bookingID: int): boolean`
  `validateBooking()`
@@ -40,6 +42,7 @@
 `- capacity: int [1]`
 `- isAvail: boolean [1] = true`
 `status: string [1] = "avaliable"`
+`- sqlHelper: RoomSqlHelper [1]`
 
 `+ setStatus(status: string): void`
 `+ getStatus(): string`
@@ -53,6 +56,7 @@
 `- equipmentType: string [1]`
 `- depositAmount: int [1]`
 `- status: int [1]
+`- sqlHelper: EquipmentSqlHelper [1]
 
 #### Class **StorageAPI_Impl**:
 
