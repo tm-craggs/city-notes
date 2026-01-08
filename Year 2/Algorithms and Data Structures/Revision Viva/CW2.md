@@ -53,8 +53,10 @@
 
 #### Class **Equipment**:
 
-`- rq`
-
+`- equipmentID: int [1]`
+`- equipmentType: string [1]`
+`- depositAmount: int [1]`
+`- status: int [1]
 
 #### Class **StorageAPI_Impl**:
 
@@ -67,18 +69,18 @@
 `storageAPI -- StorageAPI_Impl`
 Relationship: Implementation
 Multiplicity: N/A
-Navigability: Unidirectional
+Navigability: From `StorageAPI_Impl` to `StorageAPI`
 
 `BookingAPI_Impl -- BookingAPI`
 Relationship: Implementation
 Multiplicity: N/A
-Navigability: Unidirectional
+Navigability: From `BookingAPI_Impl` to `BookingAPI`
 
 `BookingAPI_Impl -- BookingCollection`
 
 Relationship: Composition
-Multiplicity: 1 to 1
-Navigability: Unidirectional 
+Multiplicity: 1 : 1
+Navigability: From `BookingAPI_Impl` to `BookingAPI`
 
 
 `BookingAPI_Impl -- StorageAPI_Impl`
@@ -93,7 +95,7 @@ Navigability: N/A
 
 `BookingCollection -- Booking`
 Relationship: Aggregation
-Multiplicity: 1 to 0..*
+Multiplicity: 1 : 0..*
 Navigability: N/A
 
 `Booking -- StorageAPI`
