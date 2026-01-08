@@ -68,7 +68,8 @@ Navigability: Unidirectional
 
 `BookingAPI_Impl -- StorageAPI_Impl`
 Relationship: Aggregation
-
+Multiplicity: 1 to 1
+Navigability: Unidirectional
 
 `Resource -- Equipment`
 Relationship: Inheritance
@@ -76,11 +77,18 @@ Multiplicity: N/A
 Navigability: N/A
 
 `BookingCollection -- Booking`
-
+Relationship: Aggregation
+Multiplicity: 1 to 0..*
+Navigability: N/A
 
 `Booking -- StorageAPI`
+Relationship: Aggregation
+Multiplicity: N/A
+Navigability: Unidirectional
 
 `BookingSqlHelper -- SQLHelper`
+Relationship: Inheritance
+Navigability: N/A
 
 3)
 `sql` has instance scope. This is because each instance of an SQL Helper class must have its own unique query string, therefore `sql` is directly attached to a specific instance of a class. 
