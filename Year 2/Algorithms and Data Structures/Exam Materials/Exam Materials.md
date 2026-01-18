@@ -38,10 +38,13 @@ Average/Worst: O(n)
 Space: O(1)
 
 Binary Search
+Time: O(log n)
+Space: O(1)
 
-Breadth First Search
-
-Depth First Search
+Breadth/Depth First Search
+Time: O(V + E)
+Space: O(V)
+*Where V is the number of vertices (nodes) and E is the number of Edges (connections between vertices*
 
 **Abstract Structures**
 
