@@ -102,6 +102,8 @@ Cyclic Graph - A graph containing at least one cycle, which is a path that start
 
 Tree - An undirected graph with no cycles, meaning there is one unique path between any nodes. 
 
+Binary Search Tree (BST) - A binary tree with an **ordering property**, all children to the left must be smaller than its parent, any children on the right must be larger. Duplicates are generally not allowed, if they are a consistent rule must be used. 
 
+Splay Tree - A tree where recently accessed nodes are made quickly accessible. Any binary search tree can be a splay tree. 
 
 
