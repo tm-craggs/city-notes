@@ -49,12 +49,24 @@ Space: O(V)
 **Abstract Structures**
 
 Singly Linked List
+Access by index: O(n)
+Search: O(n)
+Insert at head: O(1)
+Insert at tail: O(n)
+Delete at head: 
+Delete at position: O(n)
+
 
 Priority Queue
+
+Stack
+
 
 
 ## Definitions
 
+Node/Vertex - A unit representing an entity or an object
+Edges (links) - A connection between nodes
 Binary Tree - A tree where each node has at most 2 children
 Root - The node with no parent
 Leaf - A node with no children
