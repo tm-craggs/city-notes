@@ -52,7 +52,12 @@ Priority Queue
 
 ## Definitions
 
-
+Binary Tree - A tree where each node has at most 2 children
+Root - The node with no parent
+Leaf - A node with no children
+Perfectly Balanced Tree - A tree who's least deep leaf is no more than one level apart from the deepest leaf
+Heap - A binary tree that satisfies the **Heap Property**
+Heap Property - 
 
 ## Implementations
 
