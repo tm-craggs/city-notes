@@ -108,3 +108,12 @@ Binary Search Tree (BST) - A binary tree with an **ordering property**, all chil
 Splay Tree - A tree where recently accessed nodes are made quickly accessible. Any binary search tree can be a splay tree. 
 
 
+Double Hashing
+
+Breadth First Traversal
+
+Depth First Traversal 
+
+Pre order - 
+In order -
+Post order - 
