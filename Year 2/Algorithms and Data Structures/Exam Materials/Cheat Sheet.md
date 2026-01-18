@@ -73,6 +73,7 @@ Search: O(n)
 Delete: O(log n) with position known
 
 Hash table
+Search Insert and Delete: Average O(1) Worst O(n)
 
 ## Definitions
 
