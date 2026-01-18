@@ -111,8 +111,25 @@ Key - A value stored in the node
 
 B-Tree - A tree where each node can have up to m children, and store up to m-1 keys per node. 
 
+Hash Function - A function that maps keys to array indices (hash values)
 
-Double Hashing
+Hash Table - A data structure that uses a hash function to map keys positions in an array for fast lookup.
+
+Hash Value - The integer output of a hash function, used as an index in the hash table
+
+Collision - When two keys map to the same index
+
+Clustering - Groups of consecutive slors that form and degrade the performance. 
+
+Bucket - A slow in the hash table array that stores key/value
+
+Chaining - A method for resolving collisions, each bucket stores a linked list of all keys that hash to that position. Seach time O(1 + a) *where a = load factor*
+
+Open Addressing - When collision occurs, look for the next avaliable slot. Types include:
+
+Linear Probing - Check the next slot sequentially
+Quadratic Probing - Check the next slot quadratically. 
+Double Hashing - Use a second hash function to determine the step size. 
 
 Breadth First Traversal
 
