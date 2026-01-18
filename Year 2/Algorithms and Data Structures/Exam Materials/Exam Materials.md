@@ -53,15 +53,26 @@ Access by index: O(n)
 Search: O(n)
 Insert at head: O(1)
 Insert at tail: O(n)
-Delete at head: 
+Delete at head: O(1)
 Delete at position: O(n)
 
+Doubly linked list is the same, but stores a pointer to tail meaning:
+Insert at tail: O(1)
+Delete at tail: O(1)
 
 Priority Queue
+Insert: O(log n)
+Extract (min or max): O(log n)
+Delete: O(log n) with position known
+Search: O(n)
 
-Stack
+Stack:
+Insert: O(1)
+Pop/Peek: O(1)
+Search: O(n)
+Delete: O(log n) with position known
 
-
+Hash table
 
 ## Definitions
 
