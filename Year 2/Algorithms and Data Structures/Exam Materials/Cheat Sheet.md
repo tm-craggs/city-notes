@@ -138,3 +138,9 @@ Depth First Traversal
 Pre order - 
 In order -
 Post order - 
+
+## Considerations for Algorithms
+
+- Remember to handle edge cases initially, such as checking if queues are empty
+- Remember to return values at the end of functions
+- 
