@@ -21,6 +21,20 @@ All Cases: O(n log n)
 Space: O(1)
 
 Quick Sort
+Average O(n log n)
+Worst O(log n)
+Space O(log n)
+
+Bucket
+Average/Best: O(n + k) where n is output and k is number of buckets
+Worst: O(n+k)
+Space: O(n+k) or O(n) if k is proportional to n
+
+**Searching**
+
+Linear Search
+Binary Search
+
 
 ## Definitions
 
