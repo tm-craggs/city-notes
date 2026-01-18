@@ -94,7 +94,7 @@ Heap Property - A perfectly balanced **binary tree** such that **no node is larg
 
 Graph - A structure representing relationships between objects, using nodes and edges
 
-Directed Graph
+Directed Graph (digraph) - A set of nodes connection by directed edges (arrows) showing a **one way** relationship. 
 
 Undirected Graph
 
