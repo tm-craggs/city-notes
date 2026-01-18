@@ -94,11 +94,14 @@ Heap Property - A perfectly balanced **binary tree** such that **no node is larg
 
 Graph - A structure representing relationships between objects, using nodes and edges
 
-Directed Graph (digraph) - A set of nodes connection by directed edges (arrows) showing a **one way** relationship. 
+Directed Graph (digraph) - A set of nodes connection by directed edges (arrows) showing a **one way** relationship. Written {A -> B}
 
-Undirected Graph
+Undirected Graph - A set of nodes connected by edges where they have no direction. Written {A, B}
 
-Cyclic Graph
+Cyclic Graph - A graph containing at least one cycle, which is a path that starts and ends at the same node, forming a closed loop. These can be directed or undirected.
+
+Tree - An undirected graph with no cycles, meaning there is one unique path between any nodes. 
+
 
 
 
