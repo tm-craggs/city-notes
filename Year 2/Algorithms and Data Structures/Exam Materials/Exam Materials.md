@@ -35,6 +35,8 @@ Space: O(n+k) or O(n) if k is proportional to n
 Linear Search
 Binary Search
 
+**Abstract Structures**
+
 
 ## Definitions
 
