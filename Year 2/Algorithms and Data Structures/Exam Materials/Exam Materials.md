@@ -33,9 +33,21 @@ Space: O(n+k) or O(n) if k is proportional to n
 **Searching**
 
 Linear Search
+Best: O(1)
+Average/Worst: O(n)
+Space: O(1)
+
 Binary Search
 
+Breadth First Search
+
+Depth First Search
+
 **Abstract Structures**
+
+Singly Linked List
+
+Priority Queue
 
 
 ## Definitions
