@@ -107,6 +107,10 @@ Binary Search Tree (BST) - A binary tree with an **ordering property**, all chil
 
 Splay Tree - A tree where recently accessed nodes are made quickly accessible. Any binary search tree can be a splay tree. 
 
+Key - The value stored in the node
+
+B-Tree - A tree where each node can have up to m children, and store up to m-1 keys per node. 
+
 
 Double Hashing
 
