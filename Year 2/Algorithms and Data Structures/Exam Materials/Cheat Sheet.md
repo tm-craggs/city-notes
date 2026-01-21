@@ -131,7 +131,7 @@ Linear Probing - Check the next slot sequentially
 Quadratic Probing - Check the next slot quadratically. 
 Double Hashing - Use a second hash function to determine the step size. 
 
-Breadth First Traversal
+Breadth First Traversal - Visits all nodes at current level before moving to the next one. Uses a queue 
 
 Depth First Traversal 
 
