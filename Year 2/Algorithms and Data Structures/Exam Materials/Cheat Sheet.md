@@ -123,7 +123,7 @@ Clustering - Groups of consecutive slors that form and degrade the performance.
 
 Bucket - A slow in the hash table array that stores key/value
 
-Chaining - A method for resolving collisions, each bucket stores a linked list of all keys that hash to that position. Seach time O(1 + a) *where a = load factor*
+Chaining (Closed Adressing) - A method for resolving collisions, each bucket stores a linked list of all keys that hash to that position. Seach time O(1 + a) *where a = load factor*
 
 Open Addressing - When collision occurs, look for the next avaliable slot. Types include:
 
@@ -143,4 +143,3 @@ Post order -
 
 - Remember to handle edge cases initially, such as checking if queues are empty
 - Remember to return values at the end of functions
-- 
