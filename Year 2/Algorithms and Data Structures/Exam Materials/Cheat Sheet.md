@@ -133,11 +133,11 @@ Double Hashing - Use a second hash function to determine the step size.
 
 Breadth First Traversal - Visits all nodes at current level before moving to the next one. Uses a queue 
 
-Depth First Traversal 
+Depth First Traversal - Explore down one branch as far as possible before backtracking, uses a stack. 
 
-Pre order - 
-In order -
-Post order - 
+Pre order - Visit root, then left, then right 
+In order - Visit left, then root, then right
+Post order - Visit left, then right, then root. 
 
 ## Considerations for Algorithms
 
