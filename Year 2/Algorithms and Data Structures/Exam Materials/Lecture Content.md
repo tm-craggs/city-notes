@@ -84,7 +84,18 @@ Using heaps, a kind of tree, we can achieve O(log n) for both add and extract ma
 
 **Heaps**
 
+A heap is a perfectly balanced binary tree such that
+- No node is larger than its parent
+- All items on the lowest level are as far to the left as possible. 
 
+Heap operations
+- Heap is empty if root is empty
+- Heap insertion: add a node to the heap, displacing other nodes as necessary so it remains a heap. 
+- Heap extraction, remove the node with the highest value (the root), moving the other values so it remains a heap. 
+
+Heap Insertion
+- Add the new node as a leaf
+- Sift the new node up to its correct position (worst case O(log n) levels)
 # Lecture 3
 
 # Lecture 4
