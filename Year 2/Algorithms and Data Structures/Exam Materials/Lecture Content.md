@@ -96,6 +96,19 @@ Heap operations
 Heap Insertion
 - Add the new node as a leaf
 - Sift the new node up to its correct position (worst case O(log n) levels)
+
+![[image-125.png|341x218]]
+
+Heap Extraction
+- Extract root, and place the last leaf in root position
+- Re-establish heap conditions
+
+![[image-126.png|326x237]]
+
+
+Heaps can be represented as arrays
+![[image-127.png|407x218]]
+
 # Lecture 3
 
 # Lecture 4
