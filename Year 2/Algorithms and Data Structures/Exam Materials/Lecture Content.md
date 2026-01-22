@@ -109,6 +109,28 @@ Heap Extraction
 Heaps can be represented as arrays
 ![[image-127.png|407x218]]
 
+- The parent of node n is node (n - 1) / 2 
+	- Integer division, remove decimal place
+- The left child of node n is node 2n + 1
+- The right child of node n is node 2n + 2
+
+**Heap Sort**
+- Add elements to the heap, extract from the heap
+
+```java
+void heapsort(int[] data) {
+\\ first phase: heap goes from data[i+1] to data[data.length-1]. The rest of data[] is unsorted
+for (int i = data.length/2 - 1; i>= 0; i--) {
+	moveDown(data, i, data.length-1);
+	}
+\\ second phase: heap goes from data[0] to data[i] the rest contains the largest elements, sorted
+
+for (int i = data.length - 1; i>= 1; i--) {
+	swap(data, 0, i);
+	moveDown(data, 0, i-1);
+	}
+}
+```
 # Lecture 3
 
 # Lecture 4
