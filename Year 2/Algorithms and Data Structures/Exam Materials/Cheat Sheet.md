@@ -2,7 +2,7 @@
 
 **Sorting**
 
-Bubble Sort 
+Bubble and Insertion Sort 
 Average/Worst: O(n<sup>2</sup>)
 Best: O(n)
 Space: O(1)
@@ -14,7 +14,7 @@ Space: O(1)
 
 Merge Sort
 All cases: O(n log n) 
-Space: O(n)
+Space: O(log n)
 
 Heap Sort
 All Cases: O(n log n)
@@ -23,7 +23,7 @@ Space: O(1)
 Quick Sort
 Average O(n log n)
 Worst O(log n)
-Space O(log n)
+Space O(n)
 
 Bucket
 Average/Best: O(n + k) where n is output and k is number of buckets
