@@ -133,6 +133,20 @@ for (int i = data.length - 1; i>= 1; i--) {
 ```
 # Lecture 3
 
+In Java, variables do not contain classes, they contain references to memory of where they are stored.
+- Every variable can store null
+- Several variables may refer to the same object
+
+Singly Linked Lists
+
+Each node contains a value and a pointer to the next node. To add to the head, create a new node and point it to the current first node. Then update the pointer stored in the list that points to the head. 
+
+To delete from the head, just move the pointer along one space and garbage collection will do its thing. 
+
+Adding and deleting from the tail require traversing the entire list until finding a node that points to null (last node)
+
+Use a doubly linked list if adding to the tail is needed functionality. 
+
 # Lecture 4
 
 # Lecture 5
