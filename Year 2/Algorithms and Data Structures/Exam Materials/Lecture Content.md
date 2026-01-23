@@ -149,7 +149,33 @@ Use a doubly linked list if adding to the tail is needed functionality.
 
 # Lecture 4
 
+Other types of Linked List are doubly linked lists, which store a pointer to the tail. Making operations at the tail achievable in O(1) for slightly more space complexity. 
+
+Circular linked lists are where the tail node points back to the head. Only store the pointer to head or tail so you can tell when a full traversal has been completed. 
 # Lecture 5
+
+Sets in maths are a collection of things, no matter the order. Sets are the simplest case of a table, where the key is the value. 
+
+Hash Tables provide O(1) time complexity for search, insert and delete operations bu calculating array indices directly from keys, by using a hash function. 
+
+index = hash(key)
+
+A good hash function
+- Distributes keys uniformly across the array
+- Uses prime numbers for modulo operations to avoid patterns
+- Minimise collisions
+
+Collision Handling, there are two main strategies
+
+Chaining / Closed Hashing
+- Each array slot contains a linked list. 
+- Colliding elements are stored together
+- Performance depends on load factor (elements / table size)
+- Search time: O(1) average if load factor is bounded
+
+Open Addressing
+- Store all elements in the array itself using probing sequences.
+- Linear probing: Try next slow, simple but causes clustering.
 
 # Lecture 6
 
