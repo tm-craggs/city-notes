@@ -214,9 +214,61 @@ Delete
 - One child, replace node with child
 - Two children, replace with sucessor (left) or predeccesor, then delete. 
 
+
+Insertion and deletion can make trees unbalanced, we must keep height log(n) without expensive re balancing. 
+
+AVL trees (height-balanced):
+each node has -1 <= height(right) - height(left) <= 1
+(AVL-balance)
+
+
+Red-Black trees: each node is either red or black, and no red node can have a red child.
+Each full path from the root contains the same number of black nodes.
+
+AVL Tree Rebalancing
+
+Single Rotation, used when root and child on higher side have same sign balance or child is 0
+
+- Child becomes new root O(1)
+
+Double Rotation
+
+Used when root and higher-side child have opposite sign balances:
+
+- Rotate grandchild up twice
+- Effectively two single rotations
+
+All operations for an AVL tree have O(log n) worst. 
+
 # Lecture 8
 
+Splay Trees, self organising binary search tree that moves accessed nodes to the root. 
+
+Advantages
+- No extra storage, do not need to store heights at each node. 
+- Frequently accessed items stay near root. 
+- Simpler 
+
+### Splay Operations
+
+Three cases to move accessed node to root:
+
+- Zig: Parent is root, single rotation up
+- Zig-zig: Node and parent are both left (or both right) children → rotate parent up, then node up
+-  Zig-zag: Node and parent on opposite sides → double rotation (like AVL)
+
+B-Trees
+
+Multi way search trees optimised for hard disks, where each node is one disk block. 
+
+B-Tree properties, *order m*
+
+- Root has 1 or more keys
+- Non leaf
 # Lecture 9
 
+Representing Graphs
+
+Adjacency Matrix - A table with every node on column and row. 0 for no connection, 1 for connection. Can be  by replacing 1 with the weight. 
 
 
