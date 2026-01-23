@@ -175,15 +175,48 @@ Chaining / Closed Hashing
 
 Open Addressing
 - Store all elements in the array itself using probing sequences.
-- Linear probing: Try next slow, simple but causes clustering.
+- Linear probing: Try next slow, simple but causes clustering. 
+- Try h(k), h(k)+1², h(k)+2², h(k)+3² - reduces primary clustering
+- Double Hashing - use a second hash function for probe offset. Removes primary and secondary clustering. 
 
 # Lecture 6
 
+Trees are hierarchical structures with nodes connected by branches. Can represent organisational structures, file systems, and more. 
+
+- Root: Top node with no parent
+- Leaves: Nodes with no children
+- Height: Longest path from root to leaf (in edges)
+- Depth: Distance from a node to root
+- Level: Depth + 1
+
+Trees naturally support recursion. Two types of traversal, BFS and DFS. More in cheat sheet. 
 # Lecture 7
+
+Binary search tree, BST. 
+- All keys in left subtree < node key
+- All keys in right subtree > node keys
+- No duplicate keys
+
+In order traversal of a binary tree produces a sorted sequence.
+
+BST Operations, all log(n) average O(n) worst. 
+
+Search
+- Compare key with current node
+- Go left if smaller, right if larger
+
+Insert
+- Search for the key
+- If not found, add new node at empty position. 
+
+Delete
+- No children, remove node
+- One child, replace node with child
+- Two children, replace with sucessor (left) or predeccesor, then delete. 
 
 # Lecture 8
 
 # Lecture 9
 
-# Lecture 10
+
 
