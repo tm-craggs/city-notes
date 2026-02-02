@@ -6,4 +6,5 @@
 5. How are accounts restored from in-default to normal. 
 6. When is it decided what discount plan should be provided. Can a user have no discount plan, can it change, who should decide what a users discount plan is. How long do discounts last, are they allowed another after expirity. 
 7. Can orders be cancelled or modified?
-8. 
+8. Do our packages have to interact with the email confirmation mechanic. 
+9. 
