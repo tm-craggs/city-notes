@@ -264,11 +264,59 @@ Multi way search trees optimised for hard disks, where each node is one disk blo
 B-Tree properties, *order m*
 
 - Root has 1 or more keys
-- Non leaf
+- Non leaf nodes have k children and k - 1 keys. 
+- All leaves at the same level
+- Keys in each node stored in ascending order.
+- Keys in left < parent key < keys in right. 
+
+![[image-129.png]]
 # Lecture 9
 
 Representing Graphs
 
-Adjacency Matrix - A table with every node on column and row. 0 for no connection, 1 for connection. Can be  by replacing 1 with the weight. 
+Adjacency Matrix - A table with every node on column and row. 0 for no connection, 1 for connection. Can be weighted by replacing 1 with the weight. 
+
+Adjacency List - Show the connections of a node in a linked list. 
 
 
+BF Traversal 
+
+```
+Function breadthFirstSearch():
+create queue q
+FOR ALL vertices v
+	IF v has not been visited
+		visit v
+		enqueue v in q
+		WHILE q is not empty
+			curr ← vertex dequeued from q
+			FOR ALL vertices w adjacent to curr
+				IF w has not been visited
+					visit w
+					enqueue w in q
+```
+
+Shortest Path Algorithms, types
+
+all-to-all A simple algorithm takes O(|V|3 ) time, this can be improved a bit.
+one-to-all There are several algorithms; we consider Dijkstra’s, which
+assumes all weights are positive.
+all-to-one Use a one-to-all algorithm on the reversed graph.
+one-to-one No faster algorithm is known than using a one-to-all algorithm
+until the desired target is reached
+
+
+Dijkstras
+```
+FOR all vertices v
+	currDist[v] <- infinity;
+currDist[start] <- 0;
+toBeChecked <- V;
+WHILE toBeChecked is not empty
+	v <- a vertex in toBeChecked with minimal currDist(v);
+	remove v from toBeChecked;
+	FOR all vertices u adjacent to v and in toBeChecked
+		IF currDist[u] > currDist[v] + weight(vu)
+			currDist[u] <- currDist[v] + weight(vu);
+			predecessor[u] <- v;
+```
