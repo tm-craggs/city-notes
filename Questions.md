@@ -13,14 +13,20 @@ Final Questions
 
 1. What type of security scope is needed for the prototype, is it enough to just demonstrate functionality or should we include a full security suite.
 
-
+Just demonstrating functionality is enough. 
 
 2. Do you want any additional discount plans or just the ones specified in the brief?
-3. Would like more clarification on the discount plans. Who assigns discount plans, and how long do they last? Can they change? can they have none?
-4. How are accounts restored from "in-default" back to normal? 
-5. What what point do you define "low stock conditions" when sending out the notification, how is this calculated?
-6. How is a manager account created? 
-7. How is the first admin account created?
-8. Do you need a GUI to interact directly with IPOS-SA, if so what do you expect from the GUI. 
-9. Who gets notified when stock falls below minimum?
-10. When an order is placed, does stock reduce instantly or after dispatch?
+
+No - they are not required
+
+2. Would like more clarification on the discount plans. Who assigns discount plans, and how long do they last? Can they change? can they have none?
+
+They do not have to have a discount plan, decision lies with the merchant through the program. 
+
+3. How are accounts restored from "in-default" back to normal? 
+4. What what point do you define "low stock conditions" when sending out the notification, how is this calculated?
+5. How is a manager account created? 
+6. How is the first admin account created?
+7. Do you need a GUI to interact directly with IPOS-SA, if so what do you expect from the GUI. 
+8. Who gets notified when stock falls below minimum?
+9. When an order is placed, does stock reduce instantly or after dispatch?
