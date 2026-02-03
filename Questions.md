@@ -36,8 +36,16 @@ Each item in the catalogue has its own "low" value
 
 3. How is a manager account created? 
 4. How is the first admin account created?
+
+	Hard code in a backup account, admins can create other admins.
+
 5. Do you need a GUI to interact directly with IPOS-SA, if so what do you expect from the GUI. 
 6. Who gets notified when stock falls below minimum?
 7. When an order is placed, does stock reduce instantly or after dispatch?
+
+How much history should we keep for the report, when is the cutoff?
+Everything
+
+How should the three teams products come together?
 
 Can simulate third party payments
