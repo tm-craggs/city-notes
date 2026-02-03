@@ -41,6 +41,9 @@ Each item in the catalogue has its own "low" value
 
 5. Do you need a GUI to interact directly with IPOS-SA, if so what do you expect from the GUI. 
 6. Who gets notified when stock falls below minimum?
+
+Function that allows for quick generation of list of all items which are below stock. No notification. 
+
 7. When an order is placed, does stock reduce instantly or after dispatch?
 
 How much history should we keep for the report, when is the cutoff?
@@ -49,3 +52,5 @@ Everything
 How should the three teams products come together?
 
 Can simulate third party payments
+
+Stock should go down when order is placed. Should go back if the order is cancelled. Invoice can be raised when shipped. 
