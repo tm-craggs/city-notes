@@ -21,12 +21,23 @@ No - they are not required
 
 2. Would like more clarification on the discount plans. Who assigns discount plans, and how long do they last? Can they change? can they have none?
 
-They do not have to have a discount plan, decision lies with the merchant through the program. 
+They do not have to have a discount plan, decision lies with the merchant through the program. If someone switches from 
+Fixed applied to any sale during the month, 
+
+Flex to fixed - freeze the amount when they switch. 
 
 3. How are accounts restored from "in-default" back to normal? 
+
+Special account for the director that has this functionality. 
+
 4. What what point do you define "low stock conditions" when sending out the notification, how is this calculated?
-5. How is a manager account created? 
-6. How is the first admin account created?
-7. Do you need a GUI to interact directly with IPOS-SA, if so what do you expect from the GUI. 
-8. Who gets notified when stock falls below minimum?
-9. When an order is placed, does stock reduce instantly or after dispatch?
+
+Each item in the catalogue has its own "low" value
+
+3. How is a manager account created? 
+4. How is the first admin account created?
+5. Do you need a GUI to interact directly with IPOS-SA, if so what do you expect from the GUI. 
+6. Who gets notified when stock falls below minimum?
+7. When an order is placed, does stock reduce instantly or after dispatch?
+
+Can simulate third party payments
