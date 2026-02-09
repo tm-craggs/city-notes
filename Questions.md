@@ -50,7 +50,11 @@ How much history should we keep for the report, when is the cutoff?
 Everything
 
 How should the three teams products come together?
+They do need to communicate, all programs can be run on one laptop, or we will need to agree how we will do it online. 
+
 
 Can simulate third party payments
 
 Stock should go down when order is placed. Should go back if the order is cancelled. Invoice can be raised when shipped. 
+
+Any orders before suspension will be honoured, suspension is on new orders. 
