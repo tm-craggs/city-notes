@@ -59,4 +59,18 @@ halt
 4. `push 9` puts 9 on-top of the 42 that is on the stack
 5.  `add` means that the 9, and 42, are removed from the stack. 51 replaces them
 6. `sysc 3` is a system call, it takes the value from the operand stack and prints it to standard output. 51 is taken off the stack. 
-  
+   **Note**: The three just means "system call 3". It doesn't have any meaning, it is just the number of the specific system call that prints to standard output. 
+7. `halt` terminates the program. 
+
+
+You can write comments alongside the SSM code to explain what the expected state of the program is at that stage. For example, write in comments what the opstack looks like at this point. 
+
+```SSM 
+push 6  // <6>
+push 7  // <6, 7>
+mul     // <42>
+push 9  // <42, 9>
+add     // <51>
+sysc 3  // <> (outputs "51")
+halt
+```
