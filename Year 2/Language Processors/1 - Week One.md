@@ -74,3 +74,30 @@ add     // <51>
 sysc 3  // <> (outputs "51")
 halt
 ```
+
+You can declare .data to use variables. For example, the code
+
+``` python
+int x = 7;
+int y = 3;
+y = x * y
+print(y)
+
+```
+
+Translates to
+
+```SSM
+    loadi $x       // <7>
+    loadi $y       // <7, 3>
+    mul            // <21>
+    storei $y      // <> (y = 21)
+    loadi $y       // <21> (y = 21)
+    sysc OUT_DEC   // <> (y=21, output 21)
+    halt
+.data
+    $x: 7
+    $y: 3
+```
+
+**Note**: This program behaves a bit weird. This is a **naieve **
