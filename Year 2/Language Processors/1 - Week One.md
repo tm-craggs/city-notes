@@ -110,11 +110,28 @@ Loops are not a feature native to SSM, and have to be implemented using jumps.
 - The `jumpi` instruction allows you to jump to a memory address in the code. 
 - This is **different** to line numbers. Each line has a memory address, but it does not go in numerical order.
 
-```
-0: push 12
-6: push 2
-8: add
-
+**Don't write this**
+```SSM
+0: push 0
+5: dup
+6: sysc 3
+8: push 1
+13: add
+14: jump 5
 ```
 
 - It can be a pain to always keep track of what memory address you want to move to, so this is bad practise. 
+
+**Do this instead**
+```SSM
+	push 0
+$loop:
+	dup
+	sysc OUT_DEC
+	push 1
+	add
+	jumpi $loop
+```
+This is a label, instead of needing to work out yourself what the memory address is, you can jump to the label. 
+
+Note: **`OUT_DEC`** is just a mnemonic for sysc 3
