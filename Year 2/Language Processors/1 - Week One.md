@@ -31,6 +31,32 @@ What does a compiler do
 	- The table will store everything it knows about these names
 - Finally, the code is generated. 
 
-High level languages have features like if statements, while loops and methods. Machinene languages have few, if any of these. 
+High level languages have features like if statements, while loops and methods. Machine languages have few, if any of these. 
 - SSM has none
-- There is no general formula for translating low level language features 
+- There is no general formula for translating high level language features into machine code, so we have to invent our own ways in the translation. 
+
+
+- SSM primarily uses a stack, for example when doing an addition, you will add both numbers onto the operand stack, and then pop using the add operation. 
+
+
+Example:
+
+Let's execute this program
+
+```SSM
+push 6
+push 7
+mul
+push 9
+add
+sysc 3
+halt
+```
+
+1. `push 6` puts 6 inside the operand stack
+2. `push 7` does the same
+3. `mul` multiplies them together, 6 and 7 **come off** the operand stack and are replaced by 42
+4. `push 9` puts 9 on-top of the 42 that is on the stack
+5.  `add` means that the 9, and 42, are removed from the stack. 51 replaces them
+6. `sysc 3` is a system call, it takes the value from the operand stack and prints it to standard output. 51 is taken off the stack. 
+  
