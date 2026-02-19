@@ -100,4 +100,21 @@ Translates to
     $y: 3
 ```
 
-**Note**: This program behaves a bit weird. This is a **naieve **
+**Note**: This program behaves a bit weird. This is a **naive** compiler, meaning it always translates literally, line by line. Because you are assigning the result to variable y, and then outputting y, you are essentially putting the result into memory and then taking it straight back out again. A smarter, more optimised compiler, may realise it can skip this step and print straight out. 
+
+
+Loops:
+
+Loops are not a feature native to SSM, and have to be implemented using jumps. 
+
+- The `jumpi` instruction allows you to jump to a memory address in the code. 
+- This is **different** to line numbers. Each line has a memory address, but it does not go in numerical order.
+
+```
+0: push 12
+6: push 2
+8: add
+
+```
+
+- It can be a pain to always keep track of what memory address you want to move to, so this is bad practise. 
