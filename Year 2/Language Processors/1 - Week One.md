@@ -10,3 +10,7 @@ Key Words
 - Interpreter - A program that executes other programs
 - Virtual Machine - A program that executes low level code (interpreter)
 - Compiler - A program that translates programs written in a high-level language into low-level code
+
+- The JVM is a program which executes java byte code
+- More generally, a VM is an interpreter for a low level language
+- We will be implementing a small high-level language (LPL26) by compiling to Simple Stack Machine (SSM) code. 
