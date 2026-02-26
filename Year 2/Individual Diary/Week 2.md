@@ -1,5 +1,7 @@
 ## Week 2 Overview
 
+February 2nd - February 8th
+
 Week 2 was a productive week for organising the team. We had our first meeting, decided on team roles and how we would approach the project. 
 
 I also attended a meeting with Peter Popov (playing the role of Mr Lancaster) to help clarify many unclear areas of the Client Requirements. 
@@ -23,20 +25,23 @@ At our first team meeting, a few things were discussed. We had.
 -  We agreed to make this meeting a regular date, every week we will meet up to discuss the project. 
 -  We agreed we would use Notion for the team binder, the Deputy Manager was assigned the Job to have it set up and keep it maintained. 
 - We set up a GitHub repository for future programming collaboration. 
+- Agreed on some basic ground rules on how we would collaborate on shared resources
 - Wrote some questions for our interview with Mr Lancaster
 
 #### Reflection
 
-Upon role assignment, 
+After our meeting, I did a bit of reflection on what my, and other people's roles in the team would be. I wrote information about team roles, along with the rules we agreed upon for collaborative coding, and placed it on the GitHub README. I also included links to the resources that we had set up, such as our Project Binder, and shared folder for diagrams and documents. 
 
+![[image-133.png|442x356]]
+*An extract from the GitHub README I set up to clarify rules and roles with the group*
 ## Mr Lancaster Interview (February 3rd)
 
-Me and Anu attended an interview with Mr Lancaster on Tuesday. All questions and answers from our team are recorded below. 
+I attended an interview with Mr Lancaster on Tuesday. All questions and answers from our team are recorded below. 
 
 Attendees: Tom, Anu
 
 **Q**: What type of security scope is needed for the prototype? Is it enough to just demonstrate functionality or should we include security features?
-**A**: Just demonstrating functionality is enough, no need to encrypt user data for the prototype. 
+**A**: Just demonstrating functionality is enogh, no need to encrypt user data for the prototype. 
 
 **Q**: Do you want any additional discount plans or just the ones specified in the brief?
 **A**: No - only the fixed and flexible discount plans are required. 
@@ -76,7 +81,7 @@ Attendees: Tom, Anu
 **Q**: How does account suspension affect existing orders?
 **A**: Any orders before suspension will be honoured, suspension is on new orders. 
 
-## Consultant Meeting
+## Consultant Meeting (February 6th)
 
-This week we had our first consultant meeting. 
+This week we had our first consultant meeting with Konstantin Pozdniakov. We had a brief discussion about how our Use Case Diagrams would look, and confirmed that all team members had got in touch and that we were functioning well as a group. 
 
