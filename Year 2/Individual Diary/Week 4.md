@@ -1,3 +1,5 @@
+Febrary 16th - February 22nd
+
 # Team Meeting
 
 **What was Discussed?**

@@ -1,7 +1,13 @@
-# Second Group Meeting
+## Week 5 overview
+
+February 23rd - March 1st
+**Note:** This weeks diary ends at February 27th, due to the week 5 deadline for first deliverables. 
+
+Week 5 was spent consolidating our work so far  
+## Second Group Meeting
 
 - On Monday 23rd of February, in place of our regular Team Meeting we met up with the entire group. 
-- Attendees: Tom, Anu, Abdullah, Fariah
+- Attendees: Tom, Anu, Abdullah, Fariah and members from other teams
 
 **What was Discussed?**
 - The purpose of this meeting was to agree on our final component diagram and names for interface methods.
