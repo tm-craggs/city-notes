@@ -2,6 +2,7 @@
 
 **What was Discussed?**
 - At this team meeting, 
+- Attendees: Everybody
 
 
 # Consultant Meeting
