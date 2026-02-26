@@ -26,15 +26,14 @@ At our first team meeting, a few things were discussed. We had.
 Me and Anu attended an interview with Mr Lancaster on Tuesday. Here is a sample of question and answers which were received.
 
 
-
 Q: What type of security scope is needed for the prototype? Is it enough to just demonstrate functionality or should we include security features?
-A: Just demonstrating functionality is enough. 
+A: Just demonstrating functionality is enough, no need to encrypt user data for the prototype. 
 
 Q: Do you want any additional discount plans or just the ones specified in the brief?
 A: No - only the fixed and flexible discount plans are required. 
 
 Q: Would like more clarification on the discount plans. Who assigns discount plans, and how long do they last? Can they change? can they have none?
-A:
+A: Merchants choose their discount plan, they can choose either flexible or fixed, or have none. They can change their discount plan, and the differences must be cout
 
 Q: How are accounts restored from "in-default" back to normal? 
 A: There is a special account for the company director that has this functionality
@@ -42,23 +41,17 @@ A: There is a special account for the company director that has this functionali
 Q: At what point do you define "low stock conditions" when sending a low stock warning, how is this calculated?
 A: Each item in the catalogue has its own "low" value, the notification is triggered when stock falls below this number.
 
+Q: How is the first admin account created?
+A: This is a matter for you to decide. The first admin account could be hard coded into the system. 
 
-How is the first admin account created?
+Q: Who gets notified when stock falls below minimum?
+A: There is no notification, but reports can be generated that will specifically show all items that are low stock. 
 
-	Hard code in a backup account, admins can create other admins.
+Q: How much of the transaction history should we keep for the merchant for the purposes of generating reports?
+A: Keep everything, there is no cutoff where history is deleted.
 
-4. Do you need a GUI to interact directly with IPOS-SA, if so what do you expect from the GUI. 
-5. Who gets notified when stock falls below minimum?
-
-Function that allows for quick generation of list of all items which are below stock. No notification. 
-
-7. When an order is placed, does stock reduce instantly or after dispatch?
-
-How much history should we keep for the report, when is the cutoff?
-Everything
-
-How should the three teams products come together?
-They do need to communicate, all programs can be run on one laptop, or we will need to agree how we will do it online. 
+Q: How should the three teams products come together in the system demonstration
+A: All three subsystems must communicate. You can demonstrate them all on one laptop, 
 
 
 Can simulate third party payments
