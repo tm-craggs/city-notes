@@ -10,7 +10,7 @@ I also attended a meeting with Peter Popov (playing the role of Mr Lancaster) to
 At our first team meeting, a few things were discussed. We had. 
 
 -  A quick ice breaker, to get to know names and their strengths and weaknesses.
--  Role assignment, after this we discussed which roles. We decided on the following:
+-  Role assignment, after this we discussed which roles. We collectively decided on the following:
 	- Project Manager: Tom
 	- Deputy Manager: Anu
 	- System Analysts: Anu, Neil, Tharun
