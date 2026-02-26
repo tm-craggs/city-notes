@@ -135,3 +135,6 @@ $loop:
 This is a label, instead of needing to work out yourself what the memory address is, you can jump to the label. 
 
 Note: **`OUT_DEC`** is just a mnemonic for sysc 3
+
+# Tutorial Exercises
+
