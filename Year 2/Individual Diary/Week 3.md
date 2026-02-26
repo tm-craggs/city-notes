@@ -8,6 +8,12 @@ Week 3 saw the start of our work on the
 
 Attendees:
 
+# Group Meeting (February 12th)
+
+On February 12th, I attended our first group 11 meeting along with a few members of my team. This meeting was mostly spent getting to know other team members, getting to know them and their role in their team. We also had some brief, early discussions with Team 32s design team about interfaces between our subsystems and agreeing to further discussion about common meth
+
+
+
 ## Consultant Meeting (February 12th)
 
 **Note:** Consultant meetings were moved from Friday weekly to Thursday weekly from this point
