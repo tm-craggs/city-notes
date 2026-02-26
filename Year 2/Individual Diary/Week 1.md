@@ -10,4 +10,5 @@ Week 1 was spent mostly getting in touch with other group members, and establish
 I was the first person to make contact with the group. I did not know 
 
 
+#
 
