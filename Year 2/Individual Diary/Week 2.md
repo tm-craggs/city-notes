@@ -1,5 +1,5 @@
 
-## First Team Meeting - 1 hour
+## Team Meeting - 1 hour
 
 At our first team meeting, a few things were discussed. We had. 
 
@@ -15,11 +15,12 @@ At our first team meeting, a few things were discussed. We had.
 
 -  Technical discussion - We decided that we would use Java for any programming. It is a language we are all responsibly comfortable as we had used it in Year 1. Java also lends itself well to Object Oriented Programming, which would be used heavily throughout the project. 
 -  We agreed to make this meeting a regular date, every week we will meet up to discuss the project. 
--  We agreed we would use Notion for the team binder, the Deputy Manager was assigned the Job to have it set up. 
+-  We agreed we would use Notion for the team binder, the Deputy Manager was assigned the Job to have it set up and keep it maintained. 
 - We set up a GitHub repository for future programming collaboration. 
 
 #### Reflection
 
+Upon role assignment, 
 
 ## Mr Lancaster Interview - 1 Hour
 
