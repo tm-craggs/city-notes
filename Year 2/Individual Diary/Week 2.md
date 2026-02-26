@@ -28,6 +28,8 @@ At our first team meeting, a few things were discussed. We had.
 - Agreed on some basic ground rules on how we would collaborate on shared resources
 - Wrote some questions for our interview with Mr Lancaster
 
+![[image-136.png|457x344]]
+*A picture of our final role assignments at the team meeting*
 #### Reflection
 
 After our meeting, I did a bit of reflection on what my, and other people's roles in the team would be. I wrote some documentation for the group, describing team roles, along with the rules we agreed upon for collaborative coding. I placed it on the GitHub README. I also included links to the resources that we had set up, such as our Project Binder, and shared folder for diagrams and documents. 
