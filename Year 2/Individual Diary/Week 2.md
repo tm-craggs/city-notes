@@ -1,5 +1,11 @@
+## Week 2 Overview
 
-## Team Meeting - 1 hour
+Week 2 was a productive week for organising the team. We had our first meeting, decided on team roles and how we would approach the project. 
+
+I also attended a meeting with Peter Popov (playing the role of Mr Lancaster) to help clarify many unclear areas of the Client Requirements. 
+
+
+## Team Meeting - February 2nd
 
 At our first team meeting, a few things were discussed. We had. 
 
@@ -17,14 +23,17 @@ At our first team meeting, a few things were discussed. We had.
 -  We agreed to make this meeting a regular date, every week we will meet up to discuss the project. 
 -  We agreed we would use Notion for the team binder, the Deputy Manager was assigned the Job to have it set up and keep it maintained. 
 - We set up a GitHub repository for future programming collaboration. 
+- Wrote some questions for our interview with Mr Lancaster
 
 #### Reflection
 
 Upon role assignment, 
 
-## Mr Lancaster Interview - 1 Hour
+## Mr Lancaster Interview (February 3rd)
 
 Me and Anu attended an interview with Mr Lancaster on Tuesday. All questions and answers from our team are recorded below. 
+
+Attendees: Tom, Anu
 
 **Q**: What type of security scope is needed for the prototype? Is it enough to just demonstrate functionality or should we include security features?
 **A**: Just demonstrating functionality is enough, no need to encrypt user data for the prototype. 
@@ -69,5 +78,5 @@ Me and Anu attended an interview with Mr Lancaster on Tuesday. All questions and
 
 ## Consultant Meeting
 
-
+This week we had our first consultant meeting. 
 

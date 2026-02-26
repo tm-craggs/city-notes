@@ -1,9 +1,24 @@
 ## Week 1 Overview
 
-January 26th - Feburary 1
+January 26th - February 1st
 
-Week 1 was spent mostly getting in touch with other group members, and establishing means of communication. 
+Week 1 was spent mostly getting in touch with other group members, establishing means of communication, and planning our first meetings. 
 
+## Group and Team Summary
+
+Before getting in contact with the Group, I confirmed and wrote down all group and team details.
+
+**Group:** 11
+**Team:** 31
+**Assignment:** A (IPOS-SA)
+**Members**: 
+- Thomas Craggs (Tom)
+- Anusreya Basak (Anu)
+- Fariha Noor
+- Rached Hakkar
+- Abdullah Adil
+- Tharun Thiruchelvam
+- Neil Sakpal
 
 # First Communication (January 26th)
 
