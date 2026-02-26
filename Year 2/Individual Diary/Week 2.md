@@ -4,7 +4,7 @@ February 2nd - February 8th
 
 Week 2 was a productive week for organising the team. We had our first meeting, decided on team roles and how we would approach the project. 
 
-I also attended a meeting with Peter Popov (playing the role of Mr Lancaster) to help clarify many unclear areas of the Client Requirements. 
+I also attended a meeting with Peter Popov (playing the role of Mr Lancaster) to help clarify many unclear areas of the Client Requirements, and attended our first consultant meeting.
 
 
 ## Team Meeting - February 2nd
