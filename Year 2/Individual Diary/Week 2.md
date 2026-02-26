@@ -30,10 +30,13 @@ At our first team meeting, a few things were discussed. We had.
 
 #### Reflection
 
-After our meeting, I did a bit of reflection on what my, and other people's roles in the team would be. I wrote information about team roles, along with the rules we agreed upon for collaborative coding, and placed it on the GitHub README. I also included links to the resources that we had set up, such as our Project Binder, and shared folder for diagrams and documents. 
+After our meeting, I did a bit of reflection on what my, and other people's roles in the team would be. I wrote some documentation for the group, describing team roles, along with the rules we agreed upon for collaborative coding. I placed it on the GitHub README. I also included links to the resources that we had set up, such as our Project Binder, and shared folder for diagrams and documents. 
 
 ![[image-133.png|442x356]]
 *An extract from the GitHub README I set up to clarify rules and roles with the group*
+
+![[image-135.png|466x238]]
+*Section describing my role in README*
 ## Mr Lancaster Interview (February 3rd)
 
 I attended an interview with Mr Lancaster on Tuesday. All questions and answers from our team are recorded below. 
@@ -41,7 +44,7 @@ I attended an interview with Mr Lancaster on Tuesday. All questions and answers 
 Attendees: Tom, Anu
 
 **Q**: What type of security scope is needed for the prototype? Is it enough to just demonstrate functionality or should we include security features?
-**A**: Just demonstrating functionality is enogh, no need to encrypt user data for the prototype. 
+**A**: Just demonstrating functionality is enough, no need to encrypt user data for the prototype. 
 
 **Q**: Do you want any additional discount plans or just the ones specified in the brief?
 **A**: No - only the fixed and flexible discount plans are required. 
