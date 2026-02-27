@@ -25,4 +25,4 @@ As project manager, it was my job to make sure I had all the latest versions of 
 - Writing summaries of IPOS as a whole system
 - Final checking of work for any errors
 
-The final few days before the deadline were very dynamic, with a few last minuite changes to the diagrams and use cases, I had to ensure that the document was appropriatly version controlled and that I was not using any outdated work. 
+The final few days before the deadline were very dynamic, with a few last minute changes to the diagrams and use cases, from our team and others. I had to ensure that the document was appropriately version controlled and that I was not using any outdated work. 
