@@ -24,7 +24,7 @@ We also worked through a couple of problems we were having with shared documents
 
 # Group Meeting (February 12th)
 
-On February 12th, I attended our first group 11 meeting along with a few members of my team. This meeting was mostly spent getting to know other team members, getting to know them and their role in their team. We also had some brief, early discussions with Team 32s design team about interfaces between our subsystems and agreeing to further discussion about common meth
+On February 12th, I attended our first group 11 meeting along with a few members of my team. This meeting was mostly spent getting to know other team members, getting to know them and their role in their team. We also had some brief, early discussions with Team 32s design team about interfaces between our subsystems and agreeing to further discussion about common names for interfaces. 
 
 
 
