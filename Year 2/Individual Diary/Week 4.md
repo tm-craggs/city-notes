@@ -18,6 +18,6 @@ Our consultant meeting this week had been cancelled due to our consultant being 
 
 This meeting was extremely helpful, we were shown example diagrams and talked through them. Peter helped us clarify the 2 interfaces for our subsystem that we would have to model, and helped us clarify a few more minor points, such as if our diagram required ports. 
 
-![[image-2.png|573x212]]
+![[image-2.png|659x244]]
 *Image showing meeting details and participants*
 
