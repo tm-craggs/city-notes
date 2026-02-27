@@ -1,13 +1,14 @@
 ## Week 4 Overview
 
-Febrary 16th - February 22nd
+February 16th - February 22nd
 
-This week saw the group continuing its work on the diagrams for first deliverables. 
+This week saw the team continuing its work for the first deliverables, with the beginning of team wide cross-checking the first drafts that had been completed.
 
-# Team Meeting
+## Team Meeting (February 16th)
 
+Attendees: Everybody
 
-
+At this group meeting, with the entire team present, we began cross-checking each others work. I reviewed the Use Case Diagram and specifications that had been worked on by Anu and Fariah. Although it had not been completely finished and polished yet, I was very happy with the results so far, as were other members of the team. 
 
 # Consultant Meeting
 
