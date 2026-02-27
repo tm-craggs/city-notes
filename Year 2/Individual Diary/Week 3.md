@@ -16,7 +16,11 @@ During this meeting, we divided the tasks between the group so we could begin wo
 - Class Diagram
 - Java Code and Test Case Generation
 
-The tasks 
+The tasks were allocated as follows. Anu and Fariah would work on the use case diagram, Rached and Abdullah would work on the Component and Class diagrams, Neil and Tharun would focus on generating test cases for the interfaces. 
+
+I would primarily be helping Rached and Abdullah with the component and class diagrams, but I would also help the others with any concerns or trouble that would come up. I would also be writing the final submission document, and would be reviewing and offering any feedback for the completed work before giving it the go ahead. 
+
+We also worked through a couple of problems we were having with shared documents on the team drive, and helped a few members of team 32 who did not have access to the group Discord server during this meeting. 
 
 # Group Meeting (February 12th)
 
