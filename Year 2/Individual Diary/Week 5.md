@@ -8,6 +8,7 @@ Week 5 was spent consolidating our work so far
 
 - On Monday 23rd of February, in place of our regular Team Meeting we met up with the entire group. 
 - Attendees: Tom, Anu, Abdullah, Fariah and members from other teams
+- This meeting was for the group
 
 **What was Discussed?**
 - The purpose of this meeting was to agree on our final component diagram and names for interface methods.
