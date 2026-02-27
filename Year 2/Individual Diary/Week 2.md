@@ -25,14 +25,16 @@ Next, we collectively agreed upon **role assignment**. Here is what we decided:
 
 We had a **technical discussion**. We decided we would use Java for programming. It is a language we are all comfortable with as we have used it in Year 1. Java also lends itself well to Object Oriented Programming, which will be used heavily. 
 
-We also decided to use SQLite for our database. SQLite is ideal as files are stored 
+We also decided to use SQLite for our database. SQLite is ideal as databases are stored in local .db files, ideal for developing a prototype that will only be deployed on a single PC. They share almost identical syntax. 
 
--  A Technical discussion. We decided that we would use Java for any programming. It is a language we are all responsibly comfortable as we had used it in Year 1. Java also lends itself well to Object Oriented Programming, which would be used heavily throughout the project. 
--  We agreed to make this meeting a regular date, every week we will meet up to discuss the project. 
--  We agreed we would use Notion for the team binder, the Deputy Manager was assigned the Job to have it set up and keep it maintained. 
+We also made a few ground rules and general agreements:
+
+-  Our team will meet weekly at this date and time, as it works for everybody
+-  We will be keeping the project binder on Notion, deputy manager assigned to set it up and keep it maintained
 - We set up a GitHub repository for future programming collaboration. 
-- Agreed on some basic ground rules on how we would collaborate on shared resources
-- Wrote some questions for our interview with Mr Lancaster
+- Agreed some rules for using shared resources, especially GitHub. e.g. no pushing directly to main, stick within your assigned folder. 
+
+Finally, we wrote a few questions for our upcoming interview wi
 
 ![[image-136.png|457x344]]
 *A picture of our final role assignments at the team meeting*
