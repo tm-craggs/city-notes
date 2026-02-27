@@ -6,10 +6,11 @@ Week 2 was a productive week for organising the team. We had our first meeting, 
 
 I also attended a meeting with Peter Popov (playing the role of Mr Lancaster) to help clarify many unclear areas of the Client Requirements, and attended our first consultant meeting.
 
-
 ## Team Meeting (February 2nd)
 
 At our first team meeting, a few things were discussed.
+
+Attendees: Everyone
 
 Firstly, we had an **ice breaker** no one on our team previously knew each other, so we had a brief introduction to get to know each others names, strengths and weaknesses. 
 
@@ -33,14 +34,15 @@ We also made a few ground rules and general agreements:
 -  We will be keeping the project binder on Notion, deputy manager assigned to set it up and keep it maintained
 - We set up a GitHub repository for future programming collaboration. 
 - Agreed some rules for using shared resources, especially GitHub. e.g. no pushing directly to main, stick within your assigned folder. 
+- Set up a group folder on OneDrive for sharing files
 
-Finally, we wrote a few questions for our upcoming interview wi
+Finally, we wrote a few questions for our upcoming interview with Mr Lancaster after reading the project brief together. 
 
 ![[image-136.png|457x344]]
 *A picture of our final role assignments at the team meeting*
 #### Reflection
 
-After our meeting, I did a bit of reflection on what my, and other people's roles in the team would be. I wrote some documentation for the group, describing team roles, along with the rules we agreed upon for collaborative coding. I placed it on the GitHub README. I also included links to the resources that we had set up, such as our Project Binder, and shared folder for diagrams and documents. 
+After our meeting, I did some reflection on what my, and other people's roles in the team would be. I wrote some documentation for the group, describing team roles, along with the rules we agreed upon for collaborative coding. I placed it on the GitHub README. I also included links to the resources that we had set up, such as our Project Binder, and shared folder for diagrams and documents. 
 
 ![[image-133.png|442x356]]
 *An extract from the GitHub README I set up to clarify rules and roles with the group*

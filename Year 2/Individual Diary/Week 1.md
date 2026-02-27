@@ -38,4 +38,4 @@ On the chat, I asked people when they were free and arranged a time and place fo
 *E-Mail confirmation of our study room booking*
 # Discord Server (February 1st)
 
-On February 1st I was invited to and joined a Discord server for the entirety of group 11. I introduced myself and made a few suggestions to improve the server, such as creating separate text channels for each team, and recommending everybody change their server nickname to indicate their team number and role. I also forwarded this invitation to other members of my team using the WhatsApp chat. 
+On February 1st I was invited to and joined a Discord server for the entire Group 11. I introduced myself and made a few suggestions to improve the server, such as creating separate text channels for each team, and recommending everybody change their server nickname to indicate their team number and role. I also forwarded this invitation to other members of my team using the WhatsApp chat. 
