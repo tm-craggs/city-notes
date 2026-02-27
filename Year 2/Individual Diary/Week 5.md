@@ -21,6 +21,7 @@ The purpose of this meeting was to agree on our final component diagram and name
 ## Logo and Team Name
 
 -  During this week we finalised our logo and team name, our team will be going by **Vision Software**
+- Our logo was designed by Rached
 
 ## Final Write Up
 
