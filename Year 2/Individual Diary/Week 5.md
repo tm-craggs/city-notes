@@ -19,4 +19,10 @@ The purpose of this meeting was to agree on our final component diagram and name
 
 ## Final Write Up
 
-As project manager, it was my job to make sure I had all the latest versions of every-bodies work, and use this to write up the final document for submission. 
+As project manager, it was my job to make sure I had all the latest versions of every-bodies work, and use this to write up the final document for submission. Some tasks involved in this were:
+- Structuring the document to be as professional, and industry standard as possible.
+- Offering commentary on the diagrams we had submitted, trying to explain them to a less technical audience. 
+- Writing summaries of IPOS as a whole system
+- Final checking of work for any errors
+
+The final few days before the deadline were very dynamic, with a few last minuite changes to the diagrams and use cases, I had to ensure that the document was appropriatly version controlled and that I was not using any outdated work. 
