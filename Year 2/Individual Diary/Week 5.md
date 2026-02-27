@@ -7,7 +7,7 @@ Week 5 was spent correcting some final errors in our work, before consolidating 
 
 ## Second Group Meeting (February 23rd)
 
-On Monday 23rd of February, in place of our regular team meeting, we had a productibe meeting with the entire group. 
+On Monday 23rd of February, in place of our regular team meeting, we had a productive meeting with the entire group. 
 
 Attendees: Tom, Anu, Abdullah, Fariah and members from other teams
 
