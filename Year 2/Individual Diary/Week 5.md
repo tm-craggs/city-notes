@@ -16,6 +16,9 @@ The purpose of this meeting was to agree on our final component diagram and name
 - We discussed how we would agree on names for common interfaces. Each team would send the names of methods they needed from other teams, which would then be implemented in both teams class diagrams to maintain consistency across IPOS. 
 - This was also a good opportunity for everyone in the group to see each teams most up to date class diagrams. There was a lot of explanations and feedback across groups. 
 
+## Logo and Team Name
+
+-  During this week we finalised our logo and team name, our team will be going by **Vision Software**
 
 ## Final Write Up
 
