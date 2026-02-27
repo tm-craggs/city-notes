@@ -11,13 +11,21 @@ I also attended a meeting with Peter Popov (playing the role of Mr Lancaster) to
 
 At our first team meeting, a few things were discussed.
 
-**Ice Breaker** - No one on our team previously knew each other, so we had a brief introduction to get to know each others names, strengths and weaknesses. 
+Firstly, we had an **ice breaker** no one on our team previously knew each other, so we had a brief introduction to get to know each others names, strengths and weaknesses. 
 
-**Role Assignment** - We collectively agreed the following roles
+Next, we collectively agreed upon **role assignment**. Here is what we decided:
 
-|
-|
+| Project Manager     | Tom                           |
+| ------------------- | ----------------------------- |
+| **Deputy Manager**  | Any                           |
+| **System Analysts** | Anu, Neil, Tharun             |
+| **Designers**       | Rached, Fariha, Abdullah      |
+| **Programmers**     | Rached, Fariha, Abdullah, Tom |
+| **Testers**         | Neil, Tharun                  |
 
+We had a **technical discussion**. We decided we would use Java for programming. It is a language we are all comfortable with as we have used it in Year 1. Java also lends itself well to Object Oriented Programming, which will be used heavily. 
+
+We also decided to use SQLite for our database. SQLite is ideal as files are stored 
 
 -  A Technical discussion. We decided that we would use Java for any programming. It is a language we are all responsibly comfortable as we had used it in Year 1. Java also lends itself well to Object Oriented Programming, which would be used heavily throughout the project. 
 -  We agreed to make this meeting a regular date, every week we will meet up to discuss the project. 
