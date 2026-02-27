@@ -2,11 +2,21 @@
 
 February 9th - February 15th 
 
-Week 3 saw the start of our work on the 
+Week 3 saw the start of our work on the first deliverables. 
 
 ## Team Meeting (February 9th)
 
-Attendees:
+Attendees: Tom, Anu, Fariah, Neil, Rached
+
+During this meeting, we divided the tasks between the group so we could begin work for the first deliverables deadline on 27th. Work for this this deadline consists of
+
+- Use Case Diagram
+- Use Case Specifications
+- Component Diagram
+- Class Diagram
+- Java Code and Test Case Generation
+
+The tasks 
 
 # Group Meeting (February 12th)
 
