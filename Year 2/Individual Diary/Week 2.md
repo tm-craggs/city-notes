@@ -7,18 +7,16 @@ Week 2 was a productive week for organising the team. We had our first meeting, 
 I also attended a meeting with Peter Popov (playing the role of Mr Lancaster) to help clarify many unclear areas of the Client Requirements, and attended our first consultant meeting.
 
 
-## Team Meeting - February 2nd
+## Team Meeting (February 2nd)
 
-At our first team meeting, a few things were discussed. We had. 
+At our first team meeting, a few things were discussed.
 
--  A quick ice breaker, to get to know names and their strengths and weaknesses.
--  Role assignment, after this we discussed which roles. We collectively decided on the following:
-	- Project Manager: Tom
-	- Deputy Manager: Anu
-	- System Analysts: Anu, Neil, Tharun
-	- Designers: Rached, Fariha, Abdullah
-	- Programmers: Rached, Fariha, Abdullah, Tom
-	- Testers: Neil, Tharun
+**Ice Breaker** - No one on our team previously knew each other, so we had a brief introduction to get to know each others names, strengths and weaknesses. 
+
+**Role Assignment** - We collectively agreed the following roles
+
+|
+|
 
 
 -  A Technical discussion. We decided that we would use Java for any programming. It is a language we are all responsibly comfortable as we had used it in Year 1. Java also lends itself well to Object Oriented Programming, which would be used heavily throughout the project. 
