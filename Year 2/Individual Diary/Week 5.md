@@ -17,4 +17,6 @@ The purpose of this meeting was to agree on our final component diagram and name
 - This was also a good opportunity for everyone in the group to see each teams most up to date class diagrams. There was a lot of explanations and feedback across groups. 
 
 
-## Final Report (Started )
+## Final Write Up
+
+As project manager, it was my job to make sure I had all the latest versions of every-bodies work, and use this to write up the final document for submission. 
