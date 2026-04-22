@@ -6,33 +6,43 @@ Week 2 was a productive week for organising the team. We had our first meeting, 
 
 I also attended a meeting with Peter Popov (playing the role of Mr Lancaster) to help clarify many unclear areas of the Client Requirements, and attended our first consultant meeting.
 
+## Team Meeting (February 2nd)
 
-## Team Meeting - February 2nd
+At our first team meeting, a few things were discussed.
 
-At our first team meeting, a few things were discussed. We had. 
+Attendees: Everyone
 
--  A quick ice breaker, to get to know names and their strengths and weaknesses.
--  Role assignment, after this we discussed which roles. We collectively decided on the following:
-	- Project Manager: Tom
-	- Deputy Manager: Anu
-	- System Analysts: Anu, Neil, Tharun
-	- Designers: Rached, Fariha, Abdullah
-	- Programmers: Rached, Fariha, Abdullah, Tom
-	- Testers: Neil, Tharun
+Firstly, we had an **ice breaker** no one on our team previously knew each other, so we had a brief introduction to get to know each others names, strengths and weaknesses. 
 
+Next, we collectively agreed upon **role assignment**. Here is what we decided:
 
--  Technical discussion - We decided that we would use Java for any programming. It is a language we are all responsibly comfortable as we had used it in Year 1. Java also lends itself well to Object Oriented Programming, which would be used heavily throughout the project. 
--  We agreed to make this meeting a regular date, every week we will meet up to discuss the project. 
--  We agreed we would use Notion for the team binder, the Deputy Manager was assigned the Job to have it set up and keep it maintained. 
+| Project Manager     | Tom                           |
+| ------------------- | ----------------------------- |
+| **Deputy Manager**  | Any                           |
+| **System Analysts** | Anu, Neil, Tharun             |
+| **Designers**       | Rached, Fariha, Abdullah      |
+| **Programmers**     | Rached, Fariha, Abdullah, Tom |
+| **Testers**         | Neil, Tharun                  |
+
+We had a **technical discussion**. We decided we would use Java for programming. It is a language we are all comfortable with as we have used it in Year 1. Java also lends itself well to Object Oriented Programming, which will be used heavily. 
+
+We also decided to use SQLite for our database. SQLite is ideal as databases are stored in local .db files, ideal for developing a prototype that will only be deployed on a single PC. They share almost identical syntax. 
+
+We also made a few ground rules and general agreements:
+
+-  Our team will meet weekly at this date and time, as it works for everybody
+-  We will be keeping the project binder on Notion, deputy manager assigned to set it up and keep it maintained
 - We set up a GitHub repository for future programming collaboration. 
-- Agreed on some basic ground rules on how we would collaborate on shared resources
-- Wrote some questions for our interview with Mr Lancaster
+- Agreed some rules for using shared resources, especially GitHub. e.g. no pushing directly to main, stick within your assigned folder. 
+- Set up a group folder on OneDrive for sharing files
+
+Finally, we wrote a few questions for our upcoming interview with Mr Lancaster after reading the project brief together. 
 
 ![[image-136.png|457x344]]
 *A picture of our final role assignments at the team meeting*
 #### Reflection
 
-After our meeting, I did a bit of reflection on what my, and other people's roles in the team would be. I wrote some documentation for the group, describing team roles, along with the rules we agreed upon for collaborative coding. I placed it on the GitHub README. I also included links to the resources that we had set up, such as our Project Binder, and shared folder for diagrams and documents. 
+After our meeting, I did some reflection on what my, and other people's roles in the team would be. I wrote some documentation for the group, describing team roles, along with the rules we agreed upon for collaborative coding. I placed it on the GitHub README. I also included links to the resources that we had set up, such as our Project Binder, and shared folder for diagrams and documents. 
 
 ![[image-133.png|442x356]]
 *An extract from the GitHub README I set up to clarify rules and roles with the group*
