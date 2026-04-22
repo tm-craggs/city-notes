@@ -1,6 +1,6 @@
 March 9th - March 15th
 
-This week was spent 
+This week was spent beginning programming for IPOS-SA. Before the bulk of programming could start, the Project had to be set up. 
 
 ## Beginning Programming
 

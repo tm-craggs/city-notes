@@ -10,4 +10,4 @@ During this lecture, I had the chance to speak to the class on behalf of Group 1
 	- **Javalin benefits:** Lightweight restAPI that is easy to build on-top of your project. Spring Boot required changing our Launcher methods and was conflicting with JavaFX. 
 	- Most people had been using MySQL and Spring Boot, so I wanted to share alternatives that could help other groups.
 	
-- I also briefly discussed how our group are integrating, 
+- I also briefly discussed how our group are integrating and our convention for port number usage.
