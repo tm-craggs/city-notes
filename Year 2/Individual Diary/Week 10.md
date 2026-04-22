@@ -3,7 +3,7 @@
 
 March 30th - April 5th
 
-
+This week saw me begin API programming for our system integration, and also speaking at the Group Project lecture on behalf of Group 11. 
 
 ## Speaking at Lecture - March 30th
 
