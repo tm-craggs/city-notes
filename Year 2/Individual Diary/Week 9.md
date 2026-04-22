@@ -13,8 +13,7 @@ Change log:
 
 - Added a SceneSwitcher class for all subsystems to use. This class contains the large amount of boiler plate needed to switch windows from one FXML file
 - Reworked Main Menu to use this new Scene Switcher class
-- Added a fix to module-info.java to allow the ACC package
-
+- Add basic account creation to the ACC package
 
 
 ![[image-140.png]]

@@ -2,7 +2,7 @@
 
 April 6th - April 12th
 
-This week saw me finish our API endpoints for order related queries. Finally, 
+This week saw me finish our API endpoints for order related queries. 
 
 ## Programming Progress
 
