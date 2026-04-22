@@ -25,7 +25,7 @@ I authored 10 commits this week, which completed the following jobs:
 - Ensuring the correct version of Java is being used, decided on Java 21 LTS
 - Setting up `.gitignore` and `.gitattributes` so that configs are not staged and that dependencies work on different systems.
 - Write boilerplate code that creates and connects to a Database file at start
-- Set up a prototype main menu, to ensure that JavaFX was working correctly
+- Set up a prototype login and main menu, to ensure that JavaFX was working correctly
 
 My specific commits this week are shown below from this GitHub screenshot:
 
