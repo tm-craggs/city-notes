@@ -16,9 +16,9 @@ I explained:
 
 Within this week, 2 commits were authored by me. It was consolidation of the previous weeks work and still revolved the login menu and main menu. 
 
-Changelog:
+Change log:
 
 -  Reworked the Main Menu, so that only subsystems which a user has permission to access show in the Menu. 
--  Fixed a few bugs with 
+-  Fixed a few bugs with the Logout button inside the main menu which was causing the user not to be returned to the login screen. 
 
 ![[image-139.png]]
