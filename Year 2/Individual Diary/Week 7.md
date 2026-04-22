@@ -26,7 +26,7 @@ I authored 10 commits this week, which completed the following jobs:
 - Setting up `.gitignore` and `.gitattributes` so that configs are not staged and that dependencies work on different systems.
 - Write boilerplate code that creates and connects to a Database file at start.
 - Add Database tables to store user information
-- Creating a UserSession class so
+- Creating a UserSession class so subsystems can see a users name and privilege 
 - Set up a prototype login and main menu, to ensure that JavaFX was working correctly
 
 My specific commits this week are shown below from this GitHub screenshot:

@@ -18,6 +18,7 @@ Within this week, 2 commits were authored by me. It was consolidation of the pre
 
 Changelog:
 
--  Added user types 
+-  Reworked the Main Menu, so that only subsystems which a user has permission to access show in the Menu. 
+-  Fixed a few bugs with 
 
 ![[image-139.png]]
