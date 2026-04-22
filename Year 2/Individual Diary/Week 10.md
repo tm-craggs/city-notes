@@ -7,7 +7,7 @@ During this lecture, I had the chance to speak to the class on behalf of Group 1
 -  Spoke about the benefits of our tech stack:
 	-  **Java benefits:** 
 	- **SQLite benefits**: Stores all databases in a local file, no need to manage a server. 
-	- **Javalin benefits:** Lightweight restAPI that is easy to build on-top of your project. Spring Boot required changing our Launcher methods and was conflicting with JavaFX. 
+	- **Javalin benefits:** Lightweight rest API that is easy to build on-top of your project. Spring Boot required changing our Launcher methods and was conflicting with JavaFX. 
 	- Most people had been using MySQL and Spring Boot, so I wanted to share alternatives that could help other groups.
 	
 - I also briefly discussed how our group are integrating and our convention for port number usage.
@@ -23,10 +23,11 @@ Changelog:
 
 ## Merge Requests
 
-By now, code from other team members is starting to be merged into. There were merge conflicts that required resolving, particularly in the DatabaseManager file. The first code from the RPT and CAT subsystems were merged this week. 
+By now, code from other team members is starting to be merged into. There were merge conflicts that required resolving, particularly in the DatabaseManager file. The first code from the RPT and CAT subsystems
 
 
 ![[image-142.png]]
 
 ![[image-141.png]]
-![[image-143.png]]
+
+![[image-144.png]]
