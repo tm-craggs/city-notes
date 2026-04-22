@@ -9,4 +9,15 @@ At this weeks team meeting, I wanted to bring the rest of the group up to speed 
 I explained:
 - How JavaFX works and how you can use FXML to write the structure for your UI. 
 - What the resources folder was, and how to save your FXML files in the correct place inside that directory
-- 
+- How SQLite works, and how you can write and execute queries from inside Java.
+- What each package was and what files should be stored in each. 
+
+## Programming Progress
+
+Within this week, 2 commits were authored by me. It was consolidation of the previous weeks work and still revolved the login menu and main menu. 
+
+Changelog:
+
+-  Added user types 
+
+![[image-139.png]]

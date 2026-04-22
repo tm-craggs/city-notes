@@ -24,7 +24,9 @@ I authored 10 commits this week, which completed the following jobs:
 - Defining dependencies in a Maven build file, so IntelliJ will automatically install dependencies for team members. 
 - Ensuring the correct version of Java is being used, decided on Java 21 LTS
 - Setting up `.gitignore` and `.gitattributes` so that configs are not staged and that dependencies work on different systems.
-- Write boilerplate code that creates and connects to a Database file at start
+- Write boilerplate code that creates and connects to a Database file at start.
+- Add Database tables to store user information
+- Creating a UserSession class so
 - Set up a prototype login and main menu, to ensure that JavaFX was working correctly
 
 My specific commits this week are shown below from this GitHub screenshot:
