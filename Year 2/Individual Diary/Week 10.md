@@ -5,13 +5,9 @@ During this lecture, I had the chance to speak to the class on behalf of Group 1
 
 -  Talked about our tech stack of Java, JavaFX, Javalin and SQLite
 -  Spoke about the benefits of our tech stack:
-	-  Java being used as primary language, as we all know it from Year 1
-	-  SQLite has been helpful, as it stores all databases in a local file, no need to manage a server. 
-	- Javalin is a lightweight API that does not require
-	- Most people had been using MySQL and Spring Boot, so I wanted to share some alternatives incase other groups were having the same issues we were having. 
+	-  **Java benefits:** 
+	- **SQLite benefits**: Stores all databases in a local file, no need to manage a server. 
+	- **Javalin benefits:** Lightweight restAPI that is easy to build on-top of your project. Spring Boot required changing our Launcher methods and was conflicting with JavaFX. 
+	- Most people had been using MySQL and Spring Boot, so I wanted to share alternatives that could help other groups.
 	
-- Covered how our Group are handling integration.
-	- Team 31 would listen on port 3001
-	- Team 32 would use port 3002
-	- Team 33 would use port 3003
-
+- I also briefly discussed how our group are integrating, 
