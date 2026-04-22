@@ -4,7 +4,7 @@ This week was spent beginning programming for IPOS-SA, and finalising our submis
 
 ## Team Meeting - March 9th
 
-This team meeting was spent performing a final review of our Peer Review submission before the deadline later that day. 
+This team meeting was spent performing a final review of our Peer Review submission before the deadline later that day. We decided to change our template from the one I had used, to the one provided by the teachers and published on Moodle. The content I had written in first draft remained largely the same. 
 
 ## Beginning Programming
 
@@ -18,13 +18,15 @@ This week I started the programming for IPOS-SA. The early jobs were primarily i
 
 I authored 10 commits this week, which completed the following jobs:
 
-- Set up the Project and file structure, defining where everybody will be 
+- Set up the Project and file structure, defining where everybody will be working. 
+- Writing this information in the `README` file so the rest of the team know where they should work.
+- Installing SQLite and JavaFX
+- Defining dependencies in a Maven build file, so IntelliJ will automatically install dependencies for team members. 
+- Ensuring the correct version of Java is being used, decided on Java 21 LTS
+- Setting up `.gitignore` and `.gitattributes` so that configs are not staged and that dependencies work on different systems.
+- Write boilerplate code that creates and connects to a Database file at start
+- Set up a prototype main menu, to ensure that JavaFX was working correctly
 
-- Setting up the Project and file structure
-- Writing the documentation explaining Fil
-- Setting up the Maven build system, so team members can easily install the correct dependency versions
-- Writing the Maven `pom.xml` to add SQLite and JavaFX dependencies. 
-- Ensuring the correct version of Java was being used. 
-- Updating the `README` to explain the 
-- Setting up `.gitignore` and `.gitattributes`
+My specific commits this week are shown below from this GitHub screenshot:
 
+![[image-138.png|423]]
