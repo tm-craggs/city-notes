@@ -8,4 +8,5 @@ At this weeks team meeting, I wanted to bring the rest of the group up to speed 
 
 I explained:
 - How JavaFX works and how you can use FXML to write the structure for your UI. 
+- What the resources folder was, and how to save your FXML files in the correct place inside that directory
 - 
