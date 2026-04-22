@@ -11,3 +11,17 @@ During this lecture, I had the chance to speak to the class on behalf of Group 1
 	- Most people had been using MySQL and Spring Boot, so I wanted to share alternatives that could help other groups.
 	
 - I also briefly discussed how our group are integrating and our convention for port number usage.
+
+## Programming Progress
+
+This week I began programming our rest API, which will be used to integrate with other groups. This involved downloading and setting up a new dependency, along with reworking a few functions inside DatabaseManager to be compatible with a JSON format. 
+
+## Merge Requests
+
+By now, code from other team members is starting to be merged into. There were merge conflicts that required resolving, particularly in the DatabaseManager file. 
+
+
+![[image-142.png]]
+
+![[image-141.png]]
+![[image-143.png]]

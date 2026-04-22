@@ -20,4 +20,4 @@ There was no team meeting this week. No major changes had been made in the proje
 
 ## Group Meeting - March 23rd 
 
-There was a meeting held this week which I attended. Here each group showed what work they had done within their team so far, and also discussed what stages we were at with integration and the strategy we would take. At the moment, the plan is to used a shared database but is subject to
+There was a meeting held this week which I attended. Here each group showed what work they had done within their team so far, and also discussed what stages we were at with integration and the strategy we would take.
