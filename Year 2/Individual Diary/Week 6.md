@@ -6,7 +6,7 @@ Week 6 was reading week, so there was little group activity during this time. Th
 
 ## Working on Peer Review
 
-I wrote up the first draft of our Peer Review task this week. This task involved reading another Team in our groups submission, and then writing a short report. It will be reviewed by the rest of our team at our Monday meeting
+I wrote up the first draft of our Peer Review task this week. This task involved reading another Team in our groups High Level design submission, and then writing a short feedback report. It will be reviewed by the rest of our team at our Monday meeting before submission. 
 
 ## Preparation for Programming
 
