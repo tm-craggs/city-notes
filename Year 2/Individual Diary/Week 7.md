@@ -19,4 +19,7 @@ This week I started the programming for IPOS-SA. I was the first one to start th
 - Updating the `README` to explain the 
 - Setting up `.gitignore` and `.gitattributes`
 
-## Team Meeting
+## Team Meeting - March 9th
+
+Review
+
