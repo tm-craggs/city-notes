@@ -2,4 +2,10 @@
 
 March 2nd - March 8th 
 
-Nothing really happened in this week to
+Week 6 was reading week, so there was little group activity during this time. There were no Team or Consultant meetings. 
+
+## Preparation for Programming
+
+As our group was now transitioning to implementation
+
+

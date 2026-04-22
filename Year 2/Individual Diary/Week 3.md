@@ -24,12 +24,9 @@ We also worked through a couple of technical problems we were having with shared
 
 # Group Meeting (February 12th)
 
-<<<<<<< HEAD
 On February 12th, I attended our first group 11 meeting along with a few members of my team. This meeting was mostly spent getting to know other team members, getting to know them and their role in their team. We also had some brief, early discussions with Team 32s design team about the interface between our subsystems and agreeing to further discussion about common method names. 
 
-=======
 On February 12th, I attended our first Group 11 meeting along with a few members of my team. This meeting was mostly spent getting to know other team members,  and their role in their team. We also had some brief, early discussions with Team 32s design team about interfaces between our subsystems and agreed to further discussion about a naming convention for interfaces.
->>>>>>> origin/master
 
 
 ## Consultant Meeting (February 12th)
