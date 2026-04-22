@@ -1,6 +1,9 @@
+
+## Week 8 Overview
+
 March 16th - March 22nd
 
-This week was spent continuing work on the login screen and main menu that our users would see on login. 
+This week was spent continuing work on the login screen and main menu that our users would see on login, and helping the rest of my team get started on their programming. 
 
 ## Team Meeting - March 16th
 

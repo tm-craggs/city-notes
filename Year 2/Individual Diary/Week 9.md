@@ -1,4 +1,9 @@
+
+## Week 9 Overview
+
 March 23 - March 29
+
+This week saw me beginning the programming for my own subsystem, and meeting the other groups to talk about future integration plans. 
 
 ## Coding Progress
 

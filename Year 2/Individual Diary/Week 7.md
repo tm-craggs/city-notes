@@ -1,3 +1,5 @@
+## Week 7 Overview
+
 March 9th - March 15th
 
 This week was spent beginning programming for IPOS-SA, and finalising our submission for Peer Review. Before the bulk of programming could start, the Project had to be set up. This means setting up an appropriate file structure, installing and setting up dependencies, writing documentation for the team, and setting up Git. 

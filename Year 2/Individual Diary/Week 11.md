@@ -1,9 +1,8 @@
 April 6th - April 12th
 
-
 ## Programming Progress
 
-I continued working on the API throughout the week, and finished it. This required me to fix more errors in DatabaseManager to ensure all attributes were using the correct
+I continued working on the API throughout the week, and finished it. This required me to fix more errors in DatabaseManager to ensure all attributes were using the correct, change `/order` to use the database and not simulate orders, and adding full behaviour for `/track`
 
 
 Changelog:
