@@ -16,9 +16,14 @@ During this lecture, I had the chance to speak to the class on behalf of Group 1
 
 This week I began programming our rest API, which will be used to integrate with other groups. This involved downloading and setting up a new dependency, along with reworking a few functions inside DatabaseManager to be compatible with a JSON format. 
 
+Changelog:
+- Add `Server.java` where API boilerplate is modelled
+- Add handling for API endpoints `/` and `/track` 
+- Add API initialisation to Launch process
+
 ## Merge Requests
 
-By now, code from other team members is starting to be merged into. There were merge conflicts that required resolving, particularly in the DatabaseManager file. 
+By now, code from other team members is starting to be merged into. There were merge conflicts that required resolving, particularly in the DatabaseManager file. The first code from the RPT and CAT subsystems were merged this week. 
 
 
 ![[image-142.png]]
