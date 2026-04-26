@@ -22,6 +22,8 @@ During this lecture, I had the chance to speak to the class on behalf of Group 1
 
 This week I began programming our rest API, which will be used to integrate with other groups. This involved downloading and setting up a new dependency, along with reworking a few functions inside DatabaseManager to be compatible with a JSON format. 
 
+I decided on Javalin for the rest API after initially trying to implement Spring Boot. Spring Boot required fundamentally changing how our program launcher and ran. Javalin was much easier to layer on top of our existing code. 
+
 Changelog:
 - Add `Server.java` where API boilerplate is modelled
 - Add handling for API endpoints `/` and `/track` 
