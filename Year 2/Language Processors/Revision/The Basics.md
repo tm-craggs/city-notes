@@ -61,7 +61,27 @@ Stage 2 - Parsing
 At this point, the tokens will look like collections of the Regex we defined. For example
 
 ```
-ID("X) ASSIGN INT(5) PLUS INT(3) SEMIC
+ID("X") ASSIGN INT(5) PLUS INT(3) SEMIC
 ```
 
-The parser checks that the tokens follow the grammar rules. It does not check each token 1 by 1 like the Lexer does, it checks how everything fits together. It does this by generating an Abstract Syntax Tree (AST) from an 
+The parser checks that the tokens follow the grammar rules. It does not check each token 1 by 1 like the Lexer does, it checks how everything fits together. It does this by generating an Abstract Syntax Tree (AST) from the list of tokens. 
+
+For example, the token list:
+
+```
+ID("X") ASSIGN ASSIGN INT("3") SEMIC
+```
+
+These are all valid tokens, but the structure is not right. You cannot have 2 assign tokens together
+
+
+Stage 3 - Semantic Analysis
+
+This is where the compiler checks things that are structurally valid, but they are meaningless or wrong. A big part of this is **type checking**, but there is more. Here are some things that can be picked up in semantic analysis. Remember, these can be different per programming language. For example, Java allows variables to be assigned and never used. Go does not. 
+
+**Type Checking**
+
+Makes sure your types are used correctly. 
+
+
+
