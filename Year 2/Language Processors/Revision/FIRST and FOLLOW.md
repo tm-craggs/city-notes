@@ -8,4 +8,5 @@ If it is nullable, it will have one entry mapping to the entry string. Example:
 
 Step 2: FIRST sets
 
-FIRST(x) = the set of tp
+FIRST(x) = the set of tokens that can appear as the first token of any string derived from X
+
