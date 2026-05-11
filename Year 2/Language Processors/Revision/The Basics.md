@@ -30,6 +30,7 @@ ASSIGN: "="
 ID: "[a-zA-Z]+"
 ```
 
+To summarise, Tokens represent a piece of text in Regex
 ## Grammar Rules
 
 Once you have tokens, you need rules to describe how they fit together to make programs. This is what **non-terminals** are used for. 
@@ -38,4 +39,29 @@ Think of non-terminals like abstract concepts, or a logical structure. They aren
 
 You could say that an expression is either just a number, or a number plus another expression, take this example
 
-``
+```
+Expr -> INT
+Expr -> INT PLUS Expr
+```
+
+The arrow just means consists of. This means that Expr is a non-terminal, INT and PLUS are terminals.
+
+## The Compilation Pipeline
+
+There are multiple stages of the compilation process. 
+
+Stage 1 - Lexing
+
+The lexer reads the raw source code and groups everything into tokens, it'll throw away stuff like whitespace and comments. 
+
+If it catches anything that isn't a token, i.e. not compliant with any defined Regex, it will be a lexical error. 
+
+Stage 2 - Parsing
+
+At this point, the tokens will look like collections of the Regex we defined. For example
+
+```
+ID("X) ASSIGN INT(5) PLUS INT(3) SEMIC
+```
+
+The parser checks that the tokens follow the grammar rules. It does not check each token 1 by 1 like the Lexer does, it checks how everything fits together. It does this by generating an Abstract Syntax Tree (AST) from an 
