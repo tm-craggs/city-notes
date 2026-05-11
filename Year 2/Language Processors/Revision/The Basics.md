@@ -81,7 +81,40 @@ This is where the compiler checks things that are structurally valid, but they a
 
 **Type Checking**
 
-Makes sure your types are used correctly. 
+Makes sure your types are used correctly. For example `int x = "hello"`
+
+Other semantic checks
+
+- Undeclared variables. `x = 10` with no declaration
+- Multiple declarations `int x; int x;`
+- Misuse of keywords `int if = 5`
+- Incorrect function parameter
+```
+foo(5)
+
+fun foo(){
+	sout("foo")
+}
+
+ERROR: foo takes no parameters
+```
+
+All of these require a **Symbol Table**, a data structure that keeps track of what variables and functions exist along with what their types are. 
+
+**Stage 4 - Code Generation**
+
+The compiler will walk through the AST and generate the equivalent code in the target language. For example, to SSM (stack based) machine code. 
+
+For example `y = x + 1;` would become
+
+```SSM
+loadi $x
+push 1
+add
+storei $y
+```
+
+Optimisation usually happens at this stage in advanced compilers, where unnecessary steps might be skipped, or the output will be made smaller. This is not relevant to this module. 
 
 
 
