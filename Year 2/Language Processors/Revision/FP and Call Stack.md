@@ -19,3 +19,10 @@ FP - 4 = Local Variable 1
 FP - 8 = Local Variable 2
 ```
 
+The stack pointer points to the top of the stack, the lowest memory address currently in use, since this stack grows downward. 
+
+**The Frame Layout**
+
+```
+
+```
