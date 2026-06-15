@@ -1,5 +1,7 @@
 **Computer Network** - 2 or more independent computers communicating with a common technology
 
+## Types of Network
+
 Examples of networks:
 
 -  The internet
@@ -54,3 +56,65 @@ What is **Topology**?
 
 **Centralised vs Federated**
 
+- Refers to how much control people have
+- The internet was designed as federated, different people in different countries control different parts of it and they were wired up together. 
+
+**Open**
+
+- Different people have different definitions of what open means.
+- Is it open source? Is it encrypted? 
+
+
+**Packet vs Stream**
+
+**Connection-oriented vs Connectionless**
+
+**Broadcast Vs Unicast vs Multi-cast**
+
+**Synchronous vs Asynchronous**
+
+**Reliable vs Unreliable**
+
+**Security: Confidentially / Integrity / Availability**
+
+**Data vs Meta-Data**
+
+## Protocols
+
+**Protocol** - An agreed way of communicating between computers
+
+Protocols govern:
+
+- Formatting of messages
+- Fixed meaning or semantics of messages
+- Defines the roles that different computers take, such as client/server or peer-to-peer
+- Not an algorithm, it does not give you a definite order. It will tell you, here is how the connection starts, here are the actions you can take. 
+- It is also not an implementation, protocols are just the rules. The clients are the implementations. 
+
+Factors:
+
+- Resource allocation
+- Reliability
+- Evolvability
+- Security
+
+
+Protocol Stacks
+
+Because of all the factors we talked about, and all the different considerations that need to be made, it is hard to make 1 protocol that does everything. 
+
+Instead, separate protocols are layered on top of each other that do different things. 
+
+**The TCP/IP Stack**
+
+Application
+Transport
+Network
+Link
+Physical
+
+Physical: This is how the Computer can change a bit on another computer
+Link: How can you communicate with the next computer you are connected to
+Network: How can you connect to other computers that you aren't directly connected to
+Transport: How data can be transported across networks
+Application: How you can actually do things?
