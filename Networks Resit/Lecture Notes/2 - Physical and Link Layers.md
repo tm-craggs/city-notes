@@ -4,7 +4,7 @@ Data is the physical bits that are stored on your system, information is what is
 
 **Information** - the amount of difference from the expected message
 
-It is impossible to compress random 
+It is impossible to compress random data, because the predictability of it is so low
 ## Physical Layer
 
 ## Link Layer
