@@ -1,5 +1,9 @@
 ## Data vs Information
 
+Data is the physical bits that are stored on your system, information is what is useful in the file. For example, when files are compressed the data changes but the data stays the same (if it is lossless)
+
+**Information** - the amount of difference from the expected message
+
 ## Physical Layer
 
 ## Link Layer
