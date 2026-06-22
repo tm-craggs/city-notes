@@ -41,5 +41,24 @@ LLC (Logical Link Control)
 
 ## Security Analysis
 
+Wireshark
+
+An open source tool that is used to monitor network traffic.
+
+On the Wireshark menu, there are a few options
+- Ethernet - Monitor ethernet traffic
+- Wireless - Monitor wireless traffic
+- Any - Monitor all traffic
+- Loopback - Use network technologies locally
+
+Filters go at the top bar, in order to make sense of anything you'll need to use them
+You will need to filter out RDP traffic. 
+
+Packets will appear on screen, selecting them will make them appear in 2 different forms. Hex digits and ASCII characters
+
+It can highlight which literal bits are part of each Ethernet frame.
+- We can see destination, (MAC address), a switch would use the to route
+- The source
+- Additional field, either type or size. It tells the operating system how to process the bits. 
 ## Conclusion
 
