@@ -5,7 +5,16 @@ Data is the physical bits that are stored on your system, information is what is
 **Information** - the amount of difference from the expected message
 
 It is impossible to compress random data, because the predictability of it is so low
+
+Error Control Codes is the opposite of compression, same information with more data.
+We can add a code to the end of a message that can be checked to correct errors. 
 ## Physical Layer
+
+The point of the physical layer is to get bits from one Computer to another
+
+**Ethernet**
+- One of the oldest physical layer technologies
+- 
 
 ## Link Layer
 
