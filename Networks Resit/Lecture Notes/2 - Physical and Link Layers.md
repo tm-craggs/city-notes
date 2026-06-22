@@ -60,5 +60,24 @@ It can highlight which literal bits are part of each Ethernet frame.
 - We can see destination, (MAC address), a switch would use the to route
 - The source
 - Additional field, either type or size. It tells the operating system how to process the bits. 
+
+## MAC: Carrier Sense Multiple Access
+
+- Purpose of the MAC layer is to stop everybody talking at once
+- There are a few schemes that depend on the type of physical layer used
+
+CSMA: Carrier Sense Multiple Access
+- You listen, is there anybody else transmitting. If so, wait
+- Widely applicable for both Ethernet and Wi-Fi
+
+CSMA/CD: CSMA with Collision Detection
+- Sender "hears" collisions as they happen so knows when to re-try. 
+- Ethernet of half-duplex link can use this
+- It cannot be used on Wi-Fi
+
+CSMA/CA: CSMA with Collision Avoidance
+- If a link is sensed, wait before trying to send
+- Wait time is randomised to avoid "lock step", which are repeated conflicts
+- This is used on Wi-Fi
 ## Conclusion
 
