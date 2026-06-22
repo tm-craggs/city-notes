@@ -14,7 +14,16 @@ The point of the physical layer is to get bits from one Computer to another
 
 **Ethernet**
 - One of the oldest physical layer technologies
-- 
+- Used to be ring topology, now is star or tree
+
+**Hubs vs Switches**
+
+- Hubs are essentially just connections on the physical layer
+- The most basic way to connect different devices via Ethernet
+
+- Switches look identical but are a newer technology 
+- The switch looks at the link layer information, and send them on to the relevant machine.
+- Makes routing more efficient and increase capacity, stops everybody talking at once
 
 ## Link Layer
 
