@@ -38,6 +38,8 @@ MAC (Media Access Control)
 LLC (Logical Link Control)
 - Once you are at a stage where everything is not talking at once, this defines what you are talking about
 - Basically tells you what is going on in the link 
+- It controls access to the data link level
+- Standardised as 
 
 ## Security Analysis
 
