@@ -39,7 +39,6 @@ LLC (Logical Link Control)
 - Once you are at a stage where everything is not talking at once, this defines what you are talking about
 - Basically tells you what is going on in the link 
 - It controls access to the data link level
-- Standardised as 
 
 ## Security Analysis
 
@@ -81,5 +80,8 @@ CSMA/CA: CSMA with Collision Avoidance
 - If a link is sensed, wait before trying to send
 - Wait time is randomised to avoid "lock step", which are repeated conflicts
 - This is used on Wi-Fi
-## Conclusion
+
+## Possible Attacks
+
+![[image-149.png]]
 
