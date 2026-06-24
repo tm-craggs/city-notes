@@ -25,3 +25,15 @@ What if there is a new link, a node fails, etc.
 
 Dynamic routing is where the routing table updates on the fly, one of the big benefits of datagram
 
+Flood Routing
+
+- Every message has a unique ID
+- When you get a new message, send a copy to every neighbour
+- Very robust, and correct, but not very fair or efficient
+
+Link State Routing (OSPF)
+
+- Everybody floods out who they are, and what links they have
+- After a while, every node will have a complete network map 
+- Every node computers minimum spanning tree, make their routing paths based on their own view
+- You can end up with endless loops if everything falls out of step
