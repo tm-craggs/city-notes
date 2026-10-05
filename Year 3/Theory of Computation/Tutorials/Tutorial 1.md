@@ -29,3 +29,25 @@ This ends in 4, which is not an accept state
 
 ![[image-154.png|537]]
 
+
+![[image-156.png|544]]
+
+a)
+b)
+c)
+
+![[image-157.png]]
+
+a)
+b)
+
+![[image-158.png]]
+
+a)
+b)
+
+![[image-159.png]]
+![[image-160.png]]
+
+a)
+b)
