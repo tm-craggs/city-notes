@@ -37,3 +37,9 @@ Link State Routing (OSPF)
 - After a while, every node will have a complete network map 
 - Every node computers minimum spanning tree, make their routing paths based on their own view
 - You can end up with endless loops if everything falls out of step
+
+Distance Vector Routing
+
+- Each node has a map
+- Works out "if i want to send this to someone, what is the cost"
+- Tell the neighbours what the cost is, and if that is lower switch it to them
