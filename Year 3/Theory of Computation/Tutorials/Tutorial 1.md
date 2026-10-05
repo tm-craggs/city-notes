@@ -23,3 +23,9 @@ This ends in 4, which is not an accept state
 
 ![[image-153.png|528]]
 
+
+![[Tutorial 1 2026-10-05 11.30.53.excalidraw]]
+
+
+![[image-154.png|537]]
+
