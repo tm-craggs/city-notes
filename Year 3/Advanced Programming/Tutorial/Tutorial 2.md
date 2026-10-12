@@ -33,3 +33,7 @@ GAME = ( one -> WIN
 	WIN = (win -> GAME).
 ```
 
+This creates another process called win, that loops back to game. Game has the process one and two that lead to the declared win process. Three still points to lose. 
+
+![[image-175.png]]
+
