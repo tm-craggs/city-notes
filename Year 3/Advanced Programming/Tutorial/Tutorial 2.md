@@ -40,3 +40,12 @@ This creates another process called win, that loops back to game. Game has the p
 
 ![[image-176.png]]
 
+```
+const N=4
+range R= 0..N
+VAR = V[0], 
+	V[v:R] = (read[v] -> V[v]
+			|write[u:R] -> V[u]).
+```
+
+![[image-177.png]]
