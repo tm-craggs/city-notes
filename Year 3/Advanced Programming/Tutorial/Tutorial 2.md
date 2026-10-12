@@ -10,3 +10,5 @@ MEETING = (hello -> converse -> goodbye -> STOP).
 JOB = (arrive -> work -> leave -> JOB).
 ```
 
+![[image-172.png]]
+
