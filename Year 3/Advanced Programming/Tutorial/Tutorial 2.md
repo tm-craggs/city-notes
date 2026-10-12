@@ -37,3 +37,6 @@ This creates another process called win, that loops back to game. Game has the p
 
 ![[image-175.png]]
 
+
+![[image-176.png]]
+
