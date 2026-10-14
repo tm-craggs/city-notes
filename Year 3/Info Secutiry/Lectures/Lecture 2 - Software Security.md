@@ -40,4 +40,8 @@ Secure Software Development Lifecycle (SSDLC)
 - The goal is to "shift security left", or address issues early
 
 
+Secure Coding Practices
 
+- Validate all inputs and sanitise all outputs
+- Avoid dangerous functions `strcpy, eval`
+- 
