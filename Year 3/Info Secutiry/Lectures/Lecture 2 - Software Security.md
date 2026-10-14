@@ -19,4 +19,9 @@ Why it matters
 - Economic and reputation damage can be enormous 
 - Early prevention is cheaper than most incident response
 
-Common vulnerabili
+Common vulnerabilities
+
+- Memory safety (buffer overflow, dangling pointer)
+- Injection attacks (SQL, command, LDAP, XSS)
+- Authentication and session flaws (weak password, token reuse)
+- 
