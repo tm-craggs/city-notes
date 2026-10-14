@@ -24,4 +24,7 @@ Common vulnerabilities
 - Memory safety (buffer overflow, dangling pointer)
 - Injection attacks (SQL, command, LDAP, XSS)
 - Authentication and session flaws (weak password, token reuse)
-- 
+- Insecure deserialization and race conditions
+
+Deserialization - 
+Race Condition -  when multiple processes attempt to access the same shared resource simultaneously 
