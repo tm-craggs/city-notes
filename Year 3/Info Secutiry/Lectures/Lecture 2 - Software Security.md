@@ -28,3 +28,16 @@ Common vulnerabilities
 
 Deserialization - 
 Race Condition -  when multiple processes attempt to access the same shared resource simultaneously 
+
+
+Secure Software Development Lifecycle (SSDLC)
+
+- Integrate security into all stages of development
+- Key practises
+	- Threat modelling
+	- Secure code review
+	- Security testing (static and dynamic)
+- The goal is to "shift security left", or address issues early
+
+
+
