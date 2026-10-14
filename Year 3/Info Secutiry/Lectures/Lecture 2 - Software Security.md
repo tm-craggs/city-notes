@@ -44,4 +44,12 @@ Secure Coding Practices
 
 - Validate all inputs and sanitise all outputs
 - Avoid dangerous functions `strcpy, eval`
-- 
+- Follow the principle of least privilege
+- Use well-maintained libraries and frameworks
+- Keep dependencies up to date
+- Document assumptions and threat mitigations 
+
+
+Testing and Verification
+
+
