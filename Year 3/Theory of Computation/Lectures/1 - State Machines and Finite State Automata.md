@@ -39,4 +39,16 @@ Machines - Compute by accepting **all** the strings in some language, and reject
 
 There is an equivalence between language and machine. They both only accept words if it is part of the language. 
 
-**Example:**
+**Example:** Machine `M` for a language `L`
+
+Given an input string `w`, machines `M` scans `w` from left to right, processing one symbol in each step. 
+
+Reading the string `w`, `M` should either accept or reject `w`, depending on whether or not `w` is in `L`
+
+### Languages and Problems 
+
+L = `{<G> | G is a connected graph}`
+
+`<G>` is an encoding of graph G as a string over an appropriate alph
+
+
