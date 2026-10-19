@@ -192,6 +192,8 @@ $\partial$ can be defined by the table:
 | 2   | 4   | 4   |
 | 3   | 3   | 3   |
 | 4   | 4   | 4   |
-Each row is a state, and the columns are the possible inputs. What is ins
+Each row is a state, and the columns are the possible inputs. What is inside the cell is the state to move to with that input. For example, reading left to right, state 1 transitions to state 2 when input is 0, and transitions to state 3 when the input is 1. 
 
 ![[image-182.png|305]]
+
+### Non
