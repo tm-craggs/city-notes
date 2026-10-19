@@ -114,5 +114,8 @@ or: {1, 01, 10, 001, 111, 010, etc...}
 
 ##### Context-sensitive Languages
 
-- The push-down automata are also limited in their **computational power**, that is 
-- They cannot recognise the 
+- The push-down automata are also limited in their **computational power**, meaning the class of languages they can recognise and the class of functions they can compute
+- They cannot recognise the **context-sensitive languages**, this requires the power of **Turing Machines**
+- This is the most powerful class of machine, no function that cannot be computed by a Turing machine can be computed at all
+
+
