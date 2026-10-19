@@ -211,4 +211,4 @@ A string is accepted by an NFSA if there is at least one sequence of transitions
 ![[image-183.png|343]]
 
 Note there are 2 outgoing arcs from state 1 labelled with 0
-Words 01001 and 11001 are both accepted by this NFSA, as there are sequences for both that end 
+Words 01001 and 11001 are both accepted by this NFSA, as there are sequences for both that end in an accept state. 
