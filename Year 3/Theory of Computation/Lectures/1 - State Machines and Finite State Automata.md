@@ -144,4 +144,27 @@ One and only one transition exists for each pair of state and symbol.
 
 The initial state can also be an accept state.
 
-Computation 
+Computation proceeds by starting in the initial state, using one input symbol at a time and following the appropriate transition, until the input is entirely used up. 
+
+If the automation is in an accept state when the string of input symbols ends, then the input is accepted. Otherwise, it is rejected. 
+
+
+### Transition Diagrams
+
+Any FSA may be represented with a transition, or state, diagram
+
+This is a directed graph where
+- Each state is represented by a circle
+- Each transition is denoted by an arrow between two states, labelled with the appropriateD symbol
+- The start state is indicated by an incoming arrowhead
+- The accept states are denoted by a double circle. 
+
+**Example:**
+
+![[image-180.png|219]]
+
+This machine represents the odd number of 1s problem in **Example 4**
+
+It has the alphabet {0,1} and four states number 1, 2, 3 and 4. Do not confuse the names of the states with symbols in the alphabet. 
+
+State 1 is the initial state and the only accept state. 
