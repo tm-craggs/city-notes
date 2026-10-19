@@ -159,7 +159,7 @@ This is a directed graph where
 - The start state is indicated by an incoming arrowhead
 - The accept states are denoted by a double circle. 
 
-**Example:**
+**Example 1:**
 
 ![[image-180.png|219]]
 
@@ -168,3 +168,12 @@ This machine represents the odd number of 1s problem in **Example 4**
 It has the alphabet {0,1} and four states number 1, 2, 3 and 4. Do not confuse the names of the states with symbols in the alphabet. 
 
 State 1 is the initial state and the only accept state. 
+
+Transition function: $\partial$(1,0) = 4, $\partial$(1,1) = 2, $\partial$(2,0) = 3, $\partial$(2,1) = 1, $\partial$(3,0) = 2, $\partial$(3,1) = 4, $\partial$(4,0) = 1, $\partial$(4,1) = 3
+
+A single transition is denoted: $\partial$(start state, input) = new state
+
+**Example 2**
+
+Consider the language L that comprises of:
+- The string containing only the single symbol '0' and every string of symbols from the alphabet {0, 1} that begins with '1'
