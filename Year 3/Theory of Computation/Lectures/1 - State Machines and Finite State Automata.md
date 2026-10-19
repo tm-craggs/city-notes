@@ -27,4 +27,12 @@ Examples over alphabet $\Sigma$ = {a,b}
 - b
 - abb
 - baababa
-- 
+- $\varepsilon$ (empty string)
+
+### Languages and Machines
+
+Language - A set of strings
+
+A language `L` over an alphabet $\Sigma$ is a set of strings over $\Sigma$ . L is a subset of $\Sigma$*
+
+Machines - Compute by accepting all the strings 
