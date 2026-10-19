@@ -100,4 +100,7 @@ or: {1, 01, 10, 001, 111, 010, etc...}
 ### Classes of Language and Machine: Regular Languages
 
 - Language 4 belongs to the class of **regular languages**
-- Language
+- Language 2 does not
+- For every regular language, an acceptor machine can be constructed that belongs to the **class of machines** called **finite state automata**
+- Note: One automation, many automata
+
