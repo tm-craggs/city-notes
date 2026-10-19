@@ -202,7 +202,10 @@ For deterministic FSAs, such as the ones above, state transitions are defined by
 
 If more than one outgoing edge from any sate is labelled with the same symbol, the FSA is non-deterministic (NFSA).
 
-Additionally, NFSAs 
+NFSA can have no outgoing edges for some symbols, and can have outgoing edges labelled with $\varepsilon$ (no string symbol required). The machine reads no input in this case when it transitions. 
 
+A string is accepted by an NFSA if there is at least one sequence of transitions, corresponding to the input string, that leads from the initial state to an accept state. You can think of NFSA as, for an input, running in parallel all possible sequences of transitions deterministically. 
+
+**Example:**
 
 
