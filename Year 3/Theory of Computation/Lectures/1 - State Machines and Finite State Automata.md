@@ -119,3 +119,6 @@ or: {1, 01, 10, 001, 111, 010, etc...}
 - This is the most powerful class of machine, no function that cannot be computed by a Turing machine can be computed at all
 
 
+### Finite state automata (informal)
+
+A FSA, or just finite automation, consists 
