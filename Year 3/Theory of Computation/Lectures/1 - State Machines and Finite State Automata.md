@@ -63,3 +63,8 @@ L = `{<G> | G is a connected graph}`
 
 Decision Problem: Given `<G>`, is `G` in `L`?
 
+**Example 2**
+
+The set of all words of the form: a<sup>m</sup>b<sup>n</sup>c<sup>m+n</sup>, where:
+- m, n range over the number 0, 1, 2...
+- x<sup>n</sup> denotes 
