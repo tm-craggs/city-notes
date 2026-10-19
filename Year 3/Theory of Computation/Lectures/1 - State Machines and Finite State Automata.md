@@ -206,6 +206,10 @@ NFSA can have no outgoing edges for some symbols, and can have outgoing edges la
 
 A string is accepted by an NFSA if there is at least one sequence of transitions, corresponding to the input string, that leads from the initial state to an accept state. You can think of NFSA as, for an input, running in parallel all possible sequences of transitions deterministically. 
 
+NFSA do not require that every state has a transition for every letter of the alphabet. If a state has no transition for the next symbol in a string, then the string cannot be accepted as all input cannot be read, reading in that sequence is therefore aborted. 
+
+Note: For an accept state, it needs to finish there **after all the input is read** to be accepted. In the case where it gets stuck on an accept case because it can't transition, this is not an acceptance.
+
 **Example:**
 
 ![[image-183.png|343]]
@@ -218,4 +222,8 @@ Words 01001 and 11001 are both accepted by this NFSA, as there are sequences for
 
 ![[image-184.png|490]]
 
+
+### Computational Paths
+
+![[image-185.png|476]]
 
