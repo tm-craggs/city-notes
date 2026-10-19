@@ -242,4 +242,10 @@ A NSFA may have edges labelled with the empty symbol $\varepsilon$
 
 This is not a symbol in the alphabet of NFSA, it labels null transitions. These are edges that the NFSA may follow without reading a symbol on the input tape. 
 
-If an
+If an NFSA is in a state from which a null transition leaves, it may choose to follow that edge to the next state. 
+
+### DFSA $\subseteq$ NFSA
+
+Languages recognised by some DFSA are also recognised by some NSFA. Though every DFSA is representable as an NSFA. 
+
+Proof: The transition rel
