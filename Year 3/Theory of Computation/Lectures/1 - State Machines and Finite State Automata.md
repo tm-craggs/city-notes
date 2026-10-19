@@ -210,13 +210,21 @@ NFSA do not require that every state has a transition for every letter of the al
 
 Note: For an accept state, it needs to finish there **after all the input is read** to be accepted. In the case where it gets stuck on an accept case because it can't transition, this is not an acceptance.
 
-**Example:**
+**Example 1**
 
 ![[image-183.png|343]]
 
 Note there are 2 outgoing arcs from state 1 labelled with 0
 Words 01001 and 11001 are both accepted by this NFSA, as there are sequences for both that end in an accept state. 
 
+|     | 0           | 1           |
+| --- | ----------- | ----------- |
+| 1   | {1,2}       | {1,4}       |
+| 2   | {3}         | $\emptyset$ |
+| 3   | {3}         | {3}         |
+| 4   | $\emptyset$ | {5}         |
+| 5   | {5}         | {5}         |
+This language recognises all strings over the alphabet {0,1} that contain either two successive 0s or 1s
 
 ### Non-deterministic finite state automata (formal)
 
@@ -227,3 +235,11 @@ Words 01001 and 11001 are both accepted by this NFSA, as there are sequences for
 
 ![[image-185.png|476]]
 
+
+## Null Transitions
+
+A NSFA may have edges labelled with the empty symbol $\varepsilon$
+
+This is not a symbol in the alphabet of NFSA, it labels null transitions. These are edges that the NFSA may follow without reading a symbol on the input tape. 
+
+If an
