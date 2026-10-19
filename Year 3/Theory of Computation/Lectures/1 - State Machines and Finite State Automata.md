@@ -144,3 +144,4 @@ One and only one transition exists for each pair of state and symbol.
 
 The initial state can also be an accept state.
 
+Computation 
