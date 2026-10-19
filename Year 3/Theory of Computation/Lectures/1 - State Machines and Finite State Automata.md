@@ -137,4 +137,10 @@ A deterministic Finite State Automaton is a 5-tuple. (Q, $\Sigma$, $\partial$, q
 - Q is a finite set of states
 - $\Sigma$ is a finite input alphabet (set of symbols)
 - $\partial$ is the transition function, Q x $\Sigma$ -> Q, that determines for each state and for each symbol of the alphabet, the next state
-- q<sub>0</sub> is the initial state, q<sub>0</sub> 
+- q<sub>0</sub> is the initial state, q<sub>0</sub> $\in$ Q
+- F is the set of accept states (F $\subseteq$ Q)
+
+One and only one transition exists for each pair of state and symbol. 
+
+The initial state can also be an accept state.
+
