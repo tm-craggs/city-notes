@@ -246,6 +246,10 @@ If an NFSA is in a state from which a null transition leaves, it may choose to f
 
 ### DFSA $\subseteq$ NFSA
 
-Languages recognised by some DFSA are also recognised by some NSFA. Though every DFSA is representable as an NSFA. 
+Every language recognisable by a DFSA is also recognisable by a NSFA. This means DFSA are **no more powerful** than NSFA
 
-Proof: The transition rel
+**Proof**: The transition relation of the NFSA is the transition function of the DFSA (you can have 0, 1 or more transition for each pair state-symbol, this includes the option for exactly 1)
+
+Therefore, every language recognisable by a DFSA is also recognisable by a NSFA. This means DFSA are **no more powerful** than NSFA
+
+However, the converse is also true. 
