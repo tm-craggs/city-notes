@@ -196,4 +196,13 @@ Each row is a state, and the columns are the possible inputs. What is inside the
 
 ![[image-182.png|305]]
 
-### Non
+### Non-Deterministic Automata
+
+For deterministic FSAs, such as the ones above, state transitions are defined by a function. This means that at each state there is exactly one outgoing edge for each symbol. 
+
+If more than one outgoing edge from any sate is labelled with the same symbol, the FSA is non-deterministic (NFSA).
+
+Additionally, NFSAs 
+
+
+
