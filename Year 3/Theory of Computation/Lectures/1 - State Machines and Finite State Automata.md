@@ -248,7 +248,14 @@ If an NFSA is in a state from which a null transition leaves, it may choose to f
 
 Every language recognisable by a DFSA is also recognisable by a NSFA. This means DFSA are **no more powerful** than NSFA. 
 
-**Proof**: NSFA is allowed to have 0, 1 or many transitions for each state. A DF
-
+**Proof**: NSFA is allowed to have 0, 1 or many transitions for each state. A DFSA can only have exactly 1. Since exactly 1 is one of the allowed options, a DFSA is just a special case of an NSFA, no conversion is needed. 
 
 However, the converse is also true. 
+
+**Proof:** 
+
+We can give a constructive algorithm that converts any NS
+
+An NFSA can be in several states at once, because it can follow multiple paths at the same time. A DFSA can only be in one state. By making each state of M represent a set of states of M, the NSFA becomes a single DFSA state. 
+
+Thus, we can conclude that NSFA and DFSA are equally powerful. 
