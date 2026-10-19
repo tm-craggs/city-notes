@@ -97,10 +97,22 @@ L = {w | w has an odd number of 1s}
 or: {1, 01, 10, 001, 111, 010, etc...}
 
 
-### Classes of Language and Machine: Regular Languages
+### Classes of Language and Machine
+
+##### Regular Languages
 
 - Language 4 belongs to the class of **regular languages**
 - Language 2 does not
-- For every regular language, an acceptor machine can be constructed that belongs to the **class of machines** called **finite state automata**
+- For every regular language, an acceptor machine can be constructed that belongs to the **class of machines** called **finite state automata** (FSA)
 - Note: One automation, many automata
 
+##### Context-free Languages
+
+- No FSA can be designed to accept the languages of addition and subtraction
+- They belong to the class of **context-free languages**, a class that includes most programming languages
+- To recognise context-free language requires the power of a class of machines called **push-down automata**, which can also recognise regular languages. 
+
+##### Context-sensitive Languages
+
+- The push-down automata are also limited in their **computational power**, that is 
+- They cannot recognise the 
