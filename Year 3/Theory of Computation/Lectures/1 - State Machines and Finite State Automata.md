@@ -35,4 +35,8 @@ Language - A set of strings
 
 A language `L` over an alphabet $\Sigma$ is a set of strings over $\Sigma$ . L is a subset of $\Sigma$*
 
-Machines - Compute by accepting all the strings 
+Machines - Compute by accepting **all** the strings in some language, and rejecting **all** others. 
+
+There is an equivalence between language and machine. They both only accept words if it is part of the language. 
+
+**Example:**
