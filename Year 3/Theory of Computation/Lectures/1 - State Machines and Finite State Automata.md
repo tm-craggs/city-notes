@@ -121,4 +121,16 @@ or: {1, 01, 10, 001, 111, 010, etc...}
 
 ### Finite state automata (informal)
 
-A FSA, or just finite automation, consists 
+A FSA, or just finite automation, consists of
+- A finite set of states
+- A finite set of transitions from state to state, each of which is associated with a symbol from an alphabet
+
+- Transitions tell is, for each state, based on the symbol being processed what the next state should be. 
+- One is the initial state, where the automaton starts
+- Some (or no) states are designated as accept/final states. 
+- After reading the input, if the automaton ends up in an accept states, it accepts the input. 
+- Otherwise, if stuck at some point or ending in a state that is not an accept state, it rejects the input. 
+
+### Deterministic finite state automata (formal)
+
+A deterministic Finite State Automaton is a 5-tuple. (Q, $\Sigma$, $\partial$, q<sub>0</sub>, F)
