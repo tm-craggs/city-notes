@@ -177,3 +177,21 @@ A single transition is denoted: $\partial$(start state, input) = new state
 
 Consider the language L that comprises of:
 - The string containing only the single symbol '0' and every string of symbols from the alphabet {0, 1} that begins with '1'
+
+The FSA that recognises L has the following values
+- Q = {1, 2, 3, 4}
+- $\Sigma$ {0,1}
+- q<sub>0</sub> = 1
+- F = {2,3}
+
+$\partial$ can be defined by the table:
+
+|     | 0   | 1   |
+| --- | --- | --- |
+| 1   | 2   | 3   |
+| 2   | 4   | 4   |
+| 3   | 3   | 3   |
+| 4   | 4   | 4   |
+Each row is a state, and the columns are the possible inputs. What is ins
+
+![[image-182.png|305]]
