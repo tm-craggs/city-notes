@@ -133,4 +133,8 @@ A FSA, or just finite automation, consists of
 
 ### Deterministic finite state automata (formal)
 
-A deterministic Finite State Automaton is a 5-tuple. (Q, $\Sigma$, $\partial$, q<sub>0</sub>, F)
+A deterministic Finite State Automaton is a 5-tuple. (Q, $\Sigma$, $\partial$, q<sub>0</sub>, F) where:
+- Q is a finite set of states
+- $\Sigma$ is a finite input alphabet (set of symbols)
+- $\partial$ is the transition function, Q x $\Sigma$ -> Q, that determines for each state and for each symbol of the alphabet, the next state
+- q<sub>0</sub> is the initial state, q<sub>0</sub> 
