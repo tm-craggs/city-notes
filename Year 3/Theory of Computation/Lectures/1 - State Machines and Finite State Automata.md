@@ -47,8 +47,19 @@ Reading the string `w`, `M` should either accept or reject `w`, depending on whe
 
 ### Languages and Problems 
 
+**Example 1:**
+
 L = `{<G> | G is a connected graph}`
 
-`<G>` is an encoding of graph G as a string over an appropriate alph
+`<G>` is an encoding of graph G as a string over an appropriate alphabet
 
+<G<sub>A</sub>> = (1,2,3,4)((1,2)(1,3)(2,3))
+
+![[image-178.png|170]]
+
+<G<sub>B</sub>> = (1,2,3,4)((1,2)(1,3)(2,3)(2,4))
+
+![[image-179.png|169]]
+
+Decision Problem: Given `<G>`, is `G` in `L`?
 
