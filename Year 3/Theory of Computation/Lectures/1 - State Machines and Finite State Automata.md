@@ -84,9 +84,13 @@ Here are some words that have the same alphabet but are **not** in the language:
 
 This language can be said to represent addition. the number of As, added with the number of Bs, should be equal to the number of Cs
 
-**Example 3:**
-Subtraction can be represented with {a<sup>m</sup>b<sup>n</sup>c<sup>m+n</sup> | m >= n >= 0}
-
 Any machine that accepts only words in language 2, and rejects all others, could be described as an addition **accepetor**
 
+**Example 3:**
 
+Subtraction can be represented with {a<sup>m</sup>b<sup>n</sup>c<sup>m+n</sup> | m >= n >= 0}
+
+**Example 4**
+
+$\Sigma$ = {0, 1}
+L = {w | w has an odd number of 1s}
