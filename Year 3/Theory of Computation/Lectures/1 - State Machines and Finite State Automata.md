@@ -94,3 +94,4 @@ Subtraction can be represented with {a<sup>m</sup>b<sup>n</sup>c<sup>m+n</sup> |
 
 $\Sigma$ = {0, 1}
 L = {w | w has an odd number of 1s}
+or: {1, 01, 10, 001, 111, 010, etc...}
