@@ -244,12 +244,11 @@ This is not a symbol in the alphabet of NFSA, it labels null transitions. These 
 
 If an NFSA is in a state from which a null transition leaves, it may choose to follow that edge to the next state. 
 
-### DFSA $\subseteq$ NFSA
+### DFSA vs NFSA
 
-Every language recognisable by a DFSA is also recognisable by a NSFA. This means DFSA are **no more powerful** than NSFA
+Every language recognisable by a DFSA is also recognisable by a NSFA. This means DFSA are **no more powerful** than NSFA. 
 
-**Proof**: The transition relation of the NFSA is the transition function of the DFSA (you can have 0, 1 or more transition for each pair state-symbol, this includes the option for exactly 1)
+**Proof**: NSFA is allowed to have 0, 1 or many transitions for each state. A DF
 
-Therefore, every language recognisable by a DFSA is also recognisable by a NSFA. This means DFSA are **no more powerful** than NSFA
 
 However, the converse is also true. 
