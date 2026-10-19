@@ -254,8 +254,9 @@ However, the converse is also true.
 
 **Proof:** 
 
-We can give a constructive algorithm that converts any NS
+We can give a constructive algorithm that converts any NSFA, M, to its equivalent DFSA M'. 
 
-An NFSA can be in several states at once, because it can follow multiple paths at the same time. A DFSA can only be in one state. By making each state of M represent a set of states of M, the NSFA becomes a single DFSA state. 
+An NFSA M occupies, at any moment, not a single state but the set of all states that can be reached from the initial state by the means of the input consumed so far. 
+
 
 Thus, we can conclude that NSFA and DFSA are equally powerful. 
