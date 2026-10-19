@@ -67,4 +67,21 @@ Decision Problem: Given `<G>`, is `G` in `L`?
 
 The set of all words of the form: a<sup>m</sup>b<sup>n</sup>c<sup>m+n</sup>, where:
 - m, n range over the number 0, 1, 2...
-- x<sup>n</sup> denotes 
+- x<sup>n</sup> denotes the string containing n successive copies of the symbol x
+
+
+That is: {a<sup>m</sup>b<sup>n</sup>c<sup>m+n</sup> | m,n >= 0} and alphabet $\Sigma$ = {a,b,c}
+
+Here are some valid words in this language
+- aaabbccccc
+- aabbcccc
+- ac
+
+Here are some words that have the same alphabet but are **not** in the language:
+- aabbcc
+- abccc
+- bbaccc
+
+This language can be said to represent addition. the number of As, added with the number of Bs, should be equal to the number of Cs
+
+Subtraction can be represented 
