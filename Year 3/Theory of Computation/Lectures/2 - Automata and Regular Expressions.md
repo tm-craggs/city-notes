@@ -16,3 +16,6 @@ Kleene's Theorem
 	- If r and s are RE then so are: (r), rs, r $\cup$ s, r*
 	- Nothing else is an RE
 
+**Concatentation**
+
+A RE is a set of strings. For sets
