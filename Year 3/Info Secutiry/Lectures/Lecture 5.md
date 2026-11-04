@@ -1,6 +1,6 @@
 ### Hash Functions
 
-- A hash function transforms data of an arbritrary size into a fixed size
+- A hash function transforms data of an arbitrary size into a fixed size
 - The result is called a digest, or a hash
 - It can be thought of as a checksum, or fingerprint, of a message
 
