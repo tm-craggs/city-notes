@@ -31,4 +31,7 @@ To prove that language is not regular using the **pumping lemma**, follow the st
 - Now find a string 'S' in A such that |S| >= P. (greater than or equal to pumping length)
 - Divide S into three parts x y z
 - Show that x y<sup>i</sup> z is not in the language for some i value
-- Then consider all ways th
+- Then consider all ways that S can be divided into x y z
+- Show that none of these can satisfy all the 3 pumping conditions at the same time
+- If S cannot be pumped, this is a contradiction
+
