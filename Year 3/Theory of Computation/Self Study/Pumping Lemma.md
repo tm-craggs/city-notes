@@ -14,3 +14,19 @@ What this means is that any string that is created must have x (the section that
 
 2.
 
+|y| >  0. This means that the length of y should be greater than 0
+
+3.
+
+|xy| <= p 
+
+This means that the length of x and y should be less than or equal to the pumping length
+
+
+To prove that language is not regular using the **pumping lemma**, follow the steps to prove using contradiction.
+
+- Assume that A is regular 
+	- It has to have a pumping length (say P)
+	- All strings longer than P can be pumped |S| >= P
+- Now find a string 'S' in A such that |S| >= P. (greater than or equal to pumping length)
+- Divide S into three parts x y z
