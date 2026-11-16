@@ -22,6 +22,7 @@ The pumping Lemma conditions are
 2. |xy| `<=` P
 3. xy<sup>i</sup>z $\epsilon$ L for all i >= 0
 
+In English. y can't be 0, x and y together cannot be longer than the pumping length, and that y can be infinitely repeated, with x before and z after, and still be in the language. 
 
 # Lecture 4
 
