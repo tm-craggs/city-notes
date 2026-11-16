@@ -28,3 +28,12 @@ The pumping Lemma conditions are
 Push Down Automata are FSA with a stack (memory) Each operation can read input, push onto the stack, pop off from the stack, or go to another state.
 
 It is considered accepted when all input is empty, the stack is empty, and the state is in an accept state. 
+
+
+In the transition list, it uses the format
+
+{((state, read, pop), (go to, push)),
+etc.
+}
+
+((s0, a, ε), (u, A)): In s0, read **a**, pop nothing, push **A**, go to **u**.
