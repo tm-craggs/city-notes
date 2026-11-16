@@ -5,6 +5,9 @@ NFSA and DFSA. Make a table  n
 
 ## Lecture 2
 
+Regex, 
+
+Kleene theorum, 
 
 ## Lecture 3
 
@@ -14,3 +17,5 @@ The pumping Lemma conditions are
 2. |xy| `<=` P
 3. xy<sup>i</sup>z $\epsilon$ L for all i >= 0
 
+
+#
