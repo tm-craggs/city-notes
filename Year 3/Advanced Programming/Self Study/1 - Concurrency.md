@@ -23,4 +23,6 @@ So why use concurrent programming?
 
 Parallel Slowdown - As processors increase, speedup decreases and may even become negative. Coordination has a cost (Brook's law: adding manpower to a late project makes it later)
 
-![[Pasted image 20261117152554.png]]
+
+![[Pasted image 20261117152554.png|596]]
+
