@@ -1,0 +1,1 @@
+LTS - Labelled Transition Diagram. This is the diagram 
