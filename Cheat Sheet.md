@@ -1,7 +1,16 @@
 ## Lecture 1
 
-NFSA and DFSA. Make a table  n
+NFSA and DFSA. Make a table and do union. 
 
+Transitions are done by {((state, input),new state)}
+
+the properties of machines are
+
+Q = {set of all the states}
+$\Sigma$ = the alphabet
+q<sub>0</sub> = the starting state (or states)
+S = transition algebra shit
+F = accept state
 
 ## Lecture 2
 
